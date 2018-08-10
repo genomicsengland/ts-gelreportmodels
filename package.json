@@ -1,0 +1,19 @@
+{
+  "name": "ts-gelreportmodels",
+  "version": "0.1.0",
+  "description": "GelReportModels TypeScript classes",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "gelreportmodels"
+  ],
+  "author": "Genomics England",
+  "license": "Private", 
+  "dependencies": {
+    "@types/lodash": "^4.14.116",
+    "json2typescript": "^1.0.5",
+    "lodash": "^4.17.10"
+  }
+}
