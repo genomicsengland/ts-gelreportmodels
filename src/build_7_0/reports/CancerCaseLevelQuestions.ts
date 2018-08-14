@@ -77,10 +77,10 @@ export class CancerCaseLevelQuestions {
     total_time: number = 0; // double
 
     /** Which parts of the WGA were reviewed? */
-    @JsonProperty('reviewedInMdtWga', Number)
+    @JsonProperty('reviewedInMdtWga', String)
     reviewedInMdtWga: string = '';  // ReviewedParts
 
     /** Were potentially actionable variants detected? */
-    @JsonProperty('actionableVariants', Number)
+    @JsonProperty('actionableVariants', String)
     actionableVariants: string = '';  // CancerActionableVariants
 };
