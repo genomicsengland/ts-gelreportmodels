@@ -1,0 +1,30 @@
+import { ReportEvent } from "../reports";
+import { ReportEventQuestionnaireRD } from "./ReportEventQuestionnaireRD";
+import { ReportEventQuestionnaireCancer } from "./ReportEventQuestionnaireCancer";
+import { Comment } from './Comment';
+import { ObservedVariant } from './ObservedVariant';
+import { Property } from "../biodata";
+import JSONHelper from "../../utils/JSONHelper";
+export declare class ReportEventEntry extends JSONHelper {
+    reportModelVersion: string;
+    id: string;
+    version: number;
+    latest?: boolean;
+    parentId?: string;
+    parentVersion?: number;
+    groupId: string;
+    cohortId: string;
+    date: string;
+    author: string;
+    authorVersion?: string;
+    type: string;
+    program: string;
+    validated: boolean;
+    workspace: Array<string>;
+    reportEvent?: ReportEvent;
+    reportEventQuestionnaire: ReportEventQuestionnaireRD;
+    reportEventQuestionnaireCancer: ReportEventQuestionnaireCancer;
+    observedVariants: Array<ObservedVariant>;
+    comments: Array<Comment>;
+    additionalProperties: Array<Property>;
+}

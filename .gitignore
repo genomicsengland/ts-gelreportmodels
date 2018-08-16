@@ -72,6 +72,4 @@ typings/
 # Serverless directories
 .serverless
 
-*.js
-*.js.map
 doc/

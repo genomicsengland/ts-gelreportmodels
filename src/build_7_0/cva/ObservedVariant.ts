@@ -1,7 +1,7 @@
 import { Variant } from "./Variant";
 import { VariantCall } from "../reports";
 import { Property } from "../biodata";
-import { JsonObject, JsonProperty } from "../../../node_modules/json2typescript";
+import { JsonObject, JsonProperty } from "json2typescript";
 
 @JsonObject
 export class ObservedVariant {

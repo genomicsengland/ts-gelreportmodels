@@ -1,12 +1,13 @@
 import { FamilyLevelQuestions } from './FamilyLevelQuestions';
 import { VariantGroupLevelQuestions } from './VariantGroupLevelQuestions';
 import { JsonObject, JsonProperty } from 'json2typescript';
+import JSONHelper from '../../utils/JSONHelper';
 
 /**
  * The rare disease program exit questionnaire
  */
 @JsonObject
-export class RareDiseaseExitQuestionnaire {
+export class RareDiseaseExitQuestionnaire extends JSONHelper {
     /** The date when the questionnaire was submitted */
     @JsonProperty('eventDate', String)
     eventDate: string = '';

@@ -3,12 +3,13 @@ import { CancerSomaticVariantLevelQuestions } from './CancerSomaticVariantLevelQ
 import { CancerGermlineVariantLevelQuestions } from './CancerGermlineVariantLevelQuestions';
 import { AdditionalVariantsQuestions } from './AdditionalVariantsQuestions';
 import { JsonObject, JsonProperty } from 'json2typescript';
+import JSONHelper from '../../utils/JSONHelper';
 
 /**
  * The cancer program exit questionnaire
  */
 @JsonObject
-export class CancerExitQuestionnaire {
+export class CancerExitQuestionnaire extends JSONHelper {
     /**
      * The date when the questionnaire was submitted
      */
