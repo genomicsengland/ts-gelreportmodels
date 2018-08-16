@@ -15,5 +15,5 @@ export declare class RareDiseaseExitQuestionnaire extends JSONHelper {
      * The list of variant group level variants (ungrouped variants are to be
      * set in single variant group)
      */
-    variantGroupLevelQuestions: VariantGroupLevelQuestions;
+    variantGroupLevelQuestions: Array<VariantGroupLevelQuestions>;
 }

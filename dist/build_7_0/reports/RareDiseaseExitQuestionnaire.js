@@ -43,7 +43,7 @@ var RareDiseaseExitQuestionnaire = /** @class */ (function (_super) {
          * The list of variant group level variants (ungrouped variants are to be
          * set in single variant group)
          */
-        _this.variantGroupLevelQuestions = new VariantGroupLevelQuestions_1.VariantGroupLevelQuestions;
+        _this.variantGroupLevelQuestions = [];
         return _this;
     }
     __decorate([
@@ -56,7 +56,7 @@ var RareDiseaseExitQuestionnaire = /** @class */ (function (_super) {
         json2typescript_1.JsonProperty('familyLevelQuestions', FamilyLevelQuestions_1.FamilyLevelQuestions)
     ], RareDiseaseExitQuestionnaire.prototype, "familyLevelQuestions", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('variantGroupLevelQuestions', VariantGroupLevelQuestions_1.VariantGroupLevelQuestions)
+        json2typescript_1.JsonProperty('variantGroupLevelQuestions', [VariantGroupLevelQuestions_1.VariantGroupLevelQuestions])
     ], RareDiseaseExitQuestionnaire.prototype, "variantGroupLevelQuestions", void 0);
     RareDiseaseExitQuestionnaire = __decorate([
         json2typescript_1.JsonObject
