@@ -3,7 +3,8 @@ import { ConsentStatus } from './ConsentStatus';
 import { TumourSample } from './TumourSample';
 import { MatchedSamples } from './MatchedSamples';
 import { VersionControl } from './VersionControl';
-export declare class CancerParticipant {
+import JSONHelper from '../../utils/JSONHelper';
+export declare class CancerParticipant extends JSONHelper {
     yearOfBirth?: number;
     morphology?: Array<string>;
     readyForAnalysis: boolean;
@@ -12,6 +13,7 @@ export declare class CancerParticipant {
     individualId: string;
     primaryDiagnosisDisease?: Array<string>;
     primaryDiagnosisSubDisease?: Array<string>;
+    sex: string;
     additionalInformation?: {
         [name: string]: string;
     };

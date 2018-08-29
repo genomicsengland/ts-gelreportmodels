@@ -1,9 +1,25 @@
 "use strict";
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    }
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var GermlineSample_1 = require("./GermlineSample");
@@ -12,21 +28,26 @@ var TumourSample_1 = require("./TumourSample");
 var MatchedSamples_1 = require("./MatchedSamples");
 var VersionControl_1 = require("./VersionControl");
 var json2typescript_1 = require("json2typescript");
-var CancerParticipant = /** @class */ (function () {
+var JSONHelper_1 = __importDefault(require("../../utils/JSONHelper"));
+var CancerParticipant = /** @class */ (function (_super) {
+    __extends(CancerParticipant, _super);
     function CancerParticipant() {
-        this.yearOfBirth = undefined; // int
-        this.readyForAnalysis = false;
-        this.consentStatus = undefined;
-        this.center = undefined;
-        this.individualId = '';
-        this.primaryDiagnosisDisease = undefined;
-        this.primaryDiagnosisSubDisease = undefined;
-        this.additionalInformation = undefined;
-        this.assignedICD10 = undefined;
-        this.tumourSamples = [];
-        this.germlineSamples = [];
-        this.matchedSamples = [];
-        this.versionControl = undefined;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.yearOfBirth = undefined; // int
+        _this.readyForAnalysis = false;
+        _this.consentStatus = undefined;
+        _this.center = undefined;
+        _this.individualId = '';
+        _this.primaryDiagnosisDisease = undefined;
+        _this.primaryDiagnosisSubDisease = undefined;
+        _this.sex = '';
+        _this.additionalInformation = undefined;
+        _this.assignedICD10 = undefined;
+        _this.tumourSamples = [];
+        _this.germlineSamples = [];
+        _this.matchedSamples = [];
+        _this.versionControl = undefined;
+        return _this;
     }
     __decorate([
         json2typescript_1.JsonProperty('yearOfBirth', Number, true)
@@ -53,6 +74,9 @@ var CancerParticipant = /** @class */ (function () {
         json2typescript_1.JsonProperty('primaryDiagnosisSubDisease', [String], true)
     ], CancerParticipant.prototype, "primaryDiagnosisSubDisease", void 0);
     __decorate([
+        json2typescript_1.JsonProperty('sex', String)
+    ], CancerParticipant.prototype, "sex", void 0);
+    __decorate([
         json2typescript_1.JsonProperty('additionalInformation', Object, true)
     ], CancerParticipant.prototype, "additionalInformation", void 0);
     __decorate([
@@ -74,7 +98,7 @@ var CancerParticipant = /** @class */ (function () {
         json2typescript_1.JsonObject
     ], CancerParticipant);
     return CancerParticipant;
-}());
+}(JSONHelper_1.default));
 exports.CancerParticipant = CancerParticipant;
 ;
 //# sourceMappingURL=CancerParticipant.js.map

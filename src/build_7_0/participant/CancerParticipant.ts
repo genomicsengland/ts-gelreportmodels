@@ -4,9 +4,10 @@ import { TumourSample } from './TumourSample';
 import { MatchedSamples } from './MatchedSamples';
 import { VersionControl } from './VersionControl';
 import { JsonObject, JsonProperty } from 'json2typescript';
+import JSONHelper from '../../utils/JSONHelper';
 
 @JsonObject
-export class CancerParticipant {
+export class CancerParticipant extends JSONHelper {
     @JsonProperty('yearOfBirth', Number, true)
     yearOfBirth?: number = undefined; // int
 
@@ -30,6 +31,9 @@ export class CancerParticipant {
 
     @JsonProperty('primaryDiagnosisSubDisease', [String], true)
     primaryDiagnosisSubDisease?: Array<string> = undefined;
+
+    @JsonProperty('sex', String)
+    sex: string = '';
 
     @JsonProperty('additionalInformation', Object, true)
     additionalInformation?: {
