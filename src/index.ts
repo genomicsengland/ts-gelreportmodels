@@ -2,11 +2,11 @@
  * Some documentation for everything...
  */
 
-import * as build_v7_0 from "./build_7_0";
+import * as build_v7_1 from "./build_7_1";
 
 /**
  * Another documentation
  */
 export {
-    build_v7_0
+    build_v7_1
 }
