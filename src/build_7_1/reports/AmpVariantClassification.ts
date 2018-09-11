@@ -21,6 +21,6 @@ export class AmpVariantClassification {
     ampClincialOrExperimentalEvidence: Array<AmpClincialOrExperimentalEvidence> = [];
 
     /** Final Assessment */
-    @JsonProperty('assessment', [String], true)
+    @JsonProperty('assessment', String, true)
     assessment?: string = undefined;
 };

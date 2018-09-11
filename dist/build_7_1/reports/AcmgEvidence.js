@@ -45,7 +45,7 @@ var AcmgEvidence = /** @class */ (function () {
         json2typescript_1.JsonProperty('weight', String)
     ], AcmgEvidence.prototype, "weight", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('modifier', String)
+        json2typescript_1.JsonProperty('modifier', Number)
     ], AcmgEvidence.prototype, "modifier", void 0);
     __decorate([
         json2typescript_1.JsonProperty('description', String, true)

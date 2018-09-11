@@ -28,7 +28,7 @@ export class AcmgEvidence {
     /**
      * modifier of the strength, together define each creteria, i.e the 2 in PM2
      */
-    @JsonProperty('modifier', String)
+    @JsonProperty('modifier', Number)
     modifier: number = 0;
 
     /**

@@ -34,7 +34,7 @@ var AmpVariantClassification = /** @class */ (function () {
         json2typescript_1.JsonProperty('ampClincialOrExperimentalEvidence', [AmpClincialOrExperimentalEvidence_1.AmpClincialOrExperimentalEvidence])
     ], AmpVariantClassification.prototype, "ampClincialOrExperimentalEvidence", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('assessment', [String], true)
+        json2typescript_1.JsonProperty('assessment', String, true)
     ], AmpVariantClassification.prototype, "assessment", void 0);
     AmpVariantClassification = __decorate([
         json2typescript_1.JsonObject
