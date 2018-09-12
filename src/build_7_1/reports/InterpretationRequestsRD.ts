@@ -113,7 +113,7 @@ export class InterpretationRequestsRD extends JSONHelper {
     /**
      * Additional information
      */
-    @JsonProperty('genePanelsCoverage', Object, true)
+    @JsonProperty('additionalInfo', Object, true)
     additionalInfo?: {
         [name: string]: string;
     } = undefined;
