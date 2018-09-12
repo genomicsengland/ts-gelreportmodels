@@ -134,4 +134,5 @@ export declare class Pedigree extends JSONHelper {
      * @param member family member
      */
     getAncestors: (member: PedigreeMember) => any[];
+    getProband: () => PedigreeMember;
 }

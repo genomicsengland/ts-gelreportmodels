@@ -10,6 +10,14 @@ const getPedigreeJSON = (members: Array<PedigreeMember>) => {
     return pedigree.toJSON();
 }
 
+test('get proband', () => {
+    const proband = getPedigree();
+    const father = getPedigree(defaultValues.defaultFatherValues);
+    let pedigreeJSON = getPedigreeJSON([proband, father]);
+    const pedigree = Pedigree.fromJSON(pedigreeJSON);
+    expect(pedigree.getProband().pedigreeId).toEqual(defaultValues.defaultProbandValues.pedigreeId);
+});
+
 test('relation to proband: test father', () => {
     const proband = getPedigree();
     const father = getPedigree(defaultValues.defaultFatherValues);

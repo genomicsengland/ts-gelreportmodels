@@ -13,7 +13,7 @@ export default class JSONHelper {
     };
 
     toJSON() {
-        const jsonConvert: JsonConvert = new JsonConvert();
+        const jsonConvert = new JsonConvert(OperationMode.ENABLE, ValueCheckingMode.ALLOW_NULL);
         return jsonConvert.serialize(this);
     }
 };

@@ -149,7 +149,7 @@ var InterpretationRequestsRD = /** @class */ (function (_super) {
         json2typescript_1.JsonProperty('interpretationFlags', [InterpretationFlag_1.InterpretationFlag])
     ], InterpretationRequestsRD.prototype, "interpretationFlags", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('genePanelsCoverage', Object, true)
+        json2typescript_1.JsonProperty('additionalInfo', Object, true)
     ], InterpretationRequestsRD.prototype, "additionalInfo", void 0);
     InterpretationRequestsRD = __decorate([
         json2typescript_1.JsonObject

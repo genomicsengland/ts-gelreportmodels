@@ -313,6 +313,10 @@ var Pedigree = /** @class */ (function (_super) {
             }
             return Array.from(ancestors);
         };
+        _this.getProband = function () {
+            var proband = _this.members.filter(function (member) { return member.isProband === true; })[0];
+            return proband;
+        };
         return _this;
     }
     /**

@@ -9,6 +9,13 @@ var getPedigreeJSON = function (members) {
     pedigree.members = members;
     return pedigree.toJSON();
 };
+test('get proband', function () {
+    var proband = tests_1.getPedigree();
+    var father = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);
+    var pedigreeJSON = getPedigreeJSON([proband, father]);
+    var pedigree = Pedigree_1.Pedigree.fromJSON(pedigreeJSON);
+    expect(pedigree.getProband().pedigreeId).toEqual(pedigree_1.defaultValues.defaultProbandValues.pedigreeId);
+});
 test('relation to proband: test father', function () {
     var proband = tests_1.getPedigree();
     var father = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);

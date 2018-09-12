@@ -393,4 +393,9 @@ export class Pedigree extends JSONHelper {
 
         return Array.from(ancestors);
     }
+
+    getProband = () => {
+        const [proband] = this.members.filter(member => member.isProband === true);
+        return proband
+    }
 };
