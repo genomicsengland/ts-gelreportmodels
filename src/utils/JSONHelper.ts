@@ -1,8 +1,8 @@
-import { JsonConvert } from "json2typescript";
+import { JsonConvert, ValueCheckingMode, OperationMode } from "json2typescript";
 
 export default class JSONHelper {
     static fromJSON(json: {}) {
-        const jsonConvert: JsonConvert = new JsonConvert();
+        const jsonConvert = new JsonConvert(OperationMode.ENABLE, ValueCheckingMode.ALLOW_NULL);
         const cls = jsonConvert.deserialize(json, this);
 
         if (cls.postConstruct) {
