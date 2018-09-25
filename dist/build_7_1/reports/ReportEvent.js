@@ -98,6 +98,8 @@ var ReportEvent = /** @class */ (function (_super) {
          * need to be included.
          */
         _this.eventJustification = undefined;
+        /** The role of this variant in cancer if any */
+        _this.roleInCancer = undefined; // RoleInCancer
         /** Actions can be taken on the variant if any */
         _this.actions = undefined;
         /**

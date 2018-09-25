@@ -99,7 +99,7 @@ export class ReportEvent extends JSONHelper {
 
     /** The role of this variant in cancer if any */
     @JsonProperty('roleInCancer', [String], true)
-    roleInCancer?: Array<string>;  // RoleInCancer
+    roleInCancer?: Array<string> = undefined;  // RoleInCancer
 
     /** Actions can be taken on the variant if any */
     @JsonProperty('actions', Actions, true)
