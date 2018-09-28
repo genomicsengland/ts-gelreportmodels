@@ -57,7 +57,7 @@ var SmallVariant = /** @class */ (function (_super) {
     }
     Object.defineProperty(SmallVariant.prototype, "mostSevereConsequenceType", {
         get: function () {
-            var maxValue = [0, null];
+            var maxValue = [0, ''];
             this.reportEvents.forEach(function (reportEvent) {
                 reportEvent.variantConsequences.forEach(function (vc) {
                     if (vc.name) {
@@ -91,6 +91,7 @@ var SmallVariant = /** @class */ (function (_super) {
 }(JSONHelper_1.default));
 exports.SmallVariant = SmallVariant;
 ;
+// same mapping as in https://github.com/opencb/cellbase/blob/develop/cellbase-core/src/main/java/org/opencb/cellbase/core/variant/annotation/VariantAnnotationUtils.java#L424
 var SOSeverity = {
     'copy_number_change': 42,
     'transcript_ablation': 41,
