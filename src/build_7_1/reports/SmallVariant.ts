@@ -37,7 +37,7 @@ export class SmallVariant extends JSONHelper {
     variantAttributes?: VariantAttributes = undefined;
 
     get mostSevereConsequenceType() {
-        let maxValue: [Number, String] = [0, ''];
+        let maxValue: [number, string] = [0, ''];
 
         this.reportEvents.forEach((reportEvent) => {
             reportEvent.variantConsequences.forEach(vc => {
