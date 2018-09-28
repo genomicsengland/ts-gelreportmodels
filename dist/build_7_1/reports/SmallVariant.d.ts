@@ -25,4 +25,5 @@ export declare class SmallVariant extends JSONHelper {
      */
     reportEvents: Array<ReportEvent>;
     variantAttributes?: VariantAttributes;
+    readonly mostSevereConsequenceType: String | null;
 }
