@@ -1,10 +1,11 @@
 import { JsonObject, JsonProperty } from "json2typescript";
+import JSONHelper from "../../utils/JSONHelper";
 
 /**
  * A panel of genes
  */
 @JsonObject
-export class GenePanel {
+export class GenePanel extends JSONHelper {
     /** Unique panel identifier */
     @JsonProperty('panelIdentifier', String, true)
     panelIdentifier?: string = undefined;

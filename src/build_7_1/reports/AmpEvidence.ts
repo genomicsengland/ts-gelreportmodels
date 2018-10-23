@@ -1,5 +1,4 @@
 import {JsonObject, JsonProperty } from "json2typescript";
-import { AmpEvidenceType } from './AmpEvidenceType';
 
 /**
  * Evidences as defined in AMP guidelines, they are composed by a evidence type
@@ -12,7 +11,7 @@ export class AmpEvidence {
     /**
      * AMP evidence type according to Guidlines, i.e germline_database_presence
      */
-    @JsonProperty('type', AmpEvidenceType)
+    @JsonProperty('type', String)
     type: string = '';  // AmpEvidenceType
 
     /**

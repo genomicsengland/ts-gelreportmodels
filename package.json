@@ -1,6 +1,6 @@
 {
   "name": "ts-gelreportmodels",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "GelReportModels TypeScript classes",
   "main": "index.ts",
   "scripts": {
@@ -19,7 +19,7 @@
     "@types/lodash": "^4.14.116",
     "double-ended-queue": "^2.1.0-0",
     "js-combinatorics": "^0.5.3",
-    "json2typescript": "^1.0.5",
+    "json2typescript": "^1.0.6",
     "lodash": "^4.17.10",
     "typescript": "3.0.1"
   },

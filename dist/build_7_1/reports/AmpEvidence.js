@@ -7,7 +7,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var json2typescript_1 = require("json2typescript");
-var AmpEvidenceType_1 = require("./AmpEvidenceType");
 /**
  * Evidences as defined in AMP guidelines, they are composed by a evidence type
  * (first column in the evidence table of the guidlines) and a assessment of
@@ -26,7 +25,7 @@ var AmpEvidence = /** @class */ (function () {
         this.evidenceAssessment = '';
     }
     __decorate([
-        json2typescript_1.JsonProperty('type', AmpEvidenceType_1.AmpEvidenceType)
+        json2typescript_1.JsonProperty('type', String)
     ], AmpEvidence.prototype, "type", void 0);
     __decorate([
         json2typescript_1.JsonProperty('evidenceAssessment', String)
