@@ -3,6 +3,9 @@ import { JsonObject, JsonProperty } from 'json2typescript';
 
 @JsonObject
 export class Coordinates {
+    @JsonProperty('assembly', String)
+    assembly: string = ''; // Asembly
+
     @JsonProperty('chromosome', String)
     chromosome: string = '';
 

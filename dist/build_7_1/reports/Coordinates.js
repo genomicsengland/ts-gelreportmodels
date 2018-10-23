@@ -10,12 +10,16 @@ var ConfidenceInterval_1 = require("./ConfidenceInterval");
 var json2typescript_1 = require("json2typescript");
 var Coordinates = /** @class */ (function () {
     function Coordinates() {
+        this.assembly = ''; // Asembly
         this.chromosome = '';
         this.start = 0; // int
         this.end = 0; // end
         this.ciStart = undefined;
         this.ciEnd = undefined;
     }
+    __decorate([
+        json2typescript_1.JsonProperty('assembly', String)
+    ], Coordinates.prototype, "assembly", void 0);
     __decorate([
         json2typescript_1.JsonProperty('chromosome', String)
     ], Coordinates.prototype, "chromosome", void 0);
