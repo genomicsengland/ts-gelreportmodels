@@ -25,43 +25,60 @@ export class ShortTandemRepeat extends JSONHelper {
     variantAttributes?: VariantAttributes = undefined;
 
     @JsonProperty('shortTandemRepeatReferenceData', ShortTandemRepeatReferenceData, true)
-    shortTandemRepeatReferenceData?: ShortTandemRepeatReferenceData;
+    shortTandemRepeatReferenceData?: ShortTandemRepeatReferenceData = undefined;
 
-    tiers: Set<string> = new Set();
-    strs: Set<string> = new Set();
-    genes: Set<string> = new Set();
-    panels: Set<GenePanel> = new Set();
-
-    postConstruct() {
-        this.tiers = new Set();
-        this.strs = new Set();
-        this.genes = new Set();
-        const panels: {}[] = [];
-
+    getTiers(): string[] {
+        let tiers = new Set();
         this.reportEvents.forEach(re => {
             if (re.tier) {
-                this.tiers.add(re.tier);
+                tiers.add(re.tier);
             }
+        });
 
+        return Array.from(tiers);
+    }
+
+    getSTRs() {
+        let strs = new Set();
+        this.reportEvents.forEach(re => {
             re.genomicEntities.forEach(ge => {
-                if (ge.type === GenomicEntityType.gene && ge.geneSymbol) {
-                    this.genes.add(ge.geneSymbol);
-                } else if (ge.type === GenomicEntityType.genomic_region && ge.otherIds.length > 0) {
+                if (ge.type === GenomicEntityType.genomic_region && ge.otherIds.length > 0) {
                     ge.otherIds.forEach(id => {
-                        this.strs.add(id.identifier);
+                        strs.add(id.identifier);
                     });
                 }
             }); 
+        });
 
+        return Array.from(strs);
+    }
+
+    getGenes() {
+        let genes = new Set();
+        this.reportEvents.forEach(re => {
+            re.genomicEntities.forEach(ge => {
+                if (ge.type === GenomicEntityType.gene && ge.geneSymbol) {
+                    genes.add(ge.geneSymbol);
+                }
+            }); 
+        });
+
+        return Array.from(genes);
+    }
+
+    getPanels() {
+        const panels: GenePanel[] = [];
+
+        this.reportEvents.forEach(re => {
             if (re.genePanel) {
-                const gp = re.genePanel.toJSON();
+                const gp = re.genePanel;
                 const panelAdded = panels.filter(p => isEqual(p, gp)).length > 0
                 if (!panelAdded) {
                     panels.push(gp)
                 }
             }
         });
-
-        this.panels = new Set(panels.map(p => GenePanel.fromJSON(p)));
+        
+        return panels;
     }
 };

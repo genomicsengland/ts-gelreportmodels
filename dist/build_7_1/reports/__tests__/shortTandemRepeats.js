@@ -14,15 +14,12 @@ test('Unique tiers', function () {
     str.reportEvents = [
         re1, re2
     ];
-    expect(str.tiers).toEqual(new Set());
-    str.postConstruct();
-    expect(str.tiers).toEqual(new Set(['TIER1', 'TIER2']));
+    expect(str.getTiers()).toEqual(['TIER1', 'TIER2']);
     re2.tier = 'TIER1';
     str.reportEvents = [
         re1, re2
     ];
-    str.postConstruct();
-    expect(str.tiers).toEqual(new Set(['TIER1']));
+    expect(str.getTiers()).toEqual(['TIER1']);
 });
 test('Unique genes', function () {
     var str = new __1.ShortTandemRepeat;
@@ -39,9 +36,7 @@ test('Unique genes', function () {
     str.reportEvents = [
         re1, re2
     ];
-    expect(str.strs).toEqual(new Set());
-    str.postConstruct();
-    expect(str.genes).toEqual(new Set(['gene1', 'gene2']));
+    expect(str.getGenes()).toEqual(['gene1', 'gene2']);
 });
 test('Unique STRs', function () {
     var str = new __1.ShortTandemRepeat;
@@ -58,9 +53,7 @@ test('Unique STRs', function () {
     str.reportEvents = [
         re1, re2
     ];
-    expect(str.strs).toEqual(new Set());
-    str.postConstruct();
-    expect(str.strs).toEqual(new Set(['STR1_AT', 'STR2_AT']));
+    expect(str.getSTRs()).toEqual(['STR1_AT', 'STR2_AT']);
 });
 test('Unique panels', function () {
     var str = new __1.ShortTandemRepeat;
@@ -81,9 +74,7 @@ test('Unique panels', function () {
     str.reportEvents = [
         re1, re2
     ];
-    expect(str.panels).toEqual(new Set());
-    str.postConstruct();
-    expect(str.panels).toEqual(new Set([genePanel1, genePanel2]));
+    expect(str.getPanels()).toEqual([genePanel1, genePanel2]);
     var re3 = new ReportEvent_1.ReportEvent;
     var genePanel3 = new GenePanel_1.GenePanel;
     genePanel3.panelIdentifier = '1234';
@@ -94,7 +85,6 @@ test('Unique panels', function () {
     str.reportEvents = [
         re1, re3
     ];
-    str.postConstruct();
-    expect(Array.from(str.panels).map(function (p) { return p.toJSON(); })).toEqual([genePanel1.toJSON()]);
+    expect(str.getPanels().map(function (p) { return p.toJSON(); })).toEqual([genePanel1.toJSON()]);
 });
 //# sourceMappingURL=shortTandemRepeats.js.map

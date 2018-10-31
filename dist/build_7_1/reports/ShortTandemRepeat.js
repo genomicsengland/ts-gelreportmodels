@@ -29,7 +29,6 @@ var VariantAttributes_1 = require("./VariantAttributes");
 var ShortTandemRepeatReferenceData_1 = require("./ShortTandemRepeatReferenceData");
 var json2typescript_1 = require("json2typescript");
 var JSONHelper_1 = __importDefault(require("../../utils/JSONHelper"));
-var GenePanel_1 = require("./GenePanel");
 var lodash_1 = require("lodash");
 var GenomicEntityType_1 = require("./GenomicEntityType");
 var ShortTandemRepeat = /** @class */ (function (_super) {
@@ -41,41 +40,54 @@ var ShortTandemRepeat = /** @class */ (function (_super) {
         /** array of genotypes for the samples */
         _this.variantCalls = [];
         _this.variantAttributes = undefined;
-        _this.tiers = new Set();
-        _this.strs = new Set();
-        _this.genes = new Set();
-        _this.panels = new Set();
+        _this.shortTandemRepeatReferenceData = undefined;
         return _this;
     }
-    ShortTandemRepeat.prototype.postConstruct = function () {
-        var _this = this;
-        this.tiers = new Set();
-        this.strs = new Set();
-        this.genes = new Set();
-        var panels = [];
+    ShortTandemRepeat.prototype.getTiers = function () {
+        var tiers = new Set();
         this.reportEvents.forEach(function (re) {
             if (re.tier) {
-                _this.tiers.add(re.tier);
+                tiers.add(re.tier);
             }
+        });
+        return Array.from(tiers);
+    };
+    ShortTandemRepeat.prototype.getSTRs = function () {
+        var strs = new Set();
+        this.reportEvents.forEach(function (re) {
             re.genomicEntities.forEach(function (ge) {
-                if (ge.type === GenomicEntityType_1.GenomicEntityType.gene && ge.geneSymbol) {
-                    _this.genes.add(ge.geneSymbol);
-                }
-                else if (ge.type === GenomicEntityType_1.GenomicEntityType.genomic_region && ge.otherIds.length > 0) {
+                if (ge.type === GenomicEntityType_1.GenomicEntityType.genomic_region && ge.otherIds.length > 0) {
                     ge.otherIds.forEach(function (id) {
-                        _this.strs.add(id.identifier);
+                        strs.add(id.identifier);
                     });
                 }
             });
+        });
+        return Array.from(strs);
+    };
+    ShortTandemRepeat.prototype.getGenes = function () {
+        var genes = new Set();
+        this.reportEvents.forEach(function (re) {
+            re.genomicEntities.forEach(function (ge) {
+                if (ge.type === GenomicEntityType_1.GenomicEntityType.gene && ge.geneSymbol) {
+                    genes.add(ge.geneSymbol);
+                }
+            });
+        });
+        return Array.from(genes);
+    };
+    ShortTandemRepeat.prototype.getPanels = function () {
+        var panels = [];
+        this.reportEvents.forEach(function (re) {
             if (re.genePanel) {
-                var gp_1 = re.genePanel.toJSON();
+                var gp_1 = re.genePanel;
                 var panelAdded = panels.filter(function (p) { return lodash_1.isEqual(p, gp_1); }).length > 0;
                 if (!panelAdded) {
                     panels.push(gp_1);
                 }
             }
         });
-        this.panels = new Set(panels.map(function (p) { return GenePanel_1.GenePanel.fromJSON(p); }));
+        return panels;
     };
     __decorate([
         json2typescript_1.JsonProperty('coordinates', Coordinates_1.Coordinates)

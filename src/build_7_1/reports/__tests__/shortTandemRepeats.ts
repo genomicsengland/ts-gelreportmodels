@@ -17,16 +17,13 @@ test('Unique tiers', () => {
         re1, re2
     ];
 
-    expect(str.tiers).toEqual(new Set())
-    str.postConstruct();
-    expect(str.tiers).toEqual(new Set(['TIER1', 'TIER2']));
+    expect(str.getTiers()).toEqual(['TIER1', 'TIER2']);
 
     re2.tier = 'TIER1';
     str.reportEvents = [
         re1, re2
     ];
-    str.postConstruct();
-    expect(str.tiers).toEqual(new Set(['TIER1']));
+    expect(str.getTiers()).toEqual(['TIER1']);
 });
 
 test('Unique genes', () => {
@@ -47,10 +44,8 @@ test('Unique genes', () => {
     str.reportEvents = [
         re1, re2
     ];
-    
-    expect(str.strs).toEqual(new Set())
-    str.postConstruct();
-    expect(str.genes).toEqual(new Set(['gene1', 'gene2']))
+
+    expect(str.getGenes()).toEqual(['gene1', 'gene2'])
 });
 
 test('Unique STRs', () => {
@@ -72,9 +67,7 @@ test('Unique STRs', () => {
         re1, re2
     ];
     
-    expect(str.strs).toEqual(new Set())
-    str.postConstruct();
-    expect(str.strs).toEqual(new Set(['STR1_AT', 'STR2_AT']))
+    expect(str.getSTRs()).toEqual(['STR1_AT', 'STR2_AT']);
 });
 
 test('Unique panels', () => {
@@ -100,9 +93,7 @@ test('Unique panels', () => {
         re1, re2
     ];
     
-    expect(str.panels).toEqual(new Set())
-    str.postConstruct();
-    expect(str.panels).toEqual(new Set([genePanel1, genePanel2]))
+    expect(str.getPanels()).toEqual([genePanel1, genePanel2]);
 
     const re3 = new ReportEvent;
     const genePanel3 = new GenePanel;
@@ -115,6 +106,6 @@ test('Unique panels', () => {
     str.reportEvents = [
         re1, re3
     ];
-    str.postConstruct();
-    expect(Array.from(str.panels).map(p => p.toJSON())).toEqual([genePanel1.toJSON()])
+    
+    expect(str.getPanels().map(p => p.toJSON())).toEqual([genePanel1.toJSON()])
 });

@@ -12,9 +12,8 @@ export declare class ShortTandemRepeat extends JSONHelper {
     variantCalls: Array<VariantCall>;
     variantAttributes?: VariantAttributes;
     shortTandemRepeatReferenceData?: ShortTandemRepeatReferenceData;
-    tiers: Set<string>;
-    strs: Set<string>;
-    genes: Set<string>;
-    panels: Set<GenePanel>;
-    postConstruct(): void;
+    getTiers(): string[];
+    getSTRs(): any[];
+    getGenes(): any[];
+    getPanels(): GenePanel[];
 }
