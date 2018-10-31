@@ -145,4 +145,11 @@ export class ReportEvent extends JSONHelper {
     /** The Domain where this variant has been classified. */
     @JsonProperty('domain', String, true)
     domain?: string = undefined;  // Domain
+
+    /** attributes below are not in GelReportModels but are required for CVA frontend */
+    @JsonProperty('author', String, true)
+    author?: string;
+
+    @JsonProperty('interpretationService', String, true)
+    interpretationService?: string;
 };
