@@ -192,6 +192,12 @@ var ReportEvent = /** @class */ (function (_super) {
     __decorate([
         json2typescript_1.JsonProperty('domain', String, true)
     ], ReportEvent.prototype, "domain", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('author', String, true)
+    ], ReportEvent.prototype, "author", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('interpretationService', String, true)
+    ], ReportEvent.prototype, "interpretationService", void 0);
     ReportEvent = __decorate([
         json2typescript_1.JsonObject
     ], ReportEvent);

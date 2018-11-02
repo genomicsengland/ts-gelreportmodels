@@ -101,4 +101,7 @@ export declare class ReportEvent extends JSONHelper {
     tier?: string;
     /** The Domain where this variant has been classified. */
     domain?: string;
+    /** attributes below are not in GelReportModels but are required for CVA frontend */
+    author?: string;
+    interpretationService?: string;
 }
