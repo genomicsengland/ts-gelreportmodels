@@ -148,8 +148,8 @@ export class ReportEvent extends JSONHelper {
 
     /** attributes below are not in GelReportModels but are required for CVA frontend */
     @JsonProperty('author', String, true)
-    author?: string;
+    author?: string = undefined;
 
     @JsonProperty('interpretationService', String, true)
-    interpretationService?: string;
+    interpretationService?: string = undefined;
 };

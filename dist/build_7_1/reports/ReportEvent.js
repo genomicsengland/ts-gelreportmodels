@@ -127,6 +127,9 @@ var ReportEvent = /** @class */ (function (_super) {
         _this.tier = undefined; // Tier
         /** The Domain where this variant has been classified. */
         _this.domain = undefined; // Domain
+        /** attributes below are not in GelReportModels but are required for CVA frontend */
+        _this.author = undefined;
+        _this.interpretationService = undefined;
         return _this;
     }
     __decorate([
