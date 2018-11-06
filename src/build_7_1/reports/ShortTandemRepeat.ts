@@ -66,6 +66,24 @@ export class ShortTandemRepeat extends JSONHelper {
         return Array.from(genes);
     }
 
+    getGenesAndEnsembl() {
+        let genes = new Set();
+        this.reportEvents.forEach(re => {
+            re.genomicEntities.forEach(ge => {
+                if (ge.type === GenomicEntityType.gene && ge.geneSymbol) {
+                    let symbol = ge.geneSymbol;
+                    if (ge.ensemblId) {
+                        symbol = `${ge.geneSymbol} (${ge.ensemblId})`;
+                    }
+
+                    genes.add(symbol);
+                }
+            }); 
+        });
+
+        return Array.from(genes);
+    }
+
     getPanels() {
         const panels: GenePanel[] = [];
 

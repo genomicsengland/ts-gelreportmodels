@@ -3,9 +3,10 @@ import { ReportEvent } from './ReportEvent';
 import { VariantCall } from './VariantCall';
 import { VariantAttributes } from './VariantAttributes';
 import { JsonObject, JsonProperty } from 'json2typescript';
+import JSONHelper from '../../utils/JSONHelper';
 
 @JsonObject
-export class StructuralVariant {
+export class StructuralVariant extends JSONHelper {
     @JsonProperty('variantType', String)
     variantType: string = '';  // StructuralVariantType
 
