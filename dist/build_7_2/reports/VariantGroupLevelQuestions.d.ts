@@ -1,4 +1,6 @@
 import { VariantLevelQuestions } from './VariantLevelQuestions';
+import { ShortTandemRepeatLevelQuestions } from './ShortTandemRepeatLevelQuestions';
+import { StructuralVariantLevelQuestions } from './StructuralVariantLevelQuestions';
 /**
  * The variant group level questions
  */
@@ -15,7 +17,15 @@ export declare class VariantGroupLevelQuestions {
     /**
      * The variant level questions for each of the variants in the group
      */
-    variantLevelQuestions: Array<VariantLevelQuestions>;
+    variantLevelQuestions?: Array<VariantLevelQuestions>;
+    /**
+     STR level questions for each of the variants in the group
+     */
+    shortTandemRepeatLevelQuestions?: Array<ShortTandemRepeatLevelQuestions>;
+    /**
+     Structural level questions for each of the variants in the group
+     */
+    structuralVariantLevelQuestions?: Array<StructuralVariantLevelQuestions>;
     /**
      * Is evidence for this variant/variant pair sufficient to use it for
      * clinical purposes such as prenatal diagnosis or predictive testing?

@@ -1,5 +1,7 @@
 import { VariantLevelQuestions } from './VariantLevelQuestions';
 import { JsonObject, JsonProperty } from 'json2typescript';
+import { ShortTandemRepeatLevelQuestions } from './ShortTandemRepeatLevelQuestions';
+import { StructuralVariantLevelQuestions } from './StructuralVariantLevelQuestions';
 
 /**
  * The variant group level questions
@@ -20,9 +22,21 @@ export class VariantGroupLevelQuestions {
     /**
      * The variant level questions for each of the variants in the group
      */
-    @JsonProperty('variantLevelQuestions', [VariantLevelQuestions])
-    variantLevelQuestions: Array<VariantLevelQuestions> = [];
+    @JsonProperty('variantLevelQuestions', [VariantLevelQuestions], true)
+    variantLevelQuestions?: Array<VariantLevelQuestions> = undefined;
 
+    /**
+     STR level questions for each of the variants in the group
+     */
+    @JsonProperty('shortTandemRepeatLevelQuestions', [ShortTandemRepeatLevelQuestions], true)
+    shortTandemRepeatLevelQuestions?: Array<ShortTandemRepeatLevelQuestions> = undefined;
+
+    /**
+     Structural level questions for each of the variants in the group
+     */
+    @JsonProperty('structuralVariantLevelQuestions', [StructuralVariantLevelQuestions], true)
+    structuralVariantLevelQuestions?: Array<StructuralVariantLevelQuestions> = undefined;
+    
     /**
      * Is evidence for this variant/variant pair sufficient to use it for
      * clinical purposes such as prenatal diagnosis or predictive testing?

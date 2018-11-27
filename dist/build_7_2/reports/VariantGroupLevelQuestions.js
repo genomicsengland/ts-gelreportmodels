@@ -8,6 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var VariantLevelQuestions_1 = require("./VariantLevelQuestions");
 var json2typescript_1 = require("json2typescript");
+var ShortTandemRepeatLevelQuestions_1 = require("./ShortTandemRepeatLevelQuestions");
+var StructuralVariantLevelQuestions_1 = require("./StructuralVariantLevelQuestions");
 /**
  * The variant group level questions
  */
@@ -25,7 +27,15 @@ var VariantGroupLevelQuestions = /** @class */ (function () {
         /**
          * The variant level questions for each of the variants in the group
          */
-        this.variantLevelQuestions = [];
+        this.variantLevelQuestions = undefined;
+        /**
+         STR level questions for each of the variants in the group
+         */
+        this.shortTandemRepeatLevelQuestions = undefined;
+        /**
+         Structural level questions for each of the variants in the group
+         */
+        this.structuralVariantLevelQuestions = undefined;
         /**
          * Is evidence for this variant/variant pair sufficient to use it for
          * clinical purposes such as prenatal diagnosis or predictive testing?
@@ -52,8 +62,14 @@ var VariantGroupLevelQuestions = /** @class */ (function () {
         json2typescript_1.JsonProperty('variantGroup', Number)
     ], VariantGroupLevelQuestions.prototype, "variantGroup", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('variantLevelQuestions', [VariantLevelQuestions_1.VariantLevelQuestions])
+        json2typescript_1.JsonProperty('variantLevelQuestions', [VariantLevelQuestions_1.VariantLevelQuestions], true)
     ], VariantGroupLevelQuestions.prototype, "variantLevelQuestions", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('shortTandemRepeatLevelQuestions', [ShortTandemRepeatLevelQuestions_1.ShortTandemRepeatLevelQuestions], true)
+    ], VariantGroupLevelQuestions.prototype, "shortTandemRepeatLevelQuestions", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('structuralVariantLevelQuestions', [StructuralVariantLevelQuestions_1.StructuralVariantLevelQuestions], true)
+    ], VariantGroupLevelQuestions.prototype, "structuralVariantLevelQuestions", void 0);
     __decorate([
         json2typescript_1.JsonProperty('actionability', String)
     ], VariantGroupLevelQuestions.prototype, "actionability", void 0);
