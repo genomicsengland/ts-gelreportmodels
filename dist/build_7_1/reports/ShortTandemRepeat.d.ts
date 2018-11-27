@@ -15,5 +15,6 @@ export declare class ShortTandemRepeat extends JSONHelper {
     getTiers(): string[];
     getSTRs(): any[];
     getGenes(): any[];
+    getGenesAndEnsembl(): any[];
     getPanels(): GenePanel[];
 }

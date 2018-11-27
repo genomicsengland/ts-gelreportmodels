@@ -76,6 +76,21 @@ var ShortTandemRepeat = /** @class */ (function (_super) {
         });
         return Array.from(genes);
     };
+    ShortTandemRepeat.prototype.getGenesAndEnsembl = function () {
+        var genes = new Set();
+        this.reportEvents.forEach(function (re) {
+            re.genomicEntities.forEach(function (ge) {
+                if (ge.type === GenomicEntityType_1.GenomicEntityType.gene && ge.geneSymbol) {
+                    var symbol = ge.geneSymbol;
+                    if (ge.ensemblId) {
+                        symbol = ge.geneSymbol + " (" + ge.ensemblId + ")";
+                    }
+                    genes.add(symbol);
+                }
+            });
+        });
+        return Array.from(genes);
+    };
     ShortTandemRepeat.prototype.getPanels = function () {
         var panels = [];
         this.reportEvents.forEach(function (re) {
