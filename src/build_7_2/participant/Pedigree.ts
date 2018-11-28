@@ -95,6 +95,11 @@ export class Pedigree extends JSONHelper {
             return;
         }
 
+        if (this.members.length === 1 && this.members[0].isProband) {
+            proband.relationToProband = 'Proband';
+            return;
+        }
+
         // get all combinations, but remove any pair where one of the member isn't proband
         const pairs = combination(this.members, 2).filter(pair => pair[0].isProband || pair[1].isProband ? true : false);
         pairs.forEach(pair => {
