@@ -17,6 +17,9 @@ var Coordinates = /** @class */ (function () {
         this.ciStart = undefined;
         this.ciEnd = undefined;
     }
+    Coordinates.prototype.toVerboseId = function () {
+        return this.chromosome + ":" + this.start + ":" + this.end;
+    };
     __decorate([
         json2typescript_1.JsonProperty('assembly', String)
     ], Coordinates.prototype, "assembly", void 0);

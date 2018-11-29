@@ -6,4 +6,5 @@ export declare class Coordinates {
     end: number;
     ciStart?: ConfidenceInterval;
     ciEnd?: ConfidenceInterval;
+    toVerboseId(): string;
 }

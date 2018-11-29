@@ -20,4 +20,8 @@ export class Coordinates {
 
     @JsonProperty('ciEnd', ConfidenceInterval, true)
     ciEnd?: ConfidenceInterval = undefined;
+
+    toVerboseId() {
+        return `${this.chromosome}:${this.start}:${this.end}`;
+    }
 };
