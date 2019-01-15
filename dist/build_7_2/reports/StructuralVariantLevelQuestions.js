@@ -6,7 +6,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var VariantCoordinates_1 = require("./VariantCoordinates");
 var json2typescript_1 = require("json2typescript");
 var Coordinates_1 = require("./Coordinates");
 /**
@@ -46,7 +45,7 @@ var StructuralVariantLevelQuestions = /** @class */ (function () {
         json2typescript_1.JsonProperty('variantType', String)
     ], StructuralVariantLevelQuestions.prototype, "variantType", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('coordinates', VariantCoordinates_1.VariantCoordinates)
+        json2typescript_1.JsonProperty('coordinates', Coordinates_1.Coordinates)
     ], StructuralVariantLevelQuestions.prototype, "coordinates", void 0);
     __decorate([
         json2typescript_1.JsonProperty('confirmationDecision', String)

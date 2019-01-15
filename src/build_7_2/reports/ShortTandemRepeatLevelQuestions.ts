@@ -1,4 +1,3 @@
-import { VariantCoordinates } from './VariantCoordinates';
 import { JsonObject, JsonProperty } from 'json2typescript';
 import { Coordinates } from './Coordinates';
 
@@ -10,7 +9,7 @@ export class ShortTandemRepeatLevelQuestions {
     /**
      * Variant coordinates
      */
-    @JsonProperty('coordinates', VariantCoordinates)
+    @JsonProperty('coordinates', Coordinates)
     coordinates: Coordinates = new Coordinates;
 
     /**
