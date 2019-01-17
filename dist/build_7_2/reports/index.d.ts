@@ -103,6 +103,7 @@ export { TimeUnit } from './TimeUnit';
 export { TraitAssociation } from './TraitAssociation';
 export { Trial } from './Trial';
 export { TrialLocation } from './TrialLocation';
+export { TypeOfAdditionalFinding } from './TypeOfAdditionalFinding';
 export { TumorigenesisClassification } from './TumorigenesisClassification';
 export { VariantAttributes } from './VariantAttributes';
 export { VariantCall } from './VariantCall';

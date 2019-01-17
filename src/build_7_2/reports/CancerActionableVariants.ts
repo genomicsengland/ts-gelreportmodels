@@ -3,5 +3,6 @@
  */
 export enum CancerActionableVariants {
     yes = 'yes',
-    no = 'no'
+    no = 'no',
+    na = 'na'
 };
