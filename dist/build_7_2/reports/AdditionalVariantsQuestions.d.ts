@@ -1,7 +1,9 @@
 import { VariantCoordinates } from './VariantCoordinates';
 export declare class AdditionalVariantsQuestions {
+    typeOfAdditionalFinding?: string;
+    findingDescription?: string;
     /** Variant coordinates */
-    variantCoordinates: VariantCoordinates;
+    variantCoordinates?: VariantCoordinates;
     /**
      * Type of potential actionability:
      */

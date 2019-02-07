@@ -10,8 +10,10 @@ var VariantCoordinates_1 = require("./VariantCoordinates");
 var json2typescript_1 = require("json2typescript");
 var AdditionalVariantsQuestions = /** @class */ (function () {
     function AdditionalVariantsQuestions() {
+        this.typeOfAdditionalFinding = undefined;
+        this.findingDescription = undefined;
         /** Variant coordinates */
-        this.variantCoordinates = new VariantCoordinates_1.VariantCoordinates;
+        this.variantCoordinates = undefined;
         /**
          * Type of potential actionability:
          */
@@ -33,7 +35,13 @@ var AdditionalVariantsQuestions = /** @class */ (function () {
         this.validationAssayType = '';
     }
     __decorate([
-        json2typescript_1.JsonProperty('variantCoordinates', VariantCoordinates_1.VariantCoordinates)
+        json2typescript_1.JsonProperty('typeOfAdditionalFinding', String, true) // TypeOfAdditionalFinding
+    ], AdditionalVariantsQuestions.prototype, "typeOfAdditionalFinding", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('findingDescription', String, true)
+    ], AdditionalVariantsQuestions.prototype, "findingDescription", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('variantCoordinates', VariantCoordinates_1.VariantCoordinates, true)
     ], AdditionalVariantsQuestions.prototype, "variantCoordinates", void 0);
     __decorate([
         json2typescript_1.JsonProperty('variantActionability', [String])

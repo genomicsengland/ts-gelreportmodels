@@ -11,6 +11,8 @@ var ReviewedParts;
     ReviewedParts["domain_1_and_2"] = "domain_1_and_2";
     /** Domains 1, 2 and supplementary analysis */
     ReviewedParts["domain_1_2_and_suplementary"] = "domain_1_2_and_suplementary";
+    /** Somatic WGA results to be reviewed when/if clinically relevant */
+    ReviewedParts["somatic_if_relevant"] = "somatic_if_relevant";
 })(ReviewedParts = exports.ReviewedParts || (exports.ReviewedParts = {}));
 ;
 //# sourceMappingURL=ReviewedParts.js.map

@@ -3,9 +3,15 @@ import { JsonObject, JsonProperty } from 'json2typescript';
 
 @JsonObject
 export class AdditionalVariantsQuestions {
+    @JsonProperty('typeOfAdditionalFinding', String, true)  // TypeOfAdditionalFinding
+    typeOfAdditionalFinding?: string = undefined;
+
+    @JsonProperty('findingDescription', String, true)
+    findingDescription?: string = undefined;
+
     /** Variant coordinates */
-    @JsonProperty('variantCoordinates', VariantCoordinates)
-    variantCoordinates: VariantCoordinates = new VariantCoordinates;
+    @JsonProperty('variantCoordinates', VariantCoordinates, true)
+    variantCoordinates?: VariantCoordinates = undefined;
 
     /**
      * Type of potential actionability:
