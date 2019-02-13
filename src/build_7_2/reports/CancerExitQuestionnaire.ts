@@ -4,6 +4,7 @@ import { CancerGermlineVariantLevelQuestions } from './CancerGermlineVariantLeve
 import { AdditionalVariantsQuestions } from './AdditionalVariantsQuestions';
 import { JsonObject, JsonProperty } from 'json2typescript';
 import JSONHelper from '../../utils/JSONHelper';
+import { CancerPharmacogenomicsVariantLevelQuestion } from './CancerPharmacogenomicsVariantLevelQuestion';
 
 /**
  * The cancer program exit questionnaire
@@ -37,8 +38,11 @@ export class CancerExitQuestionnaire extends JSONHelper {
     /**
      * The questions for germline variants
      */
-    @JsonProperty('germlineVariantLevelQuestions', [CancerGermlineVariantLevelQuestions])
-    germlineVariantLevelQuestions: Array<CancerGermlineVariantLevelQuestions> = [];
+    @JsonProperty('germlineVariantLevelQuestions', [CancerGermlineVariantLevelQuestions], true)
+    germlineVariantLevelQuestions?: Array<CancerGermlineVariantLevelQuestions> = [];
+
+    @JsonProperty('pharmacogenomicsVariantLevelQuestions', [CancerPharmacogenomicsVariantLevelQuestion], true)
+    pharmacogenomicsVariantLevelQuestions?: Array<CancerPharmacogenomicsVariantLevelQuestion> = [];
 
     /** 
      * Please enter any additional comments you may have about the case here.

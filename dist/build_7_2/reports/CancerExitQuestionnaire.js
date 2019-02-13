@@ -28,6 +28,7 @@ var CancerGermlineVariantLevelQuestions_1 = require("./CancerGermlineVariantLeve
 var AdditionalVariantsQuestions_1 = require("./AdditionalVariantsQuestions");
 var json2typescript_1 = require("json2typescript");
 var JSONHelper_1 = __importDefault(require("../../utils/JSONHelper"));
+var CancerPharmacogenomicsVariantLevelQuestion_1 = require("./CancerPharmacogenomicsVariantLevelQuestion");
 /**
  * The cancer program exit questionnaire
  */
@@ -55,6 +56,7 @@ var CancerExitQuestionnaire = /** @class */ (function (_super) {
          * The questions for germline variants
          */
         _this.germlineVariantLevelQuestions = [];
+        _this.pharmacogenomicsVariantLevelQuestions = [];
         /**
          * Please enter any additional comments you may have about the case here.
          */
@@ -80,8 +82,11 @@ var CancerExitQuestionnaire = /** @class */ (function (_super) {
         json2typescript_1.JsonProperty('somaticVariantLevelQuestions', [CancerSomaticVariantLevelQuestions_1.CancerSomaticVariantLevelQuestions], true)
     ], CancerExitQuestionnaire.prototype, "somaticVariantLevelQuestions", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('germlineVariantLevelQuestions', [CancerGermlineVariantLevelQuestions_1.CancerGermlineVariantLevelQuestions])
+        json2typescript_1.JsonProperty('germlineVariantLevelQuestions', [CancerGermlineVariantLevelQuestions_1.CancerGermlineVariantLevelQuestions], true)
     ], CancerExitQuestionnaire.prototype, "germlineVariantLevelQuestions", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('pharmacogenomicsVariantLevelQuestions', [CancerPharmacogenomicsVariantLevelQuestion_1.CancerPharmacogenomicsVariantLevelQuestion], true)
+    ], CancerExitQuestionnaire.prototype, "pharmacogenomicsVariantLevelQuestions", void 0);
     __decorate([
         json2typescript_1.JsonProperty('additionalComments', String, true)
     ], CancerExitQuestionnaire.prototype, "additionalComments", void 0);
