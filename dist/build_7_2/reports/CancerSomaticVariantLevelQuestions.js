@@ -47,7 +47,7 @@ var CancerSomaticVariantLevelQuestions = /** @class */ (function () {
         json2typescript_1.JsonProperty('variantActionability', [String])
     ], CancerSomaticVariantLevelQuestions.prototype, "variantActionability", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('otherVariantActionability', String)
+        json2typescript_1.JsonProperty('otherVariantActionability', String, true)
     ], CancerSomaticVariantLevelQuestions.prototype, "otherVariantActionability", void 0);
     __decorate([
         json2typescript_1.JsonProperty('variantUsability', String)

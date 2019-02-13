@@ -21,7 +21,7 @@ export class CancerSomaticVariantLevelQuestions {
     /**
      * Other information about variant actionability
      */
-    @JsonProperty('otherVariantActionability', String)
+    @JsonProperty('otherVariantActionability', String, true)
     otherVariantActionability?: string = undefined;
 
     /**
