@@ -3,6 +3,7 @@ import { CancerSomaticVariantLevelQuestions } from './CancerSomaticVariantLevelQ
 import { CancerGermlineVariantLevelQuestions } from './CancerGermlineVariantLevelQuestions';
 import { AdditionalVariantsQuestions } from './AdditionalVariantsQuestions';
 import JSONHelper from '../../utils/JSONHelper';
+import { CancerPharmacogenomicsVariantLevelQuestion } from './CancerPharmacogenomicsVariantLevelQuestion';
 /**
  * The cancer program exit questionnaire
  */
@@ -26,7 +27,8 @@ export declare class CancerExitQuestionnaire extends JSONHelper {
     /**
      * The questions for germline variants
      */
-    germlineVariantLevelQuestions: Array<CancerGermlineVariantLevelQuestions>;
+    germlineVariantLevelQuestions?: Array<CancerGermlineVariantLevelQuestions>;
+    pharmacogenomicsVariantLevelQuestions?: Array<CancerPharmacogenomicsVariantLevelQuestion>;
     /**
      * Please enter any additional comments you may have about the case here.
      */
