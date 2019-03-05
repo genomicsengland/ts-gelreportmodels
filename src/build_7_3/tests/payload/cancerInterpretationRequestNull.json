@@ -1,0 +1,27 @@
+{
+    "interpretationFlags": null,
+    "additionalInfo": null,
+    "participantInternalId": null,
+    "genomeAssembly": "GRCh38",
+    "bigWigs": null,
+    "genePanelsCoverage": null,
+    "otherFiles": null,
+    "annotationFile": null,
+    "vcfs": null,
+    "internalStudyId": "PvNoQBpsuueG",
+    "interpretationRequestVersion": -48632772,
+    "versionControl": {
+        "gitVersionControl": "CXJglouYLpMt"
+    },
+    "workspace": [
+        "FtaVNfYOmodT",
+        "IllxAxcvRIHU",
+        "pYTtCdwsetzP",
+        "aiLKJfTJimMH",
+        "rUHQjQuJewvC"
+    ],
+    "otherFamilyHistory": null,
+    "interpretationRequestId": "XYCvMZcryBZX",
+    "cancerParticipant": null,
+    "bams": null
+}

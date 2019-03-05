@@ -1,0 +1,21 @@
+export declare enum DrugResponseClassification {
+    altered_sensitivity = "altered_sensitivity",
+    reduced_sensitivity = "reduced_sensitivity",
+    increased_sensitivity = "increased_sensitivity",
+    altered_resistance = "altered_resistance",
+    increased_resistance = "increased_resistance",
+    reduced_resistance = "reduced_resistance",
+    increased_risk_of_toxicity = "increased_risk_of_toxicity",
+    reduced_risk_of_toxicity = "reduced_risk_of_toxicity",
+    altered_toxicity = "altered_toxicity",
+    adverse_drug_reaction = "adverse_drug_reaction",
+    indication = "indication",
+    contraindication = "contraindication",
+    dosing_alteration = "dosing_alteration",
+    increased_dose = "increased_dose",
+    reduced_dose = "reduced_dose",
+    increased_monitoring = "increased_monitoring",
+    increased_efficacy = "increased_efficacy",
+    reduced_efficacy = "reduced_efficacy",
+    altered_efficacy = "altered_efficacy"
+}

@@ -1,6 +1,6 @@
 {
   "name": "ts-gelreportmodels",
-  "version": "0.4.5",
+  "version": "0.5.0",
   "description": "GelReportModels TypeScript classes",
   "main": "index.ts",
   "scripts": {
@@ -25,7 +25,9 @@
   },
   "devDependencies": {
     "@types/jest": "^23.3.1",
+    "@types/jsonfile": "^5.0.0",
     "jest": "^23.5.0",
+    "jsonfile": "^5.0.0",
     "ts-jest": "^23.1.4",
     "typedoc": "^0.11.1"
   }

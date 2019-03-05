@@ -1,0 +1,20 @@
+export declare enum FileType {
+    BAM = "BAM",
+    gVCF = "gVCF",
+    VCF_small = "VCF_small",
+    VCF_somatic_small = "VCF_somatic_small",
+    VCF_CNV = "VCF_CNV",
+    VCF_somatic_CNV = "VCF_somatic_CNV",
+    VCF_SV = "VCF_SV",
+    VCF_somatic_SV = "VCF_somatic_SV",
+    VCF_SV_CNV = "VCF_SV_CNV",
+    SVG = "SVG",
+    ANN = "ANN",
+    BigWig = "BigWig",
+    MD5Sum = "MD5Sum",
+    ROH = "ROH",
+    OTHER = "OTHER",
+    PARTITION = "PARTITION",
+    VARIANT_FREQUENCIES = "VARIANT_FREQUENCIES",
+    COVERAGE = "COVERAGE"
+}

@@ -46,3 +46,8 @@ export { TumourSample } from './TumourSample';
 export { TumourType } from './TumourType';
 export { VersionControl } from './VersionControl';
 export { diseaseType } from './diseaseType';
+export { Referral } from './Referral';
+export { ReferralTest } from './ReferralTest';
+export { Tumour } from './Tumour';
+export { ClinicalIndication } from './ClinicalIndication';
+export { ClinicalIndicationTest } from './ClinicalIndicationTest';

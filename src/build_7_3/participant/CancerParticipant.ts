@@ -49,8 +49,8 @@ export class CancerParticipant extends JSONHelper {
     @JsonProperty('germlineSamples', [GermlineSample])
     germlineSamples: Array<GermlineSample> = [];
 
-    @JsonProperty('matchedSamples', [MatchedSamples])
-    matchedSamples: Array<MatchedSamples> = [];
+    @JsonProperty('matchedSamples', [MatchedSamples], true)
+    matchedSamples?: Array<MatchedSamples> = undefined;
 
     @JsonProperty('versionControl', VersionControl, true)
     versionControl?: VersionControl = undefined;
