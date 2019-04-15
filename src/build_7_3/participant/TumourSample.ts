@@ -1,4 +1,6 @@
 import { JsonObject, JsonProperty } from 'json2typescript';
+import { Morphology } from './Morphology';
+import { Topography } from './Topography';
 
 /**
  * A tumour sample
@@ -20,14 +22,14 @@ export class TumourSample {
     /**
      * LDP Code (Local Delivery Partner)
      */
-    @JsonProperty('LDPCode', String)
-    LDPCode: string = '';
+    @JsonProperty('LDPCode', String, true)
+    LDPCode?: string = undefined;
 
     /**
      * Identifier of each one of the tumours for a participant
      */
-    @JsonProperty('tumourId', String)
-    tumourId: string = '';
+    @JsonProperty('tumourId', String, true)
+    tumourId?: string = undefined;
 
     /**
      * Genomics England programme phase
@@ -47,6 +49,12 @@ export class TumourSample {
     @JsonProperty('diseaseSubType', String, true)
     diseaseSubType?: string = undefined;
 
+    @JsonProperty('haematologicalCancer', Boolean, true)
+    haematologicalCancer?: boolean = undefined;
+
+    @JsonProperty('haematologicalCancerLineage', String, true)
+    haematologicalCancerLineage?: string = undefined;  // HaematologicalCancerLineage
+
     /**
      * The time when the sample was recieved. In the format
      * YYYY-MM-DDTHH:MM:SS+0000
@@ -65,6 +73,12 @@ export class TumourSample {
      */
     @JsonProperty('tumourContent', String, true)
     tumourContent?: string = undefined;  // TumourContent
+
+    /**
+     * Tumour content percentage
+     */
+    @JsonProperty('tumourContentPercentage', Number, true)
+    tumourContentPercentage?: number = undefined;
 
     /**
      * Source of the sample
@@ -90,45 +104,30 @@ export class TumourSample {
     @JsonProperty('product', String, true)
     product?: string = undefined;  // Product
 
-    /**
-     * Tumour morphology as defined by ICD (at least one morphology definition
-     * by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    @JsonProperty('morphologyICDs', String, true)
-    morphologyICDs?: string = undefined;
+    @JsonProperty('sampleMorphologies', [Morphology], true)
+    sampleMorphologies?: Morphology[] = undefined;
 
-    /**
-     * Tumour morphology as defined by Snomed CT (at least one morphology
-     * definition by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    @JsonProperty('morphologySnomedCTs', String, true)
-    morphologySnomedCTs?: string = undefined;
+    @JsonProperty('sampleTopographies', [Topography], true)
+    sampleTopographies?: Topography[] = undefined;
 
-    /**
-     * Tumour morphology as defined by Snomed RT (at least one morphology
-     * definition by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    @JsonProperty('morphologySnomedRTs', String, true)
-    morphologySnomedRTs?: string = undefined;
+    @JsonProperty('sampleUid', String, true)
+    sampleUid?: string = undefined;
 
-    /**
-     * Tumour topography as defined by ICD (at least one topography definition
-     * by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    @JsonProperty('topographyICDs', String, true)
-    topographyICDs?: string = undefined;
+    @JsonProperty('participantId', String, true)
+    participantId?: string = undefined;
 
-    /**
-     * Tumour topography as defined by Snomed CT (at least one topography
-     * definition by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    @JsonProperty('topographySnomedCTs', String, true)
-    topographySnomedCTs?: string = undefined;
+    @JsonProperty('maskedPid', String, true)
+    maskedPid?: string = undefined;
 
-    /**
-     * Tumour topography as defined by Snomed RT (at least one topography
-     * definition by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    @JsonProperty('topographySnomedRTs', String, true)
-    topographySnomedRTs?: string = undefined;
+    @JsonProperty('method', String, true)
+    method?: string = undefined;
+
+    @JsonProperty('storageMedium', String, true)
+    storageMedium?: string = undefined;  // StorageMedium
+
+    @JsonProperty('sampleType', String, true)
+    sampleType?: string = undefined;
+
+    @JsonProperty('sampleState', String, true)
+    sampleState?: string = undefined;
 };

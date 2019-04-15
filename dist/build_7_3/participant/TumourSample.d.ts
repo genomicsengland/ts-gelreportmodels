@@ -1,3 +1,5 @@
+import { Morphology } from './Morphology';
+import { Topography } from './Topography';
 /**
  * A tumour sample
  */
@@ -13,11 +15,11 @@ export declare class TumourSample {
     /**
      * LDP Code (Local Delivery Partner)
      */
-    LDPCode: string;
+    LDPCode?: string;
     /**
      * Identifier of each one of the tumours for a participant
      */
-    tumourId: string;
+    tumourId?: string;
     /**
      * Genomics England programme phase
      */
@@ -30,6 +32,8 @@ export declare class TumourSample {
      * Disease subtype
      */
     diseaseSubType?: string;
+    haematologicalCancer?: boolean;
+    haematologicalCancerLineage?: string;
     /**
      * The time when the sample was recieved. In the format
      * YYYY-MM-DDTHH:MM:SS+0000
@@ -43,6 +47,10 @@ export declare class TumourSample {
      * Tumour content
      */
     tumourContent?: string;
+    /**
+     * Tumour content percentage
+     */
+    tumourContentPercentage?: number;
     /**
      * Source of the sample
      */
@@ -59,34 +67,13 @@ export declare class TumourSample {
      * Product of the sample
      */
     product?: string;
-    /**
-     * Tumour morphology as defined by ICD (at least one morphology definition
-     * by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    morphologyICDs?: string;
-    /**
-     * Tumour morphology as defined by Snomed CT (at least one morphology
-     * definition by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    morphologySnomedCTs?: string;
-    /**
-     * Tumour morphology as defined by Snomed RT (at least one morphology
-     * definition by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    morphologySnomedRTs?: string;
-    /**
-     * Tumour topography as defined by ICD (at least one topography definition
-     * by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    topographyICDs?: string;
-    /**
-     * Tumour topography as defined by Snomed CT (at least one topography
-     * definition by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    topographySnomedCTs?: string;
-    /**
-     * Tumour topography as defined by Snomed RT (at least one topography
-     * definition by either ICD, Snomed CT or Snomed RT must be provided)
-     */
-    topographySnomedRTs?: string;
+    sampleMorphologies?: Morphology[];
+    sampleTopographies?: Topography[];
+    sampleUid?: string;
+    participantId?: string;
+    maskedPid?: string;
+    method?: string;
+    storageMedium?: string;
+    sampleType?: string;
+    sampleState?: string;
 }

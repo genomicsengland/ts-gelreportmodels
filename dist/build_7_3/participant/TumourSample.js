@@ -7,6 +7,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var json2typescript_1 = require("json2typescript");
+var Morphology_1 = require("./Morphology");
+var Topography_1 = require("./Topography");
 /**
  * A tumour sample
  */
@@ -23,11 +25,11 @@ var TumourSample = /** @class */ (function () {
         /**
          * LDP Code (Local Delivery Partner)
          */
-        this.LDPCode = '';
+        this.LDPCode = undefined;
         /**
          * Identifier of each one of the tumours for a participant
          */
-        this.tumourId = '';
+        this.tumourId = undefined;
         /**
          * Genomics England programme phase
          */
@@ -40,6 +42,8 @@ var TumourSample = /** @class */ (function () {
          * Disease subtype
          */
         this.diseaseSubType = undefined;
+        this.haematologicalCancer = undefined;
+        this.haematologicalCancerLineage = undefined; // HaematologicalCancerLineage
         /**
          * The time when the sample was recieved. In the format
          * YYYY-MM-DDTHH:MM:SS+0000
@@ -53,6 +57,10 @@ var TumourSample = /** @class */ (function () {
          * Tumour content
          */
         this.tumourContent = undefined; // TumourContent
+        /**
+         * Tumour content percentage
+         */
+        this.tumourContentPercentage = undefined;
         /**
          * Source of the sample
          */
@@ -69,36 +77,15 @@ var TumourSample = /** @class */ (function () {
          * Product of the sample
          */
         this.product = undefined; // Product
-        /**
-         * Tumour morphology as defined by ICD (at least one morphology definition
-         * by either ICD, Snomed CT or Snomed RT must be provided)
-         */
-        this.morphologyICDs = undefined;
-        /**
-         * Tumour morphology as defined by Snomed CT (at least one morphology
-         * definition by either ICD, Snomed CT or Snomed RT must be provided)
-         */
-        this.morphologySnomedCTs = undefined;
-        /**
-         * Tumour morphology as defined by Snomed RT (at least one morphology
-         * definition by either ICD, Snomed CT or Snomed RT must be provided)
-         */
-        this.morphologySnomedRTs = undefined;
-        /**
-         * Tumour topography as defined by ICD (at least one topography definition
-         * by either ICD, Snomed CT or Snomed RT must be provided)
-         */
-        this.topographyICDs = undefined;
-        /**
-         * Tumour topography as defined by Snomed CT (at least one topography
-         * definition by either ICD, Snomed CT or Snomed RT must be provided)
-         */
-        this.topographySnomedCTs = undefined;
-        /**
-         * Tumour topography as defined by Snomed RT (at least one topography
-         * definition by either ICD, Snomed CT or Snomed RT must be provided)
-         */
-        this.topographySnomedRTs = undefined;
+        this.sampleMorphologies = undefined;
+        this.sampleTopographies = undefined;
+        this.sampleUid = undefined;
+        this.participantId = undefined;
+        this.maskedPid = undefined;
+        this.method = undefined;
+        this.storageMedium = undefined; // StorageMedium
+        this.sampleType = undefined;
+        this.sampleState = undefined;
     }
     __decorate([
         json2typescript_1.JsonProperty('sampleId', String)
@@ -107,10 +94,10 @@ var TumourSample = /** @class */ (function () {
         json2typescript_1.JsonProperty('labSampleId', Number)
     ], TumourSample.prototype, "labSampleId", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('LDPCode', String)
+        json2typescript_1.JsonProperty('LDPCode', String, true)
     ], TumourSample.prototype, "LDPCode", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('tumourId', String)
+        json2typescript_1.JsonProperty('tumourId', String, true)
     ], TumourSample.prototype, "tumourId", void 0);
     __decorate([
         json2typescript_1.JsonProperty('programmePhase', String, true)
@@ -122,6 +109,12 @@ var TumourSample = /** @class */ (function () {
         json2typescript_1.JsonProperty('diseaseSubType', String, true)
     ], TumourSample.prototype, "diseaseSubType", void 0);
     __decorate([
+        json2typescript_1.JsonProperty('haematologicalCancer', Boolean, true)
+    ], TumourSample.prototype, "haematologicalCancer", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('haematologicalCancerLineage', String, true)
+    ], TumourSample.prototype, "haematologicalCancerLineage", void 0);
+    __decorate([
         json2typescript_1.JsonProperty('clinicalSampleDateTime', String, true)
     ], TumourSample.prototype, "clinicalSampleDateTime", void 0);
     __decorate([
@@ -130,6 +123,9 @@ var TumourSample = /** @class */ (function () {
     __decorate([
         json2typescript_1.JsonProperty('tumourContent', String, true)
     ], TumourSample.prototype, "tumourContent", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('tumourContentPercentage', Number, true)
+    ], TumourSample.prototype, "tumourContentPercentage", void 0);
     __decorate([
         json2typescript_1.JsonProperty('source', String, true)
     ], TumourSample.prototype, "source", void 0);
@@ -143,23 +139,32 @@ var TumourSample = /** @class */ (function () {
         json2typescript_1.JsonProperty('product', String, true)
     ], TumourSample.prototype, "product", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('morphologyICDs', String, true)
-    ], TumourSample.prototype, "morphologyICDs", void 0);
+        json2typescript_1.JsonProperty('sampleMorphologies', [Morphology_1.Morphology], true)
+    ], TumourSample.prototype, "sampleMorphologies", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('morphologySnomedCTs', String, true)
-    ], TumourSample.prototype, "morphologySnomedCTs", void 0);
+        json2typescript_1.JsonProperty('sampleTopographies', [Topography_1.Topography], true)
+    ], TumourSample.prototype, "sampleTopographies", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('morphologySnomedRTs', String, true)
-    ], TumourSample.prototype, "morphologySnomedRTs", void 0);
+        json2typescript_1.JsonProperty('sampleUid', String, true)
+    ], TumourSample.prototype, "sampleUid", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('topographyICDs', String, true)
-    ], TumourSample.prototype, "topographyICDs", void 0);
+        json2typescript_1.JsonProperty('participantId', String, true)
+    ], TumourSample.prototype, "participantId", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('topographySnomedCTs', String, true)
-    ], TumourSample.prototype, "topographySnomedCTs", void 0);
+        json2typescript_1.JsonProperty('maskedPid', String, true)
+    ], TumourSample.prototype, "maskedPid", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('topographySnomedRTs', String, true)
-    ], TumourSample.prototype, "topographySnomedRTs", void 0);
+        json2typescript_1.JsonProperty('method', String, true)
+    ], TumourSample.prototype, "method", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('storageMedium', String, true)
+    ], TumourSample.prototype, "storageMedium", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('sampleType', String, true)
+    ], TumourSample.prototype, "sampleType", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('sampleState', String, true)
+    ], TumourSample.prototype, "sampleState", void 0);
     TumourSample = __decorate([
         json2typescript_1.JsonObject
     ], TumourSample);
