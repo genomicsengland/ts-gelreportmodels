@@ -12,8 +12,8 @@ export class GermlineSample {
     labSampleId: number = 0;
 
     /** LDP Code (Local Delivery Partner) */
-    @JsonProperty('LDPCode', String)
-    LDPCode: string = '';
+    @JsonProperty('LDPCode', String, true)
+    LDPCode?: string = undefined;
 
     /** Source of the sample */
     @JsonProperty('source', String, true)
@@ -35,4 +35,25 @@ export class GermlineSample {
      * YYYY-MM-DDTHH:MM:SS+0000 */
     @JsonProperty('clinicalSampleDateTime', String, true)
     clinicalSampleDateTime?: string = undefined;
+
+    @JsonProperty('participantId', String, true)
+    participantId?: string = undefined;
+
+    @JsonProperty('sampleUid', String, true)
+    sampleUid?: string = undefined;
+
+    @JsonProperty('maskedPid', String, true)
+    maskedPid?: string = undefined;
+
+    @JsonProperty('method', String, true)
+    method?: string = undefined;  // Method
+
+    @JsonProperty('storageMedium', String, true)
+    storageMedium?: string = undefined;  // StorageMedium
+
+    @JsonProperty('sampleType', String, true)
+    sampleType?: string = undefined;
+
+    @JsonProperty('sampleState', String, true)
+    sampleState?: string = undefined;
 }

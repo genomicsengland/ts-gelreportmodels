@@ -1,11 +1,10 @@
 import { Morphology } from "./Morphology";
 import { Topography } from "./Topography";
-import JSONHelper from "../../utils/JSONHelper";
 /**
  * This defines a pair of germline and tumor, this pair should/must be
  * analyzed together
  */
-export declare class Tumour extends JSONHelper {
+export declare class Tumour {
     tumourId: string;
     tumourLocalId: string;
     tumourType: string;

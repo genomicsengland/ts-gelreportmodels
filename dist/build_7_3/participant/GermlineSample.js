@@ -15,7 +15,7 @@ var GermlineSample = /** @class */ (function () {
         /** Lab sample identifier */
         this.labSampleId = 0;
         /** LDP Code (Local Delivery Partner) */
-        this.LDPCode = '';
+        this.LDPCode = undefined;
         /** Source of the sample */
         this.source = undefined; // SampleSource
         /** Product of the sample */
@@ -25,6 +25,13 @@ var GermlineSample = /** @class */ (function () {
         /** The time when the sample was received. In the format
          * YYYY-MM-DDTHH:MM:SS+0000 */
         this.clinicalSampleDateTime = undefined;
+        this.participantId = undefined;
+        this.sampleUid = undefined;
+        this.maskedPid = undefined;
+        this.method = undefined; // Method
+        this.storageMedium = undefined; // StorageMedium
+        this.sampleType = undefined;
+        this.sampleState = undefined;
     }
     __decorate([
         json2typescript_1.JsonProperty('sampleId', String)
@@ -33,7 +40,7 @@ var GermlineSample = /** @class */ (function () {
         json2typescript_1.JsonProperty('labSampleId', Number)
     ], GermlineSample.prototype, "labSampleId", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('LDPCode', String)
+        json2typescript_1.JsonProperty('LDPCode', String, true)
     ], GermlineSample.prototype, "LDPCode", void 0);
     __decorate([
         json2typescript_1.JsonProperty('source', String, true)
@@ -50,6 +57,27 @@ var GermlineSample = /** @class */ (function () {
     __decorate([
         json2typescript_1.JsonProperty('clinicalSampleDateTime', String, true)
     ], GermlineSample.prototype, "clinicalSampleDateTime", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('participantId', String, true)
+    ], GermlineSample.prototype, "participantId", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('sampleUid', String, true)
+    ], GermlineSample.prototype, "sampleUid", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('maskedPid', String, true)
+    ], GermlineSample.prototype, "maskedPid", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('method', String, true)
+    ], GermlineSample.prototype, "method", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('storageMedium', String, true)
+    ], GermlineSample.prototype, "storageMedium", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('sampleType', String, true)
+    ], GermlineSample.prototype, "sampleType", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('sampleState', String, true)
+    ], GermlineSample.prototype, "sampleState", void 0);
     GermlineSample = __decorate([
         json2typescript_1.JsonObject
     ], GermlineSample);

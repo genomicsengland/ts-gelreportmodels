@@ -5,7 +5,7 @@ export declare class GermlineSample {
     /** Lab sample identifier */
     labSampleId: number;
     /** LDP Code (Local Delivery Partner) */
-    LDPCode: string;
+    LDPCode?: string;
     /** Source of the sample */
     source?: string;
     /** Product of the sample */
@@ -17,4 +17,11 @@ export declare class GermlineSample {
     /** The time when the sample was received. In the format
      * YYYY-MM-DDTHH:MM:SS+0000 */
     clinicalSampleDateTime?: string;
+    participantId?: string;
+    sampleUid?: string;
+    maskedPid?: string;
+    method?: string;
+    storageMedium?: string;
+    sampleType?: string;
+    sampleState?: string;
 }

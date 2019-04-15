@@ -1,14 +1,13 @@
 import { JsonObject, JsonProperty } from "json2typescript";
 import { Morphology } from "./Morphology";
 import { Topography } from "./Topography";
-import JSONHelper from "../../utils/JSONHelper";
 
 /**
  * This defines a pair of germline and tumor, this pair should/must be
  * analyzed together
  */
 @JsonObject
-export class Tumour extends JSONHelper {
+export class Tumour {
     @JsonProperty('tumourId', String)
     tumourId: string = '';
 
