@@ -4,6 +4,8 @@ import { TumourSample } from './TumourSample';
 import { MatchedSamples } from './MatchedSamples';
 import { VersionControl } from './VersionControl';
 import JSONHelper from '../../utils/JSONHelper';
+import { Tumour } from './Tumour';
+import { PreviousTreatment } from './PreviousTreatment';
 export declare class CancerParticipant extends JSONHelper {
     yearOfBirth?: number;
     morphology?: Array<string>;
@@ -22,4 +24,7 @@ export declare class CancerParticipant extends JSONHelper {
     germlineSamples: Array<GermlineSample>;
     matchedSamples?: Array<MatchedSamples>;
     versionControl?: VersionControl;
+    individualUid?: string;
+    tumours?: Tumour[];
+    previousTreatment?: PreviousTreatment[];
 }

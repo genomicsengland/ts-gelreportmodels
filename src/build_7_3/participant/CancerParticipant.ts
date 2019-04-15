@@ -5,6 +5,8 @@ import { MatchedSamples } from './MatchedSamples';
 import { VersionControl } from './VersionControl';
 import { JsonObject, JsonProperty } from 'json2typescript';
 import JSONHelper from '../../utils/JSONHelper';
+import { Tumour } from './Tumour';
+import { PreviousTreatment } from './PreviousTreatment';
 
 @JsonObject
 export class CancerParticipant extends JSONHelper {
@@ -54,4 +56,13 @@ export class CancerParticipant extends JSONHelper {
 
     @JsonProperty('versionControl', VersionControl, true)
     versionControl?: VersionControl = undefined;
+
+    @JsonProperty('individualUid', String, true)
+    individualUid?: string = undefined;
+
+    @JsonProperty('tumours', [Tumour], true)
+    tumours?: Tumour[] = undefined;
+
+    @JsonProperty('previousTreatment', [PreviousTreatment], true)
+    previousTreatment?: PreviousTreatment[] = undefined;
 };

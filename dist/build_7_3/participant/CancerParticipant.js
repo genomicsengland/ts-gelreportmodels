@@ -29,6 +29,8 @@ var MatchedSamples_1 = require("./MatchedSamples");
 var VersionControl_1 = require("./VersionControl");
 var json2typescript_1 = require("json2typescript");
 var JSONHelper_1 = __importDefault(require("../../utils/JSONHelper"));
+var Tumour_1 = require("./Tumour");
+var PreviousTreatment_1 = require("./PreviousTreatment");
 var CancerParticipant = /** @class */ (function (_super) {
     __extends(CancerParticipant, _super);
     function CancerParticipant() {
@@ -47,6 +49,9 @@ var CancerParticipant = /** @class */ (function (_super) {
         _this.germlineSamples = [];
         _this.matchedSamples = undefined;
         _this.versionControl = undefined;
+        _this.individualUid = undefined;
+        _this.tumours = undefined;
+        _this.previousTreatment = undefined;
         return _this;
     }
     __decorate([
@@ -94,6 +99,15 @@ var CancerParticipant = /** @class */ (function (_super) {
     __decorate([
         json2typescript_1.JsonProperty('versionControl', VersionControl_1.VersionControl, true)
     ], CancerParticipant.prototype, "versionControl", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('individualUid', String, true)
+    ], CancerParticipant.prototype, "individualUid", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('tumours', [Tumour_1.Tumour], true)
+    ], CancerParticipant.prototype, "tumours", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty('previousTreatment', [PreviousTreatment_1.PreviousTreatment], true)
+    ], CancerParticipant.prototype, "previousTreatment", void 0);
     CancerParticipant = __decorate([
         json2typescript_1.JsonObject
     ], CancerParticipant);
