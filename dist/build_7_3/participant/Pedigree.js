@@ -347,10 +347,7 @@ var Pedigree = /** @class */ (function (_super) {
         if (!proband) {
             return;
         }
-        if (this.members.length === 1 && this.members[0].isProband) {
-            proband.relationToProband = 'Proband';
-            return;
-        }
+        proband.relationToProband = 'Proband';
         // get all combinations, but remove any pair where one of the member isn't proband
         var pairs = js_combinatorics_1.combination(this.members, 2).filter(function (pair) { return pair[0].isProband || pair[1].isProband ? true : false; });
         pairs.forEach(function (pair) {
