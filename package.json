@@ -1,6 +1,6 @@
 {
   "name": "ts-gelreportmodels",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "GelReportModels TypeScript classes",
   "main": "index.ts",
   "scripts": {
