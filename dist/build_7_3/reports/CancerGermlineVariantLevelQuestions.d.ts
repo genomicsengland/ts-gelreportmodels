@@ -1,4 +1,4 @@
-import { VariantCoordinates } from './VariantCoordinates';
+import { VariantCoordinates } from "./VariantCoordinates";
 /**
  * The questions for the cancer program exit questionnaire for germline variants
  */

@@ -16,7 +16,7 @@ var CancerGermlineVariantLevelQuestions = /** @class */ (function () {
         /**
          * Variant coordinates
          */
-        this.variantCoordinates = new VariantCoordinates_1.VariantCoordinates;
+        this.variantCoordinates = new VariantCoordinates_1.VariantCoordinates();
         /**
          * Type of potential actionability
          */
@@ -25,35 +25,35 @@ var CancerGermlineVariantLevelQuestions = /** @class */ (function () {
         /**
          * How has/will this potentially actionable variant been/be used?
          */
-        this.variantUsability = ''; // CancerUsabilityGermline
+        this.variantUsability = ""; // CancerUsabilityGermline
         /**
          * Has this variant been tested by another method (either prior to or
          * following receipt of this WGA)?
          */
-        this.variantTested = ''; // CancerTested
+        this.variantTested = ""; // CancerTested
         /**
          * Please enter validation assay type e.g Pyrosequencing, NGS panel, COBAS
          * Sanger sequencing. If not applicable enter NA;
          */
-        this.validationAssayType = '';
+        this.validationAssayType = "";
     }
     __decorate([
-        json2typescript_1.JsonProperty('variantCoordinates', VariantCoordinates_1.VariantCoordinates)
+        json2typescript_1.JsonProperty("variantCoordinates", VariantCoordinates_1.VariantCoordinates)
     ], CancerGermlineVariantLevelQuestions.prototype, "variantCoordinates", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('variantActionability', [String])
+        json2typescript_1.JsonProperty("variantActionability", [String])
     ], CancerGermlineVariantLevelQuestions.prototype, "variantActionability", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('otherVariantActionability', String)
+        json2typescript_1.JsonProperty("otherVariantActionability", String, true)
     ], CancerGermlineVariantLevelQuestions.prototype, "otherVariantActionability", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('variantUsability', String)
+        json2typescript_1.JsonProperty("variantUsability", String)
     ], CancerGermlineVariantLevelQuestions.prototype, "variantUsability", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('variantTested', String)
+        json2typescript_1.JsonProperty("variantTested", String)
     ], CancerGermlineVariantLevelQuestions.prototype, "variantTested", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('validationAssayType', String)
+        json2typescript_1.JsonProperty("validationAssayType", String)
     ], CancerGermlineVariantLevelQuestions.prototype, "validationAssayType", void 0);
     CancerGermlineVariantLevelQuestions = __decorate([
         json2typescript_1.JsonObject
@@ -61,5 +61,4 @@ var CancerGermlineVariantLevelQuestions = /** @class */ (function () {
     return CancerGermlineVariantLevelQuestions;
 }());
 exports.CancerGermlineVariantLevelQuestions = CancerGermlineVariantLevelQuestions;
-;
 //# sourceMappingURL=CancerGermlineVariantLevelQuestions.js.map
