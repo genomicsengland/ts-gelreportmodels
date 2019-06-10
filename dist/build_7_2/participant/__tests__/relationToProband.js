@@ -9,14 +9,14 @@ var getPedigreeJSON = function (members) {
     pedigree.members = members;
     return pedigree.toJSON();
 };
-test('get proband', function () {
+test("get proband", function () {
     var proband = tests_1.getPedigree();
     var father = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);
     var pedigreeJSON = getPedigreeJSON([proband, father]);
     var pedigree = Pedigree_1.Pedigree.fromJSON(pedigreeJSON);
     expect(pedigree.getProband().pedigreeId).toEqual(pedigree_1.defaultValues.defaultProbandValues.pedigreeId);
 });
-test('relation to proband: test father', function () {
+test("relation to proband: test father", function () {
     var proband = tests_1.getPedigree();
     var father = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);
     var pedigreeJSON = getPedigreeJSON([proband, father]);
@@ -26,7 +26,7 @@ test('relation to proband: test father', function () {
     expect(pedigree.members[1].pedigreeId).toEqual(pedigree_1.defaultValues.defaultFatherValues.pedigreeId);
     expect(pedigree.members[1].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.Father);
 });
-test('relation to proband: test mother', function () {
+test("relation to proband: test mother", function () {
     var proband = tests_1.getPedigree();
     var mother = tests_1.getPedigree(pedigree_1.defaultValues.defaultMotherValues);
     var pedigreeJSON = getPedigreeJSON([proband, mother]);
@@ -36,7 +36,7 @@ test('relation to proband: test mother', function () {
     expect(pedigree.members[1].pedigreeId).toEqual(pedigree_1.defaultValues.defaultMotherValues.pedigreeId);
     expect(pedigree.members[1].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.Mother);
 });
-test('relation to proband: test offspring', function () {
+test("relation to proband: test offspring", function () {
     var proband = tests_1.getPedigree();
     var offspring = tests_1.getPedigree(pedigree_1.defaultValues.defaultOffspringValues);
     var pedigreeJSON = getPedigreeJSON([proband, offspring]);
@@ -46,7 +46,7 @@ test('relation to proband: test offspring', function () {
     expect(pedigree.members[1].pedigreeId).toEqual(pedigree_1.defaultValues.defaultOffspringValues.pedigreeId);
     expect(pedigree.members[1].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.Daughter);
 });
-test('relation to proband: test spouse', function () {
+test("relation to proband: test spouse", function () {
     var proband = tests_1.getPedigree();
     var offspring = tests_1.getPedigree(pedigree_1.defaultValues.defaultOffspringValues);
     var spouse = tests_1.getPedigree(pedigree_1.defaultValues.defaultSpouseValues);
@@ -59,7 +59,7 @@ test('relation to proband: test spouse', function () {
     expect(pedigree.members[2].pedigreeId).toEqual(pedigree_1.defaultValues.defaultSpouseValues.pedigreeId);
     expect(pedigree.members[2].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.Spouse);
 });
-test('relation to proband: test unrelated', function () {
+test("relation to proband: test unrelated", function () {
     var proband = tests_1.getPedigree();
     var unrelated = tests_1.getPedigree(pedigree_1.defaultValues.defaultUnrelatedValues);
     var pedigreeJSON = getPedigreeJSON([proband, unrelated]);
@@ -69,7 +69,7 @@ test('relation to proband: test unrelated', function () {
     expect(pedigree.members[1].pedigreeId).toEqual(pedigree_1.defaultValues.defaultUnrelatedValues.pedigreeId);
     expect(pedigree.members[1].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.Unrelated);
 });
-test('relation to proband: test grandfather', function () {
+test("relation to proband: test grandfather", function () {
     var proband = tests_1.getPedigree();
     var parent = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);
     var grandParent = tests_1.getPedigree(pedigree_1.defaultValues.defaultPaternalGrandFatherValues);
@@ -82,7 +82,7 @@ test('relation to proband: test grandfather', function () {
     expect(pedigree.members[2].pedigreeId).toEqual(pedigree_1.defaultValues.defaultPaternalGrandFatherValues.pedigreeId);
     expect(pedigree.members[2].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.PaternalGrandfather);
 });
-test('relation to proband: test paternal uncle', function () {
+test("relation to proband: test paternal uncle", function () {
     var proband = tests_1.getPedigree();
     var parent = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);
     var grandParent = tests_1.getPedigree(pedigree_1.defaultValues.defaultPaternalGrandFatherValues);
@@ -98,7 +98,7 @@ test('relation to proband: test paternal uncle', function () {
     expect(pedigree.members[3].pedigreeId).toEqual(pedigree_1.defaultValues.defaultPaternalUncleValues.pedigreeId);
     expect(pedigree.members[3].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.PaternalUncle);
 });
-test('relation to proband: test maternal aunt', function () {
+test("relation to proband: test maternal aunt", function () {
     var proband = tests_1.getPedigree();
     var parent = tests_1.getPedigree(pedigree_1.defaultValues.defaultMotherValues);
     var grandParent = tests_1.getPedigree(pedigree_1.defaultValues.defaultMaternalGrandMotherValues);
@@ -114,13 +114,19 @@ test('relation to proband: test maternal aunt', function () {
     expect(pedigree.members[3].pedigreeId).toEqual(pedigree_1.defaultValues.defaultMaternalAunt.pedigreeId);
     expect(pedigree.members[3].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.MaternalAunt);
 });
-test('relation to proband: test paternal first cousin', function () {
+test("relation to proband: test paternal first cousin", function () {
     var proband = tests_1.getPedigree();
     var parent = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);
     var grandParent = tests_1.getPedigree(pedigree_1.defaultValues.defaultPaternalGrandFatherValues);
     var uncle = tests_1.getPedigree(pedigree_1.defaultValues.defaultPaternalUncleValues);
     var cousin = tests_1.getPedigree(pedigree_1.defaultValues.defaultFirstCousinValues);
-    var pedigreeJSON = getPedigreeJSON([proband, parent, grandParent, uncle, cousin]);
+    var pedigreeJSON = getPedigreeJSON([
+        proband,
+        parent,
+        grandParent,
+        uncle,
+        cousin
+    ]);
     var pedigree = Pedigree_1.Pedigree.fromJSON(pedigreeJSON);
     expect(pedigree.members[0].pedigreeId).toEqual(pedigree_1.defaultValues.defaultProbandValues.pedigreeId);
     expect(pedigree.members[0].relationToProband).toBe(undefined);
@@ -133,7 +139,7 @@ test('relation to proband: test paternal first cousin', function () {
     expect(pedigree.members[4].pedigreeId).toEqual(pedigree_1.defaultValues.defaultFirstCousinValues.pedigreeId);
     expect(pedigree.members[4].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.PaternalCousinBrother);
 });
-test('relation to proband: test sibling', function () {
+test("relation to proband: test sibling", function () {
     var proband = tests_1.getPedigree();
     var father = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);
     var mother = tests_1.getPedigree(pedigree_1.defaultValues.defaultMotherValues);
@@ -149,7 +155,7 @@ test('relation to proband: test sibling', function () {
     expect(pedigree.members[3].pedigreeId).toEqual(pedigree_1.defaultValues.defaultSiblingValues.pedigreeId);
     expect(pedigree.members[3].relationToProband).toBe(FamiliarRelationship_1.FamiliarRelationship.FullSibling);
 });
-test('relation to proband: test sibling', function () {
+test("relation to proband: test sibling", function () {
     var proband = tests_1.getPedigree();
     var father = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);
     var mother = tests_1.getPedigree(pedigree_1.defaultValues.defaultMotherValues);

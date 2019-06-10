@@ -1,11 +1,11 @@
-import { GermlineSample } from './GermlineSample';
-import { ConsentStatus } from './ConsentStatus';
-import { TumourSample } from './TumourSample';
-import { MatchedSamples } from './MatchedSamples';
-import { VersionControl } from './VersionControl';
-import JSONHelper from '../../utils/JSONHelper';
-import { Tumour } from './Tumour';
-import { PreviousTreatment } from './PreviousTreatment';
+import { GermlineSample } from "./GermlineSample";
+import { ConsentStatus } from "./ConsentStatus";
+import { TumourSample } from "./TumourSample";
+import { MatchedSamples } from "./MatchedSamples";
+import { VersionControl } from "./VersionControl";
+import JSONHelper from "../../utils/JSONHelper";
+import { Tumour } from "./Tumour";
+import { PreviousTreatment } from "./PreviousTreatment";
 export declare class CancerParticipant extends JSONHelper {
     yearOfBirth?: number;
     morphology?: Array<string>;
@@ -20,8 +20,8 @@ export declare class CancerParticipant extends JSONHelper {
         [name: string]: string;
     };
     assignedICD10?: Array<string>;
-    tumourSamples: Array<TumourSample>;
-    germlineSamples: Array<GermlineSample>;
+    tumourSamples?: Array<TumourSample>;
+    germlineSamples?: Array<GermlineSample>;
     matchedSamples?: Array<MatchedSamples>;
     versionControl?: VersionControl;
     individualUid?: string;
