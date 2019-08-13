@@ -9,24 +9,27 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var json2typescript_1 = require("json2typescript");
 var Morphology = /** @class */ (function () {
     function Morphology() {
-        this.morphologyICD = undefined;
-        this.morphologySnomedCT = undefined;
-        this.morphologySnomedRT = undefined;
+        this.id = undefined;
+        this.name = undefined;
+        this.value = undefined;
+        this.version = undefined;
     }
     __decorate([
-        json2typescript_1.JsonProperty('morphologyICD', String, true)
-    ], Morphology.prototype, "morphologyICD", void 0);
+        json2typescript_1.JsonProperty("id", String, true)
+    ], Morphology.prototype, "id", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('morphologySnomedCT', String, true)
-    ], Morphology.prototype, "morphologySnomedCT", void 0);
+        json2typescript_1.JsonProperty("name", String, true)
+    ], Morphology.prototype, "name", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('morphologySnomedRT', String, true)
-    ], Morphology.prototype, "morphologySnomedRT", void 0);
+        json2typescript_1.JsonProperty("value", String, true)
+    ], Morphology.prototype, "value", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty("version", String, true)
+    ], Morphology.prototype, "version", void 0);
     Morphology = __decorate([
         json2typescript_1.JsonObject
     ], Morphology);
     return Morphology;
 }());
 exports.Morphology = Morphology;
-;
 //# sourceMappingURL=Morphology.js.map

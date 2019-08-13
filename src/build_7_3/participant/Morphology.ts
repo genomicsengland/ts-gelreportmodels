@@ -2,12 +2,15 @@ import { JsonObject, JsonProperty } from "json2typescript";
 
 @JsonObject
 export class Morphology {
-    @JsonProperty('morphologyICD', String, true)
-    morphologyICD?: string = undefined;
+  @JsonProperty("id", String, true)
+  id?: string = undefined;
 
-    @JsonProperty('morphologySnomedCT', String, true)
-    morphologySnomedCT?: string = undefined;
+  @JsonProperty("name", String, true)
+  name?: string = undefined;
 
-    @JsonProperty('morphologySnomedRT', String, true)
-    morphologySnomedRT?: string = undefined;
-};
+  @JsonProperty("value", String, true)
+  value?: string = undefined;
+
+  @JsonProperty("version", String, true)
+  version?: string = undefined;
+}

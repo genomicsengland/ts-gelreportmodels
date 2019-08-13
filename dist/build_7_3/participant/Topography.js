@@ -9,24 +9,27 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var json2typescript_1 = require("json2typescript");
 var Topography = /** @class */ (function () {
     function Topography() {
-        this.topographyICD = undefined;
-        this.topographySnomedCT = undefined;
-        this.topographySnomedRT = undefined;
+        this.id = undefined;
+        this.name = undefined;
+        this.value = undefined;
+        this.version = undefined;
     }
     __decorate([
-        json2typescript_1.JsonProperty('topographyICD', String, true)
-    ], Topography.prototype, "topographyICD", void 0);
+        json2typescript_1.JsonProperty("id", String, true)
+    ], Topography.prototype, "id", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('topographySnomedCT', String, true)
-    ], Topography.prototype, "topographySnomedCT", void 0);
+        json2typescript_1.JsonProperty("name", String, true)
+    ], Topography.prototype, "name", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('topographySnomedRT', String, true)
-    ], Topography.prototype, "topographySnomedRT", void 0);
+        json2typescript_1.JsonProperty("value", String, true)
+    ], Topography.prototype, "value", void 0);
+    __decorate([
+        json2typescript_1.JsonProperty("version", String, true)
+    ], Topography.prototype, "version", void 0);
     Topography = __decorate([
         json2typescript_1.JsonObject
     ], Topography);
     return Topography;
 }());
 exports.Topography = Topography;
-;
 //# sourceMappingURL=Topography.js.map

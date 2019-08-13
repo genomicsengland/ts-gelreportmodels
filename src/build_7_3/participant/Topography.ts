@@ -2,12 +2,15 @@ import { JsonObject, JsonProperty } from "json2typescript";
 
 @JsonObject
 export class Topography {
-    @JsonProperty('topographyICD', String, true)
-    topographyICD?: string = undefined;
+  @JsonProperty("id", String, true)
+  id?: string = undefined;
 
-    @JsonProperty('topographySnomedCT', String, true)
-    topographySnomedCT?: string = undefined;
+  @JsonProperty("name", String, true)
+  name?: string = undefined;
 
-    @JsonProperty('topographySnomedRT', String, true)
-    topographySnomedRT?: string = undefined;
-};
+  @JsonProperty("value", String, true)
+  value?: string = undefined;
+
+  @JsonProperty("version", String, true)
+  version?: string = undefined;
+}
