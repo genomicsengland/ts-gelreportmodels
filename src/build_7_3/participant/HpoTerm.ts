@@ -29,7 +29,7 @@ export class HpoTerm {
   /**
    * Modifier associated with the HPO term
    */
-  @JsonProperty("modifiers", HpoTermModifiers, true)
+  @JsonProperty("modifiers", [HpoTermModifiers], true)
   modifiers?: Array<HpoTermModifiers> = undefined;
 
   /**
