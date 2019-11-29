@@ -20,7 +20,7 @@
     "double-ended-queue": "^2.1.0-0",
     "js-combinatorics": "^0.5.3",
     "json2typescript": "^1.0.6",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "typescript": "3.0.1"
   },
   "devDependencies": {
