@@ -1,0 +1,29 @@
+{
+    "interpretationFlags": null,
+    "additionalInfo": null,
+    "genomeAssembly": "GRCh37",
+    "bigWigs": null,
+    "pedigreeDiagram": null,
+    "genePanelsCoverage": null,
+    "otherFiles": null,
+    "annotationFile": null,
+    "vcfs": null,
+    "internalStudyId": "fTJkaRkgJjot",
+    "interpretationRequestVersion": 659909630,
+    "versionControl": {
+        "gitVersionControl": "CenghIFWvZRt"
+    },
+    "workspace": [
+        "GHsHEvegmizC",
+        "apshjWBRwcyL",
+        "AroZFMswtzdL",
+        "VzTVzUfyxQKa",
+        "dTiOfMWDcXNF"
+    ],
+    "pedigree": null,
+    "otherFamilyHistory": null,
+    "participantsInterpretationFlags": null,
+    "familyInternalId": null,
+    "interpretationRequestId": "GNDbTXfgrXlc",
+    "bams": null
+}

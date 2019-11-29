@@ -1,6 +1,6 @@
 {
   "name": "ts-gelreportmodels",
-  "version": "0.4.5",
+  "version": "0.5.2",
   "description": "GelReportModels TypeScript classes",
   "main": "index.ts",
   "scripts": {
@@ -20,13 +20,15 @@
     "double-ended-queue": "^2.1.0-0",
     "js-combinatorics": "^0.5.3",
     "json2typescript": "^1.0.6",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "typescript": "3.0.1"
   },
   "devDependencies": {
     "@types/jest": "^23.3.1",
-    "jest": "^23.5.0",
-    "ts-jest": "^23.1.4",
-    "typedoc": "^0.11.1"
+    "@types/jsonfile": "^5.0.0",
+    "jest": "^24.1.0",
+    "jsonfile": "^5.0.0",
+    "ts-jest": "^24.0.0",
+    "typedoc": "^0.14.2"
   }
 }
