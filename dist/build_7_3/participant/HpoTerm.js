@@ -17,7 +17,7 @@ var HpoTerm = /** @class */ (function () {
         /**
          * Identifier of the HPO term
          */
-        this.term = '';
+        this.term = "";
         /**
          * This is whether the term is present in the participant (default is
          * unknown) yes=term is present in participant, no=term is not present
@@ -37,19 +37,19 @@ var HpoTerm = /** @class */ (function () {
         this.ageOfOnset = undefined; // AgeOfOnset
     }
     __decorate([
-        json2typescript_1.JsonProperty('term', String)
+        json2typescript_1.JsonProperty("term", String)
     ], HpoTerm.prototype, "term", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('termPresence', String, true)
+        json2typescript_1.JsonProperty("termPresence", String, true)
     ], HpoTerm.prototype, "termPresence", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('termPresence', String, true)
+        json2typescript_1.JsonProperty("termPresence", String, true)
     ], HpoTerm.prototype, "hpoBuildNumber", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('modifiers', HpoTermModifiers_1.HpoTermModifiers, true)
+        json2typescript_1.JsonProperty("modifiers", [HpoTermModifiers_1.HpoTermModifiers], true)
     ], HpoTerm.prototype, "modifiers", void 0);
     __decorate([
-        json2typescript_1.JsonProperty('ageOfOnset', String, true)
+        json2typescript_1.JsonProperty("ageOfOnset", String, true)
     ], HpoTerm.prototype, "ageOfOnset", void 0);
     HpoTerm = __decorate([
         json2typescript_1.JsonObject
@@ -57,5 +57,4 @@ var HpoTerm = /** @class */ (function () {
     return HpoTerm;
 }());
 exports.HpoTerm = HpoTerm;
-;
 //# sourceMappingURL=HpoTerm.js.map
