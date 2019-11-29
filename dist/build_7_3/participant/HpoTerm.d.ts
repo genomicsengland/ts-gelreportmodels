@@ -1,4 +1,4 @@
-import { HpoTermModifiers } from './HpoTermModifiers';
+import { HpoTermModifiers } from "./HpoTermModifiers";
 /**
  * This defines an HPO term and its modifiers (possibly multiple). If HPO term
  * presence is unknown we don't have a entry on the list
@@ -20,7 +20,7 @@ export declare class HpoTerm {
     /**
      * Modifier associated with the HPO term
      */
-    modifiers?: HpoTermModifiers;
+    modifiers?: Array<HpoTermModifiers>;
     /**
      * Age of onset in months
      */
