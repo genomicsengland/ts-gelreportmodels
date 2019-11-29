@@ -46,7 +46,7 @@ var HpoTerm = /** @class */ (function () {
         json2typescript_1.JsonProperty("termPresence", String, true)
     ], HpoTerm.prototype, "hpoBuildNumber", void 0);
     __decorate([
-        json2typescript_1.JsonProperty("modifiers", HpoTermModifiers_1.HpoTermModifiers, true)
+        json2typescript_1.JsonProperty("modifiers", [HpoTermModifiers_1.HpoTermModifiers], true)
     ], HpoTerm.prototype, "modifiers", void 0);
     __decorate([
         json2typescript_1.JsonProperty("ageOfOnset", String, true)
