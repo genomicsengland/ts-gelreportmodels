@@ -16,6 +16,18 @@ test("get proband", function () {
     var pedigree = Pedigree_1.Pedigree.fromJSON(pedigreeJSON);
     expect(pedigree.getProband().pedigreeId).toEqual(pedigree_1.defaultValues.defaultProbandValues.pedigreeId);
 });
+test("get single member", function () {
+    var proband = tests_1.getPedigree();
+    var pedigreeJSON = getPedigreeJSON([proband]);
+    var pedigree = Pedigree_1.Pedigree.fromJSON(pedigreeJSON);
+    expect(pedigree.getProband().pedigreeId).toEqual(pedigree_1.defaultValues.defaultProbandValues.pedigreeId);
+});
+test("get single member", function () {
+    var father = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);
+    var fatherJSON = getPedigreeJSON([father]);
+    var pedigree = Pedigree_1.Pedigree.fromJSON(fatherJSON);
+    expect(pedigree.getProband()).toBeUndefined();
+});
 test("relation to proband: test father", function () {
     var proband = tests_1.getPedigree();
     var father = tests_1.getPedigree(pedigree_1.defaultValues.defaultFatherValues);

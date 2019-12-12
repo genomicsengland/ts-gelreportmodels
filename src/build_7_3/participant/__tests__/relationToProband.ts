@@ -20,6 +20,22 @@ test("get proband", () => {
   );
 });
 
+test("get single member", () => {
+  const proband = getPedigree();
+  let pedigreeJSON = getPedigreeJSON([proband]);
+  const pedigree = Pedigree.fromJSON(pedigreeJSON);
+  expect(pedigree.getProband().pedigreeId).toEqual(
+    defaultValues.defaultProbandValues.pedigreeId
+  );
+});
+
+test("get single member", () => {
+  const father = getPedigree(defaultValues.defaultFatherValues);
+  let fatherJSON = getPedigreeJSON([father]);
+  const pedigree = Pedigree.fromJSON(fatherJSON);
+  expect(pedigree.getProband()).toBeUndefined();
+});
+
 test("relation to proband: test father", () => {
   const proband = getPedigree();
   const father = getPedigree(defaultValues.defaultFatherValues);
