@@ -1,2443 +1,2092 @@
 {
-    "interpretationFlags": [
-        {
-            "interpretationFlag": "cnv_calls_assumed_xy_karyo",
-            "additionalDescription": "IAZwwCLxBZiO"
-        },
-        {
-            "interpretationFlag": "ffpe_tumour_sample",
-            "additionalDescription": "rBortuApNdlX"
-        },
-        {
-            "interpretationFlag": "internal_use_only",
-            "additionalDescription": "czSOKvjaYXaa"
-        },
-        {
-            "interpretationFlag": "mixedLab_preparation",
-            "additionalDescription": "TudaVfjHyjzF"
-        },
-        {
-            "interpretationFlag": "cnv_calls_assumed_xy_karyo",
-            "additionalDescription": "SPiMIJmDFTHJ"
-        }
+  "interpretationFlags": [
+    {
+      "interpretationFlag": "cnv_calls_assumed_xy_karyo",
+      "additionalDescription": "IAZwwCLxBZiO"
+    },
+    {
+      "interpretationFlag": "ffpe_tumour_sample",
+      "additionalDescription": "rBortuApNdlX"
+    },
+    {
+      "interpretationFlag": "internal_use_only",
+      "additionalDescription": "czSOKvjaYXaa"
+    },
+    {
+      "interpretationFlag": "mixedLab_preparation",
+      "additionalDescription": "TudaVfjHyjzF"
+    },
+    {
+      "interpretationFlag": "cnv_calls_assumed_xy_karyo",
+      "additionalDescription": "SPiMIJmDFTHJ"
+    }
+  ],
+  "additionalInfo": {
+    "lMldQyhzVcRC": "CgtFvbKjxdJw",
+    "efVVgmJNYfDQ": "tiKzyijUwyHc",
+    "EFWjlNmneKtT": "OuMCbdfroVpN",
+    "FZuidkkkPBek": "oNFKluObhHpl",
+    "fnIzhAmPVjlB": "AEsTamfOoljn"
+  },
+  "genomeAssembly": "GRCh38",
+  "bigWigs": [
+    {
+      "fileType": "MD5Sum",
+      "md5Sum": "mDKbrsLjpMzv",
+      "sampleId": [
+        "aIINMEBPfKxl",
+        "ansLSZKvUkCV",
+        "edYuaAQqyhTZ",
+        "zvGCNUyyrxtP",
+        "bgqVgEWuZYCn"
+      ],
+      "uriFile": "yDiPKqsPNtJH"
+    },
+    {
+      "fileType": "ROH",
+      "md5Sum": "EXpzEqoMcatt",
+      "sampleId": [
+        "TztWjTRFHkII",
+        "VjjcFOJLfkhz",
+        "cWTofAYvFPZF",
+        "eFpacLMBBfAQ",
+        "YbjoeUzbOdYQ"
+      ],
+      "uriFile": "NpPQphSMmknG"
+    },
+    {
+      "fileType": "MD5Sum",
+      "md5Sum": "lViJNcLFTgmG",
+      "sampleId": [
+        "NhrMZIPSCQMD",
+        "FuUCntQxtQuN",
+        "IEHRgYAcxIef",
+        "ZTABiAXYGAmj",
+        "sXsVWwOBQHjm"
+      ],
+      "uriFile": "QGpxzMVGsZOb"
+    },
+    {
+      "fileType": "MD5Sum",
+      "md5Sum": "giklTJoeDokz",
+      "sampleId": [
+        "QVWRxoEzHLcn",
+        "SjXIborBmuIX",
+        "kZbWmNrzggwK",
+        "kYUlXsLucsMT",
+        "rtmzbZLqDXdx"
+      ],
+      "uriFile": "DLerLPsDRTEm"
+    },
+    {
+      "fileType": "PARTITION",
+      "md5Sum": "JVVPQUzTbjhG",
+      "sampleId": [
+        "UtNqETYQpUWO",
+        "lLgEgGoyQUjX",
+        "MRCrkRUrFcjW",
+        "SsnplLjtKNCL",
+        "gnpXXRZmWQsN"
+      ],
+      "uriFile": "CMFMEphvfXqI"
+    }
+  ],
+  "pedigreeDiagram": {
+    "fileType": "VCF_CNV",
+    "md5Sum": "LdPIDHzGaSSi",
+    "sampleId": [
+      "FcfZdeUjDgBc",
+      "BRfduVLUvlQv",
+      "hjfYsdIJcoBv",
+      "KfUYpQzVJLSe",
+      "mMsFuBKIhUED"
     ],
-    "additionalInfo": {
-        "lMldQyhzVcRC": "CgtFvbKjxdJw",
-        "efVVgmJNYfDQ": "tiKzyijUwyHc",
-        "EFWjlNmneKtT": "OuMCbdfroVpN",
-        "FZuidkkkPBek": "oNFKluObhHpl",
-        "fnIzhAmPVjlB": "AEsTamfOoljn"
+    "uriFile": "RFwyrhwhpiVc"
+  },
+  "genePanelsCoverage": {
+    "CZfhLEksgctN": {
+      "PRXfFSseJQNo": {
+        "TWLhDOjTacCi": 1.920059529827763e-308,
+        "LntJwFSoNtyw": 7.905027212265667e-309,
+        "onrWjHKxzhGZ": 1.0002111896535963e-308,
+        "DeFozhFHUoQV": 1.3606242886949554e-308,
+        "gsdbxrvyLJhd": 1.821422766389881e-308
+      },
+      "sqfycoMRCUCj": {
+        "IUADNlfllJVi": 1.2052911626404585e-308,
+        "YAxtPfrGIAPB": 6.992752778739883e-309,
+        "uJDzYyIYYwhL": 1.531086448916938e-308,
+        "MfRJZPeIHxTQ": 1.0072247982993886e-308,
+        "ZVyqMdPPCxhe": 2.0535994891391613e-308
+      },
+      "QwFECQIIqGxd": {
+        "aTbfFEjggAPq": 5.68392942510964e-309,
+        "HwvpNXrMlmNd": 1.850264512861223e-308,
+        "JHYToxzclUPS": 1.7180687117955917e-308,
+        "PGcEanpXQgQS": 2.19111424540785e-309,
+        "zVyJwJdEuetZ": 3.516496791505494e-309
+      },
+      "yUfCxHqipFRk": {
+        "VamOgXndslYf": 1.3012218625035785e-308,
+        "krodxiUzJacO": 5.9075950148537e-309,
+        "USLQjVjtloxH": 4.53553380115345e-309,
+        "gjFJleofKUSa": 5.318214506664667e-309,
+        "IIpvKBxEVmco": 1.9652480398028327e-308
+      },
+      "EiRTCSZRsACz": {
+        "rQLMWeOLrPro": 2.0313601855682696e-308,
+        "vygKcDuaObRf": 1.6970899210073163e-308,
+        "hLzLpQgHiyfR": 1.0468417641713337e-308,
+        "uQUCzgIcMaJq": 1.592054051820211e-308,
+        "JVvwzSXgyoXU": 2.9462926034556e-309
+      }
     },
-    "genomeAssembly": "GRCh38",
-    "bigWigs": [
-        {
-            "fileType": "MD5Sum",
-            "md5Sum": "mDKbrsLjpMzv",
-            "sampleId": [
-                "aIINMEBPfKxl",
-                "ansLSZKvUkCV",
-                "edYuaAQqyhTZ",
-                "zvGCNUyyrxtP",
-                "bgqVgEWuZYCn"
-            ],
-            "uriFile": "yDiPKqsPNtJH"
-        },
-        {
-            "fileType": "ROH",
-            "md5Sum": "EXpzEqoMcatt",
-            "sampleId": [
-                "TztWjTRFHkII",
-                "VjjcFOJLfkhz",
-                "cWTofAYvFPZF",
-                "eFpacLMBBfAQ",
-                "YbjoeUzbOdYQ"
-            ],
-            "uriFile": "NpPQphSMmknG"
-        },
-        {
-            "fileType": "MD5Sum",
-            "md5Sum": "lViJNcLFTgmG",
-            "sampleId": [
-                "NhrMZIPSCQMD",
-                "FuUCntQxtQuN",
-                "IEHRgYAcxIef",
-                "ZTABiAXYGAmj",
-                "sXsVWwOBQHjm"
-            ],
-            "uriFile": "QGpxzMVGsZOb"
-        },
-        {
-            "fileType": "MD5Sum",
-            "md5Sum": "giklTJoeDokz",
-            "sampleId": [
-                "QVWRxoEzHLcn",
-                "SjXIborBmuIX",
-                "kZbWmNrzggwK",
-                "kYUlXsLucsMT",
-                "rtmzbZLqDXdx"
-            ],
-            "uriFile": "DLerLPsDRTEm"
-        },
-        {
-            "fileType": "PARTITION",
-            "md5Sum": "JVVPQUzTbjhG",
-            "sampleId": [
-                "UtNqETYQpUWO",
-                "lLgEgGoyQUjX",
-                "MRCrkRUrFcjW",
-                "SsnplLjtKNCL",
-                "gnpXXRZmWQsN"
-            ],
-            "uriFile": "CMFMEphvfXqI"
-        }
+    "vZQTvByhilXl": {
+      "CmFXiGoYaGmi": {
+        "lYHiEFqpwYlS": 1.159983949562892e-308,
+        "HnJfALsZOilY": 7.385007808200745e-309,
+        "KUGWqQqVGaOm": 2.1307247516765125e-308,
+        "nllvKkjKKlDd": 9.187942297156064e-309,
+        "XApYNHPqhWlY": 1.9287945058644005e-308
+      },
+      "igJlDcPajfCG": {
+        "NakSwmUgULzL": 4.49022020220985e-309,
+        "ayBsbRayxwsz": 1.3705406617102207e-308,
+        "QAQHUVsadrDr": 7.981452129577565e-309,
+        "bkqJWuTzSzHa": 9.88676766016389e-309,
+        "VbxMhRuTTzUe": 1.993564452194226e-308
+      },
+      "CxXzJoeTtwYB": {
+        "dOrXpJAFnTrf": 2.12575532679051e-309,
+        "gQgrZPVWDZpi": 1.9287506044859375e-308,
+        "mSvPZbQOEifr": 3.168023409189e-310,
+        "lGqnlUlfrvmz": 7.79821538822817e-309,
+        "PFhHoTKgYear": 1.5495184820006683e-308
+      },
+      "yixWBEnezPPn": {
+        "NrTVqDzijCqP": 9.366469544429896e-309,
+        "aMhSAQAeEuwa": 1.7107190504562954e-308,
+        "brLKpgvLiGLF": 1.0017761638168877e-308,
+        "gPvmlNrUfosZ": 1.496581847579873e-308,
+        "BvrnKgdeldXt": 4.15695958661884e-309
+      },
+      "sPwbizqVbLlJ": {
+        "aJfIICpcHTPq": 6.406343045996335e-309,
+        "CciUlOCqMEad": 3.04224037935844e-309,
+        "JCYHvNkuPMxD": 1.271862542172933e-308,
+        "SxxCNrrureQi": 8.224799530047127e-309,
+        "BlXdbjohFHYP": 7.954178476112173e-309
+      }
+    },
+    "OTktTbAtxHOd": {
+      "EywUoszqIwdb": {
+        "JAuIvmyEVawi": 1.6911563623663127e-308,
+        "mQJKEKqNaElg": 1.821914024834444e-309,
+        "VJOikOvYCuYq": 1.7005531224629583e-308,
+        "sAYCqNWppnwV": 1.012631548863933e-309,
+        "EpoCvoYZhcEv": 2.1505393078545417e-308
+      },
+      "GxZcVfdSqvaS": {
+        "gDJbHXljCABE": 1.4730514598878953e-308,
+        "CKEKDaDgMYut": 1.585151348104283e-309,
+        "sbzIKDsvrtJf": 4.35406749665573e-310,
+        "aEYlrTJgOgWy": 5.41739611730326e-309,
+        "fPzLsldvtPAS": 1.236332119035992e-308
+      },
+      "itBFfWtRmzRs": {
+        "VHCvgoFPAXay": 7.69144429529066e-309,
+        "EymlqOeuJUTA": 2.169888910259694e-308,
+        "MgWuTfrmiBBL": 1.224772609443976e-308,
+        "hdZggFPXStRL": 2.0964034919329048e-308,
+        "LMwTenwnpREV": 1.811609352910136e-308
+      },
+      "WggdQYqOlvsP": {
+        "sYoqzoycHUcZ": 2.2074192223496975e-308,
+        "XswNRHDsLhZs": 9.20777520547351e-309,
+        "DMnPLOJNXMvp": 1.255637553267226e-308,
+        "kuReGWwsZvrk": 9.434927288222047e-309,
+        "wDDpbbkYReCt": 8.38431128567302e-309
+      },
+      "cKPfJrNFtBHq": {
+        "ibWTKCPFDDXj": 1.6580966552247543e-308,
+        "YdCRgxAQWgqo": 6.31327683451363e-309,
+        "veoZieWYteHE": 1.017088483340175e-308,
+        "KWkpEvCAhOAx": 2.0982348248421413e-308,
+        "NZAZTBsboJxD": 1.3432884289235896e-308
+      }
+    },
+    "MZWWxKcyrRGL": {
+      "PRGRZUDWkqKr": {
+        "KyEqYbZkUibB": 1.8917249132153635e-308,
+        "kdXJnYqJhOmy": 1.9011241134159395e-308,
+        "IEFKflIKFNrx": 4.965080732626025e-309,
+        "xDNwzhMGqybK": 1.3382598246247706e-308,
+        "HhSyZhtQcCfh": 4.46941131610478e-309
+      },
+      "NoNmxDPTnEJu": {
+        "eiGbngzJdjjw": 1.986395761086547e-308,
+        "OnioZWupDoEF": 1.56034228813147e-309,
+        "hqfzRiSbxpxY": 1.148965114365242e-308,
+        "IJAuckFPfBub": 9.57585710601604e-309,
+        "KvQCcqjuKTUi": 1.3060368832773754e-308
+      },
+      "ZpVqoRTUacgu": {
+        "QapORHOYAcNl": 2.218279230462352e-308,
+        "lfjfDTokWdDZ": 1.210327590050278e-308,
+        "bEqlhpsfGqzD": 6.57141588482233e-309,
+        "tkfFopNMobRk": 1.508885493154256e-308,
+        "SfZVzEPSMctd": 8.9600444740425e-310
+      },
+      "KYCDGBHpxNyM": {
+        "uBVcjbhqJIHf": 9.19764364113226e-309,
+        "URDGBdBynViW": 1.7357436627412746e-308,
+        "fDqtAtomVyzs": 9.76973147192109e-309,
+        "mltVKApoFRaK": 2.80137600781807e-309,
+        "CyNoqGWWijoM": 2.04655687437408e-309
+      },
+      "btPcxqueeXpS": {
+        "lIQmAIYQrmfz": 1.991312450727705e-308,
+        "fuZpsfiitTNK": 6.60617950376782e-309,
+        "SnKgaXFuIbiK": 1.2935293752665258e-308,
+        "kuygYjwnPWDP": 1.8602004705092094e-308,
+        "mHktSPCbzAEq": 7.06313638053675e-310
+      }
+    },
+    "hNXGonBRMQXG": {
+      "GPccUGlLomyf": {
+        "cISwjrfzTBMo": 1.625828438656236e-308,
+        "YrEavXBTzwgR": 1.110003050742146e-308,
+        "LqAjGJaWCNuP": 5.82640963165919e-309,
+        "uTBhCrnFrMMf": 1.938520638668769e-308,
+        "KzXfCHpwETxz": 2.038485915175173e-308
+      },
+      "OdrJPyNJiNjh": {
+        "bVMjUmVFNeEs": 1.2119484463287272e-308,
+        "aJsULaLPsIAZ": 8.79668237479809e-309,
+        "azNMquSQweGt": 1.450975330295736e-308,
+        "sMPlveAsLySU": 1.048032885435021e-308,
+        "EzBYQQDjrALP": 1.206206212212618e-308
+      },
+      "oZnednYMUbxY": {
+        "gvHAXdZunAtj": 6.697673491219645e-309,
+        "AmPJCLDADakT": 1.226807208103432e-308,
+        "CxHCEcBKaAzQ": 2.77000991288583e-309,
+        "LhvjPkGVCHOe": 1.791759468972747e-308,
+        "NgQXGFfCCWuw": 2.160628581277257e-308
+      },
+      "vEtpmYlhCPOC": {
+        "vRSHcZTvGfVx": 1.1085347917071046e-308,
+        "FAfAmkyJXYIx": 1.7241568595260967e-308,
+        "AkYGBGKpFxho": 1.4982452957252655e-308,
+        "cqLDBatwLkyj": 1.090916379518314e-309,
+        "hUWRveZSKeJk": 1.519003286807458e-308
+      },
+      "cfgALsgPqksk": {
+        "LXuzzznWvFjt": 9.2017558605528e-309,
+        "UaSCemITmCjC": 4.59859922661517e-309,
+        "FSvmacKQGYFQ": 6.52134211145969e-309,
+        "SHTrgigEDzJe": 1.9090869887388077e-308,
+        "fgtAeOhFAvqo": 1.6917678364161667e-308
+      }
+    }
+  },
+  "otherFiles": {
+    "HSXTUustmurx": {
+      "fileType": "ANN",
+      "md5Sum": "fkOTPWweSDzb",
+      "sampleId": [
+        "tHSxlymfyrND",
+        "GYIYlBypHGxQ",
+        "hlnSExmuDdWN",
+        "kJVNLWQdSYEk",
+        "LEpCeLSJfvCy"
+      ],
+      "uriFile": "UuLFklmxPeRt"
+    },
+    "vMUqzOLTTvVh": {
+      "fileType": "COVERAGE",
+      "md5Sum": "SrVwOSsrhytm",
+      "sampleId": [
+        "pvSkuddbpVMC",
+        "aDwmENiqQPZC",
+        "JBbbtdBsZlnk",
+        "vJrAeOqUlmKS",
+        "QpRNnopSsKjP"
+      ],
+      "uriFile": "fpVXiQWhaOsF"
+    },
+    "GSOkDPgAsUXW": {
+      "fileType": "COVERAGE",
+      "md5Sum": "TnYwvuHJUFSb",
+      "sampleId": [
+        "NpUZffssmISQ",
+        "xwuZOTOucZEs",
+        "iyRWpvScgYki",
+        "wYKkJsyrEDnT",
+        "OMJVTrERSkGD"
+      ],
+      "uriFile": "uTrydzXtYhhy"
+    },
+    "bFJJnTSAvykL": {
+      "fileType": "VCF_somatic_small",
+      "md5Sum": "GvfghaOBVrqf",
+      "sampleId": [
+        "SWHQhpwQWHUU",
+        "sKdjgSgVvGOT",
+        "zKHpNRwyuFfo",
+        "ajhJLRBIugwl",
+        "lbEAAHkgXibO"
+      ],
+      "uriFile": "ZNsABaIkFYSG"
+    },
+    "DtLqCNyrsZmE": {
+      "fileType": "VCF_SV",
+      "md5Sum": "CnsCHOFTHeGU",
+      "sampleId": [
+        "vpcKnpzoqJri",
+        "nUdmApPBRzws",
+        "wfbntLOZqCoT",
+        "qTuUfrymSnjy",
+        "YTqhcwwTAAvz"
+      ],
+      "uriFile": "ojoUpNUWxnqw"
+    }
+  },
+  "annotationFile": {
+    "fileType": "OTHER",
+    "md5Sum": "axKbiLqpIDOk",
+    "sampleId": [
+      "CqkAqqmKBZji",
+      "bRrMLimhJyTO",
+      "WgzlELjobVlL",
+      "keruNOATxeDQ",
+      "RmPbSUqhrxBB"
     ],
-    "pedigreeDiagram": {
-        "fileType": "VCF_CNV",
-        "md5Sum": "LdPIDHzGaSSi",
-        "sampleId": [
-            "FcfZdeUjDgBc",
-            "BRfduVLUvlQv",
-            "hjfYsdIJcoBv",
-            "KfUYpQzVJLSe",
-            "mMsFuBKIhUED"
-        ],
-        "uriFile": "RFwyrhwhpiVc"
+    "uriFile": "POfwCGDfpYnk"
+  },
+  "vcfs": [
+    {
+      "fileType": "VCF_somatic_small",
+      "md5Sum": "prrkjIzbmOEV",
+      "sampleId": [
+        "YhYcXUTyEZUs",
+        "MVuaPJfZeMwT",
+        "kWFYmpEUSuRv",
+        "weQWzfaLVOnB",
+        "gnyTxJkQufQe"
+      ],
+      "uriFile": "hHqAZJDuVZQU"
     },
-    "genePanelsCoverage": {
-        "CZfhLEksgctN": {
-            "PRXfFSseJQNo": {
-                "TWLhDOjTacCi": 1.920059529827763e-308,
-                "LntJwFSoNtyw": 7.905027212265667e-309,
-                "onrWjHKxzhGZ": 1.0002111896535963e-308,
-                "DeFozhFHUoQV": 1.3606242886949554e-308,
-                "gsdbxrvyLJhd": 1.821422766389881e-308
-            },
-            "sqfycoMRCUCj": {
-                "IUADNlfllJVi": 1.2052911626404585e-308,
-                "YAxtPfrGIAPB": 6.992752778739883e-309,
-                "uJDzYyIYYwhL": 1.531086448916938e-308,
-                "MfRJZPeIHxTQ": 1.0072247982993886e-308,
-                "ZVyqMdPPCxhe": 2.0535994891391613e-308
-            },
-            "QwFECQIIqGxd": {
-                "aTbfFEjggAPq": 5.68392942510964e-309,
-                "HwvpNXrMlmNd": 1.850264512861223e-308,
-                "JHYToxzclUPS": 1.7180687117955917e-308,
-                "PGcEanpXQgQS": 2.19111424540785e-309,
-                "zVyJwJdEuetZ": 3.516496791505494e-309
-            },
-            "yUfCxHqipFRk": {
-                "VamOgXndslYf": 1.3012218625035785e-308,
-                "krodxiUzJacO": 5.9075950148537e-309,
-                "USLQjVjtloxH": 4.53553380115345e-309,
-                "gjFJleofKUSa": 5.318214506664667e-309,
-                "IIpvKBxEVmco": 1.9652480398028327e-308
-            },
-            "EiRTCSZRsACz": {
-                "rQLMWeOLrPro": 2.0313601855682696e-308,
-                "vygKcDuaObRf": 1.6970899210073163e-308,
-                "hLzLpQgHiyfR": 1.0468417641713337e-308,
-                "uQUCzgIcMaJq": 1.592054051820211e-308,
-                "JVvwzSXgyoXU": 2.9462926034556e-309
-            }
-        },
-        "vZQTvByhilXl": {
-            "CmFXiGoYaGmi": {
-                "lYHiEFqpwYlS": 1.159983949562892e-308,
-                "HnJfALsZOilY": 7.385007808200745e-309,
-                "KUGWqQqVGaOm": 2.1307247516765125e-308,
-                "nllvKkjKKlDd": 9.187942297156064e-309,
-                "XApYNHPqhWlY": 1.9287945058644005e-308
-            },
-            "igJlDcPajfCG": {
-                "NakSwmUgULzL": 4.49022020220985e-309,
-                "ayBsbRayxwsz": 1.3705406617102207e-308,
-                "QAQHUVsadrDr": 7.981452129577565e-309,
-                "bkqJWuTzSzHa": 9.88676766016389e-309,
-                "VbxMhRuTTzUe": 1.993564452194226e-308
-            },
-            "CxXzJoeTtwYB": {
-                "dOrXpJAFnTrf": 2.12575532679051e-309,
-                "gQgrZPVWDZpi": 1.9287506044859375e-308,
-                "mSvPZbQOEifr": 3.168023409189e-310,
-                "lGqnlUlfrvmz": 7.79821538822817e-309,
-                "PFhHoTKgYear": 1.5495184820006683e-308
-            },
-            "yixWBEnezPPn": {
-                "NrTVqDzijCqP": 9.366469544429896e-309,
-                "aMhSAQAeEuwa": 1.7107190504562954e-308,
-                "brLKpgvLiGLF": 1.0017761638168877e-308,
-                "gPvmlNrUfosZ": 1.496581847579873e-308,
-                "BvrnKgdeldXt": 4.15695958661884e-309
-            },
-            "sPwbizqVbLlJ": {
-                "aJfIICpcHTPq": 6.406343045996335e-309,
-                "CciUlOCqMEad": 3.04224037935844e-309,
-                "JCYHvNkuPMxD": 1.271862542172933e-308,
-                "SxxCNrrureQi": 8.224799530047127e-309,
-                "BlXdbjohFHYP": 7.954178476112173e-309
-            }
-        },
-        "OTktTbAtxHOd": {
-            "EywUoszqIwdb": {
-                "JAuIvmyEVawi": 1.6911563623663127e-308,
-                "mQJKEKqNaElg": 1.821914024834444e-309,
-                "VJOikOvYCuYq": 1.7005531224629583e-308,
-                "sAYCqNWppnwV": 1.012631548863933e-309,
-                "EpoCvoYZhcEv": 2.1505393078545417e-308
-            },
-            "GxZcVfdSqvaS": {
-                "gDJbHXljCABE": 1.4730514598878953e-308,
-                "CKEKDaDgMYut": 1.585151348104283e-309,
-                "sbzIKDsvrtJf": 4.35406749665573e-310,
-                "aEYlrTJgOgWy": 5.41739611730326e-309,
-                "fPzLsldvtPAS": 1.236332119035992e-308
-            },
-            "itBFfWtRmzRs": {
-                "VHCvgoFPAXay": 7.69144429529066e-309,
-                "EymlqOeuJUTA": 2.169888910259694e-308,
-                "MgWuTfrmiBBL": 1.224772609443976e-308,
-                "hdZggFPXStRL": 2.0964034919329048e-308,
-                "LMwTenwnpREV": 1.811609352910136e-308
-            },
-            "WggdQYqOlvsP": {
-                "sYoqzoycHUcZ": 2.2074192223496975e-308,
-                "XswNRHDsLhZs": 9.20777520547351e-309,
-                "DMnPLOJNXMvp": 1.255637553267226e-308,
-                "kuReGWwsZvrk": 9.434927288222047e-309,
-                "wDDpbbkYReCt": 8.38431128567302e-309
-            },
-            "cKPfJrNFtBHq": {
-                "ibWTKCPFDDXj": 1.6580966552247543e-308,
-                "YdCRgxAQWgqo": 6.31327683451363e-309,
-                "veoZieWYteHE": 1.017088483340175e-308,
-                "KWkpEvCAhOAx": 2.0982348248421413e-308,
-                "NZAZTBsboJxD": 1.3432884289235896e-308
-            }
-        },
-        "MZWWxKcyrRGL": {
-            "PRGRZUDWkqKr": {
-                "KyEqYbZkUibB": 1.8917249132153635e-308,
-                "kdXJnYqJhOmy": 1.9011241134159395e-308,
-                "IEFKflIKFNrx": 4.965080732626025e-309,
-                "xDNwzhMGqybK": 1.3382598246247706e-308,
-                "HhSyZhtQcCfh": 4.46941131610478e-309
-            },
-            "NoNmxDPTnEJu": {
-                "eiGbngzJdjjw": 1.986395761086547e-308,
-                "OnioZWupDoEF": 1.56034228813147e-309,
-                "hqfzRiSbxpxY": 1.148965114365242e-308,
-                "IJAuckFPfBub": 9.57585710601604e-309,
-                "KvQCcqjuKTUi": 1.3060368832773754e-308
-            },
-            "ZpVqoRTUacgu": {
-                "QapORHOYAcNl": 2.218279230462352e-308,
-                "lfjfDTokWdDZ": 1.210327590050278e-308,
-                "bEqlhpsfGqzD": 6.57141588482233e-309,
-                "tkfFopNMobRk": 1.508885493154256e-308,
-                "SfZVzEPSMctd": 8.9600444740425e-310
-            },
-            "KYCDGBHpxNyM": {
-                "uBVcjbhqJIHf": 9.19764364113226e-309,
-                "URDGBdBynViW": 1.7357436627412746e-308,
-                "fDqtAtomVyzs": 9.76973147192109e-309,
-                "mltVKApoFRaK": 2.80137600781807e-309,
-                "CyNoqGWWijoM": 2.04655687437408e-309
-            },
-            "btPcxqueeXpS": {
-                "lIQmAIYQrmfz": 1.991312450727705e-308,
-                "fuZpsfiitTNK": 6.60617950376782e-309,
-                "SnKgaXFuIbiK": 1.2935293752665258e-308,
-                "kuygYjwnPWDP": 1.8602004705092094e-308,
-                "mHktSPCbzAEq": 7.06313638053675e-310
-            }
-        },
-        "hNXGonBRMQXG": {
-            "GPccUGlLomyf": {
-                "cISwjrfzTBMo": 1.625828438656236e-308,
-                "YrEavXBTzwgR": 1.110003050742146e-308,
-                "LqAjGJaWCNuP": 5.82640963165919e-309,
-                "uTBhCrnFrMMf": 1.938520638668769e-308,
-                "KzXfCHpwETxz": 2.038485915175173e-308
-            },
-            "OdrJPyNJiNjh": {
-                "bVMjUmVFNeEs": 1.2119484463287272e-308,
-                "aJsULaLPsIAZ": 8.79668237479809e-309,
-                "azNMquSQweGt": 1.450975330295736e-308,
-                "sMPlveAsLySU": 1.048032885435021e-308,
-                "EzBYQQDjrALP": 1.206206212212618e-308
-            },
-            "oZnednYMUbxY": {
-                "gvHAXdZunAtj": 6.697673491219645e-309,
-                "AmPJCLDADakT": 1.226807208103432e-308,
-                "CxHCEcBKaAzQ": 2.77000991288583e-309,
-                "LhvjPkGVCHOe": 1.791759468972747e-308,
-                "NgQXGFfCCWuw": 2.160628581277257e-308
-            },
-            "vEtpmYlhCPOC": {
-                "vRSHcZTvGfVx": 1.1085347917071046e-308,
-                "FAfAmkyJXYIx": 1.7241568595260967e-308,
-                "AkYGBGKpFxho": 1.4982452957252655e-308,
-                "cqLDBatwLkyj": 1.090916379518314e-309,
-                "hUWRveZSKeJk": 1.519003286807458e-308
-            },
-            "cfgALsgPqksk": {
-                "LXuzzznWvFjt": 9.2017558605528e-309,
-                "UaSCemITmCjC": 4.59859922661517e-309,
-                "FSvmacKQGYFQ": 6.52134211145969e-309,
-                "SHTrgigEDzJe": 1.9090869887388077e-308,
-                "fgtAeOhFAvqo": 1.6917678364161667e-308
-            }
-        }
+    {
+      "fileType": "ROH",
+      "md5Sum": "qPWBUzYcPJZY",
+      "sampleId": [
+        "jIlXWnkqUjnW",
+        "nssytGdsXglS",
+        "tzPznFShgasG",
+        "BcrgdjjCChVt",
+        "DgleCIUgMCJY"
+      ],
+      "uriFile": "BIZBOWihiPBu"
     },
-    "otherFiles": {
-        "HSXTUustmurx": {
-            "fileType": "ANN",
-            "md5Sum": "fkOTPWweSDzb",
-            "sampleId": [
-                "tHSxlymfyrND",
-                "GYIYlBypHGxQ",
-                "hlnSExmuDdWN",
-                "kJVNLWQdSYEk",
-                "LEpCeLSJfvCy"
-            ],
-            "uriFile": "UuLFklmxPeRt"
-        },
-        "vMUqzOLTTvVh": {
-            "fileType": "COVERAGE",
-            "md5Sum": "SrVwOSsrhytm",
-            "sampleId": [
-                "pvSkuddbpVMC",
-                "aDwmENiqQPZC",
-                "JBbbtdBsZlnk",
-                "vJrAeOqUlmKS",
-                "QpRNnopSsKjP"
-            ],
-            "uriFile": "fpVXiQWhaOsF"
-        },
-        "GSOkDPgAsUXW": {
-            "fileType": "COVERAGE",
-            "md5Sum": "TnYwvuHJUFSb",
-            "sampleId": [
-                "NpUZffssmISQ",
-                "xwuZOTOucZEs",
-                "iyRWpvScgYki",
-                "wYKkJsyrEDnT",
-                "OMJVTrERSkGD"
-            ],
-            "uriFile": "uTrydzXtYhhy"
-        },
-        "bFJJnTSAvykL": {
-            "fileType": "VCF_somatic_small",
-            "md5Sum": "GvfghaOBVrqf",
-            "sampleId": [
-                "SWHQhpwQWHUU",
-                "sKdjgSgVvGOT",
-                "zKHpNRwyuFfo",
-                "ajhJLRBIugwl",
-                "lbEAAHkgXibO"
-            ],
-            "uriFile": "ZNsABaIkFYSG"
-        },
-        "DtLqCNyrsZmE": {
-            "fileType": "VCF_SV",
-            "md5Sum": "CnsCHOFTHeGU",
-            "sampleId": [
-                "vpcKnpzoqJri",
-                "nUdmApPBRzws",
-                "wfbntLOZqCoT",
-                "qTuUfrymSnjy",
-                "YTqhcwwTAAvz"
-            ],
-            "uriFile": "ojoUpNUWxnqw"
-        }
+    {
+      "fileType": "BAM",
+      "md5Sum": "IpEoaCmSMyDT",
+      "sampleId": [
+        "ySvdhAWQLnYE",
+        "rjJcJFJhXbaK",
+        "leZBZAQMkErk",
+        "HHWGtQqJYMoD",
+        "LIfvfeKVvZRt"
+      ],
+      "uriFile": "RmOrCgeimOCi"
     },
-    "annotationFile": {
-        "fileType": "OTHER",
-        "md5Sum": "axKbiLqpIDOk",
-        "sampleId": [
-            "CqkAqqmKBZji",
-            "bRrMLimhJyTO",
-            "WgzlELjobVlL",
-            "keruNOATxeDQ",
-            "RmPbSUqhrxBB"
-        ],
-        "uriFile": "POfwCGDfpYnk"
+    {
+      "fileType": "VCF_somatic_SV",
+      "md5Sum": "jtUyjUPJTAmF",
+      "sampleId": [
+        "ixqmxRUiyCmH",
+        "szhlsCaxWdTT",
+        "WoXzsyNdWLwV",
+        "gcGHTbGdGZMA",
+        "EwTbwyFmsYzy"
+      ],
+      "uriFile": "IsGQXzgtpFLm"
     },
-    "vcfs": [
-        {
-            "fileType": "VCF_somatic_small",
-            "md5Sum": "prrkjIzbmOEV",
-            "sampleId": [
-                "YhYcXUTyEZUs",
-                "MVuaPJfZeMwT",
-                "kWFYmpEUSuRv",
-                "weQWzfaLVOnB",
-                "gnyTxJkQufQe"
-            ],
-            "uriFile": "hHqAZJDuVZQU"
-        },
-        {
-            "fileType": "ROH",
-            "md5Sum": "qPWBUzYcPJZY",
-            "sampleId": [
-                "jIlXWnkqUjnW",
-                "nssytGdsXglS",
-                "tzPznFShgasG",
-                "BcrgdjjCChVt",
-                "DgleCIUgMCJY"
-            ],
-            "uriFile": "BIZBOWihiPBu"
-        },
-        {
-            "fileType": "BAM",
-            "md5Sum": "IpEoaCmSMyDT",
-            "sampleId": [
-                "ySvdhAWQLnYE",
-                "rjJcJFJhXbaK",
-                "leZBZAQMkErk",
-                "HHWGtQqJYMoD",
-                "LIfvfeKVvZRt"
-            ],
-            "uriFile": "RmOrCgeimOCi"
-        },
-        {
-            "fileType": "VCF_somatic_SV",
-            "md5Sum": "jtUyjUPJTAmF",
-            "sampleId": [
-                "ixqmxRUiyCmH",
-                "szhlsCaxWdTT",
-                "WoXzsyNdWLwV",
-                "gcGHTbGdGZMA",
-                "EwTbwyFmsYzy"
-            ],
-            "uriFile": "IsGQXzgtpFLm"
-        },
-        {
-            "fileType": "VCF_small",
-            "md5Sum": "kQOPVlIIyRvD",
-            "sampleId": [
-                "JVlUSgPNWXKM",
-                "hqaHxHrcAHgn",
-                "DqNYGAATHVSs",
-                "NbCaFdZFdFXT",
-                "BwiNRLKbUgzh"
-            ],
-            "uriFile": "vlyHAchidIWr"
-        }
+    {
+      "fileType": "VCF_small",
+      "md5Sum": "kQOPVlIIyRvD",
+      "sampleId": [
+        "JVlUSgPNWXKM",
+        "hqaHxHrcAHgn",
+        "DqNYGAATHVSs",
+        "NbCaFdZFdFXT",
+        "BwiNRLKbUgzh"
+      ],
+      "uriFile": "vlyHAchidIWr"
+    }
+  ],
+  "internalStudyId": "wZPynggCRRor",
+  "interpretationRequestVersion": 927967038,
+  "versionControl": {
+    "gitVersionControl": "WjbRcsneFEHG"
+  },
+  "workspace": [
+    "JTHaxDmwzZWd",
+    "tQojTdwBULaY",
+    "oqpylrxXTfVA",
+    "YwwXSpgXIkcy",
+    "teiYnhLbkQWA"
+  ],
+  "pedigree": {
+    "readyForAnalysis": false,
+    "familyQCState": "queryToGel",
+    "analysisPanels": [
+      {
+        "panelName": "cDQhxzIHyPvG",
+        "multipleGeneticOrigins": "VDoHVqGajUhK",
+        "specificDisease": "HktgrmtqbsaW",
+        "reviewOutcome": "tHMeusyGnQKi",
+        "panelId": "rWTyoMIqUIfC",
+        "panelVersion": "eQLWqMtKBqBH"
+      },
+      {
+        "panelName": "kxZCnSWCcmKW",
+        "multipleGeneticOrigins": "pGvLcbmEsSNF",
+        "specificDisease": "CTdWdHmxDVzf",
+        "reviewOutcome": "qVSXpsilHtnr",
+        "panelId": "KeQdovSFbOBF",
+        "panelVersion": "lfdIUZaKmBEw"
+      },
+      {
+        "panelName": "EeRQbewHzdij",
+        "multipleGeneticOrigins": "fTLJrCZxErjm",
+        "specificDisease": "nSePwHUDSiUU",
+        "reviewOutcome": "JuRWGhEsJayM",
+        "panelId": "zAZGrAbYUmgo",
+        "panelVersion": "hPVFZfskekSk"
+      },
+      {
+        "panelName": "hvtGufYITbAK",
+        "multipleGeneticOrigins": "zvnvYpESjvGI",
+        "specificDisease": "WmYBkSYlRoWB",
+        "reviewOutcome": "EHHzWEGtgzdC",
+        "panelId": "cawqQmLGsaFp",
+        "panelVersion": "UBkaNsCsmFXn"
+      },
+      {
+        "panelName": "ZgmYgmRcboBM",
+        "multipleGeneticOrigins": "BJnsvHjvxCVT",
+        "specificDisease": "nhBhfSOwJyOb",
+        "reviewOutcome": "YOAZrNiNoWxQ",
+        "panelId": "vYDVTppIJmcf",
+        "panelVersion": "ybrEVqAdaRxA"
+      }
     ],
-    "internalStudyId": "wZPynggCRRor",
-    "interpretationRequestVersion": 927967038,
+    "LDPCode": "cYADvmRMAgvG",
     "versionControl": {
-        "gitVersionControl": "WjbRcsneFEHG"
+      "GitVersionControl": "BFTrkrmEXaOa"
     },
-    "workspace": [
-        "JTHaxDmwzZWd",
-        "tQojTdwBULaY",
-        "oqpylrxXTfVA",
-        "YwwXSpgXIkcy",
-        "teiYnhLbkQWA"
-    ],
-    "pedigree": {
-        "readyForAnalysis": false,
-        "familyQCState": "queryToGel",
-        "analysisPanels": [
-            {
-                "panelName": "cDQhxzIHyPvG",
-                "multipleGeneticOrigins": "VDoHVqGajUhK",
-                "specificDisease": "HktgrmtqbsaW",
-                "reviewOutcome": "tHMeusyGnQKi",
-                "panelId": "rWTyoMIqUIfC",
-                "panelVersion": "eQLWqMtKBqBH"
-            },
-            {
-                "panelName": "kxZCnSWCcmKW",
-                "multipleGeneticOrigins": "pGvLcbmEsSNF",
-                "specificDisease": "CTdWdHmxDVzf",
-                "reviewOutcome": "qVSXpsilHtnr",
-                "panelId": "KeQdovSFbOBF",
-                "panelVersion": "lfdIUZaKmBEw"
-            },
-            {
-                "panelName": "EeRQbewHzdij",
-                "multipleGeneticOrigins": "fTLJrCZxErjm",
-                "specificDisease": "nSePwHUDSiUU",
-                "reviewOutcome": "JuRWGhEsJayM",
-                "panelId": "zAZGrAbYUmgo",
-                "panelVersion": "hPVFZfskekSk"
-            },
-            {
-                "panelName": "hvtGufYITbAK",
-                "multipleGeneticOrigins": "zvnvYpESjvGI",
-                "specificDisease": "WmYBkSYlRoWB",
-                "reviewOutcome": "EHHzWEGtgzdC",
-                "panelId": "cawqQmLGsaFp",
-                "panelVersion": "UBkaNsCsmFXn"
-            },
-            {
-                "panelName": "ZgmYgmRcboBM",
-                "multipleGeneticOrigins": "BJnsvHjvxCVT",
-                "specificDisease": "nhBhfSOwJyOb",
-                "reviewOutcome": "YOAZrNiNoWxQ",
-                "panelId": "vYDVTppIJmcf",
-                "panelVersion": "ybrEVqAdaRxA"
-            }
-        ],
-        "LDPCode": "cYADvmRMAgvG",
-        "versionControl": {
-            "GitVersionControl": "BFTrkrmEXaOa"
+    "members": [
+      {
+        "participantQCState": "passedMedicalReviewNotReadyForInterpretation",
+        "fatherId": -647319786,
+        "twinGroup": -679547198,
+        "sex": "UNKNOWN",
+        "superMotherId": 37381780,
+        "personKaryotypicSex": "XX",
+        "superFatherId": -1912468038,
+        "affectionStatus": "UNCERTAIN",
+        "monozygotic": "yes",
+        "consentStatus": {
+          "primaryFindingConsent": true,
+          "programmeConsent": false,
+          "carrierStatusConsent": false,
+          "secondaryFindingConsent": true
         },
-        "members": [
+        "gelSuperFamilyId": "guPwuhHrWLEF",
+        "hpoTermList": [],
+        "consanguineousParents": "no",
+        "ancestries": {
+          "fathersEthnicOrigin": "R",
+          "mothersOtherRelevantAncestry": "LtOwkihZJYFh",
+          "mothersEthnicOrigin": "E",
+          "fathersOtherRelevantAncestry": "WJVLCPDsbHkV",
+          "chiSquare1KGenomesPhase3Pop": [
             {
-                "participantQCState": "passedMedicalReviewNotReadyForInterpretation",
-                "fatherId": -647319786,
-                "twinGroup": -679547198,
-                "sex": "UNKNOWN",
-                "superMotherId": 37381780,
-                "personKaryotypicSex": "XX",
-                "superFatherId": -1912468038,
-                "affectionStatus": "UNCERTAIN",
-                "monozygotic": "yes",
-                "consentStatus": {
-                    "primaryFindingConsent": true,
-                    "programmeConsent": false,
-                    "carrierStatusConsent": false,
-                    "secondaryFindingConsent": true
-                },
-                "gelSuperFamilyId": "guPwuhHrWLEF",
-                "hpoTermList": [
-                    {
-                        "hpoBuildNumber": "cwRBMcIWlNiH",
-                        "termPresence": "no",
-                        "term": "rWoRaSZKDoVU",
-                        "modifiers": {
-                            "hpoModifierVersion": "CakxJQfBqBID",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "dvlGvwHehIFn",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "DISTAL",
-                            "severity": "SEVERE"
-                        },
-                        "ageOfOnset": "FETAL_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "PdqPCmBJSmAq",
-                        "termPresence": "yes",
-                        "term": "FvqiyfzdkYwf",
-                        "modifiers": {
-                            "hpoModifierVersion": "fJdOqODoiCXb",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "xAfxFpvfVnoK",
-                            "laterality": "UNILATERAL",
-                            "spatialPattern": "GENERALIZED",
-                            "severity": "BORDERLINE"
-                        },
-                        "ageOfOnset": "YOUNG_ADULT_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "lvpzhlTFzXsC",
-                        "termPresence": "yes",
-                        "term": "ituplhMfwZns",
-                        "modifiers": {
-                            "hpoModifierVersion": "PFgPswQpTaNf",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "BrmIgikLTvCT",
-                            "laterality": "UNILATERAL",
-                            "spatialPattern": "DISTAL",
-                            "severity": "PROFOUND"
-                        },
-                        "ageOfOnset": "YOUNG_ADULT_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "jnmssDlDviGU",
-                        "termPresence": "no",
-                        "term": "CtFRmhrcyOxg",
-                        "modifiers": {
-                            "hpoModifierVersion": "aIgsNErRFcmJ",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "utINaKMYTZNZ",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "GENERALIZED",
-                            "severity": "MODERATE"
-                        },
-                        "ageOfOnset": "CHILDHOOD_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "qiSIHfchDcfU",
-                        "termPresence": "no",
-                        "term": "YVbCuCUPqzQb",
-                        "modifiers": {
-                            "hpoModifierVersion": "yHWmXqNkCjZU",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "eeeRYxBxhqzv",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "PROXIMAL",
-                            "severity": "SEVERE"
-                        },
-                        "ageOfOnset": "MIDDLE_AGE_ONSET"
-                    }
-                ],
-                "consanguineousParents": "no",
-                "ancestries": {
-                    "fathersEthnicOrigin": "R",
-                    "mothersOtherRelevantAncestry": "LtOwkihZJYFh",
-                    "mothersEthnicOrigin": "E",
-                    "fathersOtherRelevantAncestry": "WJVLCPDsbHkV",
-                    "chiSquare1KGenomesPhase3Pop": [
-                        {
-                            "kgPopCategory": "ITU",
-                            "kgSuperPopCategory": "AMR",
-                            "chiSquare": 5.36824526116589e-309
-                        },
-                        {
-                            "kgPopCategory": "GBR",
-                            "kgSuperPopCategory": "EUR",
-                            "chiSquare": 1.840277075628972e-308
-                        },
-                        {
-                            "kgPopCategory": "GIH",
-                            "kgSuperPopCategory": "AFR",
-                            "chiSquare": 2.1060842553952537e-308
-                        },
-                        {
-                            "kgPopCategory": "FIN",
-                            "kgSuperPopCategory": "AFR",
-                            "chiSquare": 2.018283372467024e-308
-                        },
-                        {
-                            "kgPopCategory": "TSI",
-                            "kgSuperPopCategory": "EUR",
-                            "chiSquare": 2.1070757630529194e-308
-                        }
-                    ]
-                },
-                "samples": [
-                    {
-                        "sampleId": "khaxpZHltKaZ",
-                        "product": "RNA",
-                        "maskedPid": "barpWLagJOTt",
-                        "participantId": "JAaFbxiFYteV",
-                        "sampleUid": "EHmRniaOMcIP",
-                        "sampleType": "zrNTZogGBCyY",
-                        "programmePhase": "OXFORD",
-                        "preparationMethod": "EDTA",
-                        "LDPCode": "EZFGdXlFJWDZ",
-                        "source": "BUCCAL_SWAB",
-                        "storageMedium": "FFPE",
-                        "sampleState": "eNOUMVtcZNds",
-                        "labSampleId": -1629905159,
-                        "clinicalSampleDateTime": "hwyYODLDMBqV",
-                        "method": "NOT_APPLICABLE"
-                    },
-                    {
-                        "sampleId": "wzPoUUvBishY",
-                        "product": "DNA",
-                        "maskedPid": "UosJDtRmQeIZ",
-                        "participantId": "YcjWUGFcmnpv",
-                        "sampleUid": "TGCQQCWlIXGs",
-                        "sampleType": "hXTjQpFbcDYl",
-                        "programmePhase": "IIP",
-                        "preparationMethod": "CD138_SORTED_CELLS",
-                        "LDPCode": "INzVvZDKQofG",
-                        "source": "BONE_MARROW_ASPIRATE_TUMOUR_SORTED_CELLS",
-                        "storageMedium": "ORAGENE",
-                        "sampleState": "HYvtBbHTorON",
-                        "labSampleId": -1177835771,
-                        "clinicalSampleDateTime": "ZJlQTSGCYkCZ",
-                        "method": "SORTED_OTHER"
-                    },
-                    {
-                        "sampleId": "cKeXlhOAWTgt",
-                        "product": "DNA",
-                        "maskedPid": "GURXCoChepcH",
-                        "participantId": "vzFkPjdIfBdG",
-                        "sampleUid": "RGRKrUsvsLAo",
-                        "sampleType": "pmBzaJMazJjY",
-                        "programmePhase": "CRUK",
-                        "preparationMethod": "EDTA",
-                        "LDPCode": "RNlEjdqSjZRA",
-                        "source": "URINE",
-                        "storageMedium": "FFPE",
-                        "sampleState": "gLrgDnYZojUv",
-                        "labSampleId": -1242190492,
-                        "clinicalSampleDateTime": "yNGZlQIIMajs",
-                        "method": "UNKNOWN"
-                    },
-                    {
-                        "sampleId": "NPhXMMKzPfQz",
-                        "product": "RNA",
-                        "maskedPid": "dixhNIcuJRuH",
-                        "participantId": "kDkgINGkXMsQ",
-                        "sampleUid": "SmKihvUAcZBD",
-                        "sampleType": "nwZlGgYibGYj",
-                        "programmePhase": "CRUK",
-                        "preparationMethod": "ORAGENE",
-                        "LDPCode": "NBDTJmvCTtRv",
-                        "source": "AMNIOTIC_FLUID",
-                        "storageMedium": "LI_HEP",
-                        "sampleState": "rpjbBLWaANHG",
-                        "labSampleId": 1488874747,
-                        "clinicalSampleDateTime": "minupVnDkKWD",
-                        "method": "ASPIRATE"
-                    },
-                    {
-                        "sampleId": "rbggjCoElvqg",
-                        "product": "RNA",
-                        "maskedPid": "nVJrRsxzGCOW",
-                        "participantId": "szUrAAykHiiz",
-                        "sampleUid": "wloxBNxEQROx",
-                        "sampleType": "hlOLUSiNlQnz",
-                        "programmePhase": "IIP",
-                        "preparationMethod": "LI_HEP",
-                        "LDPCode": "rinTePYjtLOJ",
-                        "source": "AMNIOTIC_FLUID",
-                        "storageMedium": "EDTA",
-                        "sampleState": "AEnwxNCUIXaq",
-                        "labSampleId": -1222025828,
-                        "clinicalSampleDateTime": "MiGUchciHGeN",
-                        "method": "UNKNOWN"
-                    }
-                ],
-                "pedigreeId": -987654888,
-                "participantUid": "lBuVmUzlUwsf",
-                "diagnosticDetails": [
-                    {
-                        "ageAtOnsetInYears": 1.674563068776189e-308,
-                        "diagnosisCertainty": "ZljzYSVOphRQ",
-                        "diagonsisCodingSystemVersion": "kgYYeItAlbdV",
-                        "diagnosisCode": "KCMsHXEoFrSY",
-                        "diagnosisCodingSystem": "rPcgmqjnQbEm",
-                        "diagnosisDescription": "nltjcPwOQFbm"
-                    },
-                    {
-                        "ageAtOnsetInYears": 2.1535005448975285e-308,
-                        "diagnosisCertainty": "NwpvIFDnmYua",
-                        "diagonsisCodingSystemVersion": "NdBmeavWMNVI",
-                        "diagnosisCode": "essnuqpPRFrs",
-                        "diagnosisCodingSystem": "GNzeFictDiWn",
-                        "diagnosisDescription": "mCbuBWxcwEyj"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.5835000355004113e-308,
-                        "diagnosisCertainty": "mRFkonGKXGEZ",
-                        "diagonsisCodingSystemVersion": "cxhDCDnFBCbI",
-                        "diagnosisCode": "NwLIpXzRpdPg",
-                        "diagnosisCodingSystem": "AhxTpxGPfOWB",
-                        "diagnosisDescription": "vkKZIGWwnqkQ"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.74907890544606e-308,
-                        "diagnosisCertainty": "UpjaCtQGVBle",
-                        "diagonsisCodingSystemVersion": "GvsfSmOADJlJ",
-                        "diagnosisCode": "OunLdyWSuCdd",
-                        "diagnosisCodingSystem": "ZBYXIdicLfig",
-                        "diagnosisDescription": "eKfvFdZKkiSs"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.477842602301807e-308,
-                        "diagnosisCertainty": "omwztUxNhQOK",
-                        "diagonsisCodingSystemVersion": "uHrTiWDGjhjD",
-                        "diagnosisCode": "yaVvBxwVWRch",
-                        "diagnosisCodingSystem": "WQibzZVVaAdQ",
-                        "diagnosisDescription": "fMAduJxvaIdI"
-                    }
-                ],
-                "disorderList": [
-                    {
-                        "diseaseSubGroup": "suYugRkzNozw",
-                        "specificDisease": "EubAYDYAhqzh",
-                        "ageOfOnset": 8.55041398357243e-309,
-                        "diseaseGroup": "TYLXFDgXFUiu"
-                    },
-                    {
-                        "diseaseSubGroup": "BJYsVeEmVFuX",
-                        "specificDisease": "anlMxonvzpua",
-                        "ageOfOnset": 1.7033049432741384e-308,
-                        "diseaseGroup": "LDSpXqmhYajV"
-                    },
-                    {
-                        "diseaseSubGroup": "QsmMaYgMAylI",
-                        "specificDisease": "JLmYDqxdlrqk",
-                        "ageOfOnset": 1.20458208466873e-309,
-                        "diseaseGroup": "ttLYUqPtdyBP"
-                    },
-                    {
-                        "diseaseSubGroup": "oFrQvjfGbUME",
-                        "specificDisease": "WtdVLPQMVfCJ",
-                        "ageOfOnset": 3.84565952454459e-309,
-                        "diseaseGroup": "iRoKREArzTrc"
-                    },
-                    {
-                        "diseaseSubGroup": "HiuxDqcQplxq",
-                        "specificDisease": "GpMPBxtPzass",
-                        "ageOfOnset": 1.8778003131312546e-308,
-                        "diseaseGroup": "MyJnanwtPXif"
-                    }
-                ],
-                "clinicalEthnicities": [
-                    "GF",
-                    "LE",
-                    "K",
-                    "LF",
-                    "S"
-                ],
-                "inbreedingCoefficient": {
-                    "coefficient": 5.466201421821195e-309,
-                    "program": "sBTtOcAwTVHR",
-                    "standardError": 1.937810675659616e-308,
-                    "sampleId": "TFuGVEpgqWhd",
-                    "version": "rDmjqFvcTQmI",
-                    "estimationMethod": "WNqSqidAYryo"
-                },
-                "isProband": true,
-                "motherId": -870619368,
-                "participantId": "DyjBPkWWVOGe",
-                "additionalInformation": {
-                    "xqVUqXJZTWxH": "CmjmKrbCSyoU",
-                    "LKxxSLzwigge": "FGKQDGjsyVto",
-                    "GIhFYuqkbPXL": "RxokpgcScCCD",
-                    "zFTpGBOPAjyf": "gwzGnrCvuHJx",
-                    "oGVRzuOqaoke": "zPHnDMjSClmo"
-                },
-                "yearOfBirth": 723153392,
-                "lifeStatus": "ALIVE",
-                "adoptedStatus": "adoptedout",
-                "lastMenstrualPeriod": "JNZhxchInYuk",
-                "previousTreatment": [
-                    {
-                        "previoustreatmentDate": {
-                            "year": 1347708923,
-                            "day": -1260296563,
-                            "month": 1368292483
-                        },
-                        "previousTreatmentType": "eLxTXYIHvqni",
-                        "previousTreatmentName": "jeFVPCsderwU"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -1925635831,
-                            "day": 715252410,
-                            "month": 1804347672
-                        },
-                        "previousTreatmentType": "zGenJUiUwnbr",
-                        "previousTreatmentName": "LdgzHtwmevOq"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -715200447,
-                            "day": -1439109185,
-                            "month": 1845134985
-                        },
-                        "previousTreatmentType": "MeZBpGOgXVNb",
-                        "previousTreatmentName": "LddaBrARrKKe"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -557232843,
-                            "day": 2141504957,
-                            "month": -2043640403
-                        },
-                        "previousTreatmentType": "jSaxasNPsjHH",
-                        "previousTreatmentName": "IpCMuswiGxlk"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 111473329,
-                            "day": 1246763160,
-                            "month": -546473834
-                        },
-                        "previousTreatmentType": "mKYjLjmAnVpL",
-                        "previousTreatmentName": "kpIoHIeAowAH"
-                    }
-                ]
+              "kgPopCategory": "ITU",
+              "kgSuperPopCategory": "AMR",
+              "chiSquare": 5.36824526116589e-309
             },
             {
-                "participantQCState": "passedMedicalReviewReadyForInterpretation",
-                "fatherId": -1263467237,
-                "twinGroup": 439520155,
-                "sex": "MALE",
-                "superMotherId": 1084793059,
-                "personKaryotypicSex": "XY",
-                "superFatherId": 419080795,
-                "affectionStatus": "UNAFFECTED",
-                "monozygotic": "yes",
-                "consentStatus": {
-                    "primaryFindingConsent": false,
-                    "programmeConsent": false,
-                    "carrierStatusConsent": true,
-                    "secondaryFindingConsent": true
-                },
-                "gelSuperFamilyId": "atrhwHxjceyH",
-                "hpoTermList": [
-                    {
-                        "hpoBuildNumber": "JJInTYtCmTXZ",
-                        "termPresence": "yes",
-                        "term": "SmYaahWCziAK",
-                        "modifiers": {
-                            "hpoModifierVersion": "PaIBqVBXcGbb",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "flAVuXXiDBKL",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "GENERALIZED",
-                            "severity": "PROFOUND"
-                        },
-                        "ageOfOnset": "MIDDLE_AGE_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "MSkPjmxAOKwi",
-                        "termPresence": "unknown",
-                        "term": "lmqLaPfgxxHu",
-                        "modifiers": {
-                            "hpoModifierVersion": "PXymPUeiLmCa",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "PcgEqzECkvqw",
-                            "laterality": "UNILATERAL",
-                            "spatialPattern": "PROXIMAL",
-                            "severity": "MILD"
-                        },
-                        "ageOfOnset": "LATE_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "WVMFXawtJJZJ",
-                        "termPresence": "no",
-                        "term": "POHDeJxrPkMO",
-                        "modifiers": {
-                            "hpoModifierVersion": "SrMCHVuQDINP",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "tBxHgqVWLnVO",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "LOCALIZED",
-                            "severity": "SEVERE"
-                        },
-                        "ageOfOnset": "MIDDLE_AGE_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "XrzKCmteCwKM",
-                        "termPresence": "yes",
-                        "term": "hCOGobqoQypp",
-                        "modifiers": {
-                            "hpoModifierVersion": "xLzhIQkRaqDz",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "uVPJzNsAyjpU",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "GENERALIZED",
-                            "severity": "SEVERE"
-                        },
-                        "ageOfOnset": "NEONATAL_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "hPPfvpRppbcu",
-                        "termPresence": "unknown",
-                        "term": "DPBwhSlxtcXV",
-                        "modifiers": {
-                            "hpoModifierVersion": "zMDNZBBsJxfg",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "RknLqRKDonJF",
-                            "laterality": "UNILATERAL",
-                            "spatialPattern": "GENERALIZED",
-                            "severity": "SEVERE"
-                        },
-                        "ageOfOnset": "MIDDLE_AGE_ONSET"
-                    }
-                ],
-                "consanguineousParents": "unknown",
-                "ancestries": {
-                    "fathersEthnicOrigin": "J",
-                    "mothersOtherRelevantAncestry": "IvTHWnksoloX",
-                    "mothersEthnicOrigin": "R",
-                    "fathersOtherRelevantAncestry": "yXiiUmRTugcZ",
-                    "chiSquare1KGenomesPhase3Pop": [
-                        {
-                            "kgPopCategory": "TSI",
-                            "kgSuperPopCategory": "EUR",
-                            "chiSquare": 4.731449852067636e-309
-                        },
-                        {
-                            "kgPopCategory": "JPT",
-                            "kgSuperPopCategory": "AFR",
-                            "chiSquare": 1.2412741669600213e-308
-                        },
-                        {
-                            "kgPopCategory": "CEU",
-                            "kgSuperPopCategory": "SAS",
-                            "chiSquare": 3.465546601543337e-309
-                        },
-                        {
-                            "kgPopCategory": "KHV",
-                            "kgSuperPopCategory": "AFR",
-                            "chiSquare": 1.9600492949368584e-308
-                        },
-                        {
-                            "kgPopCategory": "STU",
-                            "kgSuperPopCategory": "EAS",
-                            "chiSquare": 1.869404499716354e-308
-                        }
-                    ]
-                },
-                "samples": [
-                    {
-                        "sampleId": "ADqBgxPSjsZC",
-                        "product": "DNA",
-                        "maskedPid": "MncGeAQlppYF",
-                        "participantId": "rnByCMhceFKB",
-                        "sampleUid": "QRLboNLhTccM",
-                        "sampleType": "kPBQVerrGXOV",
-                        "programmePhase": "MAIN",
-                        "preparationMethod": "FF",
-                        "LDPCode": "LDwpPazBKiop",
-                        "source": "AMNIOTIC_FLUID",
-                        "storageMedium": "LI_HEP",
-                        "sampleState": "YOCUWKUrgNnA",
-                        "labSampleId": 249110058,
-                        "clinicalSampleDateTime": "xwqJrEUNnnlQ",
-                        "method": "UNSORTED"
-                    },
-                    {
-                        "sampleId": "ZTJPrhrrFGON",
-                        "product": "RNA",
-                        "maskedPid": "QxRjZDTzIqAc",
-                        "participantId": "jBvrmpJUVegi",
-                        "sampleUid": "rfSNyfZijDpi",
-                        "sampleType": "yuZElPgYOocr",
-                        "programmePhase": "EXPT",
-                        "preparationMethod": "LI_HEP",
-                        "LDPCode": "AsindgPhxvuF",
-                        "source": "FLUID",
-                        "storageMedium": "ORAGENE",
-                        "sampleState": "xbmNHTQGsori",
-                        "labSampleId": -99235205,
-                        "clinicalSampleDateTime": "OGiGFSjJpDnN",
-                        "method": "UNKNOWN"
-                    },
-                    {
-                        "sampleId": "DuZvuwbCzczF",
-                        "product": "RNA",
-                        "maskedPid": "HtbfJnquQdur",
-                        "participantId": "DvomWGZMZVND",
-                        "sampleUid": "yUWNOCuUzsMT",
-                        "sampleType": "pyGAiNQhUdPr",
-                        "programmePhase": "EXPT",
-                        "preparationMethod": "FFPE",
-                        "LDPCode": "DjrAqRZUWIHL",
-                        "source": "BONE_MARROW",
-                        "storageMedium": "LI_HEP",
-                        "sampleState": "WUporOKlNEEJ",
-                        "labSampleId": -334336832,
-                        "clinicalSampleDateTime": "CPyrTSbsxWlh",
-                        "method": "NOT_APPLICABLE"
-                    },
-                    {
-                        "sampleId": "oOCbakoXLYEB",
-                        "product": "RNA",
-                        "maskedPid": "qQgtfMfsBNdg",
-                        "participantId": "OsCouBapJBQB",
-                        "sampleUid": "FQTEvvMOjkXI",
-                        "sampleType": "vrYzrkfhqkFc",
-                        "programmePhase": "IIP",
-                        "preparationMethod": "EDTA",
-                        "LDPCode": "VzIKiSYvKPSW",
-                        "source": "TISSUE",
-                        "storageMedium": "ORAGENE",
-                        "sampleState": "zyTBbFsNHCiY",
-                        "labSampleId": -1300511371,
-                        "clinicalSampleDateTime": "YpCthHlwqQEC",
-                        "method": "ASPIRATE"
-                    },
-                    {
-                        "sampleId": "KVKniAiXdsMR",
-                        "product": "DNA",
-                        "maskedPid": "RllJwpaTbfLs",
-                        "participantId": "uXHfEFRYUqFO",
-                        "sampleUid": "avmcQzAkbxzF",
-                        "sampleType": "piNAuZcIrPxu",
-                        "programmePhase": "CRUK",
-                        "preparationMethod": "FF",
-                        "LDPCode": "FgCPfaiseVQG",
-                        "source": "TUMOUR",
-                        "storageMedium": "ORAGENE",
-                        "sampleState": "ZnWREVvmCyYv",
-                        "labSampleId": 344732031,
-                        "clinicalSampleDateTime": "euYOQMlbysbf",
-                        "method": "UNKNOWN"
-                    }
-                ],
-                "pedigreeId": 1713733071,
-                "participantUid": "ZQRaHESUimes",
-                "diagnosticDetails": [
-                    {
-                        "ageAtOnsetInYears": 1.448666057630245e-308,
-                        "diagnosisCertainty": "SsPlPMYCfJjM",
-                        "diagonsisCodingSystemVersion": "jUJVCLCTFGvI",
-                        "diagnosisCode": "pscaaCKVxItB",
-                        "diagnosisCodingSystem": "zKeGkVRKHxwY",
-                        "diagnosisDescription": "jZEeKYWjdCZk"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.560625487713411e-308,
-                        "diagnosisCertainty": "dyCYkoBbOSPT",
-                        "diagonsisCodingSystemVersion": "aaNIWjjBNeQU",
-                        "diagnosisCode": "rtGcxjVUTzAW",
-                        "diagnosisCodingSystem": "ZUbeNjwlciaa",
-                        "diagnosisDescription": "aWrgtsNBRsso"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.7217425226752256e-308,
-                        "diagnosisCertainty": "lEXvNdKTiqlf",
-                        "diagonsisCodingSystemVersion": "XDhHBXQokhwM",
-                        "diagnosisCode": "lalRpxYkyTNZ",
-                        "diagnosisCodingSystem": "vRiZkEGzUGXR",
-                        "diagnosisDescription": "WZVUhJMIOHUN"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.9434692884012227e-308,
-                        "diagnosisCertainty": "QOVETlgHLXkW",
-                        "diagonsisCodingSystemVersion": "uFAWNryeqdiP",
-                        "diagnosisCode": "fpPrbPsRTSCe",
-                        "diagnosisCodingSystem": "SphayJOiemTP",
-                        "diagnosisDescription": "JvLIDpQZSElc"
-                    },
-                    {
-                        "ageAtOnsetInYears": 9.217551819528543e-309,
-                        "diagnosisCertainty": "YLmmQElARMlC",
-                        "diagonsisCodingSystemVersion": "jDKwxfrWOJFr",
-                        "diagnosisCode": "iFXpapoTgnDh",
-                        "diagnosisCodingSystem": "zTKKDAlmxiAG",
-                        "diagnosisDescription": "EDUNSrKvHygi"
-                    }
-                ],
-                "disorderList": [
-                    {
-                        "diseaseSubGroup": "timmjfsLxCgq",
-                        "specificDisease": "mdmvQwstUTUp",
-                        "ageOfOnset": 1.850470197255506e-309,
-                        "diseaseGroup": "XPeMJfnVnwql"
-                    },
-                    {
-                        "diseaseSubGroup": "GGFPidNQBgjM",
-                        "specificDisease": "SwSdSOodboCp",
-                        "ageOfOnset": 1.0334509610344513e-308,
-                        "diseaseGroup": "kmxuqbHELBnN"
-                    },
-                    {
-                        "diseaseSubGroup": "ztUtijwjNzsY",
-                        "specificDisease": "EOZHfqEjYktA",
-                        "ageOfOnset": 1.964028732833943e-308,
-                        "diseaseGroup": "RyHHmBcLMBuX"
-                    },
-                    {
-                        "diseaseSubGroup": "wsUYxoDvCqkY",
-                        "specificDisease": "YykpkMotYkMh",
-                        "ageOfOnset": 1.451026444520192e-308,
-                        "diseaseGroup": "GvjKaBoaYGsK"
-                    },
-                    {
-                        "diseaseSubGroup": "aWAvvxmOGwNP",
-                        "specificDisease": "qGrirZccGeJL",
-                        "ageOfOnset": 3.643172310930815e-309,
-                        "diseaseGroup": "deOxyzEhmWim"
-                    }
-                ],
-                "clinicalEthnicities": [
-                    "A",
-                    "CN",
-                    "PA",
-                    "CF",
-                    "E"
-                ],
-                "inbreedingCoefficient": {
-                    "coefficient": 1.777199972593574e-309,
-                    "program": "RAyVCHCQDJky",
-                    "standardError": 3.974401345197098e-309,
-                    "sampleId": "hSwQwpaBPfJh",
-                    "version": "YTpdiAlTGUbc",
-                    "estimationMethod": "MALeDaNkoktQ"
-                },
-                "isProband": false,
-                "motherId": 2024675087,
-                "participantId": "vWReAZlCozXT",
-                "additionalInformation": {
-                    "pVhxhbhhkeKU": "pKgezYCkgcYP",
-                    "NUCxdIJnEvLG": "AFcycyrUdDoa",
-                    "uBKOPwADTdzX": "pvLATBUeGnFI",
-                    "sqkgIKNCQjEK": "klqjSlvSUgVV",
-                    "RbrJJeXYWPaC": "cObfBGtjnDIE"
-                },
-                "yearOfBirth": -1013357807,
-                "lifeStatus": "UNBORN",
-                "adoptedStatus": "adoptedin",
-                "lastMenstrualPeriod": "PpXDqwVzOOGQ",
-                "previousTreatment": [
-                    {
-                        "previoustreatmentDate": {
-                            "year": -585003175,
-                            "day": 613425429,
-                            "month": 743044880
-                        },
-                        "previousTreatmentType": "JqpfmDXkcEUk",
-                        "previousTreatmentName": "lwIMsNFqMhdk"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 821864828,
-                            "day": 727534296,
-                            "month": 1105064439
-                        },
-                        "previousTreatmentType": "aialwamtmAsP",
-                        "previousTreatmentName": "sNLrnsFYAcOW"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 908052635,
-                            "day": -211073490,
-                            "month": 1749002145
-                        },
-                        "previousTreatmentType": "HzzPKtDAvlNA",
-                        "previousTreatmentName": "eJrAtliHotIn"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 368589021,
-                            "day": 1407857118,
-                            "month": 954426826
-                        },
-                        "previousTreatmentType": "OgREbKQadciN",
-                        "previousTreatmentName": "okGHpaatwtqX"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 1622083815,
-                            "day": -1606824365,
-                            "month": -1210621568
-                        },
-                        "previousTreatmentType": "zHuqfQuLSeVE",
-                        "previousTreatmentName": "kVZwrZnOgfhV"
-                    }
-                ]
+              "kgPopCategory": "GBR",
+              "kgSuperPopCategory": "EUR",
+              "chiSquare": 1.840277075628972e-308
             },
             {
-                "participantQCState": "queryToGel",
-                "fatherId": 885357335,
-                "twinGroup": 561001237,
-                "sex": "MALE",
-                "superMotherId": -1633690883,
-                "personKaryotypicSex": "XX",
-                "superFatherId": -948697416,
-                "affectionStatus": "AFFECTED",
-                "monozygotic": "no",
-                "consentStatus": {
-                    "primaryFindingConsent": false,
-                    "programmeConsent": true,
-                    "carrierStatusConsent": true,
-                    "secondaryFindingConsent": true
-                },
-                "gelSuperFamilyId": "KHvsZzVCWkJv",
-                "hpoTermList": [
-                    {
-                        "hpoBuildNumber": "SwYtByrVRjNP",
-                        "termPresence": "no",
-                        "term": "rthUrYMtkkIs",
-                        "modifiers": {
-                            "hpoModifierVersion": "BjpLmTHXUJiR",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "jyziodtfpqyb",
-                            "laterality": "UNILATERAL",
-                            "spatialPattern": "DISTAL",
-                            "severity": "MILD"
-                        },
-                        "ageOfOnset": "CHILDHOOD_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "BILjflayeXNZ",
-                        "termPresence": "no",
-                        "term": "QeKVUWCCsTIR",
-                        "modifiers": {
-                            "hpoModifierVersion": "dhkctKgCAQoS",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "kZVvISkZQlNk",
-                            "laterality": "LEFT",
-                            "spatialPattern": "PROXIMAL",
-                            "severity": "MILD"
-                        },
-                        "ageOfOnset": "EMBRYONAL_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "jPAyKYAhgnne",
-                        "termPresence": "unknown",
-                        "term": "GksQGFdxzgYu",
-                        "modifiers": {
-                            "hpoModifierVersion": "eNLQxQvnWXsU",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "IDqvkYtEptgX",
-                            "laterality": "LEFT",
-                            "spatialPattern": "DISTAL",
-                            "severity": "PROFOUND"
-                        },
-                        "ageOfOnset": "YOUNG_ADULT_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "vLFBQprnDxOE",
-                        "termPresence": "no",
-                        "term": "bXNBySiqOWQm",
-                        "modifiers": {
-                            "hpoModifierVersion": "fUjiFEhJyCWJ",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "oUeCKvrtxCBt",
-                            "laterality": "UNILATERAL",
-                            "spatialPattern": "LOCALIZED",
-                            "severity": "SEVERE"
-                        },
-                        "ageOfOnset": "FETAL_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "ImvQSbNygemu",
-                        "termPresence": "unknown",
-                        "term": "gZLLpYZUWxQk",
-                        "modifiers": {
-                            "hpoModifierVersion": "SZHmNrPJvROK",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "hmtCjcntOtIM",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "LOCALIZED",
-                            "severity": "SEVERE"
-                        },
-                        "ageOfOnset": "JUVENILE_ONSET"
-                    }
-                ],
-                "consanguineousParents": "yes",
-                "ancestries": {
-                    "fathersEthnicOrigin": "M",
-                    "mothersOtherRelevantAncestry": "dLZEpFPYRPCf",
-                    "mothersEthnicOrigin": "A",
-                    "fathersOtherRelevantAncestry": "zuujqjgIjUcM",
-                    "chiSquare1KGenomesPhase3Pop": [
-                        {
-                            "kgPopCategory": "CLM",
-                            "kgSuperPopCategory": "EUR",
-                            "chiSquare": 4.122927585141735e-309
-                        },
-                        {
-                            "kgPopCategory": "ITU",
-                            "kgSuperPopCategory": "SAS",
-                            "chiSquare": 2.733028847733885e-309
-                        },
-                        {
-                            "kgPopCategory": "YRI",
-                            "kgSuperPopCategory": "EAS",
-                            "chiSquare": 1.733517558630435e-309
-                        },
-                        {
-                            "kgPopCategory": "LWK",
-                            "kgSuperPopCategory": "EAS",
-                            "chiSquare": 1.067324861555614e-308
-                        },
-                        {
-                            "kgPopCategory": "YRI",
-                            "kgSuperPopCategory": "EUR",
-                            "chiSquare": 2.77946704716509e-309
-                        }
-                    ]
-                },
-                "samples": [
-                    {
-                        "sampleId": "udxYCrOfzVNm",
-                        "product": "DNA",
-                        "maskedPid": "aUZRxrailERx",
-                        "participantId": "BVfneNxeAOFA",
-                        "sampleUid": "yPdbqRYDnoWU",
-                        "sampleType": "QAUIfCBqDKRd",
-                        "programmePhase": "IIP",
-                        "preparationMethod": "ASPIRATE",
-                        "LDPCode": "CIbXkYpJGpEi",
-                        "source": "BUCCAL_SWAB",
-                        "storageMedium": "EDTA",
-                        "sampleState": "TeWcmunIRyFs",
-                        "labSampleId": -422700346,
-                        "clinicalSampleDateTime": "OimujlWAxlGj",
-                        "method": "NOT_APPLICABLE"
-                    },
-                    {
-                        "sampleId": "ocDjHJZeTGpb",
-                        "product": "DNA",
-                        "maskedPid": "ftPnHMeBAbzo",
-                        "participantId": "SFQEKapWrFfU",
-                        "sampleUid": "FASTMBqhRNWh",
-                        "sampleType": "iVwBXRjcbJyo",
-                        "programmePhase": "EXPT",
-                        "preparationMethod": "LI_HEP",
-                        "LDPCode": "PpmljxtjCNOp",
-                        "source": "TUMOUR",
-                        "storageMedium": "FF",
-                        "sampleState": "DpibnibdZzlo",
-                        "labSampleId": -1007679268,
-                        "clinicalSampleDateTime": "nFVxLxNuHLFT",
-                        "method": "CD138_SORTED"
-                    },
-                    {
-                        "sampleId": "sFGSXWTTGHTQ",
-                        "product": "RNA",
-                        "maskedPid": "YiFvQNhlvKPn",
-                        "participantId": "kkRPyziNfwpb",
-                        "sampleUid": "EkgxIcKouMNB",
-                        "sampleType": "zARTtcOSqNBy",
-                        "programmePhase": "IIP",
-                        "preparationMethod": "ASPIRATE",
-                        "LDPCode": "TxXtwEvYEdgu",
-                        "source": "AMNIOTIC_FLUID",
-                        "storageMedium": "ORAGENE",
-                        "sampleState": "kAdPHKxPncfm",
-                        "labSampleId": 82549762,
-                        "clinicalSampleDateTime": "asVYJPQUFLWK",
-                        "method": "CD138_SORTED"
-                    },
-                    {
-                        "sampleId": "gbHzWnGOGvyu",
-                        "product": "DNA",
-                        "maskedPid": "rqBvebEhpAUT",
-                        "participantId": "CIRWIelsKQCm",
-                        "sampleUid": "emVECIHVJEsp",
-                        "sampleType": "VjhprvzOksIB",
-                        "programmePhase": "EXPT",
-                        "preparationMethod": "CD128_SORTED_CELLS",
-                        "LDPCode": "gJIGopVOPzZg",
-                        "source": "BONE_MARROW_ASPIRATE_TUMOUR_CELLS",
-                        "storageMedium": "FF",
-                        "sampleState": "qNsECfDbZWwa",
-                        "labSampleId": 716442659,
-                        "clinicalSampleDateTime": "ZeNlxCZkyyyu",
-                        "method": "NOT_APPLICABLE"
-                    },
-                    {
-                        "sampleId": "CaQezogRjjLY",
-                        "product": "DNA",
-                        "maskedPid": "WNLllmvBoEvi",
-                        "participantId": "QOXhoZdZUQSe",
-                        "sampleUid": "JjsVdGHqlTLQ",
-                        "sampleType": "GAuXgJTwGiha",
-                        "programmePhase": "IIP",
-                        "preparationMethod": "CD128_SORTED_CELLS",
-                        "LDPCode": "LweSyleATDkI",
-                        "source": "FIBROBLAST",
-                        "storageMedium": "EDTA",
-                        "sampleState": "EHNkJUQFhVnE",
-                        "labSampleId": 1657146391,
-                        "clinicalSampleDateTime": "eNqqnaoDOdUk",
-                        "method": "SORTED_OTHER"
-                    }
-                ],
-                "pedigreeId": 1396581747,
-                "participantUid": "AomksuGNbOjN",
-                "diagnosticDetails": [
-                    {
-                        "ageAtOnsetInYears": 3.037493765298284e-309,
-                        "diagnosisCertainty": "CcBCDRhahkKR",
-                        "diagonsisCodingSystemVersion": "SOSNYCtaGWUU",
-                        "diagnosisCode": "ftymdhkKSVhn",
-                        "diagnosisCodingSystem": "WNhTRlddSMFM",
-                        "diagnosisDescription": "sDamblQMeCpY"
-                    },
-                    {
-                        "ageAtOnsetInYears": 2.324558941192717e-309,
-                        "diagnosisCertainty": "AKtwTtUqODlq",
-                        "diagonsisCodingSystemVersion": "LqAhwSVRTnHF",
-                        "diagnosisCode": "vPwHTxVPQzzz",
-                        "diagnosisCodingSystem": "ANAwJTbkabiN",
-                        "diagnosisDescription": "xmEjYiTfSLvK"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.98494393500658e-308,
-                        "diagnosisCertainty": "MeziWnMUyaWc",
-                        "diagonsisCodingSystemVersion": "vLwKYqvxCxRM",
-                        "diagnosisCode": "LqDPXsQUNSbx",
-                        "diagnosisCodingSystem": "rETKhkqMjEpA",
-                        "diagnosisDescription": "kVRSdPDdDeKp"
-                    },
-                    {
-                        "ageAtOnsetInYears": 2.123647501360903e-308,
-                        "diagnosisCertainty": "tTKpCGsfBenS",
-                        "diagonsisCodingSystemVersion": "XicHMRoJeVdp",
-                        "diagnosisCode": "iTSBqbeWsKbb",
-                        "diagnosisCodingSystem": "khWomROlOrVA",
-                        "diagnosisDescription": "aTmvEXOUELHK"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.07515553188391e-308,
-                        "diagnosisCertainty": "jgbZnoUWMQLx",
-                        "diagonsisCodingSystemVersion": "dTkRyBiowDzA",
-                        "diagnosisCode": "JLFVgIgSgSfo",
-                        "diagnosisCodingSystem": "iNUdWwopksuV",
-                        "diagnosisDescription": "dolELqGQFMAl"
-                    }
-                ],
-                "disorderList": [
-                    {
-                        "diseaseSubGroup": "MWKRZYyLoLmO",
-                        "specificDisease": "qRqqbsfvVDaj",
-                        "ageOfOnset": 2.038702173089604e-308,
-                        "diseaseGroup": "MOBiAFecEFJm"
-                    },
-                    {
-                        "diseaseSubGroup": "HIBBylrLWTcG",
-                        "specificDisease": "NdZiprUscoOp",
-                        "ageOfOnset": 7.757685301697165e-309,
-                        "diseaseGroup": "ocpVXcNdIaYC"
-                    },
-                    {
-                        "diseaseSubGroup": "OrMAdnKaqAzS",
-                        "specificDisease": "bMPgXUymFvAz",
-                        "ageOfOnset": 1.9014111766144696e-308,
-                        "diseaseGroup": "hotAWunygRGc"
-                    },
-                    {
-                        "diseaseSubGroup": "UoZcTPpMhDru",
-                        "specificDisease": "krEqowFLtsAS",
-                        "ageOfOnset": 5.856788040772525e-309,
-                        "diseaseGroup": "aKZjmXNuzFTB"
-                    },
-                    {
-                        "diseaseSubGroup": "XjJAxqLbBjFY",
-                        "specificDisease": "RMqIwpuLJfgP",
-                        "ageOfOnset": 2.069921528381078e-308,
-                        "diseaseGroup": "ymJqYJdrIyxV"
-                    }
-                ],
-                "clinicalEthnicities": [
-                    "J",
-                    "GC",
-                    "M",
-                    "CW",
-                    "GF"
-                ],
-                "inbreedingCoefficient": {
-                    "coefficient": 2.0477350205898424e-308,
-                    "program": "ARKKgzgyFVbC",
-                    "standardError": 6.245168514216783e-309,
-                    "sampleId": "rsDYXhkhsXEg",
-                    "version": "wAIbnZMSOARZ",
-                    "estimationMethod": "fGWiljcRcShD"
-                },
-                "isProband": true,
-                "motherId": -166269366,
-                "participantId": "TQdFqjLhqRUt",
-                "additionalInformation": {
-                    "ShymMWgCHOVi": "NTYpOCjyWZnU",
-                    "OjnGYAOEpONW": "mavHpZHnMCbb",
-                    "qTCKjdHuwxoI": "YDXFNGnsNYhA",
-                    "GUNrZlhHigSo": "dkZNSyXPbRhX",
-                    "UqnQiaYHUjmc": "RnhAPoLVMKYs"
-                },
-                "yearOfBirth": 785464990,
-                "lifeStatus": "DECEASED",
-                "adoptedStatus": "notadopted",
-                "lastMenstrualPeriod": "HRotgNDkhqSE",
-                "previousTreatment": [
-                    {
-                        "previoustreatmentDate": {
-                            "year": -90703535,
-                            "day": -1098138039,
-                            "month": -818168879
-                        },
-                        "previousTreatmentType": "DuRdUfwFHKWM",
-                        "previousTreatmentName": "UqtESAqRbyrz"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -322660775,
-                            "day": 1593712212,
-                            "month": 1705162848
-                        },
-                        "previousTreatmentType": "bwRogFTTvbaJ",
-                        "previousTreatmentName": "DCleSXDadsnD"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -1685827714,
-                            "day": -90309962,
-                            "month": -452169575
-                        },
-                        "previousTreatmentType": "DcbsWKlltmFu",
-                        "previousTreatmentName": "EBURLYDgnbvp"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -2143363058,
-                            "day": 1768546560,
-                            "month": 1757597819
-                        },
-                        "previousTreatmentType": "vjLwJSusOmpH",
-                        "previousTreatmentName": "EhNESmLsBQYQ"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -1034088649,
-                            "day": -2074221756,
-                            "month": -584241021
-                        },
-                        "previousTreatmentType": "CdEpTdwqjQmg",
-                        "previousTreatmentName": "QqxhmuoTFrrG"
-                    }
-                ]
+              "kgPopCategory": "GIH",
+              "kgSuperPopCategory": "AFR",
+              "chiSquare": 2.1060842553952537e-308
             },
             {
-                "participantQCState": "noState",
-                "fatherId": -1569919891,
-                "twinGroup": 1087930301,
-                "sex": "FEMALE",
-                "superMotherId": -616399462,
-                "personKaryotypicSex": "XO",
-                "superFatherId": -1402602764,
-                "affectionStatus": "AFFECTED",
-                "monozygotic": "yes",
-                "consentStatus": {
-                    "primaryFindingConsent": false,
-                    "programmeConsent": true,
-                    "carrierStatusConsent": true,
-                    "secondaryFindingConsent": true
-                },
-                "gelSuperFamilyId": "lHoozYTNMpPN",
-                "hpoTermList": [
-                    {
-                        "hpoBuildNumber": "IOKRnZeJBabC",
-                        "termPresence": "no",
-                        "term": "lcHzEsnTEONo",
-                        "modifiers": {
-                            "hpoModifierVersion": "ZXdzMuNLuZtk",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "VHrOAlyAtWag",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "PROXIMAL",
-                            "severity": "MILD"
-                        },
-                        "ageOfOnset": "INFANTILE_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "HemSdvMGursV",
-                        "termPresence": "unknown",
-                        "term": "bAnmkjKQcgvJ",
-                        "modifiers": {
-                            "hpoModifierVersion": "GNbuNnjjMyjm",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "GYFYFIpidLqk",
-                            "laterality": "BILATERAL",
-                            "spatialPattern": "GENERALIZED",
-                            "severity": "MODERATE"
-                        },
-                        "ageOfOnset": "YOUNG_ADULT_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "qEhSjoyaVUIB",
-                        "termPresence": "unknown",
-                        "term": "TtLoZtrhBpbp",
-                        "modifiers": {
-                            "hpoModifierVersion": "nUOTDlmbiwQW",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "BGMUwvBflkDZ",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "GENERALIZED",
-                            "severity": "BORDERLINE"
-                        },
-                        "ageOfOnset": "CHILDHOOD_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "JcRTonYrEekq",
-                        "termPresence": "no",
-                        "term": "nESZrTDRxWDZ",
-                        "modifiers": {
-                            "hpoModifierVersion": "WwsCirVVZznt",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "HJVlOLcRjqRW",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "GENERALIZED",
-                            "severity": "MILD"
-                        },
-                        "ageOfOnset": "FETAL_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "TBgDCNeuOuAA",
-                        "termPresence": "yes",
-                        "term": "OoPzCGJQyPIm",
-                        "modifiers": {
-                            "hpoModifierVersion": "TjcsppwdRCjz",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "OyjZbTiiSRQP",
-                            "laterality": "LEFT",
-                            "spatialPattern": "DISTAL",
-                            "severity": "MODERATE"
-                        },
-                        "ageOfOnset": "LATE_ONSET"
-                    }
-                ],
-                "consanguineousParents": "yes",
-                "ancestries": {
-                    "fathersEthnicOrigin": "Z",
-                    "mothersOtherRelevantAncestry": "auwZrxOIhPFy",
-                    "mothersEthnicOrigin": "N",
-                    "fathersOtherRelevantAncestry": "HRBUnsrQoBtY",
-                    "chiSquare1KGenomesPhase3Pop": [
-                        {
-                            "kgPopCategory": "ITU",
-                            "kgSuperPopCategory": "EAS",
-                            "chiSquare": 1.2378627447463993e-308
-                        },
-                        {
-                            "kgPopCategory": "CDX",
-                            "kgSuperPopCategory": "AMR",
-                            "chiSquare": 1.504977139481068e-308
-                        },
-                        {
-                            "kgPopCategory": "CHS",
-                            "kgSuperPopCategory": "SAS",
-                            "chiSquare": 7.066860573302387e-309
-                        },
-                        {
-                            "kgPopCategory": "ESN",
-                            "kgSuperPopCategory": "AMR",
-                            "chiSquare": 1.7142855298850426e-308
-                        },
-                        {
-                            "kgPopCategory": "STU",
-                            "kgSuperPopCategory": "SAS",
-                            "chiSquare": 7.187567912386904e-309
-                        }
-                    ]
-                },
-                "samples": [
-                    {
-                        "sampleId": "alMSdbXCdlIK",
-                        "product": "DNA",
-                        "maskedPid": "EbJnLbkwXDBG",
-                        "participantId": "UoxSlOeFREXq",
-                        "sampleUid": "VptocLxJXuOt",
-                        "sampleType": "WVYVFlFxAGza",
-                        "programmePhase": "IIP",
-                        "preparationMethod": "FFPE",
-                        "LDPCode": "ioVfuWpkynuL",
-                        "source": "TISSUE",
-                        "storageMedium": "FF",
-                        "sampleState": "nXWcXOVGqfID",
-                        "labSampleId": -2090539589,
-                        "clinicalSampleDateTime": "qxlzDaDTQjOS",
-                        "method": "CD138_SORTED"
-                    },
-                    {
-                        "sampleId": "xOtZQiVufPFt",
-                        "product": "DNA",
-                        "maskedPid": "gudYRQHpDBiI",
-                        "participantId": "uwbcAASVQHKc",
-                        "sampleUid": "cpuOpHZubgjO",
-                        "sampleType": "wDbMRrYiENJu",
-                        "programmePhase": "CRUK",
-                        "preparationMethod": "FF",
-                        "LDPCode": "LSYeLYTUKMXT",
-                        "source": "CHORIONIC_VILLUS_SAMPLE",
-                        "storageMedium": "FFPE",
-                        "sampleState": "OSZbkXgwJsMk",
-                        "labSampleId": 1531653102,
-                        "clinicalSampleDateTime": "GBEPeDnHmDMx",
-                        "method": "UNSORTED"
-                    },
-                    {
-                        "sampleId": "ONKDDmAviLVe",
-                        "product": "RNA",
-                        "maskedPid": "FUvsUGHZNctQ",
-                        "participantId": "XKHMNTiZxptO",
-                        "sampleUid": "JvUIyyRLZGuY",
-                        "sampleType": "wEJDkgvkBpIT",
-                        "programmePhase": "CRUK",
-                        "preparationMethod": "FF",
-                        "LDPCode": "DpDljRMlvwsx",
-                        "source": "FLUID",
-                        "storageMedium": "ORAGENE",
-                        "sampleState": "IiUjhvMQUmzu",
-                        "labSampleId": 1790405245,
-                        "clinicalSampleDateTime": "KvpkGNferfBg",
-                        "method": "UNKNOWN"
-                    },
-                    {
-                        "sampleId": "ywmQWaWPCIwm",
-                        "product": "RNA",
-                        "maskedPid": "EJyxHLXbSSjf",
-                        "participantId": "SOeOMWlLBIeN",
-                        "sampleUid": "xaiLBvjCnxok",
-                        "sampleType": "jSWEVtyKKWtM",
-                        "programmePhase": "CRUK",
-                        "preparationMethod": "ORAGENE",
-                        "LDPCode": "rZmbsXIMxnhh",
-                        "source": "BUCCAL_SWAB",
-                        "storageMedium": "LI_HEP",
-                        "sampleState": "CFwKWrdkOvVu",
-                        "labSampleId": 1655561812,
-                        "clinicalSampleDateTime": "ZvOhsTnoOmhI",
-                        "method": "RESECTION"
-                    },
-                    {
-                        "sampleId": "nAALpTiNRJnR",
-                        "product": "DNA",
-                        "maskedPid": "EWmoRFMoRWIL",
-                        "participantId": "vFXrxpWtpRKh",
-                        "sampleUid": "GHELtcKfQJkH",
-                        "sampleType": "ArXjCSLbAeJh",
-                        "programmePhase": "EXPT",
-                        "preparationMethod": "LI_HEP",
-                        "LDPCode": "FXqORfVRpTCu",
-                        "source": "TUMOUR",
-                        "storageMedium": "ORAGENE",
-                        "sampleState": "gctuAztzeUJd",
-                        "labSampleId": -1154676284,
-                        "clinicalSampleDateTime": "hvLLQJlusyVx",
-                        "method": "ASPIRATE"
-                    }
-                ],
-                "pedigreeId": -1766168257,
-                "participantUid": "pQabGEbLETtQ",
-                "diagnosticDetails": [
-                    {
-                        "ageAtOnsetInYears": 1.820092389082375e-308,
-                        "diagnosisCertainty": "qNZIqwNvDDex",
-                        "diagonsisCodingSystemVersion": "OIAykxXKCPjS",
-                        "diagnosisCode": "cnyfybzJGGke",
-                        "diagnosisCodingSystem": "PADTLuBBbjgy",
-                        "diagnosisDescription": "ilQGmGBVyYix"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.6752345201504345e-308,
-                        "diagnosisCertainty": "LXteckXYAPjT",
-                        "diagonsisCodingSystemVersion": "EyKPemNCaDpk",
-                        "diagnosisCode": "iTUiDFwDpZdC",
-                        "diagnosisCodingSystem": "goWMguoPEgWt",
-                        "diagnosisDescription": "bUZhNXSiitVf"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.7117779865202254e-308,
-                        "diagnosisCertainty": "SlmJBlpOXDDw",
-                        "diagonsisCodingSystemVersion": "roCEphXaQYbC",
-                        "diagnosisCode": "VTTtzeRNnvwk",
-                        "diagnosisCodingSystem": "OtMqvDODRZHG",
-                        "diagnosisDescription": "rhHaGEPfOxNW"
-                    },
-                    {
-                        "ageAtOnsetInYears": 2.766214691708263e-309,
-                        "diagnosisCertainty": "fzAmFPycspMq",
-                        "diagonsisCodingSystemVersion": "IYyiDLsUvjaQ",
-                        "diagnosisCode": "DRJkivUpXcMe",
-                        "diagnosisCodingSystem": "OCyfVRktedLD",
-                        "diagnosisDescription": "kkrVBbFDtZLO"
-                    },
-                    {
-                        "ageAtOnsetInYears": 5.02183651339877e-309,
-                        "diagnosisCertainty": "XiGvXRdOxbwv",
-                        "diagonsisCodingSystemVersion": "kkikEfqoCfdB",
-                        "diagnosisCode": "DSpRDusOGZIB",
-                        "diagnosisCodingSystem": "WaJHqVHFYSCn",
-                        "diagnosisDescription": "wUpxzIjKJnUn"
-                    }
-                ],
-                "disorderList": [
-                    {
-                        "diseaseSubGroup": "XoHuGhyXLdkI",
-                        "specificDisease": "SFKEmvawoGUf",
-                        "ageOfOnset": 1.160451076865702e-308,
-                        "diseaseGroup": "moHUhZUupdPc"
-                    },
-                    {
-                        "diseaseSubGroup": "sSFRkUTkEkvB",
-                        "specificDisease": "SjIhXqRYTGje",
-                        "ageOfOnset": 1.319328854824557e-308,
-                        "diseaseGroup": "sXrcRgZzxKIX"
-                    },
-                    {
-                        "diseaseSubGroup": "NvLPBRCYLdrk",
-                        "specificDisease": "IqKQVXQhVGHA",
-                        "ageOfOnset": 9.6693242368158e-310,
-                        "diseaseGroup": "ikrhafchvuoG"
-                    },
-                    {
-                        "diseaseSubGroup": "YxwxnzaHlEzG",
-                        "specificDisease": "vGYtPaokMMPJ",
-                        "ageOfOnset": 1.6260974101046187e-308,
-                        "diseaseGroup": "CSRZfKTvsHpb"
-                    },
-                    {
-                        "diseaseSubGroup": "rLwmIzgjewlB",
-                        "specificDisease": "DCBvvvQqNFJe",
-                        "ageOfOnset": 1.111404063092021e-308,
-                        "diseaseGroup": "bfUFEnriicGV"
-                    }
-                ],
-                "clinicalEthnicities": [
-                    "C2",
-                    "CY",
-                    "K",
-                    "G",
-                    "D"
-                ],
-                "inbreedingCoefficient": {
-                    "coefficient": 1.4851269176341527e-308,
-                    "program": "EjSrkdEByAhq",
-                    "standardError": 1.760307538556905e-308,
-                    "sampleId": "kWmSmyjiasmQ",
-                    "version": "uAzdzdIEaxVH",
-                    "estimationMethod": "uNXsNPUHEJmB"
-                },
-                "isProband": false,
-                "motherId": -1484922685,
-                "participantId": "AmWMYRsBjiNW",
-                "additionalInformation": {
-                    "CVoiXmLvwQzg": "zVnCDJvfmwyg",
-                    "SkaqbBqRTEQx": "obgCNJzcBcnS",
-                    "KsNAoWtqtmPL": "VxAazMlYKNTa",
-                    "FEOYbcKTsoxD": "dbGyWkkAzmMr",
-                    "DrakNsVUbjwl": "YmdUowgQohmm"
-                },
-                "yearOfBirth": -757308830,
-                "lifeStatus": "ABORTED",
-                "adoptedStatus": "adoptedin",
-                "lastMenstrualPeriod": "GlWEraUFKVni",
-                "previousTreatment": [
-                    {
-                        "previoustreatmentDate": {
-                            "year": -2143609210,
-                            "day": -463278966,
-                            "month": 2130443313
-                        },
-                        "previousTreatmentType": "BNDclBtrldui",
-                        "previousTreatmentName": "HciRHTpPXKEY"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 2011368871,
-                            "day": -2133921083,
-                            "month": 893219111
-                        },
-                        "previousTreatmentType": "poEuFbAXuLCD",
-                        "previousTreatmentName": "NJzfZGDxqxIo"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 829957195,
-                            "day": 108828178,
-                            "month": 1956030471
-                        },
-                        "previousTreatmentType": "wtVwGSLlQSjz",
-                        "previousTreatmentName": "CmsQknNIHYOL"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 1756784305,
-                            "day": -1681235216,
-                            "month": -714276924
-                        },
-                        "previousTreatmentType": "LeALrpnepOiy",
-                        "previousTreatmentName": "qERVQydiWUyy"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -604956744,
-                            "day": 779273567,
-                            "month": 784991510
-                        },
-                        "previousTreatmentType": "JzOoZdfSYzVL",
-                        "previousTreatmentName": "mHdzFIqVNVDf"
-                    }
-                ]
+              "kgPopCategory": "FIN",
+              "kgSuperPopCategory": "AFR",
+              "chiSquare": 2.018283372467024e-308
             },
             {
-                "participantQCState": "passedMedicalReviewReadyForInterpretation",
-                "fatherId": 1074057320,
-                "twinGroup": 675781708,
-                "sex": "FEMALE",
-                "superMotherId": -22605452,
-                "personKaryotypicSex": "XXXY",
-                "superFatherId": -151921682,
-                "affectionStatus": "UNAFFECTED",
-                "monozygotic": "yes",
-                "consentStatus": {
-                    "primaryFindingConsent": false,
-                    "programmeConsent": true,
-                    "carrierStatusConsent": true,
-                    "secondaryFindingConsent": true
-                },
-                "gelSuperFamilyId": "FGWsceCIKZar",
-                "hpoTermList": [
-                    {
-                        "hpoBuildNumber": "PmrzulwDmBlH",
-                        "termPresence": "no",
-                        "term": "CcQJOMBhtmvi",
-                        "modifiers": {
-                            "hpoModifierVersion": "NFzsBRCmAGCr",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "yJlEffuQfRyO",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "GENERALIZED",
-                            "severity": "SEVERE"
-                        },
-                        "ageOfOnset": "JUVENILE_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "BxDKZBNuxLmn",
-                        "termPresence": "unknown",
-                        "term": "orODcblUBabx",
-                        "modifiers": {
-                            "hpoModifierVersion": "cYpVYbPFUnhX",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "XfCWoOSEhIry",
-                            "laterality": "BILATERAL",
-                            "spatialPattern": "LOCALIZED",
-                            "severity": "MODERATE"
-                        },
-                        "ageOfOnset": "YOUNG_ADULT_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "gyGsBrRhrGIp",
-                        "termPresence": "unknown",
-                        "term": "FxNGeimrQVwq",
-                        "modifiers": {
-                            "hpoModifierVersion": "flyocAVjNpzg",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "kbyWwTRBCQwh",
-                            "laterality": "RIGHT",
-                            "spatialPattern": "PROXIMAL",
-                            "severity": "SEVERE"
-                        },
-                        "ageOfOnset": "CHILDHOOD_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "CGNaSTqmhGnB",
-                        "termPresence": "no",
-                        "term": "lGwGSuUolkaH",
-                        "modifiers": {
-                            "hpoModifierVersion": "JGpbFVevJVAi",
-                            "progression": "NONPROGRESSIVE",
-                            "hpoModifierCode": "XzwFuRXDEbGj",
-                            "laterality": "LEFT",
-                            "spatialPattern": "LOCALIZED",
-                            "severity": "MILD"
-                        },
-                        "ageOfOnset": "JUVENILE_ONSET"
-                    },
-                    {
-                        "hpoBuildNumber": "hteVsaGIkQIA",
-                        "termPresence": "no",
-                        "term": "OMTzrcZwKhul",
-                        "modifiers": {
-                            "hpoModifierVersion": "ppTUDiVQIlWD",
-                            "progression": "PROGRESSIVE",
-                            "hpoModifierCode": "yeTGbPLJZXft",
-                            "laterality": "UNILATERAL",
-                            "spatialPattern": "PROXIMAL",
-                            "severity": "PROFOUND"
-                        },
-                        "ageOfOnset": "FETAL_ONSET"
-                    }
-                ],
-                "consanguineousParents": "unknown",
-                "ancestries": {
-                    "fathersEthnicOrigin": "K",
-                    "mothersOtherRelevantAncestry": "ycCFAITOVpjA",
-                    "mothersEthnicOrigin": "J",
-                    "fathersOtherRelevantAncestry": "pYxOpzXbDRMR",
-                    "chiSquare1KGenomesPhase3Pop": [
-                        {
-                            "kgPopCategory": "TSI",
-                            "kgSuperPopCategory": "EAS",
-                            "chiSquare": 5.100723696699337e-309
-                        },
-                        {
-                            "kgPopCategory": "GWD",
-                            "kgSuperPopCategory": "AMR",
-                            "chiSquare": 1.2109290460245907e-308
-                        },
-                        {
-                            "kgPopCategory": "PJL",
-                            "kgSuperPopCategory": "EAS",
-                            "chiSquare": 2.194434023380194e-308
-                        },
-                        {
-                            "kgPopCategory": "CLM",
-                            "kgSuperPopCategory": "EAS",
-                            "chiSquare": 1.9435655859378456e-308
-                        },
-                        {
-                            "kgPopCategory": "PUR",
-                            "kgSuperPopCategory": "EUR",
-                            "chiSquare": 3.97392386365675e-310
-                        }
-                    ]
-                },
-                "samples": [
-                    {
-                        "sampleId": "FotbcQIUFeLW",
-                        "product": "RNA",
-                        "maskedPid": "ZQNTsjlZlUfi",
-                        "participantId": "gwvqvoFqvOcB",
-                        "sampleUid": "crplTXDrkddh",
-                        "sampleType": "WNrYfnOuJyeS",
-                        "programmePhase": "OXFORD",
-                        "preparationMethod": "FFPE",
-                        "LDPCode": "zZcltJJETnhv",
-                        "source": "SALIVA",
-                        "storageMedium": "EDTA",
-                        "sampleState": "QWywdcJxUwVN",
-                        "labSampleId": 578246130,
-                        "clinicalSampleDateTime": "gJlWFzIiSHHr",
-                        "method": "CD138_SORTED"
-                    },
-                    {
-                        "sampleId": "XiclRhuWGLYE",
-                        "product": "DNA",
-                        "maskedPid": "enxQAMhPKXqa",
-                        "participantId": "cEgEMYQKGHzX",
-                        "sampleUid": "aewmrUrNixIZ",
-                        "sampleType": "kqdMqmBNreur",
-                        "programmePhase": "MAIN",
-                        "preparationMethod": "LI_HEP",
-                        "LDPCode": "OkvmoDEAEdSD",
-                        "source": "AMNIOTIC_FLUID",
-                        "storageMedium": "FFPE",
-                        "sampleState": "XldWAhuHBKtL",
-                        "labSampleId": -575557412,
-                        "clinicalSampleDateTime": "jYVXhXXdojbq",
-                        "method": "BIOPSY"
-                    },
-                    {
-                        "sampleId": "XUBXNwEuZVXd",
-                        "product": "RNA",
-                        "maskedPid": "PntdTGJnCilU",
-                        "participantId": "JlDBcXUBZlGk",
-                        "sampleUid": "mSPZQUgpXlQx",
-                        "sampleType": "SWMweYdwvVHq",
-                        "programmePhase": "CRUK",
-                        "preparationMethod": "FFPE",
-                        "LDPCode": "aajuRXtvqFUZ",
-                        "source": "CHORIONIC_VILLUS_SAMPLE",
-                        "storageMedium": "EDTA",
-                        "sampleState": "FXtGtbAbTFZr",
-                        "labSampleId": -1355909227,
-                        "clinicalSampleDateTime": "owyfrHXwsUMX",
-                        "method": "SORTED_OTHER"
-                    },
-                    {
-                        "sampleId": "WFrndgdKylxX",
-                        "product": "RNA",
-                        "maskedPid": "glszyFzzhsqt",
-                        "participantId": "nsYdJyvWbBAV",
-                        "sampleUid": "hgojjTFreTtv",
-                        "sampleType": "ltubNtZwEKQb",
-                        "programmePhase": "CRUK",
-                        "preparationMethod": "ASPIRATE",
-                        "LDPCode": "JxgxHEnvPazs",
-                        "source": "OTHER",
-                        "storageMedium": "LI_HEP",
-                        "sampleState": "IKcFnCoSexVv",
-                        "labSampleId": -198990350,
-                        "clinicalSampleDateTime": "hIMUDcrjaKbC",
-                        "method": "RESECTION"
-                    },
-                    {
-                        "sampleId": "TsIWLpxVVgKK",
-                        "product": "DNA",
-                        "maskedPid": "lySNXfSVTClq",
-                        "participantId": "pyuzYsVpaTyN",
-                        "sampleUid": "GYSWbjMyoUvN",
-                        "sampleType": "vUpCmDDFzOsu",
-                        "programmePhase": "CLL",
-                        "preparationMethod": "FF",
-                        "LDPCode": "HRNOVqYonXNg",
-                        "source": "BONE_MARROW_ASPIRATE_TUMOUR_SORTED_CELLS",
-                        "storageMedium": "FF",
-                        "sampleState": "eSEcGJPBxDBO",
-                        "labSampleId": -1821283541,
-                        "clinicalSampleDateTime": "gZHyjAmGhSMa",
-                        "method": "NOT_APPLICABLE"
-                    }
-                ],
-                "pedigreeId": -1110476078,
-                "participantUid": "mHXDORdooDgZ",
-                "diagnosticDetails": [
-                    {
-                        "ageAtOnsetInYears": 7.443457213692273e-309,
-                        "diagnosisCertainty": "cJKQnWArJWnr",
-                        "diagonsisCodingSystemVersion": "OGajoTkfROMh",
-                        "diagnosisCode": "FHbypUIAPsFd",
-                        "diagnosisCodingSystem": "WQdBmzXPgjbt",
-                        "diagnosisDescription": "rLOaGqWnyiXP"
-                    },
-                    {
-                        "ageAtOnsetInYears": 8.594989602337927e-309,
-                        "diagnosisCertainty": "nKxYpMjVGUHV",
-                        "diagonsisCodingSystemVersion": "BslNfaHpGAAQ",
-                        "diagnosisCode": "UaBonMSzgkYC",
-                        "diagnosisCodingSystem": "oJbaBsGXEbjj",
-                        "diagnosisDescription": "UrzfEKJjDFZr"
-                    },
-                    {
-                        "ageAtOnsetInYears": 7.44738499219877e-309,
-                        "diagnosisCertainty": "rRWdVZrdMqdO",
-                        "diagonsisCodingSystemVersion": "hSdzYypaDbkV",
-                        "diagnosisCode": "jvGaqsDepCiT",
-                        "diagnosisCodingSystem": "KlUyVRxfkCce",
-                        "diagnosisDescription": "pzySTBNbmWfa"
-                    },
-                    {
-                        "ageAtOnsetInYears": 1.649694990823114e-308,
-                        "diagnosisCertainty": "DgFxLVJnyspW",
-                        "diagonsisCodingSystemVersion": "hvYnzIvLlOza",
-                        "diagnosisCode": "PCuqqQntpstb",
-                        "diagnosisCodingSystem": "YIYhpQvSWhQU",
-                        "diagnosisDescription": "gDVDPPLVpLAy"
-                    },
-                    {
-                        "ageAtOnsetInYears": 4.778139793214895e-309,
-                        "diagnosisCertainty": "RaehJDBFMceb",
-                        "diagonsisCodingSystemVersion": "CbxjySPPBYNe",
-                        "diagnosisCode": "elmypEPGfWxo",
-                        "diagnosisCodingSystem": "RnneBcsWlxHD",
-                        "diagnosisDescription": "clPaRISneAMs"
-                    }
-                ],
-                "disorderList": [
-                    {
-                        "diseaseSubGroup": "cZlMWdULtjeZ",
-                        "specificDisease": "rtHtIuMvpoEW",
-                        "ageOfOnset": 2.050026482995061e-308,
-                        "diseaseGroup": "ycCUphaOKryU"
-                    },
-                    {
-                        "diseaseSubGroup": "JCyQutvlRviw",
-                        "specificDisease": "AoJCmOYhFCmi",
-                        "ageOfOnset": 2.181323492839861e-308,
-                        "diseaseGroup": "gvwSmsJhBeTx"
-                    },
-                    {
-                        "diseaseSubGroup": "SljPedxsiSpB",
-                        "specificDisease": "AguPcmeHMwbe",
-                        "ageOfOnset": 1.6987564679567035e-308,
-                        "diseaseGroup": "PNGTCCDlWcgm"
-                    },
-                    {
-                        "diseaseSubGroup": "rPHTjKETEoWP",
-                        "specificDisease": "hJDfuFoYMboS",
-                        "ageOfOnset": 1.7489010704351583e-308,
-                        "diseaseGroup": "JHYVRdOJQSPf"
-                    },
-                    {
-                        "diseaseSubGroup": "DKGaEdfcjFeT",
-                        "specificDisease": "fGJDRoiwllNr",
-                        "ageOfOnset": 1.1748204098377186e-308,
-                        "diseaseGroup": "MzBrhsVnSrGk"
-                    }
-                ],
-                "clinicalEthnicities": [
-                    "GC",
-                    "PE",
-                    "SE",
-                    "SA",
-                    "CS"
-                ],
-                "inbreedingCoefficient": {
-                    "coefficient": 1.7987624918662076e-308,
-                    "program": "VToXShSjcKFW",
-                    "standardError": 1.752647003685871e-308,
-                    "sampleId": "CUJyAGpwjBAL",
-                    "version": "YtBMnqPTcnZU",
-                    "estimationMethod": "ucZDNkYniaLL"
-                },
-                "isProband": true,
-                "motherId": 391793290,
-                "participantId": "lRUCzozsuzhx",
-                "additionalInformation": {
-                    "nPiDZFmgFUIq": "KnGpUtTDCrlj",
-                    "pOjxpgWzLFea": "WBRAuEacvSAv",
-                    "eHkcdINTOBdC": "fRTQJzRSNwwE",
-                    "KeDtbXiPoHgM": "WkoWhKSbWVvN",
-                    "hpDxAGljGMHq": "WVvfFsDFbIdh"
-                },
-                "yearOfBirth": -1873857153,
-                "lifeStatus": "DECEASED",
-                "adoptedStatus": "adoptedin",
-                "lastMenstrualPeriod": "ZHmqtBJBMpvl",
-                "previousTreatment": [
-                    {
-                        "previoustreatmentDate": {
-                            "year": -1226808546,
-                            "day": -1615487316,
-                            "month": -1003196319
-                        },
-                        "previousTreatmentType": "xfRomtHLRZKK",
-                        "previousTreatmentName": "tpztMnTiUuGS"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -29070194,
-                            "day": -785143924,
-                            "month": -1973407
-                        },
-                        "previousTreatmentType": "DqpOcePrIvBS",
-                        "previousTreatmentName": "QihKMogcljGF"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": -2090599672,
-                            "day": -888820336,
-                            "month": 1131661286
-                        },
-                        "previousTreatmentType": "icyyeQDgFTfV",
-                        "previousTreatmentName": "kaKOZXNvANHx"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 1075862208,
-                            "day": -33995288,
-                            "month": -779842341
-                        },
-                        "previousTreatmentType": "DEtblYmVqbKw",
-                        "previousTreatmentName": "JabNZQfiqCMR"
-                    },
-                    {
-                        "previoustreatmentDate": {
-                            "year": 1836966381,
-                            "day": 709681252,
-                            "month": -273101720
-                        },
-                        "previousTreatmentType": "xaSoEASktKLi",
-                        "previousTreatmentName": "eRKbFgqzTjef"
-                    }
-                ]
+              "kgPopCategory": "TSI",
+              "kgSuperPopCategory": "EUR",
+              "chiSquare": 2.1070757630529194e-308
             }
+          ]
+        },
+        "samples": [
+          {
+            "sampleId": "khaxpZHltKaZ",
+            "product": "RNA",
+            "maskedPid": "barpWLagJOTt",
+            "participantId": "JAaFbxiFYteV",
+            "sampleUid": "EHmRniaOMcIP",
+            "sampleType": "zrNTZogGBCyY",
+            "programmePhase": "OXFORD",
+            "preparationMethod": "EDTA",
+            "LDPCode": "EZFGdXlFJWDZ",
+            "source": "BUCCAL_SWAB",
+            "storageMedium": "FFPE",
+            "sampleState": "eNOUMVtcZNds",
+            "labSampleId": -1629905159,
+            "clinicalSampleDateTime": "hwyYODLDMBqV",
+            "method": "NOT_APPLICABLE"
+          },
+          {
+            "sampleId": "wzPoUUvBishY",
+            "product": "DNA",
+            "maskedPid": "UosJDtRmQeIZ",
+            "participantId": "YcjWUGFcmnpv",
+            "sampleUid": "TGCQQCWlIXGs",
+            "sampleType": "hXTjQpFbcDYl",
+            "programmePhase": "IIP",
+            "preparationMethod": "CD138_SORTED_CELLS",
+            "LDPCode": "INzVvZDKQofG",
+            "source": "BONE_MARROW_ASPIRATE_TUMOUR_SORTED_CELLS",
+            "storageMedium": "ORAGENE",
+            "sampleState": "HYvtBbHTorON",
+            "labSampleId": -1177835771,
+            "clinicalSampleDateTime": "ZJlQTSGCYkCZ",
+            "method": "SORTED_OTHER"
+          },
+          {
+            "sampleId": "cKeXlhOAWTgt",
+            "product": "DNA",
+            "maskedPid": "GURXCoChepcH",
+            "participantId": "vzFkPjdIfBdG",
+            "sampleUid": "RGRKrUsvsLAo",
+            "sampleType": "pmBzaJMazJjY",
+            "programmePhase": "CRUK",
+            "preparationMethod": "EDTA",
+            "LDPCode": "RNlEjdqSjZRA",
+            "source": "URINE",
+            "storageMedium": "FFPE",
+            "sampleState": "gLrgDnYZojUv",
+            "labSampleId": -1242190492,
+            "clinicalSampleDateTime": "yNGZlQIIMajs",
+            "method": "UNKNOWN"
+          },
+          {
+            "sampleId": "NPhXMMKzPfQz",
+            "product": "RNA",
+            "maskedPid": "dixhNIcuJRuH",
+            "participantId": "kDkgINGkXMsQ",
+            "sampleUid": "SmKihvUAcZBD",
+            "sampleType": "nwZlGgYibGYj",
+            "programmePhase": "CRUK",
+            "preparationMethod": "ORAGENE",
+            "LDPCode": "NBDTJmvCTtRv",
+            "source": "AMNIOTIC_FLUID",
+            "storageMedium": "LI_HEP",
+            "sampleState": "rpjbBLWaANHG",
+            "labSampleId": 1488874747,
+            "clinicalSampleDateTime": "minupVnDkKWD",
+            "method": "ASPIRATE"
+          },
+          {
+            "sampleId": "rbggjCoElvqg",
+            "product": "RNA",
+            "maskedPid": "nVJrRsxzGCOW",
+            "participantId": "szUrAAykHiiz",
+            "sampleUid": "wloxBNxEQROx",
+            "sampleType": "hlOLUSiNlQnz",
+            "programmePhase": "IIP",
+            "preparationMethod": "LI_HEP",
+            "LDPCode": "rinTePYjtLOJ",
+            "source": "AMNIOTIC_FLUID",
+            "storageMedium": "EDTA",
+            "sampleState": "AEnwxNCUIXaq",
+            "labSampleId": -1222025828,
+            "clinicalSampleDateTime": "MiGUchciHGeN",
+            "method": "UNKNOWN"
+          }
         ],
-        "familyId": "yJlFFlzGyokR",
-        "diseasePenetrances": [
-            {
-                "penetrance": "incomplete",
-                "specificDisease": "IppjRjrwCYYY"
+        "pedigreeId": -987654888,
+        "participantUid": "lBuVmUzlUwsf",
+        "diagnosticDetails": [
+          {
+            "ageAtOnsetInYears": 1.674563068776189e-308,
+            "diagnosisCertainty": "ZljzYSVOphRQ",
+            "diagonsisCodingSystemVersion": "kgYYeItAlbdV",
+            "diagnosisCode": "KCMsHXEoFrSY",
+            "diagnosisCodingSystem": "rPcgmqjnQbEm",
+            "diagnosisDescription": "nltjcPwOQFbm"
+          },
+          {
+            "ageAtOnsetInYears": 2.1535005448975285e-308,
+            "diagnosisCertainty": "NwpvIFDnmYua",
+            "diagonsisCodingSystemVersion": "NdBmeavWMNVI",
+            "diagnosisCode": "essnuqpPRFrs",
+            "diagnosisCodingSystem": "GNzeFictDiWn",
+            "diagnosisDescription": "mCbuBWxcwEyj"
+          },
+          {
+            "ageAtOnsetInYears": 1.5835000355004113e-308,
+            "diagnosisCertainty": "mRFkonGKXGEZ",
+            "diagonsisCodingSystemVersion": "cxhDCDnFBCbI",
+            "diagnosisCode": "NwLIpXzRpdPg",
+            "diagnosisCodingSystem": "AhxTpxGPfOWB",
+            "diagnosisDescription": "vkKZIGWwnqkQ"
+          },
+          {
+            "ageAtOnsetInYears": 1.74907890544606e-308,
+            "diagnosisCertainty": "UpjaCtQGVBle",
+            "diagonsisCodingSystemVersion": "GvsfSmOADJlJ",
+            "diagnosisCode": "OunLdyWSuCdd",
+            "diagnosisCodingSystem": "ZBYXIdicLfig",
+            "diagnosisDescription": "eKfvFdZKkiSs"
+          },
+          {
+            "ageAtOnsetInYears": 1.477842602301807e-308,
+            "diagnosisCertainty": "omwztUxNhQOK",
+            "diagonsisCodingSystemVersion": "uHrTiWDGjhjD",
+            "diagnosisCode": "yaVvBxwVWRch",
+            "diagnosisCodingSystem": "WQibzZVVaAdQ",
+            "diagnosisDescription": "fMAduJxvaIdI"
+          }
+        ],
+        "disorderList": [
+          {
+            "diseaseSubGroup": "suYugRkzNozw",
+            "specificDisease": "EubAYDYAhqzh",
+            "ageOfOnset": 8.55041398357243e-309,
+            "diseaseGroup": "TYLXFDgXFUiu"
+          },
+          {
+            "diseaseSubGroup": "BJYsVeEmVFuX",
+            "specificDisease": "anlMxonvzpua",
+            "ageOfOnset": 1.7033049432741384e-308,
+            "diseaseGroup": "LDSpXqmhYajV"
+          },
+          {
+            "diseaseSubGroup": "QsmMaYgMAylI",
+            "specificDisease": "JLmYDqxdlrqk",
+            "ageOfOnset": 1.20458208466873e-309,
+            "diseaseGroup": "ttLYUqPtdyBP"
+          },
+          {
+            "diseaseSubGroup": "oFrQvjfGbUME",
+            "specificDisease": "WtdVLPQMVfCJ",
+            "ageOfOnset": 3.84565952454459e-309,
+            "diseaseGroup": "iRoKREArzTrc"
+          },
+          {
+            "diseaseSubGroup": "HiuxDqcQplxq",
+            "specificDisease": "GpMPBxtPzass",
+            "ageOfOnset": 1.8778003131312546e-308,
+            "diseaseGroup": "MyJnanwtPXif"
+          }
+        ],
+        "clinicalEthnicities": ["GF", "LE", "K", "LF", "S"],
+        "inbreedingCoefficient": {
+          "coefficient": 5.466201421821195e-309,
+          "program": "sBTtOcAwTVHR",
+          "standardError": 1.937810675659616e-308,
+          "sampleId": "TFuGVEpgqWhd",
+          "version": "rDmjqFvcTQmI",
+          "estimationMethod": "WNqSqidAYryo"
+        },
+        "isProband": true,
+        "motherId": -870619368,
+        "participantId": "DyjBPkWWVOGe",
+        "additionalInformation": {
+          "xqVUqXJZTWxH": "CmjmKrbCSyoU",
+          "LKxxSLzwigge": "FGKQDGjsyVto",
+          "GIhFYuqkbPXL": "RxokpgcScCCD",
+          "zFTpGBOPAjyf": "gwzGnrCvuHJx",
+          "oGVRzuOqaoke": "zPHnDMjSClmo"
+        },
+        "yearOfBirth": 723153392,
+        "lifeStatus": "ALIVE",
+        "adoptedStatus": "adoptedout",
+        "lastMenstrualPeriod": "JNZhxchInYuk",
+        "previousTreatment": [
+          {
+            "previoustreatmentDate": {
+              "year": 1347708923,
+              "day": -1260296563,
+              "month": 1368292483
             },
-            {
-                "penetrance": "incomplete",
-                "specificDisease": "zbZbSrFZPFLZ"
+            "previousTreatmentType": "eLxTXYIHvqni",
+            "previousTreatmentName": "jeFVPCsderwU"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -1925635831,
+              "day": 715252410,
+              "month": 1804347672
             },
-            {
-                "penetrance": "incomplete",
-                "specificDisease": "bSNBWVjdsout"
+            "previousTreatmentType": "zGenJUiUwnbr",
+            "previousTreatmentName": "LdgzHtwmevOq"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -715200447,
+              "day": -1439109185,
+              "month": 1845134985
             },
-            {
-                "penetrance": "complete",
-                "specificDisease": "awiGAfGOIJFz"
+            "previousTreatmentType": "MeZBpGOgXVNb",
+            "previousTreatmentName": "LddaBrARrKKe"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -557232843,
+              "day": 2141504957,
+              "month": -2043640403
             },
-            {
-                "penetrance": "complete",
-                "specificDisease": "CpAsUMmQseqN"
-            }
+            "previousTreatmentType": "jSaxasNPsjHH",
+            "previousTreatmentName": "IpCMuswiGxlk"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 111473329,
+              "day": 1246763160,
+              "month": -546473834
+            },
+            "previousTreatmentType": "mKYjLjmAnVpL",
+            "previousTreatmentName": "kpIoHIeAowAH"
+          }
         ]
-    },
-    "otherFamilyHistory": {
-        "maternalFamilyHistory": [
-            "vxpTjThHRilB",
-            "CsIHEDXwmGFK",
-            "zrdhSMsHKMGy",
-            "GrIKkyAappBP",
-            "jBtcizzzaUQu"
+      },
+      {
+        "participantQCState": "passedMedicalReviewReadyForInterpretation",
+        "fatherId": -1263467237,
+        "twinGroup": 439520155,
+        "sex": "MALE",
+        "superMotherId": 1084793059,
+        "personKaryotypicSex": "XY",
+        "superFatherId": 419080795,
+        "affectionStatus": "UNAFFECTED",
+        "monozygotic": "yes",
+        "consentStatus": {
+          "primaryFindingConsent": false,
+          "programmeConsent": false,
+          "carrierStatusConsent": true,
+          "secondaryFindingConsent": true
+        },
+        "gelSuperFamilyId": "atrhwHxjceyH",
+        "hpoTermList": [],
+        "consanguineousParents": "unknown",
+        "ancestries": {
+          "fathersEthnicOrigin": "J",
+          "mothersOtherRelevantAncestry": "IvTHWnksoloX",
+          "mothersEthnicOrigin": "R",
+          "fathersOtherRelevantAncestry": "yXiiUmRTugcZ",
+          "chiSquare1KGenomesPhase3Pop": [
+            {
+              "kgPopCategory": "TSI",
+              "kgSuperPopCategory": "EUR",
+              "chiSquare": 4.731449852067636e-309
+            },
+            {
+              "kgPopCategory": "JPT",
+              "kgSuperPopCategory": "AFR",
+              "chiSquare": 1.2412741669600213e-308
+            },
+            {
+              "kgPopCategory": "CEU",
+              "kgSuperPopCategory": "SAS",
+              "chiSquare": 3.465546601543337e-309
+            },
+            {
+              "kgPopCategory": "KHV",
+              "kgSuperPopCategory": "AFR",
+              "chiSquare": 1.9600492949368584e-308
+            },
+            {
+              "kgPopCategory": "STU",
+              "kgSuperPopCategory": "EAS",
+              "chiSquare": 1.869404499716354e-308
+            }
+          ]
+        },
+        "samples": [
+          {
+            "sampleId": "ADqBgxPSjsZC",
+            "product": "DNA",
+            "maskedPid": "MncGeAQlppYF",
+            "participantId": "rnByCMhceFKB",
+            "sampleUid": "QRLboNLhTccM",
+            "sampleType": "kPBQVerrGXOV",
+            "programmePhase": "MAIN",
+            "preparationMethod": "FF",
+            "LDPCode": "LDwpPazBKiop",
+            "source": "AMNIOTIC_FLUID",
+            "storageMedium": "LI_HEP",
+            "sampleState": "YOCUWKUrgNnA",
+            "labSampleId": 249110058,
+            "clinicalSampleDateTime": "xwqJrEUNnnlQ",
+            "method": "UNSORTED"
+          },
+          {
+            "sampleId": "ZTJPrhrrFGON",
+            "product": "RNA",
+            "maskedPid": "QxRjZDTzIqAc",
+            "participantId": "jBvrmpJUVegi",
+            "sampleUid": "rfSNyfZijDpi",
+            "sampleType": "yuZElPgYOocr",
+            "programmePhase": "EXPT",
+            "preparationMethod": "LI_HEP",
+            "LDPCode": "AsindgPhxvuF",
+            "source": "FLUID",
+            "storageMedium": "ORAGENE",
+            "sampleState": "xbmNHTQGsori",
+            "labSampleId": -99235205,
+            "clinicalSampleDateTime": "OGiGFSjJpDnN",
+            "method": "UNKNOWN"
+          },
+          {
+            "sampleId": "DuZvuwbCzczF",
+            "product": "RNA",
+            "maskedPid": "HtbfJnquQdur",
+            "participantId": "DvomWGZMZVND",
+            "sampleUid": "yUWNOCuUzsMT",
+            "sampleType": "pyGAiNQhUdPr",
+            "programmePhase": "EXPT",
+            "preparationMethod": "FFPE",
+            "LDPCode": "DjrAqRZUWIHL",
+            "source": "BONE_MARROW",
+            "storageMedium": "LI_HEP",
+            "sampleState": "WUporOKlNEEJ",
+            "labSampleId": -334336832,
+            "clinicalSampleDateTime": "CPyrTSbsxWlh",
+            "method": "NOT_APPLICABLE"
+          },
+          {
+            "sampleId": "oOCbakoXLYEB",
+            "product": "RNA",
+            "maskedPid": "qQgtfMfsBNdg",
+            "participantId": "OsCouBapJBQB",
+            "sampleUid": "FQTEvvMOjkXI",
+            "sampleType": "vrYzrkfhqkFc",
+            "programmePhase": "IIP",
+            "preparationMethod": "EDTA",
+            "LDPCode": "VzIKiSYvKPSW",
+            "source": "TISSUE",
+            "storageMedium": "ORAGENE",
+            "sampleState": "zyTBbFsNHCiY",
+            "labSampleId": -1300511371,
+            "clinicalSampleDateTime": "YpCthHlwqQEC",
+            "method": "ASPIRATE"
+          },
+          {
+            "sampleId": "KVKniAiXdsMR",
+            "product": "DNA",
+            "maskedPid": "RllJwpaTbfLs",
+            "participantId": "uXHfEFRYUqFO",
+            "sampleUid": "avmcQzAkbxzF",
+            "sampleType": "piNAuZcIrPxu",
+            "programmePhase": "CRUK",
+            "preparationMethod": "FF",
+            "LDPCode": "FgCPfaiseVQG",
+            "source": "TUMOUR",
+            "storageMedium": "ORAGENE",
+            "sampleState": "ZnWREVvmCyYv",
+            "labSampleId": 344732031,
+            "clinicalSampleDateTime": "euYOQMlbysbf",
+            "method": "UNKNOWN"
+          }
         ],
-        "paternalFamilyHistory": [
-            "MCgXeNqsqIli",
-            "kLnWAbLrYDXX",
-            "DbdHnYvJbNXu",
-            "AWscMjxLNWar",
-            "WEdDShkXmZaI"
+        "pedigreeId": 1713733071,
+        "participantUid": "ZQRaHESUimes",
+        "diagnosticDetails": [
+          {
+            "ageAtOnsetInYears": 1.448666057630245e-308,
+            "diagnosisCertainty": "SsPlPMYCfJjM",
+            "diagonsisCodingSystemVersion": "jUJVCLCTFGvI",
+            "diagnosisCode": "pscaaCKVxItB",
+            "diagnosisCodingSystem": "zKeGkVRKHxwY",
+            "diagnosisDescription": "jZEeKYWjdCZk"
+          },
+          {
+            "ageAtOnsetInYears": 1.560625487713411e-308,
+            "diagnosisCertainty": "dyCYkoBbOSPT",
+            "diagonsisCodingSystemVersion": "aaNIWjjBNeQU",
+            "diagnosisCode": "rtGcxjVUTzAW",
+            "diagnosisCodingSystem": "ZUbeNjwlciaa",
+            "diagnosisDescription": "aWrgtsNBRsso"
+          },
+          {
+            "ageAtOnsetInYears": 1.7217425226752256e-308,
+            "diagnosisCertainty": "lEXvNdKTiqlf",
+            "diagonsisCodingSystemVersion": "XDhHBXQokhwM",
+            "diagnosisCode": "lalRpxYkyTNZ",
+            "diagnosisCodingSystem": "vRiZkEGzUGXR",
+            "diagnosisDescription": "WZVUhJMIOHUN"
+          },
+          {
+            "ageAtOnsetInYears": 1.9434692884012227e-308,
+            "diagnosisCertainty": "QOVETlgHLXkW",
+            "diagonsisCodingSystemVersion": "uFAWNryeqdiP",
+            "diagnosisCode": "fpPrbPsRTSCe",
+            "diagnosisCodingSystem": "SphayJOiemTP",
+            "diagnosisDescription": "JvLIDpQZSElc"
+          },
+          {
+            "ageAtOnsetInYears": 9.217551819528543e-309,
+            "diagnosisCertainty": "YLmmQElARMlC",
+            "diagonsisCodingSystemVersion": "jDKwxfrWOJFr",
+            "diagnosisCode": "iFXpapoTgnDh",
+            "diagnosisCodingSystem": "zTKKDAlmxiAG",
+            "diagnosisDescription": "EDUNSrKvHygi"
+          }
+        ],
+        "disorderList": [
+          {
+            "diseaseSubGroup": "timmjfsLxCgq",
+            "specificDisease": "mdmvQwstUTUp",
+            "ageOfOnset": 1.850470197255506e-309,
+            "diseaseGroup": "XPeMJfnVnwql"
+          },
+          {
+            "diseaseSubGroup": "GGFPidNQBgjM",
+            "specificDisease": "SwSdSOodboCp",
+            "ageOfOnset": 1.0334509610344513e-308,
+            "diseaseGroup": "kmxuqbHELBnN"
+          },
+          {
+            "diseaseSubGroup": "ztUtijwjNzsY",
+            "specificDisease": "EOZHfqEjYktA",
+            "ageOfOnset": 1.964028732833943e-308,
+            "diseaseGroup": "RyHHmBcLMBuX"
+          },
+          {
+            "diseaseSubGroup": "wsUYxoDvCqkY",
+            "specificDisease": "YykpkMotYkMh",
+            "ageOfOnset": 1.451026444520192e-308,
+            "diseaseGroup": "GvjKaBoaYGsK"
+          },
+          {
+            "diseaseSubGroup": "aWAvvxmOGwNP",
+            "specificDisease": "qGrirZccGeJL",
+            "ageOfOnset": 3.643172310930815e-309,
+            "diseaseGroup": "deOxyzEhmWim"
+          }
+        ],
+        "clinicalEthnicities": ["A", "CN", "PA", "CF", "E"],
+        "inbreedingCoefficient": {
+          "coefficient": 1.777199972593574e-309,
+          "program": "RAyVCHCQDJky",
+          "standardError": 3.974401345197098e-309,
+          "sampleId": "hSwQwpaBPfJh",
+          "version": "YTpdiAlTGUbc",
+          "estimationMethod": "MALeDaNkoktQ"
+        },
+        "isProband": false,
+        "motherId": 2024675087,
+        "participantId": "vWReAZlCozXT",
+        "additionalInformation": {
+          "pVhxhbhhkeKU": "pKgezYCkgcYP",
+          "NUCxdIJnEvLG": "AFcycyrUdDoa",
+          "uBKOPwADTdzX": "pvLATBUeGnFI",
+          "sqkgIKNCQjEK": "klqjSlvSUgVV",
+          "RbrJJeXYWPaC": "cObfBGtjnDIE"
+        },
+        "yearOfBirth": -1013357807,
+        "lifeStatus": "UNBORN",
+        "adoptedStatus": "adoptedin",
+        "lastMenstrualPeriod": "PpXDqwVzOOGQ",
+        "previousTreatment": [
+          {
+            "previoustreatmentDate": {
+              "year": -585003175,
+              "day": 613425429,
+              "month": 743044880
+            },
+            "previousTreatmentType": "JqpfmDXkcEUk",
+            "previousTreatmentName": "lwIMsNFqMhdk"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 821864828,
+              "day": 727534296,
+              "month": 1105064439
+            },
+            "previousTreatmentType": "aialwamtmAsP",
+            "previousTreatmentName": "sNLrnsFYAcOW"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 908052635,
+              "day": -211073490,
+              "month": 1749002145
+            },
+            "previousTreatmentType": "HzzPKtDAvlNA",
+            "previousTreatmentName": "eJrAtliHotIn"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 368589021,
+              "day": 1407857118,
+              "month": 954426826
+            },
+            "previousTreatmentType": "OgREbKQadciN",
+            "previousTreatmentName": "okGHpaatwtqX"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 1622083815,
+              "day": -1606824365,
+              "month": -1210621568
+            },
+            "previousTreatmentType": "zHuqfQuLSeVE",
+            "previousTreatmentName": "kVZwrZnOgfhV"
+          }
         ]
-    },
-    "participantsInterpretationFlags": [
-        {
-            "interpretationFlag": "cnv_calls_assumed_xx_karyo",
-            "SampleId": "TgvqWKvtjOAw",
-            "additionalDescription": "HYjbPlLnXenN",
-            "participantId": "giwgLBnWTPoB"
+      },
+      {
+        "participantQCState": "queryToGel",
+        "fatherId": 885357335,
+        "twinGroup": 561001237,
+        "sex": "MALE",
+        "superMotherId": -1633690883,
+        "personKaryotypicSex": "XX",
+        "superFatherId": -948697416,
+        "affectionStatus": "AFFECTED",
+        "monozygotic": "no",
+        "consentStatus": {
+          "primaryFindingConsent": false,
+          "programmeConsent": true,
+          "carrierStatusConsent": true,
+          "secondaryFindingConsent": true
         },
-        {
-            "interpretationFlag": "mixed_recruiting_gmc",
-            "SampleId": "UaKqoAvOIXDn",
-            "additionalDescription": "llUohAzjZnqf",
-            "participantId": "MNOzAtYpBWLy"
+        "gelSuperFamilyId": "KHvsZzVCWkJv",
+        "hpoTermList": [
+          {
+            "hpoBuildNumber": "SwYtByrVRjNP",
+            "termPresence": "no",
+            "term": "rthUrYMtkkIs",
+            "modifiers": [
+              {
+                "hpoModifierVersion": "BjpLmTHXUJiR",
+                "progression": "NONPROGRESSIVE",
+                "hpoModifierCode": "jyziodtfpqyb",
+                "laterality": "UNILATERAL",
+                "spatialPattern": "DISTAL",
+                "severity": "MILD"
+              }
+            ],
+            "ageOfOnset": "CHILDHOOD_ONSET"
+          }
+        ],
+        "consanguineousParents": "yes",
+        "ancestries": {
+          "fathersEthnicOrigin": "M",
+          "mothersOtherRelevantAncestry": "dLZEpFPYRPCf",
+          "mothersEthnicOrigin": "A",
+          "fathersOtherRelevantAncestry": "zuujqjgIjUcM",
+          "chiSquare1KGenomesPhase3Pop": [
+            {
+              "kgPopCategory": "CLM",
+              "kgSuperPopCategory": "EUR",
+              "chiSquare": 4.122927585141735e-309
+            },
+            {
+              "kgPopCategory": "ITU",
+              "kgSuperPopCategory": "SAS",
+              "chiSquare": 2.733028847733885e-309
+            },
+            {
+              "kgPopCategory": "YRI",
+              "kgSuperPopCategory": "EAS",
+              "chiSquare": 1.733517558630435e-309
+            },
+            {
+              "kgPopCategory": "LWK",
+              "kgSuperPopCategory": "EAS",
+              "chiSquare": 1.067324861555614e-308
+            },
+            {
+              "kgPopCategory": "YRI",
+              "kgSuperPopCategory": "EUR",
+              "chiSquare": 2.77946704716509e-309
+            }
+          ]
         },
-        {
-            "interpretationFlag": "mixed_chemistries",
-            "SampleId": "aBQNUecRjele",
-            "additionalDescription": "RqvDsMVAfWEu",
-            "participantId": "HCWtJSfmmaEF"
+        "samples": [
+          {
+            "sampleId": "udxYCrOfzVNm",
+            "product": "DNA",
+            "maskedPid": "aUZRxrailERx",
+            "participantId": "BVfneNxeAOFA",
+            "sampleUid": "yPdbqRYDnoWU",
+            "sampleType": "QAUIfCBqDKRd",
+            "programmePhase": "IIP",
+            "preparationMethod": "ASPIRATE",
+            "LDPCode": "CIbXkYpJGpEi",
+            "source": "BUCCAL_SWAB",
+            "storageMedium": "EDTA",
+            "sampleState": "TeWcmunIRyFs",
+            "labSampleId": -422700346,
+            "clinicalSampleDateTime": "OimujlWAxlGj",
+            "method": "NOT_APPLICABLE"
+          },
+          {
+            "sampleId": "ocDjHJZeTGpb",
+            "product": "DNA",
+            "maskedPid": "ftPnHMeBAbzo",
+            "participantId": "SFQEKapWrFfU",
+            "sampleUid": "FASTMBqhRNWh",
+            "sampleType": "iVwBXRjcbJyo",
+            "programmePhase": "EXPT",
+            "preparationMethod": "LI_HEP",
+            "LDPCode": "PpmljxtjCNOp",
+            "source": "TUMOUR",
+            "storageMedium": "FF",
+            "sampleState": "DpibnibdZzlo",
+            "labSampleId": -1007679268,
+            "clinicalSampleDateTime": "nFVxLxNuHLFT",
+            "method": "CD138_SORTED"
+          },
+          {
+            "sampleId": "sFGSXWTTGHTQ",
+            "product": "RNA",
+            "maskedPid": "YiFvQNhlvKPn",
+            "participantId": "kkRPyziNfwpb",
+            "sampleUid": "EkgxIcKouMNB",
+            "sampleType": "zARTtcOSqNBy",
+            "programmePhase": "IIP",
+            "preparationMethod": "ASPIRATE",
+            "LDPCode": "TxXtwEvYEdgu",
+            "source": "AMNIOTIC_FLUID",
+            "storageMedium": "ORAGENE",
+            "sampleState": "kAdPHKxPncfm",
+            "labSampleId": 82549762,
+            "clinicalSampleDateTime": "asVYJPQUFLWK",
+            "method": "CD138_SORTED"
+          },
+          {
+            "sampleId": "gbHzWnGOGvyu",
+            "product": "DNA",
+            "maskedPid": "rqBvebEhpAUT",
+            "participantId": "CIRWIelsKQCm",
+            "sampleUid": "emVECIHVJEsp",
+            "sampleType": "VjhprvzOksIB",
+            "programmePhase": "EXPT",
+            "preparationMethod": "CD128_SORTED_CELLS",
+            "LDPCode": "gJIGopVOPzZg",
+            "source": "BONE_MARROW_ASPIRATE_TUMOUR_CELLS",
+            "storageMedium": "FF",
+            "sampleState": "qNsECfDbZWwa",
+            "labSampleId": 716442659,
+            "clinicalSampleDateTime": "ZeNlxCZkyyyu",
+            "method": "NOT_APPLICABLE"
+          },
+          {
+            "sampleId": "CaQezogRjjLY",
+            "product": "DNA",
+            "maskedPid": "WNLllmvBoEvi",
+            "participantId": "QOXhoZdZUQSe",
+            "sampleUid": "JjsVdGHqlTLQ",
+            "sampleType": "GAuXgJTwGiha",
+            "programmePhase": "IIP",
+            "preparationMethod": "CD128_SORTED_CELLS",
+            "LDPCode": "LweSyleATDkI",
+            "source": "FIBROBLAST",
+            "storageMedium": "EDTA",
+            "sampleState": "EHNkJUQFhVnE",
+            "labSampleId": 1657146391,
+            "clinicalSampleDateTime": "eNqqnaoDOdUk",
+            "method": "SORTED_OTHER"
+          }
+        ],
+        "pedigreeId": 1396581747,
+        "participantUid": "AomksuGNbOjN",
+        "diagnosticDetails": [
+          {
+            "ageAtOnsetInYears": 3.037493765298284e-309,
+            "diagnosisCertainty": "CcBCDRhahkKR",
+            "diagonsisCodingSystemVersion": "SOSNYCtaGWUU",
+            "diagnosisCode": "ftymdhkKSVhn",
+            "diagnosisCodingSystem": "WNhTRlddSMFM",
+            "diagnosisDescription": "sDamblQMeCpY"
+          },
+          {
+            "ageAtOnsetInYears": 2.324558941192717e-309,
+            "diagnosisCertainty": "AKtwTtUqODlq",
+            "diagonsisCodingSystemVersion": "LqAhwSVRTnHF",
+            "diagnosisCode": "vPwHTxVPQzzz",
+            "diagnosisCodingSystem": "ANAwJTbkabiN",
+            "diagnosisDescription": "xmEjYiTfSLvK"
+          },
+          {
+            "ageAtOnsetInYears": 1.98494393500658e-308,
+            "diagnosisCertainty": "MeziWnMUyaWc",
+            "diagonsisCodingSystemVersion": "vLwKYqvxCxRM",
+            "diagnosisCode": "LqDPXsQUNSbx",
+            "diagnosisCodingSystem": "rETKhkqMjEpA",
+            "diagnosisDescription": "kVRSdPDdDeKp"
+          },
+          {
+            "ageAtOnsetInYears": 2.123647501360903e-308,
+            "diagnosisCertainty": "tTKpCGsfBenS",
+            "diagonsisCodingSystemVersion": "XicHMRoJeVdp",
+            "diagnosisCode": "iTSBqbeWsKbb",
+            "diagnosisCodingSystem": "khWomROlOrVA",
+            "diagnosisDescription": "aTmvEXOUELHK"
+          },
+          {
+            "ageAtOnsetInYears": 1.07515553188391e-308,
+            "diagnosisCertainty": "jgbZnoUWMQLx",
+            "diagonsisCodingSystemVersion": "dTkRyBiowDzA",
+            "diagnosisCode": "JLFVgIgSgSfo",
+            "diagnosisCodingSystem": "iNUdWwopksuV",
+            "diagnosisDescription": "dolELqGQFMAl"
+          }
+        ],
+        "disorderList": [
+          {
+            "diseaseSubGroup": "MWKRZYyLoLmO",
+            "specificDisease": "qRqqbsfvVDaj",
+            "ageOfOnset": 2.038702173089604e-308,
+            "diseaseGroup": "MOBiAFecEFJm"
+          },
+          {
+            "diseaseSubGroup": "HIBBylrLWTcG",
+            "specificDisease": "NdZiprUscoOp",
+            "ageOfOnset": 7.757685301697165e-309,
+            "diseaseGroup": "ocpVXcNdIaYC"
+          },
+          {
+            "diseaseSubGroup": "OrMAdnKaqAzS",
+            "specificDisease": "bMPgXUymFvAz",
+            "ageOfOnset": 1.9014111766144696e-308,
+            "diseaseGroup": "hotAWunygRGc"
+          },
+          {
+            "diseaseSubGroup": "UoZcTPpMhDru",
+            "specificDisease": "krEqowFLtsAS",
+            "ageOfOnset": 5.856788040772525e-309,
+            "diseaseGroup": "aKZjmXNuzFTB"
+          },
+          {
+            "diseaseSubGroup": "XjJAxqLbBjFY",
+            "specificDisease": "RMqIwpuLJfgP",
+            "ageOfOnset": 2.069921528381078e-308,
+            "diseaseGroup": "ymJqYJdrIyxV"
+          }
+        ],
+        "clinicalEthnicities": ["J", "GC", "M", "CW", "GF"],
+        "inbreedingCoefficient": {
+          "coefficient": 2.0477350205898424e-308,
+          "program": "ARKKgzgyFVbC",
+          "standardError": 6.245168514216783e-309,
+          "sampleId": "rsDYXhkhsXEg",
+          "version": "wAIbnZMSOARZ",
+          "estimationMethod": "fGWiljcRcShD"
         },
-        {
-            "interpretationFlag": "low_tumour_purity",
-            "SampleId": "ixxReKngfLJq",
-            "additionalDescription": "EURXNQTxAAJZ",
-            "participantId": "CwabcdznaeiR"
+        "isProband": true,
+        "motherId": -166269366,
+        "participantId": "TQdFqjLhqRUt",
+        "additionalInformation": {
+          "ShymMWgCHOVi": "NTYpOCjyWZnU",
+          "OjnGYAOEpONW": "mavHpZHnMCbb",
+          "qTCKjdHuwxoI": "YDXFNGnsNYhA",
+          "GUNrZlhHigSo": "dkZNSyXPbRhX",
+          "UqnQiaYHUjmc": "RnhAPoLVMKYs"
         },
-        {
-            "interpretationFlag": "uniparental_heterodisomy",
-            "SampleId": "sbeQGhkgGScD",
-            "additionalDescription": "LLsKxHbonFzr",
-            "participantId": "MWhreJppDcJG"
-        }
+        "yearOfBirth": 785464990,
+        "lifeStatus": "DECEASED",
+        "adoptedStatus": "notadopted",
+        "lastMenstrualPeriod": "HRotgNDkhqSE",
+        "previousTreatment": [
+          {
+            "previoustreatmentDate": {
+              "year": -90703535,
+              "day": -1098138039,
+              "month": -818168879
+            },
+            "previousTreatmentType": "DuRdUfwFHKWM",
+            "previousTreatmentName": "UqtESAqRbyrz"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -322660775,
+              "day": 1593712212,
+              "month": 1705162848
+            },
+            "previousTreatmentType": "bwRogFTTvbaJ",
+            "previousTreatmentName": "DCleSXDadsnD"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -1685827714,
+              "day": -90309962,
+              "month": -452169575
+            },
+            "previousTreatmentType": "DcbsWKlltmFu",
+            "previousTreatmentName": "EBURLYDgnbvp"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -2143363058,
+              "day": 1768546560,
+              "month": 1757597819
+            },
+            "previousTreatmentType": "vjLwJSusOmpH",
+            "previousTreatmentName": "EhNESmLsBQYQ"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -1034088649,
+              "day": -2074221756,
+              "month": -584241021
+            },
+            "previousTreatmentType": "CdEpTdwqjQmg",
+            "previousTreatmentName": "QqxhmuoTFrrG"
+          }
+        ]
+      },
+      {
+        "participantQCState": "noState",
+        "fatherId": -1569919891,
+        "twinGroup": 1087930301,
+        "sex": "FEMALE",
+        "superMotherId": -616399462,
+        "personKaryotypicSex": "XO",
+        "superFatherId": -1402602764,
+        "affectionStatus": "AFFECTED",
+        "monozygotic": "yes",
+        "consentStatus": {
+          "primaryFindingConsent": false,
+          "programmeConsent": true,
+          "carrierStatusConsent": true,
+          "secondaryFindingConsent": true
+        },
+        "gelSuperFamilyId": "lHoozYTNMpPN",
+        "hpoTermList": [],
+        "consanguineousParents": "yes",
+        "ancestries": {
+          "fathersEthnicOrigin": "Z",
+          "mothersOtherRelevantAncestry": "auwZrxOIhPFy",
+          "mothersEthnicOrigin": "N",
+          "fathersOtherRelevantAncestry": "HRBUnsrQoBtY",
+          "chiSquare1KGenomesPhase3Pop": [
+            {
+              "kgPopCategory": "ITU",
+              "kgSuperPopCategory": "EAS",
+              "chiSquare": 1.2378627447463993e-308
+            },
+            {
+              "kgPopCategory": "CDX",
+              "kgSuperPopCategory": "AMR",
+              "chiSquare": 1.504977139481068e-308
+            },
+            {
+              "kgPopCategory": "CHS",
+              "kgSuperPopCategory": "SAS",
+              "chiSquare": 7.066860573302387e-309
+            },
+            {
+              "kgPopCategory": "ESN",
+              "kgSuperPopCategory": "AMR",
+              "chiSquare": 1.7142855298850426e-308
+            },
+            {
+              "kgPopCategory": "STU",
+              "kgSuperPopCategory": "SAS",
+              "chiSquare": 7.187567912386904e-309
+            }
+          ]
+        },
+        "samples": [
+          {
+            "sampleId": "alMSdbXCdlIK",
+            "product": "DNA",
+            "maskedPid": "EbJnLbkwXDBG",
+            "participantId": "UoxSlOeFREXq",
+            "sampleUid": "VptocLxJXuOt",
+            "sampleType": "WVYVFlFxAGza",
+            "programmePhase": "IIP",
+            "preparationMethod": "FFPE",
+            "LDPCode": "ioVfuWpkynuL",
+            "source": "TISSUE",
+            "storageMedium": "FF",
+            "sampleState": "nXWcXOVGqfID",
+            "labSampleId": -2090539589,
+            "clinicalSampleDateTime": "qxlzDaDTQjOS",
+            "method": "CD138_SORTED"
+          },
+          {
+            "sampleId": "xOtZQiVufPFt",
+            "product": "DNA",
+            "maskedPid": "gudYRQHpDBiI",
+            "participantId": "uwbcAASVQHKc",
+            "sampleUid": "cpuOpHZubgjO",
+            "sampleType": "wDbMRrYiENJu",
+            "programmePhase": "CRUK",
+            "preparationMethod": "FF",
+            "LDPCode": "LSYeLYTUKMXT",
+            "source": "CHORIONIC_VILLUS_SAMPLE",
+            "storageMedium": "FFPE",
+            "sampleState": "OSZbkXgwJsMk",
+            "labSampleId": 1531653102,
+            "clinicalSampleDateTime": "GBEPeDnHmDMx",
+            "method": "UNSORTED"
+          },
+          {
+            "sampleId": "ONKDDmAviLVe",
+            "product": "RNA",
+            "maskedPid": "FUvsUGHZNctQ",
+            "participantId": "XKHMNTiZxptO",
+            "sampleUid": "JvUIyyRLZGuY",
+            "sampleType": "wEJDkgvkBpIT",
+            "programmePhase": "CRUK",
+            "preparationMethod": "FF",
+            "LDPCode": "DpDljRMlvwsx",
+            "source": "FLUID",
+            "storageMedium": "ORAGENE",
+            "sampleState": "IiUjhvMQUmzu",
+            "labSampleId": 1790405245,
+            "clinicalSampleDateTime": "KvpkGNferfBg",
+            "method": "UNKNOWN"
+          },
+          {
+            "sampleId": "ywmQWaWPCIwm",
+            "product": "RNA",
+            "maskedPid": "EJyxHLXbSSjf",
+            "participantId": "SOeOMWlLBIeN",
+            "sampleUid": "xaiLBvjCnxok",
+            "sampleType": "jSWEVtyKKWtM",
+            "programmePhase": "CRUK",
+            "preparationMethod": "ORAGENE",
+            "LDPCode": "rZmbsXIMxnhh",
+            "source": "BUCCAL_SWAB",
+            "storageMedium": "LI_HEP",
+            "sampleState": "CFwKWrdkOvVu",
+            "labSampleId": 1655561812,
+            "clinicalSampleDateTime": "ZvOhsTnoOmhI",
+            "method": "RESECTION"
+          },
+          {
+            "sampleId": "nAALpTiNRJnR",
+            "product": "DNA",
+            "maskedPid": "EWmoRFMoRWIL",
+            "participantId": "vFXrxpWtpRKh",
+            "sampleUid": "GHELtcKfQJkH",
+            "sampleType": "ArXjCSLbAeJh",
+            "programmePhase": "EXPT",
+            "preparationMethod": "LI_HEP",
+            "LDPCode": "FXqORfVRpTCu",
+            "source": "TUMOUR",
+            "storageMedium": "ORAGENE",
+            "sampleState": "gctuAztzeUJd",
+            "labSampleId": -1154676284,
+            "clinicalSampleDateTime": "hvLLQJlusyVx",
+            "method": "ASPIRATE"
+          }
+        ],
+        "pedigreeId": -1766168257,
+        "participantUid": "pQabGEbLETtQ",
+        "diagnosticDetails": [
+          {
+            "ageAtOnsetInYears": 1.820092389082375e-308,
+            "diagnosisCertainty": "qNZIqwNvDDex",
+            "diagonsisCodingSystemVersion": "OIAykxXKCPjS",
+            "diagnosisCode": "cnyfybzJGGke",
+            "diagnosisCodingSystem": "PADTLuBBbjgy",
+            "diagnosisDescription": "ilQGmGBVyYix"
+          },
+          {
+            "ageAtOnsetInYears": 1.6752345201504345e-308,
+            "diagnosisCertainty": "LXteckXYAPjT",
+            "diagonsisCodingSystemVersion": "EyKPemNCaDpk",
+            "diagnosisCode": "iTUiDFwDpZdC",
+            "diagnosisCodingSystem": "goWMguoPEgWt",
+            "diagnosisDescription": "bUZhNXSiitVf"
+          },
+          {
+            "ageAtOnsetInYears": 1.7117779865202254e-308,
+            "diagnosisCertainty": "SlmJBlpOXDDw",
+            "diagonsisCodingSystemVersion": "roCEphXaQYbC",
+            "diagnosisCode": "VTTtzeRNnvwk",
+            "diagnosisCodingSystem": "OtMqvDODRZHG",
+            "diagnosisDescription": "rhHaGEPfOxNW"
+          },
+          {
+            "ageAtOnsetInYears": 2.766214691708263e-309,
+            "diagnosisCertainty": "fzAmFPycspMq",
+            "diagonsisCodingSystemVersion": "IYyiDLsUvjaQ",
+            "diagnosisCode": "DRJkivUpXcMe",
+            "diagnosisCodingSystem": "OCyfVRktedLD",
+            "diagnosisDescription": "kkrVBbFDtZLO"
+          },
+          {
+            "ageAtOnsetInYears": 5.02183651339877e-309,
+            "diagnosisCertainty": "XiGvXRdOxbwv",
+            "diagonsisCodingSystemVersion": "kkikEfqoCfdB",
+            "diagnosisCode": "DSpRDusOGZIB",
+            "diagnosisCodingSystem": "WaJHqVHFYSCn",
+            "diagnosisDescription": "wUpxzIjKJnUn"
+          }
+        ],
+        "disorderList": [
+          {
+            "diseaseSubGroup": "XoHuGhyXLdkI",
+            "specificDisease": "SFKEmvawoGUf",
+            "ageOfOnset": 1.160451076865702e-308,
+            "diseaseGroup": "moHUhZUupdPc"
+          },
+          {
+            "diseaseSubGroup": "sSFRkUTkEkvB",
+            "specificDisease": "SjIhXqRYTGje",
+            "ageOfOnset": 1.319328854824557e-308,
+            "diseaseGroup": "sXrcRgZzxKIX"
+          },
+          {
+            "diseaseSubGroup": "NvLPBRCYLdrk",
+            "specificDisease": "IqKQVXQhVGHA",
+            "ageOfOnset": 9.6693242368158e-310,
+            "diseaseGroup": "ikrhafchvuoG"
+          },
+          {
+            "diseaseSubGroup": "YxwxnzaHlEzG",
+            "specificDisease": "vGYtPaokMMPJ",
+            "ageOfOnset": 1.6260974101046187e-308,
+            "diseaseGroup": "CSRZfKTvsHpb"
+          },
+          {
+            "diseaseSubGroup": "rLwmIzgjewlB",
+            "specificDisease": "DCBvvvQqNFJe",
+            "ageOfOnset": 1.111404063092021e-308,
+            "diseaseGroup": "bfUFEnriicGV"
+          }
+        ],
+        "clinicalEthnicities": ["C2", "CY", "K", "G", "D"],
+        "inbreedingCoefficient": {
+          "coefficient": 1.4851269176341527e-308,
+          "program": "EjSrkdEByAhq",
+          "standardError": 1.760307538556905e-308,
+          "sampleId": "kWmSmyjiasmQ",
+          "version": "uAzdzdIEaxVH",
+          "estimationMethod": "uNXsNPUHEJmB"
+        },
+        "isProband": false,
+        "motherId": -1484922685,
+        "participantId": "AmWMYRsBjiNW",
+        "additionalInformation": {
+          "CVoiXmLvwQzg": "zVnCDJvfmwyg",
+          "SkaqbBqRTEQx": "obgCNJzcBcnS",
+          "KsNAoWtqtmPL": "VxAazMlYKNTa",
+          "FEOYbcKTsoxD": "dbGyWkkAzmMr",
+          "DrakNsVUbjwl": "YmdUowgQohmm"
+        },
+        "yearOfBirth": -757308830,
+        "lifeStatus": "ABORTED",
+        "adoptedStatus": "adoptedin",
+        "lastMenstrualPeriod": "GlWEraUFKVni",
+        "previousTreatment": [
+          {
+            "previoustreatmentDate": {
+              "year": -2143609210,
+              "day": -463278966,
+              "month": 2130443313
+            },
+            "previousTreatmentType": "BNDclBtrldui",
+            "previousTreatmentName": "HciRHTpPXKEY"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 2011368871,
+              "day": -2133921083,
+              "month": 893219111
+            },
+            "previousTreatmentType": "poEuFbAXuLCD",
+            "previousTreatmentName": "NJzfZGDxqxIo"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 829957195,
+              "day": 108828178,
+              "month": 1956030471
+            },
+            "previousTreatmentType": "wtVwGSLlQSjz",
+            "previousTreatmentName": "CmsQknNIHYOL"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 1756784305,
+              "day": -1681235216,
+              "month": -714276924
+            },
+            "previousTreatmentType": "LeALrpnepOiy",
+            "previousTreatmentName": "qERVQydiWUyy"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -604956744,
+              "day": 779273567,
+              "month": 784991510
+            },
+            "previousTreatmentType": "JzOoZdfSYzVL",
+            "previousTreatmentName": "mHdzFIqVNVDf"
+          }
+        ]
+      },
+      {
+        "participantQCState": "passedMedicalReviewReadyForInterpretation",
+        "fatherId": 1074057320,
+        "twinGroup": 675781708,
+        "sex": "FEMALE",
+        "superMotherId": -22605452,
+        "personKaryotypicSex": "XXXY",
+        "superFatherId": -151921682,
+        "affectionStatus": "UNAFFECTED",
+        "monozygotic": "yes",
+        "consentStatus": {
+          "primaryFindingConsent": false,
+          "programmeConsent": true,
+          "carrierStatusConsent": true,
+          "secondaryFindingConsent": true
+        },
+        "gelSuperFamilyId": "FGWsceCIKZar",
+        "hpoTermList": [
+          {
+            "hpoBuildNumber": "PmrzulwDmBlH",
+            "termPresence": "no",
+            "term": "CcQJOMBhtmvi",
+            "modifiers": [
+              {
+                "hpoModifierVersion": "NFzsBRCmAGCr",
+                "progression": "NONPROGRESSIVE",
+                "hpoModifierCode": "yJlEffuQfRyO",
+                "laterality": "RIGHT",
+                "spatialPattern": "GENERALIZED",
+                "severity": "SEVERE"
+              }
+            ],
+            "ageOfOnset": "JUVENILE_ONSET"
+          }
+        ],
+        "consanguineousParents": "unknown",
+        "ancestries": {
+          "fathersEthnicOrigin": "K",
+          "mothersOtherRelevantAncestry": "ycCFAITOVpjA",
+          "mothersEthnicOrigin": "J",
+          "fathersOtherRelevantAncestry": "pYxOpzXbDRMR",
+          "chiSquare1KGenomesPhase3Pop": [
+            {
+              "kgPopCategory": "TSI",
+              "kgSuperPopCategory": "EAS",
+              "chiSquare": 5.100723696699337e-309
+            },
+            {
+              "kgPopCategory": "GWD",
+              "kgSuperPopCategory": "AMR",
+              "chiSquare": 1.2109290460245907e-308
+            },
+            {
+              "kgPopCategory": "PJL",
+              "kgSuperPopCategory": "EAS",
+              "chiSquare": 2.194434023380194e-308
+            },
+            {
+              "kgPopCategory": "CLM",
+              "kgSuperPopCategory": "EAS",
+              "chiSquare": 1.9435655859378456e-308
+            },
+            {
+              "kgPopCategory": "PUR",
+              "kgSuperPopCategory": "EUR",
+              "chiSquare": 3.97392386365675e-310
+            }
+          ]
+        },
+        "samples": [
+          {
+            "sampleId": "FotbcQIUFeLW",
+            "product": "RNA",
+            "maskedPid": "ZQNTsjlZlUfi",
+            "participantId": "gwvqvoFqvOcB",
+            "sampleUid": "crplTXDrkddh",
+            "sampleType": "WNrYfnOuJyeS",
+            "programmePhase": "OXFORD",
+            "preparationMethod": "FFPE",
+            "LDPCode": "zZcltJJETnhv",
+            "source": "SALIVA",
+            "storageMedium": "EDTA",
+            "sampleState": "QWywdcJxUwVN",
+            "labSampleId": 578246130,
+            "clinicalSampleDateTime": "gJlWFzIiSHHr",
+            "method": "CD138_SORTED"
+          },
+          {
+            "sampleId": "XiclRhuWGLYE",
+            "product": "DNA",
+            "maskedPid": "enxQAMhPKXqa",
+            "participantId": "cEgEMYQKGHzX",
+            "sampleUid": "aewmrUrNixIZ",
+            "sampleType": "kqdMqmBNreur",
+            "programmePhase": "MAIN",
+            "preparationMethod": "LI_HEP",
+            "LDPCode": "OkvmoDEAEdSD",
+            "source": "AMNIOTIC_FLUID",
+            "storageMedium": "FFPE",
+            "sampleState": "XldWAhuHBKtL",
+            "labSampleId": -575557412,
+            "clinicalSampleDateTime": "jYVXhXXdojbq",
+            "method": "BIOPSY"
+          },
+          {
+            "sampleId": "XUBXNwEuZVXd",
+            "product": "RNA",
+            "maskedPid": "PntdTGJnCilU",
+            "participantId": "JlDBcXUBZlGk",
+            "sampleUid": "mSPZQUgpXlQx",
+            "sampleType": "SWMweYdwvVHq",
+            "programmePhase": "CRUK",
+            "preparationMethod": "FFPE",
+            "LDPCode": "aajuRXtvqFUZ",
+            "source": "CHORIONIC_VILLUS_SAMPLE",
+            "storageMedium": "EDTA",
+            "sampleState": "FXtGtbAbTFZr",
+            "labSampleId": -1355909227,
+            "clinicalSampleDateTime": "owyfrHXwsUMX",
+            "method": "SORTED_OTHER"
+          },
+          {
+            "sampleId": "WFrndgdKylxX",
+            "product": "RNA",
+            "maskedPid": "glszyFzzhsqt",
+            "participantId": "nsYdJyvWbBAV",
+            "sampleUid": "hgojjTFreTtv",
+            "sampleType": "ltubNtZwEKQb",
+            "programmePhase": "CRUK",
+            "preparationMethod": "ASPIRATE",
+            "LDPCode": "JxgxHEnvPazs",
+            "source": "OTHER",
+            "storageMedium": "LI_HEP",
+            "sampleState": "IKcFnCoSexVv",
+            "labSampleId": -198990350,
+            "clinicalSampleDateTime": "hIMUDcrjaKbC",
+            "method": "RESECTION"
+          },
+          {
+            "sampleId": "TsIWLpxVVgKK",
+            "product": "DNA",
+            "maskedPid": "lySNXfSVTClq",
+            "participantId": "pyuzYsVpaTyN",
+            "sampleUid": "GYSWbjMyoUvN",
+            "sampleType": "vUpCmDDFzOsu",
+            "programmePhase": "CLL",
+            "preparationMethod": "FF",
+            "LDPCode": "HRNOVqYonXNg",
+            "source": "BONE_MARROW_ASPIRATE_TUMOUR_SORTED_CELLS",
+            "storageMedium": "FF",
+            "sampleState": "eSEcGJPBxDBO",
+            "labSampleId": -1821283541,
+            "clinicalSampleDateTime": "gZHyjAmGhSMa",
+            "method": "NOT_APPLICABLE"
+          }
+        ],
+        "pedigreeId": -1110476078,
+        "participantUid": "mHXDORdooDgZ",
+        "diagnosticDetails": [
+          {
+            "ageAtOnsetInYears": 7.443457213692273e-309,
+            "diagnosisCertainty": "cJKQnWArJWnr",
+            "diagonsisCodingSystemVersion": "OGajoTkfROMh",
+            "diagnosisCode": "FHbypUIAPsFd",
+            "diagnosisCodingSystem": "WQdBmzXPgjbt",
+            "diagnosisDescription": "rLOaGqWnyiXP"
+          },
+          {
+            "ageAtOnsetInYears": 8.594989602337927e-309,
+            "diagnosisCertainty": "nKxYpMjVGUHV",
+            "diagonsisCodingSystemVersion": "BslNfaHpGAAQ",
+            "diagnosisCode": "UaBonMSzgkYC",
+            "diagnosisCodingSystem": "oJbaBsGXEbjj",
+            "diagnosisDescription": "UrzfEKJjDFZr"
+          },
+          {
+            "ageAtOnsetInYears": 7.44738499219877e-309,
+            "diagnosisCertainty": "rRWdVZrdMqdO",
+            "diagonsisCodingSystemVersion": "hSdzYypaDbkV",
+            "diagnosisCode": "jvGaqsDepCiT",
+            "diagnosisCodingSystem": "KlUyVRxfkCce",
+            "diagnosisDescription": "pzySTBNbmWfa"
+          },
+          {
+            "ageAtOnsetInYears": 1.649694990823114e-308,
+            "diagnosisCertainty": "DgFxLVJnyspW",
+            "diagonsisCodingSystemVersion": "hvYnzIvLlOza",
+            "diagnosisCode": "PCuqqQntpstb",
+            "diagnosisCodingSystem": "YIYhpQvSWhQU",
+            "diagnosisDescription": "gDVDPPLVpLAy"
+          },
+          {
+            "ageAtOnsetInYears": 4.778139793214895e-309,
+            "diagnosisCertainty": "RaehJDBFMceb",
+            "diagonsisCodingSystemVersion": "CbxjySPPBYNe",
+            "diagnosisCode": "elmypEPGfWxo",
+            "diagnosisCodingSystem": "RnneBcsWlxHD",
+            "diagnosisDescription": "clPaRISneAMs"
+          }
+        ],
+        "disorderList": [
+          {
+            "diseaseSubGroup": "cZlMWdULtjeZ",
+            "specificDisease": "rtHtIuMvpoEW",
+            "ageOfOnset": 2.050026482995061e-308,
+            "diseaseGroup": "ycCUphaOKryU"
+          },
+          {
+            "diseaseSubGroup": "JCyQutvlRviw",
+            "specificDisease": "AoJCmOYhFCmi",
+            "ageOfOnset": 2.181323492839861e-308,
+            "diseaseGroup": "gvwSmsJhBeTx"
+          },
+          {
+            "diseaseSubGroup": "SljPedxsiSpB",
+            "specificDisease": "AguPcmeHMwbe",
+            "ageOfOnset": 1.6987564679567035e-308,
+            "diseaseGroup": "PNGTCCDlWcgm"
+          },
+          {
+            "diseaseSubGroup": "rPHTjKETEoWP",
+            "specificDisease": "hJDfuFoYMboS",
+            "ageOfOnset": 1.7489010704351583e-308,
+            "diseaseGroup": "JHYVRdOJQSPf"
+          },
+          {
+            "diseaseSubGroup": "DKGaEdfcjFeT",
+            "specificDisease": "fGJDRoiwllNr",
+            "ageOfOnset": 1.1748204098377186e-308,
+            "diseaseGroup": "MzBrhsVnSrGk"
+          }
+        ],
+        "clinicalEthnicities": ["GC", "PE", "SE", "SA", "CS"],
+        "inbreedingCoefficient": {
+          "coefficient": 1.7987624918662076e-308,
+          "program": "VToXShSjcKFW",
+          "standardError": 1.752647003685871e-308,
+          "sampleId": "CUJyAGpwjBAL",
+          "version": "YtBMnqPTcnZU",
+          "estimationMethod": "ucZDNkYniaLL"
+        },
+        "isProband": true,
+        "motherId": 391793290,
+        "participantId": "lRUCzozsuzhx",
+        "additionalInformation": {
+          "nPiDZFmgFUIq": "KnGpUtTDCrlj",
+          "pOjxpgWzLFea": "WBRAuEacvSAv",
+          "eHkcdINTOBdC": "fRTQJzRSNwwE",
+          "KeDtbXiPoHgM": "WkoWhKSbWVvN",
+          "hpDxAGljGMHq": "WVvfFsDFbIdh"
+        },
+        "yearOfBirth": -1873857153,
+        "lifeStatus": "DECEASED",
+        "adoptedStatus": "adoptedin",
+        "lastMenstrualPeriod": "ZHmqtBJBMpvl",
+        "previousTreatment": [
+          {
+            "previoustreatmentDate": {
+              "year": -1226808546,
+              "day": -1615487316,
+              "month": -1003196319
+            },
+            "previousTreatmentType": "xfRomtHLRZKK",
+            "previousTreatmentName": "tpztMnTiUuGS"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -29070194,
+              "day": -785143924,
+              "month": -1973407
+            },
+            "previousTreatmentType": "DqpOcePrIvBS",
+            "previousTreatmentName": "QihKMogcljGF"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": -2090599672,
+              "day": -888820336,
+              "month": 1131661286
+            },
+            "previousTreatmentType": "icyyeQDgFTfV",
+            "previousTreatmentName": "kaKOZXNvANHx"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 1075862208,
+              "day": -33995288,
+              "month": -779842341
+            },
+            "previousTreatmentType": "DEtblYmVqbKw",
+            "previousTreatmentName": "JabNZQfiqCMR"
+          },
+          {
+            "previoustreatmentDate": {
+              "year": 1836966381,
+              "day": 709681252,
+              "month": -273101720
+            },
+            "previousTreatmentType": "xaSoEASktKLi",
+            "previousTreatmentName": "eRKbFgqzTjef"
+          }
+        ]
+      }
     ],
-    "familyInternalId": "zYXonDFDEeMd",
-    "interpretationRequestId": "lVnJZHoAVYGz",
-    "bams": [
-        {
-            "fileType": "COVERAGE",
-            "md5Sum": "BCxqSmECmvfO",
-            "sampleId": [
-                "UNXZXiUJlHYQ",
-                "KDZLHfUmPrlw",
-                "ERHdOwQTPfWQ",
-                "SZmHAovqUhTe",
-                "ZiJXFlLxDSmM"
-            ],
-            "uriFile": "OOTETUmTwqYs"
-        },
-        {
-            "fileType": "VCF_somatic_SV",
-            "md5Sum": "pLzVRnCOzyJZ",
-            "sampleId": [
-                "MKxbwSMEZlIq",
-                "UVacPnkTYTvT",
-                "faYNgSzbFVPp",
-                "EkEvsBewmbmc",
-                "lBuIsJYBajwC"
-            ],
-            "uriFile": "DhaKpNUkUHgb"
-        },
-        {
-            "fileType": "SVG",
-            "md5Sum": "oXHbaiZhvBff",
-            "sampleId": [
-                "rnDhRBtWkAyK",
-                "bBFmZOMfiOxp",
-                "RKqXpQssKSNu",
-                "CPoxETlbafLW",
-                "OTuRxlNQUHJa"
-            ],
-            "uriFile": "apCqHAXBiJsH"
-        },
-        {
-            "fileType": "ROH",
-            "md5Sum": "PcFEmWnheNAU",
-            "sampleId": [
-                "gKMeNiNqsOAx",
-                "GhWOIrVrxSoq",
-                "rfxMFRxURtsh",
-                "fKiXysHNgetx",
-                "rSXRNikIAWUH"
-            ],
-            "uriFile": "naaCzdidwHQD"
-        },
-        {
-            "fileType": "gVCF",
-            "md5Sum": "MgDeXDNEuysQ",
-            "sampleId": [
-                "nwdfhftcwmXc",
-                "pSDURxHEKvxi",
-                "AxVWqayKqIbN",
-                "aGFqWnNRbPsg",
-                "oYfvlLGCtgkW"
-            ],
-            "uriFile": "bAfkXkEoWITB"
-        }
+    "familyId": "yJlFFlzGyokR",
+    "diseasePenetrances": [
+      {
+        "penetrance": "incomplete",
+        "specificDisease": "IppjRjrwCYYY"
+      },
+      {
+        "penetrance": "incomplete",
+        "specificDisease": "zbZbSrFZPFLZ"
+      },
+      {
+        "penetrance": "incomplete",
+        "specificDisease": "bSNBWVjdsout"
+      },
+      {
+        "penetrance": "complete",
+        "specificDisease": "awiGAfGOIJFz"
+      },
+      {
+        "penetrance": "complete",
+        "specificDisease": "CpAsUMmQseqN"
+      }
     ]
+  },
+  "otherFamilyHistory": {
+    "maternalFamilyHistory": [
+      "vxpTjThHRilB",
+      "CsIHEDXwmGFK",
+      "zrdhSMsHKMGy",
+      "GrIKkyAappBP",
+      "jBtcizzzaUQu"
+    ],
+    "paternalFamilyHistory": [
+      "MCgXeNqsqIli",
+      "kLnWAbLrYDXX",
+      "DbdHnYvJbNXu",
+      "AWscMjxLNWar",
+      "WEdDShkXmZaI"
+    ]
+  },
+  "participantsInterpretationFlags": [
+    {
+      "interpretationFlag": "cnv_calls_assumed_xx_karyo",
+      "SampleId": "TgvqWKvtjOAw",
+      "additionalDescription": "HYjbPlLnXenN",
+      "participantId": "giwgLBnWTPoB"
+    },
+    {
+      "interpretationFlag": "mixed_recruiting_gmc",
+      "SampleId": "UaKqoAvOIXDn",
+      "additionalDescription": "llUohAzjZnqf",
+      "participantId": "MNOzAtYpBWLy"
+    },
+    {
+      "interpretationFlag": "mixed_chemistries",
+      "SampleId": "aBQNUecRjele",
+      "additionalDescription": "RqvDsMVAfWEu",
+      "participantId": "HCWtJSfmmaEF"
+    },
+    {
+      "interpretationFlag": "low_tumour_purity",
+      "SampleId": "ixxReKngfLJq",
+      "additionalDescription": "EURXNQTxAAJZ",
+      "participantId": "CwabcdznaeiR"
+    },
+    {
+      "interpretationFlag": "uniparental_heterodisomy",
+      "SampleId": "sbeQGhkgGScD",
+      "additionalDescription": "LLsKxHbonFzr",
+      "participantId": "MWhreJppDcJG"
+    }
+  ],
+  "familyInternalId": "zYXonDFDEeMd",
+  "interpretationRequestId": "lVnJZHoAVYGz",
+  "bams": [
+    {
+      "fileType": "COVERAGE",
+      "md5Sum": "BCxqSmECmvfO",
+      "sampleId": [
+        "UNXZXiUJlHYQ",
+        "KDZLHfUmPrlw",
+        "ERHdOwQTPfWQ",
+        "SZmHAovqUhTe",
+        "ZiJXFlLxDSmM"
+      ],
+      "uriFile": "OOTETUmTwqYs"
+    },
+    {
+      "fileType": "VCF_somatic_SV",
+      "md5Sum": "pLzVRnCOzyJZ",
+      "sampleId": [
+        "MKxbwSMEZlIq",
+        "UVacPnkTYTvT",
+        "faYNgSzbFVPp",
+        "EkEvsBewmbmc",
+        "lBuIsJYBajwC"
+      ],
+      "uriFile": "DhaKpNUkUHgb"
+    },
+    {
+      "fileType": "SVG",
+      "md5Sum": "oXHbaiZhvBff",
+      "sampleId": [
+        "rnDhRBtWkAyK",
+        "bBFmZOMfiOxp",
+        "RKqXpQssKSNu",
+        "CPoxETlbafLW",
+        "OTuRxlNQUHJa"
+      ],
+      "uriFile": "apCqHAXBiJsH"
+    },
+    {
+      "fileType": "ROH",
+      "md5Sum": "PcFEmWnheNAU",
+      "sampleId": [
+        "gKMeNiNqsOAx",
+        "GhWOIrVrxSoq",
+        "rfxMFRxURtsh",
+        "fKiXysHNgetx",
+        "rSXRNikIAWUH"
+      ],
+      "uriFile": "naaCzdidwHQD"
+    },
+    {
+      "fileType": "gVCF",
+      "md5Sum": "MgDeXDNEuysQ",
+      "sampleId": [
+        "nwdfhftcwmXc",
+        "pSDURxHEKvxi",
+        "AxVWqayKqIbN",
+        "aGFqWnNRbPsg",
+        "oYfvlLGCtgkW"
+      ],
+      "uriFile": "bAfkXkEoWITB"
+    }
+  ]
 }
