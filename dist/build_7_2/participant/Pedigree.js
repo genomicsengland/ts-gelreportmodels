@@ -380,8 +380,8 @@ var Pedigree = /** @class */ (function (_super) {
         if (!proband) {
             return;
         }
-        if (this.members.length === 1 && this.members[0].isProband) {
-            proband.relationToProband = "Proband";
+        proband.relationToProband = "Proband";
+        if (this.members.length === 1) {
             return;
         }
         // get all combinations, but remove any pair where one of the member isn't proband
