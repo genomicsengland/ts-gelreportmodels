@@ -29,7 +29,7 @@ test("relation to proband: test father", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultFatherValues.pedigreeId
   );
@@ -47,7 +47,7 @@ test("relation to proband: test mother", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultMotherValues.pedigreeId
   );
@@ -65,7 +65,7 @@ test("relation to proband: test offspring", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultOffspringValues.pedigreeId
   );
@@ -84,7 +84,7 @@ test("relation to proband: test spouse", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultOffspringValues.pedigreeId
   );
@@ -108,7 +108,7 @@ test("relation to proband: test unrelated", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultUnrelatedValues.pedigreeId
   );
@@ -129,7 +129,7 @@ test("relation to proband: test grandfather", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultFatherValues.pedigreeId
   );
@@ -157,7 +157,7 @@ test("relation to proband: test paternal uncle", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultFatherValues.pedigreeId
   );
@@ -191,7 +191,7 @@ test("relation to proband: test maternal aunt", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultMotherValues.pedigreeId
   );
@@ -232,7 +232,7 @@ test("relation to proband: test paternal first cousin", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultFatherValues.pedigreeId
   );
@@ -270,7 +270,7 @@ test("relation to proband: test sibling", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultFatherValues.pedigreeId
   );
@@ -302,7 +302,7 @@ test("relation to proband: test sibling", () => {
   expect(pedigree.members[0].pedigreeId).toEqual(
     defaultValues.defaultProbandValues.pedigreeId
   );
-  expect(pedigree.members[0].relationToProband).toBe(undefined);
+  expect(pedigree.members[0].relationToProband).toBe("Proband");
   expect(pedigree.members[1].pedigreeId).toEqual(
     defaultValues.defaultFatherValues.pedigreeId
   );
