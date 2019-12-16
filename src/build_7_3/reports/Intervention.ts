@@ -1,4 +1,4 @@
-import { JsonObject, JsonProperty } from 'json2typescript';
+import { JsonObject, JsonProperty } from "json2typescript";
 
 /**
  * A process or action that is the focus of a clinical study.
@@ -6,11 +6,11 @@ import { JsonObject, JsonProperty } from 'json2typescript';
  */
 @JsonObject
 export class Intervention {
-    /** Intervention type, i.e drug */
-    @JsonProperty('interventionType', String)
-    interventionType: string = '';  // InterventionType
+  /** Intervention type, i.e drug */
+  @JsonProperty("interventionType", String)
+  interventionType: string = ""; // InterventionType
 
-    /** Intervention name: Placebo */
-    @JsonProperty('interventionName', String)
-    interventionName: string = '';
-};
+  /** Intervention name: Placebo */
+  @JsonProperty("interventionName", String)
+  interventionName: string = "";
+}

@@ -1,4 +1,4 @@
-import { JsonObject, JsonProperty } from 'json2typescript';
+import { JsonObject, JsonProperty } from "json2typescript";
 
 /**
  * AcmgEvidence. This should be buit for each one of the evidences assing to a
@@ -7,33 +7,33 @@ import { JsonObject, JsonProperty } from 'json2typescript';
  */
 @JsonObject
 export class AcmgEvidence {
-    /**
-     * Evidence category as defined in ACMG guidelines
-     */
-    @JsonProperty('category', String)
-    category: string = '';  // AcmgEvidenceCategory
+  /**
+   * Evidence category as defined in ACMG guidelines
+   */
+  @JsonProperty("category", String)
+  category: string = ""; // AcmgEvidenceCategory
 
-    /**
-     * Evidence type: bening or pathogenic
-     */
-    @JsonProperty('type', String)
-    type: string = '';  // AcmgEvidenceType
+  /**
+   * Evidence type: bening or pathogenic
+   */
+  @JsonProperty("type", String)
+  type: string = ""; // AcmgEvidenceType
 
-    /**
-     * Weight categories as described in ACMG guideline
-     */
-    @JsonProperty('weight', String)
-    weight: string = '';  // AcmgEvidenceWeight
+  /**
+   * Weight categories as described in ACMG guideline
+   */
+  @JsonProperty("weight", String)
+  weight: string = ""; // AcmgEvidenceWeight
 
-    /**
-     * modifier of the strength, together define each creteria, i.e the 2 in PM2
-     */
-    @JsonProperty('modifier', Number)
-    modifier: number = 0;
+  /**
+   * modifier of the strength, together define each creteria, i.e the 2 in PM2
+   */
+  @JsonProperty("modifier", Number)
+  modifier: number = 0;
 
-    /**
-     * Description of the evidence
-     */
-    @JsonProperty('description', String, true)
-    description?: string = undefined;
-};
+  /**
+   * Description of the evidence
+   */
+  @JsonProperty("description", String, true)
+  description?: string = undefined;
+}

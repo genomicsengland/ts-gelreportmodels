@@ -1,5 +1,5 @@
 export enum ReportingQuestion {
-    no = 'no',
-    yes = 'yes',
-    na = 'na'
-};
+  no = "no",
+  yes = "yes",
+  na = "na"
+}

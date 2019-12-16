@@ -1,4 +1,4 @@
-import {JsonObject, JsonProperty } from "json2typescript";
+import { JsonObject, JsonProperty } from "json2typescript";
 
 /**
  * Evidences as defined in AMP guidelines, they are composed by a evidence type
@@ -8,15 +8,15 @@ import {JsonObject, JsonProperty } from "json2typescript";
  */
 @JsonObject
 export class AmpEvidence {
-    /**
-     * AMP evidence type according to Guidlines, i.e germline_database_presence
-     */
-    @JsonProperty('type', String)
-    type: string = '';  // AmpEvidenceType
+  /**
+   * AMP evidence type according to Guidlines, i.e germline_database_presence
+   */
+  @JsonProperty("type", String)
+  type: string = ""; // AmpEvidenceType
 
-    /**
-     * Assessment for AMP evidence, i.e Present in ClinVar
-     */
-    @JsonProperty('evidenceAssessment', String)
-    evidenceAssessment: string = '';
-};
+  /**
+   * Assessment for AMP evidence, i.e Present in ClinVar
+   */
+  @JsonProperty("evidenceAssessment", String)
+  evidenceAssessment: string = "";
+}

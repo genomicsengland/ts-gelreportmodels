@@ -1,4 +1,4 @@
 export enum Product {
-    DNA = 'DNA',
-    RNA = 'RNA'
-};
+  DNA = "DNA",
+  RNA = "RNA"
+}

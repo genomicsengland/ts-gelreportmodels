@@ -7,24 +7,24 @@ import JSONHelper from "../../utils/JSONHelper";
 import { Tumour } from "./Tumour";
 import { PreviousTreatment } from "./PreviousTreatment";
 export declare class CancerParticipant extends JSONHelper {
-    yearOfBirth?: number;
-    morphology?: Array<string>;
-    readyForAnalysis: boolean;
-    consentStatus?: ConsentStatus;
-    center?: string;
-    individualId: string;
-    primaryDiagnosisDisease?: Array<string>;
-    primaryDiagnosisSubDisease?: Array<string>;
-    sex: string;
-    additionalInformation?: {
-        [name: string]: string;
-    };
-    assignedICD10?: Array<string>;
-    tumourSamples?: Array<TumourSample>;
-    germlineSamples?: Array<GermlineSample>;
-    matchedSamples?: Array<MatchedSamples>;
-    versionControl?: VersionControl;
-    individualUid?: string;
-    tumours?: Tumour[];
-    previousTreatment?: PreviousTreatment[];
+  yearOfBirth?: number;
+  morphology?: Array<string>;
+  readyForAnalysis: boolean;
+  consentStatus?: ConsentStatus;
+  center?: string;
+  individualId: string;
+  primaryDiagnosisDisease?: Array<string>;
+  primaryDiagnosisSubDisease?: Array<string>;
+  sex: string;
+  additionalInformation?: {
+    [name: string]: string;
+  };
+  assignedICD10?: Array<string>;
+  tumourSamples?: Array<TumourSample>;
+  germlineSamples?: Array<GermlineSample>;
+  matchedSamples?: Array<MatchedSamples>;
+  versionControl?: VersionControl;
+  individualUid?: string;
+  tumours?: Tumour[];
+  previousTreatment?: PreviousTreatment[];
 }

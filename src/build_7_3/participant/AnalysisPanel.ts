@@ -5,23 +5,23 @@ import { JsonObject, JsonProperty } from "json2typescript";
  */
 @JsonObject
 export class AnalysisPanel {
-    /** The specific disease that a panel tests */
-    @JsonProperty('specificDisease', String)
-    specificDisease: string = '';
+  /** The specific disease that a panel tests */
+  @JsonProperty("specificDisease", String)
+  specificDisease: string = "";
 
-    /** The name of the panel */
-    @JsonProperty('panelName', String)
-    panelName: string = '';
+  /** The name of the panel */
+  @JsonProperty("panelName", String)
+  panelName: string = "";
 
-    /** The version of the panel */
-    @JsonProperty('panelVersion', String, true)
-    panelVersion?: string = undefined;
+  /** The version of the panel */
+  @JsonProperty("panelVersion", String, true)
+  panelVersion?: string = undefined;
 
-    /** The outcome of the review */
-    @JsonProperty('reviewOutcome', String)
-    reviewOutcome: string = '';
+  /** The outcome of the review */
+  @JsonProperty("reviewOutcome", String)
+  reviewOutcome: string = "";
 
-    /** TODO */
-    @JsonProperty('multipleGeneticOrigins', String)
-    multipleGeneticOrigins: string = '';
-};
+  /** TODO */
+  @JsonProperty("multipleGeneticOrigins", String)
+  multipleGeneticOrigins: string = "";
+}

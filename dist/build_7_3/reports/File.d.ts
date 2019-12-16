@@ -5,21 +5,21 @@
  * file
  */
 export declare class File {
-    /**
-     * Unique identifier(s) of the sample. For example in a multisample vcf
-     * this would have an array of all the sample identifiers
-     */
-    sampleId?: Array<string>;
-    /**
-     * URI path of the file
-     */
-    uriFile: string;
-    /**
-     * The type of the file
-     */
-    fileType: string;
-    /**
-     * The MD5 checksum
-     */
-    md5Sum?: string;
+  /**
+   * Unique identifier(s) of the sample. For example in a multisample vcf
+   * this would have an array of all the sample identifiers
+   */
+  sampleId?: Array<string>;
+  /**
+   * URI path of the file
+   */
+  uriFile: string;
+  /**
+   * The type of the file
+   */
+  fileType: string;
+  /**
+   * The MD5 checksum
+   */
+  md5Sum?: string;
 }

@@ -5,11 +5,11 @@ import { JsonObject, JsonProperty } from "json2typescript";
  */
 @JsonObject
 export class Ontology {
-    /** The ontology to which a standard term belongs */
-    @JsonProperty('version', String)
-    version: string = '';
+  /** The ontology to which a standard term belongs */
+  @JsonProperty("version", String)
+  version: string = "";
 
-    /** The ontology to which a standard term belongs */
-    @JsonProperty('name', String)
-    name: string = '';
+  /** The ontology to which a standard term belongs */
+  @JsonProperty("name", String)
+  name: string = "";
 }

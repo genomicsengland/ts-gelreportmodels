@@ -3,39 +3,39 @@
  * intervention
  */
 export enum InterventionType {
-    /** `drug`: Including placebo */
-    drug = 'drug',
+  /** `drug`: Including placebo */
+  drug = "drug",
 
-    /** `device`: Including sham */
-    device = 'device',
-    
-    /** `procedure`: Surgery */
-    procedure = 'procedure',
+  /** `device`: Including sham */
+  device = "device",
 
-    /** `biological`: Vaccine */
-    biological = 'biological',
+  /** `procedure`: Surgery */
+  procedure = "procedure",
 
-    /** `radiation` */
-    radiation = 'radiation',
+  /** `biological`: Vaccine */
+  biological = "biological",
 
-    /** `behavioral`: For example, psychotherapy, lifestyle counselling */
-    behavioral = 'behavioral',
+  /** `radiation` */
+  radiation = "radiation",
 
-    /** `genetic`: Including gene transfer, stem cell and recombinant DNA */
-    genetic = 'genetic',
+  /** `behavioral`: For example, psychotherapy, lifestyle counselling */
+  behavioral = "behavioral",
 
-    /** `dietary_supplement`: For example, vitamins, minerals */
-    dietary_supplement = 'dietary_supplement',
+  /** `genetic`: Including gene transfer, stem cell and recombinant DNA */
+  genetic = "genetic",
 
-    /**
-     * `combination_product`: Combining a drug and device, a biological
-     * product and device; a drug and biological product; or a drug, biological
-     * product, and device
-     */
-    combination_product = 'combination_product',
+  /** `dietary_supplement`: For example, vitamins, minerals */
+  dietary_supplement = "dietary_supplement",
 
-    /** `diagnostic_test`: For example, imaging, in-vitro */
-    diagnostic_test = 'diagnostic_test',
+  /**
+   * `combination_product`: Combining a drug and device, a biological
+   * product and device; a drug and biological product; or a drug, biological
+   * product, and device
+   */
+  combination_product = "combination_product",
 
-    other = 'other'
-};
+  /** `diagnostic_test`: For example, imaging, in-vitro */
+  diagnostic_test = "diagnostic_test",
+
+  other = "other"
+}

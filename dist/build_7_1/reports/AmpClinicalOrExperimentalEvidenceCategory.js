@@ -5,10 +5,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * guidelines
  */
 var AmpClinicalOrExperimentalEvidenceCategory;
-(function (AmpClinicalOrExperimentalEvidenceCategory) {
-    AmpClinicalOrExperimentalEvidenceCategory["therapeutic"] = "therapeutic";
-    AmpClinicalOrExperimentalEvidenceCategory["diagnosis"] = "diagnosis";
-    AmpClinicalOrExperimentalEvidenceCategory["prognosis"] = "prognosis";
-})(AmpClinicalOrExperimentalEvidenceCategory = exports.AmpClinicalOrExperimentalEvidenceCategory || (exports.AmpClinicalOrExperimentalEvidenceCategory = {}));
-;
+(function(AmpClinicalOrExperimentalEvidenceCategory) {
+  AmpClinicalOrExperimentalEvidenceCategory["therapeutic"] = "therapeutic";
+  AmpClinicalOrExperimentalEvidenceCategory["diagnosis"] = "diagnosis";
+  AmpClinicalOrExperimentalEvidenceCategory["prognosis"] = "prognosis";
+})(
+  (AmpClinicalOrExperimentalEvidenceCategory =
+    exports.AmpClinicalOrExperimentalEvidenceCategory ||
+    (exports.AmpClinicalOrExperimentalEvidenceCategory = {}))
+);
 //# sourceMappingURL=AmpClinicalOrExperimentalEvidenceCategory.js.map

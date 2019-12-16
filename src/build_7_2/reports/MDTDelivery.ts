@@ -1,7 +1,7 @@
-import { InterpretationRequestsRD } from './InterpretationRequestsRD';
-import { InterpretedGenome } from './InterpretedGenome';
-import { CancerInterpretationRequest } from './CancerInterpretationRequest';
-import { JsonObject, JsonProperty } from 'json2typescript';
+import { InterpretationRequestsRD } from "./InterpretationRequestsRD";
+import { InterpretedGenome } from "./InterpretedGenome";
+import { CancerInterpretationRequest } from "./CancerInterpretationRequest";
+import { JsonObject, JsonProperty } from "json2typescript";
 
 /**
  * This protocol defines the integration mechanism to store analysis results in
@@ -18,15 +18,15 @@ import { JsonObject, JsonProperty } from 'json2typescript';
  */
 @JsonObject
 export class InterpretationDataRd {
-    @JsonProperty('interpretationMetaData', InterpretationRequestsRD)
-    interpretationMetaData: InterpretationRequestsRD = new InterpretationRequestsRD;
+  @JsonProperty("interpretationMetaData", InterpretationRequestsRD)
+  interpretationMetaData: InterpretationRequestsRD = new InterpretationRequestsRD();
 
-    @JsonProperty('tieringResult', InterpretedGenome, true)
-    tieringResult?: InterpretedGenome;
+  @JsonProperty("tieringResult", InterpretedGenome, true)
+  tieringResult?: InterpretedGenome;
 
-    @JsonProperty('otherInterpretationResults', [InterpretedGenome], true)
-    otherInterpretationResults?: Array<InterpretedGenome>;
-};
+  @JsonProperty("otherInterpretationResults", [InterpretedGenome], true)
+  otherInterpretationResults?: Array<InterpretedGenome>;
+}
 
 /**
  * Represents the set of all interpretation data (excluding file contents)
@@ -39,12 +39,12 @@ export class InterpretationDataRd {
  */
 @JsonObject
 export class InterpretationDataCancer {
-    @JsonProperty('interpretationMetaData', CancerInterpretationRequest)
-    interpretationMetaData: CancerInterpretationRequest = new CancerInterpretationRequest;
+  @JsonProperty("interpretationMetaData", CancerInterpretationRequest)
+  interpretationMetaData: CancerInterpretationRequest = new CancerInterpretationRequest();
 
-    @JsonProperty('tieringResult', InterpretedGenome, true)
-    tieringResult?: InterpretedGenome;
+  @JsonProperty("tieringResult", InterpretedGenome, true)
+  tieringResult?: InterpretedGenome;
 
-    @JsonProperty('otherInterpretationResults', [InterpretedGenome], true)
-    otherInterpretationResults?: Array<InterpretedGenome>;
-};
+  @JsonProperty("otherInterpretationResults", [InterpretedGenome], true)
+  otherInterpretationResults?: Array<InterpretedGenome>;
+}

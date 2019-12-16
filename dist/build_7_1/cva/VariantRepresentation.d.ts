@@ -1,7 +1,7 @@
-import { VariantAvro } from '../biodata';
+import { VariantAvro } from "../biodata";
 export declare class VariantRepresentation {
-    assembly: string;
-    annotatorVersion?: string;
-    annotationsVersion?: string;
-    variant: VariantAvro;
+  assembly: string;
+  annotatorVersion?: string;
+  annotationsVersion?: string;
+  variant: VariantAvro;
 }

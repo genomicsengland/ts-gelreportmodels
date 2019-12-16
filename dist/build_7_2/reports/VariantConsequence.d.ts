@@ -5,8 +5,8 @@
  * collisions
  */
 export declare class VariantConsequence {
-    /** The SO term identifier (e.g.: SO:0001816) */
-    id: string;
-    /** The SO term name (e.g.: non synonymous) */
-    name?: string;
+  /** The SO term identifier (e.g.: SO:0001816) */
+  id: string;
+  /** The SO term name (e.g.: non synonymous) */
+  name?: string;
 }

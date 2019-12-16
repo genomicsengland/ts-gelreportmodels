@@ -1,10 +1,10 @@
-import { ConfidenceInterval } from './ConfidenceInterval';
+import { ConfidenceInterval } from "./ConfidenceInterval";
 export declare class Coordinates {
-    assembly: string;
-    chromosome: string;
-    start: number;
-    end: number;
-    ciStart?: ConfidenceInterval;
-    ciEnd?: ConfidenceInterval;
-    toVerboseId(): string;
+  assembly: string;
+  chromosome: string;
+  start: number;
+  end: number;
+  ciStart?: ConfidenceInterval;
+  ciEnd?: ConfidenceInterval;
+  toVerboseId(): string;
 }

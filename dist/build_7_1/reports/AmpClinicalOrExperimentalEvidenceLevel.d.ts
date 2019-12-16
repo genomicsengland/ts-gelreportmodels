@@ -3,8 +3,8 @@
  * AMP guidelines
  */
 export declare enum AmpClinicalOrExperimentalEvidenceLevel {
-    levelA = "levelA",
-    levelB = "levelB",
-    levelC = "levelC",
-    levelD = "levelD"
+  levelA = "levelA",
+  levelB = "levelB",
+  levelC = "levelC",
+  levelD = "levelD"
 }

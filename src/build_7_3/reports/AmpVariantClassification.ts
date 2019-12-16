@@ -1,6 +1,6 @@
-import {JsonObject, JsonProperty } from "json2typescript";
-import { AmpClincialOrExperimentalEvidence } from './AmpClincialOrExperimentalEvidence';
-import { AmpEvidence } from './AmpEvidence';
+import { JsonObject, JsonProperty } from "json2typescript";
+import { AmpClincialOrExperimentalEvidence } from "./AmpClincialOrExperimentalEvidence";
+import { AmpEvidence } from "./AmpEvidence";
 
 /**
  * Full Variant classification acording to AMP guideline, including all
@@ -8,19 +8,23 @@ import { AmpEvidence } from './AmpEvidence';
  */
 @JsonObject
 export class AmpVariantClassification {
-    /** List of AMP evidences */
-    @JsonProperty('ampEvidences', [AmpEvidence])
-    ampEvidences: Array<AmpEvidence> = [];
+  /** List of AMP evidences */
+  @JsonProperty("ampEvidences", [AmpEvidence])
+  ampEvidences: Array<AmpEvidence> = [];
 
-    /** Final Clasification taken in account the evidences */
-    @JsonProperty('ampTier', String)
-    ampTier: string = '';  // AmpTier
+  /** Final Clasification taken in account the evidences */
+  @JsonProperty("ampTier", String)
+  ampTier: string = ""; // AmpTier
 
-    /** Clinical or Experimental evicence */
-    @JsonProperty('ampClincialOrExperimentalEvidence', [AmpClincialOrExperimentalEvidence])
-    ampClincialOrExperimentalEvidence: Array<AmpClincialOrExperimentalEvidence> = [];
+  /** Clinical or Experimental evicence */
+  @JsonProperty("ampClincialOrExperimentalEvidence", [
+    AmpClincialOrExperimentalEvidence
+  ])
+  ampClincialOrExperimentalEvidence: Array<
+    AmpClincialOrExperimentalEvidence
+  > = [];
 
-    /** Final Assessment */
-    @JsonProperty('assessment', String, true)
-    assessment?: string = undefined;
-};
+  /** Final Assessment */
+  @JsonProperty("assessment", String, true)
+  assessment?: string = undefined;
+}

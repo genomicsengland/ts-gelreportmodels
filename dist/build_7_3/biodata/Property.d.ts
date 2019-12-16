@@ -1,2 +1,1 @@
-export declare class Property {
-}
+export declare class Property {}

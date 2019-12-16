@@ -7,15 +7,15 @@ import { JsonObject, JsonProperty } from "json2typescript";
  */
 @JsonObject
 export class OtherFamilyHistory {
-    /**
-     * Relevant Maternal family history
-     */
-    @JsonProperty('maternalFamilyHistory', [String], true)
-    maternalFamilyHistory?: Array<string> = undefined;
+  /**
+   * Relevant Maternal family history
+   */
+  @JsonProperty("maternalFamilyHistory", [String], true)
+  maternalFamilyHistory?: Array<string> = undefined;
 
-    /**
-     * Relevant Paternal family history
-     */
-    @JsonProperty('paternalFamilyHistory', [String], true)
-    paternalFamilyHistory?: Array<string> = undefined;
-};
+  /**
+   * Relevant Paternal family history
+   */
+  @JsonProperty("paternalFamilyHistory", [String], true)
+  paternalFamilyHistory?: Array<string> = undefined;
+}

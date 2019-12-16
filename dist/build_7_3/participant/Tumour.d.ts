@@ -5,18 +5,18 @@ import { Topography } from "./Topography";
  * analyzed together
  */
 export declare class Tumour {
-    tumourId: string;
-    tumourLocalId: string;
-    tumourType: string;
-    tumourParentId?: string;
-    tumourDiagnosisDate?: Date;
-    tumourDescription?: string;
-    tumourMorphologies?: Morphology[];
-    tumourTopographies?: Topography[];
-    tumourPrimaryTopographies?: Topography[];
-    tumourGrade?: string;
-    tumourStage?: string;
-    tumourPrognosticScore?: string;
-    tumourPresentation?: string;
-    primaryOrMetastatic?: string;
+  tumourId: string;
+  tumourLocalId: string;
+  tumourType: string;
+  tumourParentId?: string;
+  tumourDiagnosisDate?: Date;
+  tumourDescription?: string;
+  tumourMorphologies?: Morphology[];
+  tumourTopographies?: Topography[];
+  tumourPrimaryTopographies?: Topography[];
+  tumourGrade?: string;
+  tumourStage?: string;
+  tumourPrognosticScore?: string;
+  tumourPresentation?: string;
+  primaryOrMetastatic?: string;
 }

@@ -6,9 +6,9 @@ import { JsonObject, JsonProperty } from "json2typescript";
  */
 @JsonObject
 export class Variant {
-    /**
-     * A list of variant representations
-     */
-    @JsonProperty('variants', [VariantRepresentation])
-    variants: Array<VariantRepresentation> = [];
-};
+  /**
+   * A list of variant representations
+   */
+  @JsonProperty("variants", [VariantRepresentation])
+  variants: Array<VariantRepresentation> = [];
+}

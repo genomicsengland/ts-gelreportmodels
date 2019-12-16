@@ -1,4 +1,4 @@
 export declare enum Indel {
-    insertion = "insertion",
-    deletion = "deletion"
+  insertion = "insertion",
+  deletion = "deletion"
 }

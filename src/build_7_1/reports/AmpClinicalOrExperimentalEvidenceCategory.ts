@@ -3,7 +3,7 @@
  * guidelines
  */
 export enum AmpClinicalOrExperimentalEvidenceCategory {
-    therapeutic = 'therapeutic',
-    diagnosis = 'diagnosis',
-    prognosis = 'prognosis'
-};
+  therapeutic = "therapeutic",
+  diagnosis = "diagnosis",
+  prognosis = "prognosis"
+}

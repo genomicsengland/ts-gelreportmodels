@@ -1,11 +1,11 @@
 /** An enumeration Variant Actionability */
 export enum CancerUsabilityPharmacogenomics {
-    /** Change in therapeutic dosing */
-    change_dosing = 'change_dosing',
+  /** Change in therapeutic dosing */
+  change_dosing = "change_dosing",
 
-    /** Alternative therapeutic chosen */
-    alternative_therapeutic = 'alternative_therapeutic',
+  /** Alternative therapeutic chosen */
+  alternative_therapeutic = "alternative_therapeutic",
 
-    /** Reported for future reference in case the relevant therapeutic is prescribed */
-    reported_for_future = 'reported_for_future'
-};
+  /** Reported for future reference in case the relevant therapeutic is prescribed */
+  reported_for_future = "reported_for_future"
+}

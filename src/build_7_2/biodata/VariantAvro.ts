@@ -6,6 +6,4 @@ import { JsonObject } from "json2typescript";
  */
 
 @JsonObject
-export class VariantAvro {
-
-};
+export class VariantAvro {}

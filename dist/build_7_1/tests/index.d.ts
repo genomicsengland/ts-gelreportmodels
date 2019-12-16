@@ -1,1 +1,1 @@
-export { getPedigree } from './pedigree';
+export { getPedigree } from "./pedigree";

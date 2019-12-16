@@ -1,5 +1,5 @@
 export enum ConfirmationOutcome {
-    yes = 'yes',
-    no = 'no',
-    na = 'na'
-};
+  yes = "yes",
+  no = "no",
+  na = "na"
+}

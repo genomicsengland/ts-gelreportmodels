@@ -1,16 +1,16 @@
-import { JsonObject, JsonProperty } from 'json2typescript';
+import { JsonObject, JsonProperty } from "json2typescript";
 
 @JsonObject
 export class HpoTermModifiers {
-    @JsonProperty('laterality', String, true)
-    laterality?: string = undefined;  // Laterality
+  @JsonProperty("laterality", String, true)
+  laterality?: string = undefined; // Laterality
 
-    @JsonProperty('progression', String, true)
-    progression?: string = undefined;  // Progression
+  @JsonProperty("progression", String, true)
+  progression?: string = undefined; // Progression
 
-    @JsonProperty('severity', String, true)
-    severity?: string = undefined;  // Severity
+  @JsonProperty("severity", String, true)
+  severity?: string = undefined; // Severity
 
-    @JsonProperty('spatialPattern', String, true)
-    spatialPattern?: string = undefined; // SpatialPattern
-};
+  @JsonProperty("spatialPattern", String, true)
+  spatialPattern?: string = undefined; // SpatialPattern
+}

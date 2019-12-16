@@ -1,4 +1,4 @@
 export declare class ConfidenceInterval {
-    left: number;
-    right: number;
+  left: number;
+  right: number;
 }

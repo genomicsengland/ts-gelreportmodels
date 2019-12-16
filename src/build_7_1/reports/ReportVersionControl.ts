@@ -6,6 +6,6 @@ import { JsonObject, JsonProperty } from "json2typescript";
  */
 @JsonObject
 export class ReportVersionControl {
-    @JsonProperty('gitVersionControl', String)
-    gitVersionControl: string = '6.0.0'; // value:"6.0.0"
-};
+  @JsonProperty("gitVersionControl", String)
+  gitVersionControl: string = "6.0.0"; // value:"6.0.0"
+}

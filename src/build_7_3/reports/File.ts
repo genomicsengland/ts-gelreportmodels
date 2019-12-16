@@ -1,4 +1,4 @@
-import { JsonObject, JsonProperty } from 'json2typescript';
+import { JsonObject, JsonProperty } from "json2typescript";
 
 /**
  * This defines a file This record is uniquely defined by the sample
@@ -8,28 +8,28 @@ import { JsonObject, JsonProperty } from 'json2typescript';
  */
 @JsonObject
 export class File {
-    /**
-     * Unique identifier(s) of the sample. For example in a multisample vcf
-     * this would have an array of all the sample identifiers
-     */
-    @JsonProperty('sampleId', [String], true)
-    sampleId?: Array<string> = undefined;
+  /**
+   * Unique identifier(s) of the sample. For example in a multisample vcf
+   * this would have an array of all the sample identifiers
+   */
+  @JsonProperty("sampleId", [String], true)
+  sampleId?: Array<string> = undefined;
 
-    /**
-     * URI path of the file
-     */
-    @JsonProperty('uriFile', String)
-    uriFile: string = '';
+  /**
+   * URI path of the file
+   */
+  @JsonProperty("uriFile", String)
+  uriFile: string = "";
 
-    /**
-     * The type of the file
-     */
-    @JsonProperty('fileType', String)
-    fileType: string = '';  // FileType
+  /**
+   * The type of the file
+   */
+  @JsonProperty("fileType", String)
+  fileType: string = ""; // FileType
 
-    /**
-     * The MD5 checksum
-     */
-    @JsonProperty('md5Sum', String, true)
-    md5Sum?: string = undefined;
-};
+  /**
+   * The MD5 checksum
+   */
+  @JsonProperty("md5Sum", String, true)
+  md5Sum?: string = undefined;
+}

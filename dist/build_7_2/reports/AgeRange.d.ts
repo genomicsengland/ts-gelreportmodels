@@ -1,5 +1,5 @@
 export declare class AgeRange {
-    minimumAge: number;
-    maximumAge: number;
-    timeunit: string;
+  minimumAge: number;
+  maximumAge: number;
+  timeunit: string;
 }

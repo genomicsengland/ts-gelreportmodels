@@ -1,2 +1,2 @@
-export { VariantAvro } from './VariantAvro';
-export { Property } from './Property';
+export { VariantAvro } from "./VariantAvro";
+export { Property } from "./Property";

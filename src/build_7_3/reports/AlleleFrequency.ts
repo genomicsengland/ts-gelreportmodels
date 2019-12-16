@@ -6,15 +6,15 @@ import { JsonObject, JsonProperty } from "json2typescript";
  */
 @JsonObject
 export class AlleleFrequency {
-    /** The study from where this data comes from */
-    @JsonProperty('study', String)
-    study: string = '';
+  /** The study from where this data comes from */
+  @JsonProperty("study", String)
+  study: string = "";
 
-    /** The specific population where this allele frequency belongs */
-    @JsonProperty('population', String)
-    population: string = '';
+  /** The specific population where this allele frequency belongs */
+  @JsonProperty("population", String)
+  population: string = "";
 
-    /** The frequency of the alternate allele */
-    @JsonProperty('alternateFrequency', Number)
-    alternateFrequency: number = 0;
-};
+  /** The frequency of the alternate allele */
+  @JsonProperty("alternateFrequency", Number)
+  alternateFrequency: number = 0;
+}

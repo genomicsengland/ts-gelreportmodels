@@ -1,5 +1,5 @@
 export enum HaematologicalCancerLineage {
-    MYELOID = 'MYELOID',
-    LYMPHOID = 'LYMPHOID',
-    UNKNOWN = 'UNKNOWN'
+  MYELOID = "MYELOID",
+  LYMPHOID = "LYMPHOID",
+  UNKNOWN = "UNKNOWN"
 }
