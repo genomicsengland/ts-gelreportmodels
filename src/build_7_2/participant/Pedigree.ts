@@ -95,8 +95,8 @@ export class Pedigree extends JSONHelper {
       return;
     }
 
-    if (this.members.length === 1 && this.members[0].isProband) {
-      proband.relationToProband = "Proband";
+    proband.relationToProband = "Proband";
+    if (this.members.length === 1) {
       return;
     }
 
