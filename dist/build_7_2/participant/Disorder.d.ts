@@ -5,12 +5,12 @@
  * others for generality
  */
 export declare class Disorder {
-  /** This is Level2 Title for this disorder */
-  diseaseGroup?: string;
-  /** This is Level3 Title for this disorder */
-  diseaseSubGroup?: string;
-  /** This is Level4 Title for this disorder */
-  specificDisease?: string;
-  /** Age of onset in years */
-  ageOfOnset?: number;
+    /** This is Level2 Title for this disorder */
+    diseaseGroup?: string;
+    /** This is Level3 Title for this disorder */
+    diseaseSubGroup?: string;
+    /** This is Level4 Title for this disorder */
+    specificDisease?: string;
+    /** Age of onset in years */
+    ageOfOnset?: number;
 }

@@ -5,14 +5,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * AMP guidelines
  */
 var AmpClinicalOrExperimentalEvidenceLevel;
-(function(AmpClinicalOrExperimentalEvidenceLevel) {
-  AmpClinicalOrExperimentalEvidenceLevel["levelA"] = "levelA";
-  AmpClinicalOrExperimentalEvidenceLevel["levelB"] = "levelB";
-  AmpClinicalOrExperimentalEvidenceLevel["levelC"] = "levelC";
-  AmpClinicalOrExperimentalEvidenceLevel["levelD"] = "levelD";
-})(
-  (AmpClinicalOrExperimentalEvidenceLevel =
-    exports.AmpClinicalOrExperimentalEvidenceLevel ||
-    (exports.AmpClinicalOrExperimentalEvidenceLevel = {}))
-);
+(function (AmpClinicalOrExperimentalEvidenceLevel) {
+    AmpClinicalOrExperimentalEvidenceLevel["levelA"] = "levelA";
+    AmpClinicalOrExperimentalEvidenceLevel["levelB"] = "levelB";
+    AmpClinicalOrExperimentalEvidenceLevel["levelC"] = "levelC";
+    AmpClinicalOrExperimentalEvidenceLevel["levelD"] = "levelD";
+})(AmpClinicalOrExperimentalEvidenceLevel = exports.AmpClinicalOrExperimentalEvidenceLevel || (exports.AmpClinicalOrExperimentalEvidenceLevel = {}));
 //# sourceMappingURL=AmpClinicalOrExperimentalEvidenceLevel.js.map

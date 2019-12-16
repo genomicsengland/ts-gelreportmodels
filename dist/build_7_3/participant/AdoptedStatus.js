@@ -5,9 +5,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * the family and was adopted out
  */
 var AdoptedStatus;
-(function(AdoptedStatus) {
-  AdoptedStatus["notadopted"] = "notadopted";
-  AdoptedStatus["adoptedin"] = "adoptedin";
-  AdoptedStatus["adoptedout"] = "adoptedout";
-})((AdoptedStatus = exports.AdoptedStatus || (exports.AdoptedStatus = {})));
+(function (AdoptedStatus) {
+    AdoptedStatus["notadopted"] = "notadopted";
+    AdoptedStatus["adoptedin"] = "adoptedin";
+    AdoptedStatus["adoptedout"] = "adoptedout";
+})(AdoptedStatus = exports.AdoptedStatus || (exports.AdoptedStatus = {}));
 //# sourceMappingURL=AdoptedStatus.js.map

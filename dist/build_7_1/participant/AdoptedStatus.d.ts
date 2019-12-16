@@ -3,7 +3,7 @@
  * the family and was adopted out
  */
 export declare enum AdoptedStatus {
-  notadopted = "notadopted",
-  adoptedin = "adoptedin",
-  adoptedout = "adoptedout"
+    notadopted = "notadopted",
+    adoptedin = "adoptedin",
+    adoptedout = "adoptedout"
 }

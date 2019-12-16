@@ -4,15 +4,15 @@
  * allele.
  */
 export declare class VariantCoordinates {
-  /** Chromosome */
-  chromosome: string;
-  /** Genomic position */
-  position: number;
-  /** The reference bases. */
-  reference: string;
-  /** The alternate bases */
-  alternate: string;
-  /** The assembly to which this variant corresponds */
-  assembly: string;
-  toVerboseId(): string;
+    /** Chromosome */
+    chromosome: string;
+    /** Genomic position */
+    position: number;
+    /** The reference bases. */
+    reference: string;
+    /** The alternate bases */
+    alternate: string;
+    /** The assembly to which this variant corresponds */
+    assembly: string;
+    toVerboseId(): string;
 }

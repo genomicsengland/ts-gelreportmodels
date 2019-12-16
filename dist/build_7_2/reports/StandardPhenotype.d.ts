@@ -4,16 +4,16 @@ import { Ontology } from "./Ontology";
  * http://snapshot.geneontology.org/ontology/go-basic.obo)
  */
 export declare class StandardPhenotype {
-  id: string;
-  name?: string;
-  namespace?: string;
-  definition?: string;
-  comment?: string;
-  alternativeIds?: string;
-  synonyms?: string;
-  isA?: string;
-  /** The ontology (e.g.: HPO, OMIM, SNOMED CT) */
-  ontology: Ontology;
-  /** The match between the non standard phenotype and this term when in silico */
-  matchScore?: number;
+    id: string;
+    name?: string;
+    namespace?: string;
+    definition?: string;
+    comment?: string;
+    alternativeIds?: string;
+    synonyms?: string;
+    isA?: string;
+    /** The ontology (e.g.: HPO, OMIM, SNOMED CT) */
+    ontology: Ontology;
+    /** The match between the non standard phenotype and this term when in silico */
+    matchScore?: number;
 }

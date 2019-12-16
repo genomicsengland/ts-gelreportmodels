@@ -3,5 +3,5 @@
  * the Git release tag
  */
 export declare class ReportVersionControl {
-  gitVersionControl: string;
+    gitVersionControl: string;
 }

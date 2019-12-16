@@ -1,12 +1,8 @@
-import {
-  CancerSomaticVariantLevelQuestions,
-  CancerGermlineVariantLevelQuestions,
-  CancerCaseLevelQuestions
-} from "../reports";
+import { CancerSomaticVariantLevelQuestions, CancerGermlineVariantLevelQuestions, CancerCaseLevelQuestions } from "../reports";
 export declare class ReportEventQuestionnaireCancer {
-  cancerSomaticVariantLevelQuestions: CancerSomaticVariantLevelQuestions;
-  cancerGermlineVariantLevelQuestions: CancerGermlineVariantLevelQuestions;
-  cancercaseLevelQuestions: CancerCaseLevelQuestions;
-  additionalComments?: string;
-  otherActionableVariants?: string;
+    cancerSomaticVariantLevelQuestions: CancerSomaticVariantLevelQuestions;
+    cancerGermlineVariantLevelQuestions: CancerGermlineVariantLevelQuestions;
+    cancercaseLevelQuestions: CancerCaseLevelQuestions;
+    additionalComments?: string;
+    otherActionableVariants?: string;
 }

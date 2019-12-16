@@ -15,9 +15,9 @@ import { CancerInterpretationRequest } from "./CancerInterpretationRequest";
  *     stage and have been approved by the originating GMCs
  */
 export declare class InterpretationDataRd {
-  interpretationMetaData: InterpretationRequestsRD;
-  tieringResult?: InterpretedGenome;
-  otherInterpretationResults?: Array<InterpretedGenome>;
+    interpretationMetaData: InterpretationRequestsRD;
+    tieringResult?: InterpretedGenome;
+    otherInterpretationResults?: Array<InterpretedGenome>;
 }
 /**
  * Represents the set of all interpretation data (excluding file contents)
@@ -29,7 +29,7 @@ export declare class InterpretationDataRd {
  *     stage and have been approved by the originating GMCs
  */
 export declare class InterpretationDataCancer {
-  interpretationMetaData: CancerInterpretationRequest;
-  tieringResult?: InterpretedGenome;
-  otherInterpretationResults?: Array<InterpretedGenome>;
+    interpretationMetaData: CancerInterpretationRequest;
+    tieringResult?: InterpretedGenome;
+    otherInterpretationResults?: Array<InterpretedGenome>;
 }

@@ -16,8 +16,7 @@ exports.Ancestries = Ancestries_1.Ancestries;
 var CancerParticipant_1 = require("./CancerParticipant");
 exports.CancerParticipant = CancerParticipant_1.CancerParticipant;
 var ChiSquare1KGenomesPhase3Pop_1 = require("./ChiSquare1KGenomesPhase3Pop");
-exports.ChiSquare1KGenomesPhase3Pop =
-  ChiSquare1KGenomesPhase3Pop_1.ChiSquare1KGenomesPhase3Pop;
+exports.ChiSquare1KGenomesPhase3Pop = ChiSquare1KGenomesPhase3Pop_1.ChiSquare1KGenomesPhase3Pop;
 var ConsentStatus_1 = require("./ConsentStatus");
 exports.ConsentStatus = ConsentStatus_1.ConsentStatus;
 var DiseasePenetrance_1 = require("./DiseasePenetrance");

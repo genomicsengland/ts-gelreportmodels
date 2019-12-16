@@ -5,12 +5,12 @@ import { AmpEvidence } from "./AmpEvidence";
  * supporting evidences and the final assessment
  */
 export declare class AmpVariantClassification {
-  /** List of AMP evidences */
-  ampEvidences: Array<AmpEvidence>;
-  /** Final Clasification taken in account the evidences */
-  ampTier: string;
-  /** Clinical or Experimental evicence */
-  ampClincialOrExperimentalEvidence: Array<AmpClincialOrExperimentalEvidence>;
-  /** Final Assessment */
-  assessment?: string;
+    /** List of AMP evidences */
+    ampEvidences: Array<AmpEvidence>;
+    /** Final Clasification taken in account the evidences */
+    ampTier: string;
+    /** Clinical or Experimental evicence */
+    ampClincialOrExperimentalEvidence: Array<AmpClincialOrExperimentalEvidence>;
+    /** Final Assessment */
+    assessment?: string;
 }

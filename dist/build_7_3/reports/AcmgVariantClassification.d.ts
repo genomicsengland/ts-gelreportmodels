@@ -4,7 +4,7 @@ import { AcmgEvidence } from "./AcmgEvidence";
  * evidences and the final classification.
  */
 export declare class AcmgVariantClassification {
-  acmgEvidences: Array<AcmgEvidence>;
-  clinicalSignificance: string;
-  assesment?: string;
+    acmgEvidences: Array<AcmgEvidence>;
+    clinicalSignificance: string;
+    assesment?: string;
 }

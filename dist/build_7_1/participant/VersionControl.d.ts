@@ -1,3 +1,3 @@
 export declare class VersionControl {
-  GitVersionControl: string;
+    GitVersionControl: string;
 }

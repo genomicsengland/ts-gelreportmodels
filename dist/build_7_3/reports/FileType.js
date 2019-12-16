@@ -21,24 +21,24 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * `COVERAGE`: whole genome coverage metrics in JSON format
  */
 var FileType;
-(function(FileType) {
-  FileType["BAM"] = "BAM";
-  FileType["gVCF"] = "gVCF";
-  FileType["VCF_small"] = "VCF_small";
-  FileType["VCF_somatic_small"] = "VCF_somatic_small";
-  FileType["VCF_CNV"] = "VCF_CNV";
-  FileType["VCF_somatic_CNV"] = "VCF_somatic_CNV";
-  FileType["VCF_SV"] = "VCF_SV";
-  FileType["VCF_somatic_SV"] = "VCF_somatic_SV";
-  FileType["VCF_SV_CNV"] = "VCF_SV_CNV";
-  FileType["SVG"] = "SVG";
-  FileType["ANN"] = "ANN";
-  FileType["BigWig"] = "BigWig";
-  FileType["MD5Sum"] = "MD5Sum";
-  FileType["ROH"] = "ROH";
-  FileType["OTHER"] = "OTHER";
-  FileType["PARTITION"] = "PARTITION";
-  FileType["VARIANT_FREQUENCIES"] = "VARIANT_FREQUENCIES";
-  FileType["COVERAGE"] = "COVERAGE";
-})((FileType = exports.FileType || (exports.FileType = {})));
+(function (FileType) {
+    FileType["BAM"] = "BAM";
+    FileType["gVCF"] = "gVCF";
+    FileType["VCF_small"] = "VCF_small";
+    FileType["VCF_somatic_small"] = "VCF_somatic_small";
+    FileType["VCF_CNV"] = "VCF_CNV";
+    FileType["VCF_somatic_CNV"] = "VCF_somatic_CNV";
+    FileType["VCF_SV"] = "VCF_SV";
+    FileType["VCF_somatic_SV"] = "VCF_somatic_SV";
+    FileType["VCF_SV_CNV"] = "VCF_SV_CNV";
+    FileType["SVG"] = "SVG";
+    FileType["ANN"] = "ANN";
+    FileType["BigWig"] = "BigWig";
+    FileType["MD5Sum"] = "MD5Sum";
+    FileType["ROH"] = "ROH";
+    FileType["OTHER"] = "OTHER";
+    FileType["PARTITION"] = "PARTITION";
+    FileType["VARIANT_FREQUENCIES"] = "VARIANT_FREQUENCIES";
+    FileType["COVERAGE"] = "COVERAGE";
+})(FileType = exports.FileType || (exports.FileType = {}));
 //# sourceMappingURL=FileType.js.map

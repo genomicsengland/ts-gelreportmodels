@@ -1,4 +1,4 @@
 export declare class InterpretationFlag {
-  interpretationFlag: string;
-  additionalDescription?: string;
+    interpretationFlag: string;
+    additionalDescription?: string;
 }

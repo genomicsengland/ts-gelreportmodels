@@ -1,4 +1,4 @@
 export default class JSONHelper {
-  static fromJSON(json: {}): any;
-  toJSON(): any;
+    static fromJSON(json: {}): any;
+    toJSON(): any;
 }

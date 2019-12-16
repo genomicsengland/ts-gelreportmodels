@@ -3,8 +3,8 @@
  * Ref. https://prsinfo.clinicaltrials.gov/definitions.html
  */
 export declare class Intervention {
-  /** Intervention type, i.e drug */
-  interventionType: string;
-  /** Intervention name: Placebo */
-  interventionName: string;
+    /** Intervention type, i.e drug */
+    interventionType: string;
+    /** Intervention name: Placebo */
+    interventionName: string;
 }

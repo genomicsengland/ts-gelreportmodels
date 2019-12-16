@@ -1,1 +1,1 @@
-{"version":3,"file":"Property.js","sourceRoot":"","sources":["../../../src/build_7_2/biodata/Property.ts"],"names":[],"mappings":";;;;;;;;AAAA,mDAA6C;AAG7C;IAAA;IAEA,CAAC;IAFY,QAAQ;QADpB,4BAAU;OACE,QAAQ,CAEpB;IAAD,eAAC;CAAA,AAFD,IAEC;AAFY,4BAAQ;AAEpB,CAAC"}
+{"version":3,"file":"Property.js","sourceRoot":"","sources":["../../../src/build_7_2/biodata/Property.ts"],"names":[],"mappings":";;;;;;;;AAAA,mDAA6C;AAG7C;IAAA;IAAuB,CAAC;IAAX,QAAQ;QADpB,4BAAU;OACE,QAAQ,CAAG;IAAD,eAAC;CAAA,AAAxB,IAAwB;AAAX,4BAAQ"}

@@ -5,12 +5,12 @@
  * supporting the variant to be classified as TierI-IV
  */
 export declare class AmpEvidence {
-  /**
-   * AMP evidence type according to Guidlines, i.e germline_database_presence
-   */
-  type: string;
-  /**
-   * Assessment for AMP evidence, i.e Present in ClinVar
-   */
-  evidenceAssessment: string;
+    /**
+     * AMP evidence type according to Guidlines, i.e germline_database_presence
+     */
+    type: string;
+    /**
+     * Assessment for AMP evidence, i.e Present in ClinVar
+     */
+    evidenceAssessment: string;
 }

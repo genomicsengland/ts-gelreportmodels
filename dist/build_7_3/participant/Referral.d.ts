@@ -6,12 +6,12 @@ import { Pedigree } from "./Pedigree";
 import { CancerParticipant } from "./CancerParticipant";
 import JSONHelper from "../../utils/JSONHelper";
 export declare class Referral extends JSONHelper {
-  referralId: string;
-  referralUid: string;
-  referralTests: ReferralTest[];
-  requester: Organisation;
-  orderingDate?: Date;
-  pedigree?: Pedigree;
-  cancerParticipant?: CancerParticipant;
-  clinicalIndication: ClinicalIndication;
+    referralId: string;
+    referralUid: string;
+    referralTests: ReferralTest[];
+    requester: Organisation;
+    orderingDate?: Date;
+    pedigree?: Pedigree;
+    cancerParticipant?: CancerParticipant;
+    clinicalIndication: ClinicalIndication;
 }

@@ -7,25 +7,25 @@ import { NumberOfCopies } from "./NumberOfCopies";
  * conducted
  */
 export declare class VariantCall {
-  /** Participant id of the family member */
-  participantId: string;
-  /**
-   * LP Number of the family member
-   */
-  sampleId: string;
-  /** Zygosity. For somatic variants, or variants without zygosity use `na` */
-  zygosity: string;
-  /** phase alleles for those in phase */
-  phaseGenotype?: PhaseGenotype;
-  /** Sample Variant Allele Frequency */
-  sampleVariantAlleleFrequency?: number;
-  /** Depth for Reference Allele */
-  depthReference?: number;
-  /** Depth for Alternate Allele */
-  depthAlternate?: number;
-  /** Alleles for copy number variation - add doc */
-  numberOfCopies?: Array<NumberOfCopies>;
-  /** Describe whether this is a somatic or Germline variant */
-  alleleOrigins?: Array<string>;
-  supportingReadTypes?: Array<string>;
+    /** Participant id of the family member */
+    participantId: string;
+    /**
+     * LP Number of the family member
+     */
+    sampleId: string;
+    /** Zygosity. For somatic variants, or variants without zygosity use `na` */
+    zygosity: string;
+    /** phase alleles for those in phase */
+    phaseGenotype?: PhaseGenotype;
+    /** Sample Variant Allele Frequency */
+    sampleVariantAlleleFrequency?: number;
+    /** Depth for Reference Allele */
+    depthReference?: number;
+    /** Depth for Alternate Allele */
+    depthAlternate?: number;
+    /** Alleles for copy number variation - add doc */
+    numberOfCopies?: Array<NumberOfCopies>;
+    /** Describe whether this is a somatic or Germline variant */
+    alleleOrigins?: Array<string>;
+    supportingReadTypes?: Array<string>;
 }

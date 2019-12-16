@@ -4,12 +4,12 @@
  * `colorectal`, `BreastOvarian` and `HDOrStroke` but can be others
  */
 export declare class OtherFamilyHistory {
-  /**
-   * Relevant Maternal family history
-   */
-  maternalFamilyHistory?: Array<string>;
-  /**
-   * Relevant Paternal family history
-   */
-  paternalFamilyHistory?: Array<string>;
+    /**
+     * Relevant Maternal family history
+     */
+    maternalFamilyHistory?: Array<string>;
+    /**
+     * Relevant Paternal family history
+     */
+    paternalFamilyHistory?: Array<string>;
 }

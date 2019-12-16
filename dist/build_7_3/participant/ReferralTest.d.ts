@@ -8,16 +8,16 @@ import { DiseasePenetrance } from "./DiseasePenetrance";
 import { MatchedSamples } from "./MatchedSamples";
 import JSONHelper from "../../utils/JSONHelper";
 export declare class ReferralTest extends JSONHelper {
-  referralTestId: string;
-  referralTestOrderingDate?: Date;
-  clinicalIndicationTest: ClinicalIndicationTest;
-  tumourSamples?: TumourSample[];
-  germlineSamples?: GermlineSample[];
-  analysisPanels?: AnalysisPanel[];
-  interpreter: Organisation;
-  processingLab: Organisation;
-  priority: string;
-  pipelineStartDate?: Date;
-  pipelineStadiseasePenetrancesrtDate?: DiseasePenetrance[];
-  matchedSamples?: MatchedSamples[];
+    referralTestId: string;
+    referralTestOrderingDate?: Date;
+    clinicalIndicationTest: ClinicalIndicationTest;
+    tumourSamples?: TumourSample[];
+    germlineSamples?: GermlineSample[];
+    analysisPanels?: AnalysisPanel[];
+    interpreter: Organisation;
+    processingLab: Organisation;
+    priority: string;
+    pipelineStartDate?: Date;
+    pipelineStadiseasePenetrancesrtDate?: DiseasePenetrance[];
+    matchedSamples?: MatchedSamples[];
 }

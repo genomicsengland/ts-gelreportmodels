@@ -1,1 +1,1 @@
-{"version":3,"file":"VariantAvro.js","sourceRoot":"","sources":["../../../src/build_7_1/biodata/VariantAvro.ts"],"names":[],"mappings":";;;;;;;;AAAA,mDAA6C;AAE7C;;;GAGG;AAGH;IAAA;IAEA,CAAC;IAFY,WAAW;QADvB,4BAAU;OACE,WAAW,CAEvB;IAAD,kBAAC;CAAA,AAFD,IAEC;AAFY,kCAAW;AAEvB,CAAC"}
+{"version":3,"file":"VariantAvro.js","sourceRoot":"","sources":["../../../src/build_7_1/biodata/VariantAvro.ts"],"names":[],"mappings":";;;;;;;;AAAA,mDAA6C;AAE7C;;;GAGG;AAGH;IAAA;IAA0B,CAAC;IAAd,WAAW;QADvB,4BAAU;OACE,WAAW,CAAG;IAAD,kBAAC;CAAA,AAA3B,IAA2B;AAAd,kCAAW"}

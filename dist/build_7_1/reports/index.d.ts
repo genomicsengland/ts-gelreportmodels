@@ -12,20 +12,12 @@ export { Actions } from "./Actions";
 export { AdditionalAnalysisPanel } from "./AdditionalAnalysisPanel";
 export { AdditionalVariantsQuestions } from "./AdditionalVariantsQuestions";
 export { AgeRange } from "./AgeRange";
-export {
-  AlgorithmBasedVariantClassification
-} from "./AlgorithmBasedVariantClassification";
+export { AlgorithmBasedVariantClassification } from "./AlgorithmBasedVariantClassification";
 export { AlleleFrequency } from "./AlleleFrequency";
 export { AlleleOrigin } from "./AlleleOrigin";
-export {
-  AmpClincialOrExperimentalEvidence
-} from "./AmpClincialOrExperimentalEvidence";
-export {
-  AmpClinicalOrExperimentalEvidenceCategory
-} from "./AmpClinicalOrExperimentalEvidenceCategory";
-export {
-  AmpClinicalOrExperimentalEvidenceLevel
-} from "./AmpClinicalOrExperimentalEvidenceLevel";
+export { AmpClincialOrExperimentalEvidence } from "./AmpClincialOrExperimentalEvidence";
+export { AmpClinicalOrExperimentalEvidenceCategory } from "./AmpClinicalOrExperimentalEvidenceCategory";
+export { AmpClinicalOrExperimentalEvidenceLevel } from "./AmpClinicalOrExperimentalEvidenceLevel";
 export { AmpEvidence } from "./AmpEvidence";
 export { AmpEvidenceType } from "./AmpEvidenceType";
 export { AmpTier } from "./AmpTier";
@@ -37,13 +29,9 @@ export { CancerActionabilitySomatic } from "./CancerActionabilitySomatic";
 export { CancerActionableVariants } from "./CancerActionableVariants";
 export { CancerCaseLevelQuestions } from "./CancerCaseLevelQuestions";
 export { CancerExitQuestionnaire } from "./CancerExitQuestionnaire";
-export {
-  CancerGermlineVariantLevelQuestions
-} from "./CancerGermlineVariantLevelQuestions";
+export { CancerGermlineVariantLevelQuestions } from "./CancerGermlineVariantLevelQuestions";
 export { CancerInterpretationRequest } from "./CancerInterpretationRequest";
-export {
-  CancerSomaticVariantLevelQuestions
-} from "./CancerSomaticVariantLevelQuestions";
+export { CancerSomaticVariantLevelQuestions } from "./CancerSomaticVariantLevelQuestions";
 export { CancerTested } from "./CancerTested";
 export { CancerTestedAdditional } from "./CancerTestedAdditional";
 export { CancerUsabilityGermline } from "./CancerUsabilityGermline";
@@ -57,9 +45,7 @@ export { ConfidenceInterval } from "./ConfidenceInterval";
 export { ConfirmationDecision } from "./ConfirmationDecision";
 export { ConfirmationOutcome } from "./ConfirmationOutcome";
 export { Coordinates } from "./Coordinates";
-export {
-  DemographicElegibilityCriteria
-} from "./DemographicElegibilityCriteria";
+export { DemographicElegibilityCriteria } from "./DemographicElegibilityCriteria";
 export { Domain } from "./Domain";
 export { DrugResponse } from "./DrugResponse";
 export { DrugResponseClassification } from "./DrugResponseClassification";
@@ -69,9 +55,7 @@ export { FileType } from "./FileType";
 export { GenePanel } from "./GenePanel";
 export { GenomicEntity } from "./GenomicEntity";
 export { GenomicEntityType } from "./GenomicEntityType";
-export {
-  GuidelineBasedVariantClassification
-} from "./GuidelineBasedVariantClassification";
+export { GuidelineBasedVariantClassification } from "./GuidelineBasedVariantClassification";
 export { Identifier } from "./Identifier";
 export { Indel } from "./Indel";
 export { InterpretationFlag } from "./InterpretationFlag";
@@ -103,9 +87,7 @@ export { RoleInCancer } from "./RoleInCancer";
 export { SegregationPattern } from "./SegregationPattern";
 export { SegregationQuestion } from "./SegregationQuestion";
 export { ShortTandemRepeat } from "./ShortTandemRepeat";
-export {
-  ShortTandemRepeatReferenceData
-} from "./ShortTandemRepeatReferenceData";
+export { ShortTandemRepeatReferenceData } from "./ShortTandemRepeatReferenceData";
 export { SmallVariant } from "./SmallVariant";
 export { StandardPhenotype } from "./StandardPhenotype";
 export { StructuralVariant } from "./StructuralVariant";
