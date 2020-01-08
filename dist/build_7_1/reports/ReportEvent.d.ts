@@ -42,7 +42,7 @@ export declare class ReportEvent extends JSONHelper {
     /**
      * This is the penetrance assumed for scoring or classifying this variant
      */
-    penetrance: string;
+    penetrance?: string;
     /**
      * Likelihood of being a de novo variant
      */
