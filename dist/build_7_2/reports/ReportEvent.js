@@ -70,7 +70,7 @@ var ReportEvent = /** @class */ (function (_super) {
         /**
          * This is the penetrance assumed for scoring or classifying this variant
          */
-        _this.penetrance = ""; // Penetrance
+        _this.penetrance = undefined; // Penetrance
         /**
          * Likelihood of being a de novo variant
          */
@@ -154,7 +154,7 @@ var ReportEvent = /** @class */ (function (_super) {
         json2typescript_1.JsonProperty("segregationPattern", String, true)
     ], ReportEvent.prototype, "segregationPattern", void 0);
     __decorate([
-        json2typescript_1.JsonProperty("penetrance", String)
+        json2typescript_1.JsonProperty("penetrance", String, true)
     ], ReportEvent.prototype, "penetrance", void 0);
     __decorate([
         json2typescript_1.JsonProperty("deNovoQualityScore", Number, true)

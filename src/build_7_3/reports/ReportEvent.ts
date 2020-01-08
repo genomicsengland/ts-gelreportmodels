@@ -59,8 +59,8 @@ export class ReportEvent extends JSONHelper {
   /**
    * This is the penetrance assumed for scoring or classifying this variant
    */
-  @JsonProperty("penetrance", String)
-  penetrance: string = ""; // Penetrance
+  @JsonProperty("penetrance", String, true)
+  penetrance?: string = undefined; // Penetrance
 
   /**
    * Likelihood of being a de novo variant
