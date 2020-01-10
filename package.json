@@ -1,8 +1,8 @@
 {
   "name": "ts-gelreportmodels",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "GelReportModels TypeScript classes",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "build": "rm -Rf ./dist && tsc --build tsconfig.json"
@@ -14,21 +14,21 @@
   "author": "Genomics England",
   "license": "Private",
   "dependencies": {
-    "@types/double-ended-queue": "^2.1.0",
-    "@types/js-combinatorics": "^0.5.29",
-    "@types/lodash": "^4.14.116",
     "double-ended-queue": "^2.1.0-0",
     "js-combinatorics": "^0.5.3",
-    "json2typescript": "^1.0.6",
-    "lodash": "^4.17.15",
-    "typescript": "3.0.1"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "@types/jest": "^23.3.1",
     "@types/jsonfile": "^5.0.0",
+    "@types/double-ended-queue": "^2.1.0",
+    "@types/js-combinatorics": "^0.5.29",
+    "@types/lodash": "^4.14.116",
     "jest": "^24.1.0",
     "jsonfile": "^5.0.0",
     "ts-jest": "^24.0.0",
-    "typedoc": "^0.15.6"
+    "typedoc": "^0.14.2",
+    "typescript": "3.0.1",
+    "json2typescript": "^1.0.6"
   }
 }
