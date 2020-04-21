@@ -52,23 +52,22 @@ export class VariantGroupLevelQuestions {
   /**
    * Does this patient have a positive family history relevant to this condition?
    */
-   @JsonProperty("familyHistoryCondition", String)
-   familyHistoryCondition: string = "";
+  @JsonProperty("familyHistoryCondition", String)
+  familyHistoryCondition: string = "";
 
-   /**
+  /**
    Was this variant previously known to be present in this patient/family?
    */
-   /**
+  /**
         In patient:
        */
-       @JsonProperty("familyHistoryPatient", String)
-       familyHistoryPatient: string = "";
-       /**
+  @JsonProperty("familyHistoryPatient", String)
+  familyHistoryPatient: string = "";
+  /**
        In family:
        */
-       @JsonProperty("familyHistoryFamily", String)
-       familyHistoryFamily: string = "";
-
+  @JsonProperty("familyHistoryFamily", String)
+  familyHistoryFamily: string = "";
 
   /**
    * Has the clinical team identified any changes to clinical care which
@@ -76,6 +75,4 @@ export class VariantGroupLevelQuestions {
    */
   @JsonProperty("clinicalUtility", [String])
   clinicalUtility: Array<string> = []; // ClinicalUtility
-
-
 }
