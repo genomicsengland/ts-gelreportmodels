@@ -7,7 +7,7 @@ import { StructuralVariantLevelQuestions } from "./StructuralVariantLevelQuestio
  * The variant group level questions
  */
 @JsonObject
-export class VariantGroupLevelQuestions {
+export class AdditionalFindingsVariantGroupLevelQuestions {
   /**
    * This value groups variants that together could explain the phenotype
    * according to the mode of inheritance used. (e.g.: compound

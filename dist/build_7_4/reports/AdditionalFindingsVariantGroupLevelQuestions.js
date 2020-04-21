@@ -13,8 +13,8 @@ var StructuralVariantLevelQuestions_1 = require("./StructuralVariantLevelQuestio
 /**
  * The variant group level questions
  */
-var VariantGroupLevelQuestions = /** @class */ (function () {
-    function VariantGroupLevelQuestions() {
+var AdditionalFindingsVariantGroupLevelQuestions = /** @class */ (function () {
+    function AdditionalFindingsVariantGroupLevelQuestions() {
         /**
          * This value groups variants that together could explain the phenotype
          * according to the mode of inheritance used. (e.g.: compound
@@ -59,32 +59,32 @@ var VariantGroupLevelQuestions = /** @class */ (function () {
     }
     __decorate([
         json2typescript_1.JsonProperty("variantGroup", Number)
-    ], VariantGroupLevelQuestions.prototype, "variantGroup", void 0);
+    ], AdditionalFindingsVariantGroupLevelQuestions.prototype, "variantGroup", void 0);
     __decorate([
         json2typescript_1.JsonProperty("variantLevelQuestions", [VariantLevelQuestions_1.VariantLevelQuestions], true)
-    ], VariantGroupLevelQuestions.prototype, "variantLevelQuestions", void 0);
+    ], AdditionalFindingsVariantGroupLevelQuestions.prototype, "variantLevelQuestions", void 0);
     __decorate([
         json2typescript_1.JsonProperty("shortTandemRepeatLevelQuestions", [ShortTandemRepeatLevelQuestions_1.ShortTandemRepeatLevelQuestions], true)
-    ], VariantGroupLevelQuestions.prototype, "shortTandemRepeatLevelQuestions", void 0);
+    ], AdditionalFindingsVariantGroupLevelQuestions.prototype, "shortTandemRepeatLevelQuestions", void 0);
     __decorate([
         json2typescript_1.JsonProperty("structuralVariantLevelQuestions", [StructuralVariantLevelQuestions_1.StructuralVariantLevelQuestions], true)
-    ], VariantGroupLevelQuestions.prototype, "structuralVariantLevelQuestions", void 0);
+    ], AdditionalFindingsVariantGroupLevelQuestions.prototype, "structuralVariantLevelQuestions", void 0);
     __decorate([
         json2typescript_1.JsonProperty("familyHistoryCondition", String)
-    ], VariantGroupLevelQuestions.prototype, "familyHistoryCondition", void 0);
+    ], AdditionalFindingsVariantGroupLevelQuestions.prototype, "familyHistoryCondition", void 0);
     __decorate([
         json2typescript_1.JsonProperty("familyHistoryPatient", String)
-    ], VariantGroupLevelQuestions.prototype, "familyHistoryPatient", void 0);
+    ], AdditionalFindingsVariantGroupLevelQuestions.prototype, "familyHistoryPatient", void 0);
     __decorate([
         json2typescript_1.JsonProperty("familyHistoryFamily", String)
-    ], VariantGroupLevelQuestions.prototype, "familyHistoryFamily", void 0);
+    ], AdditionalFindingsVariantGroupLevelQuestions.prototype, "familyHistoryFamily", void 0);
     __decorate([
         json2typescript_1.JsonProperty("clinicalUtility", [String])
-    ], VariantGroupLevelQuestions.prototype, "clinicalUtility", void 0);
-    VariantGroupLevelQuestions = __decorate([
+    ], AdditionalFindingsVariantGroupLevelQuestions.prototype, "clinicalUtility", void 0);
+    AdditionalFindingsVariantGroupLevelQuestions = __decorate([
         json2typescript_1.JsonObject
-    ], VariantGroupLevelQuestions);
-    return VariantGroupLevelQuestions;
+    ], AdditionalFindingsVariantGroupLevelQuestions);
+    return AdditionalFindingsVariantGroupLevelQuestions;
 }());
-exports.VariantGroupLevelQuestions = VariantGroupLevelQuestions;
+exports.AdditionalFindingsVariantGroupLevelQuestions = AdditionalFindingsVariantGroupLevelQuestions;
 //# sourceMappingURL=AdditionalFindingsVariantGroupLevelQuestions.js.map

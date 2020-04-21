@@ -1,4 +1,4 @@
-import { VariantGroupLevelQuestions } from "./VariantGroupLevelQuestions";
+import { AdditionalFindingsVariantGroupLevelQuestions } from "./AdditionalFindingsVariantGroupLevelQuestions";
 import { JsonObject, JsonProperty } from "json2typescript";
 import JSONHelper from "../../utils/JSONHelper";
 
@@ -6,7 +6,7 @@ import JSONHelper from "../../utils/JSONHelper";
  * The rare disease program exit questionnaire
  */
 @JsonObject
-export class RareDiseaseExitQuestionnaire extends JSONHelper {
+export class AdditionalFindingsExitQuestionnaire extends JSONHelper {
   /** The date when the questionnaire was submitted */
   @JsonProperty("eventDate", String)
   eventDate: string = "";
@@ -19,6 +19,6 @@ export class RareDiseaseExitQuestionnaire extends JSONHelper {
    * The list of variant group level variants (ungrouped variants are to be
    * set in single variant group)
    */
-  @JsonProperty("variantGroupLevelQuestions", [VariantGroupLevelQuestions])
-  variantGroupLevelQuestions: Array<VariantGroupLevelQuestions> = [];
+  @JsonProperty("additionalFindingsVariantGroupLevelQuestions", [AdditionalFindingsVariantGroupLevelQuestions])
+  additionalFindingsVariantGroupLevelQuestions: Array<AdditionalFindingsVariantGroupLevelQuestions> = [];
 }

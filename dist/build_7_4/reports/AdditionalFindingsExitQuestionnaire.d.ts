@@ -1,9 +1,9 @@
-import { VariantGroupLevelQuestions } from "./VariantGroupLevelQuestions";
+import { AdditionalFindingsVariantGroupLevelQuestions } from "./AdditionalFindingsVariantGroupLevelQuestions";
 import JSONHelper from "../../utils/JSONHelper";
 /**
  * The rare disease program exit questionnaire
  */
-export declare class RareDiseaseExitQuestionnaire extends JSONHelper {
+export declare class AdditionalFindingsExitQuestionnaire extends JSONHelper {
     /** The date when the questionnaire was submitted */
     eventDate: string;
     /** The person that submitted the questionnaire */
@@ -12,5 +12,5 @@ export declare class RareDiseaseExitQuestionnaire extends JSONHelper {
      * The list of variant group level variants (ungrouped variants are to be
      * set in single variant group)
      */
-    variantGroupLevelQuestions: Array<VariantGroupLevelQuestions>;
+    additionalFindingsVariantGroupLevelQuestions: Array<AdditionalFindingsVariantGroupLevelQuestions>;
 }

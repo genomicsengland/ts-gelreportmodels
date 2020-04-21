@@ -22,15 +22,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var VariantGroupLevelQuestions_1 = require("./VariantGroupLevelQuestions");
+var AdditionalFindingsVariantGroupLevelQuestions_1 = require("./AdditionalFindingsVariantGroupLevelQuestions");
 var json2typescript_1 = require("json2typescript");
 var JSONHelper_1 = __importDefault(require("../../utils/JSONHelper"));
 /**
  * The rare disease program exit questionnaire
  */
-var RareDiseaseExitQuestionnaire = /** @class */ (function (_super) {
-    __extends(RareDiseaseExitQuestionnaire, _super);
-    function RareDiseaseExitQuestionnaire() {
+var AdditionalFindingsExitQuestionnaire = /** @class */ (function (_super) {
+    __extends(AdditionalFindingsExitQuestionnaire, _super);
+    function AdditionalFindingsExitQuestionnaire() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         /** The date when the questionnaire was submitted */
         _this.eventDate = "";
@@ -40,22 +40,22 @@ var RareDiseaseExitQuestionnaire = /** @class */ (function (_super) {
          * The list of variant group level variants (ungrouped variants are to be
          * set in single variant group)
          */
-        _this.variantGroupLevelQuestions = [];
+        _this.additionalFindingsVariantGroupLevelQuestions = [];
         return _this;
     }
     __decorate([
         json2typescript_1.JsonProperty("eventDate", String)
-    ], RareDiseaseExitQuestionnaire.prototype, "eventDate", void 0);
+    ], AdditionalFindingsExitQuestionnaire.prototype, "eventDate", void 0);
     __decorate([
         json2typescript_1.JsonProperty("reporter", String)
-    ], RareDiseaseExitQuestionnaire.prototype, "reporter", void 0);
+    ], AdditionalFindingsExitQuestionnaire.prototype, "reporter", void 0);
     __decorate([
-        json2typescript_1.JsonProperty("variantGroupLevelQuestions", [VariantGroupLevelQuestions_1.VariantGroupLevelQuestions])
-    ], RareDiseaseExitQuestionnaire.prototype, "variantGroupLevelQuestions", void 0);
-    RareDiseaseExitQuestionnaire = __decorate([
+        json2typescript_1.JsonProperty("additionalFindingsVariantGroupLevelQuestions", [AdditionalFindingsVariantGroupLevelQuestions_1.AdditionalFindingsVariantGroupLevelQuestions])
+    ], AdditionalFindingsExitQuestionnaire.prototype, "additionalFindingsVariantGroupLevelQuestions", void 0);
+    AdditionalFindingsExitQuestionnaire = __decorate([
         json2typescript_1.JsonObject
-    ], RareDiseaseExitQuestionnaire);
-    return RareDiseaseExitQuestionnaire;
+    ], AdditionalFindingsExitQuestionnaire);
+    return AdditionalFindingsExitQuestionnaire;
 }(JSONHelper_1.default));
-exports.RareDiseaseExitQuestionnaire = RareDiseaseExitQuestionnaire;
+exports.AdditionalFindingsExitQuestionnaire = AdditionalFindingsExitQuestionnaire;
 //# sourceMappingURL=AdditionalFindingsExitQuestionnaire.js.map

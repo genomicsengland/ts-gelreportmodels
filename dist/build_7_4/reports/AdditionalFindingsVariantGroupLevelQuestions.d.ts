@@ -4,7 +4,7 @@ import { StructuralVariantLevelQuestions } from "./StructuralVariantLevelQuestio
 /**
  * The variant group level questions
  */
-export declare class VariantGroupLevelQuestions {
+export declare class AdditionalFindingsVariantGroupLevelQuestions {
     /**
      * This value groups variants that together could explain the phenotype
      * according to the mode of inheritance used. (e.g.: compound
