@@ -1,0 +1,1579 @@
+{
+    "interpretationFlags": [
+        {
+            "interpretationFlag": "mixed_chemistries",
+            "additionalDescription": "fEMVwmsOKwBB"
+        },
+        {
+            "interpretationFlag": "suspected_increased_number_of_false_positive_heterozygous_loss_calls",
+            "additionalDescription": "qskovBWhMrCI"
+        },
+        {
+            "interpretationFlag": "internal_use_only",
+            "additionalDescription": "qGzrWQIEKrru"
+        },
+        {
+            "interpretationFlag": "supplementary_report_errors",
+            "additionalDescription": "EJMIrefvuRRW"
+        },
+        {
+            "interpretationFlag": "internal_use_only",
+            "additionalDescription": "ofZCpJDwVtNQ"
+        }
+    ],
+    "additionalInfo": {
+        "MDfpjcIKEfYW": "nyJNWBayUMKd",
+        "XAoWIOhhSOwn": "bqhRwlJvtMdC",
+        "fzXNZvLPjHnA": "wSNsXOIAtUgC",
+        "vMZUPoKxBpMj": "VzvUrbRnrEnf",
+        "qBekrRfEMXLZ": "KOjerdDhLyzx"
+    },
+    "participantInternalId": "UGIQgNoqYxNl",
+    "genomeAssembly": "GRCh38",
+    "bigWigs": [
+        {
+            "fileType": "VCF_somatic_small",
+            "md5Sum": "WZlBqfkYXMRm",
+            "sampleId": [
+                "jFhOIZLgiMGg",
+                "uGqdYQJqxZNo",
+                "SxrWaLSvfgch",
+                "CXAexNNuSMyM",
+                "cPDDDgyHVhjf"
+            ],
+            "uriFile": "ZBFUVfJhUEKB"
+        },
+        {
+            "fileType": "ANN",
+            "md5Sum": "wkHpwgQckfuI",
+            "sampleId": [
+                "DqlgXRIsGAkj",
+                "ILzUHqRHgfpF",
+                "qxCmOHXWRFIV",
+                "NulRsIxqHeeM",
+                "qVokGDrqsQFq"
+            ],
+            "uriFile": "FuQbVDYWYJag"
+        },
+        {
+            "fileType": "VCF_somatic_small",
+            "md5Sum": "kwgKqNxnVNGc",
+            "sampleId": [
+                "wNIDSExYKEyD",
+                "wyeQcIYQnpZX",
+                "WIjqoDWpaeWC",
+                "ecXGfZjQNBPz",
+                "VxgTQlyGIXQm"
+            ],
+            "uriFile": "tIuAWMSgwjDc"
+        },
+        {
+            "fileType": "COVERAGE",
+            "md5Sum": "xgScszLvpIZY",
+            "sampleId": [
+                "uJqQPUhsaRYW",
+                "tIDdbTmmBzmx",
+                "lXtuGHlQHUVZ",
+                "pMhtYjsXApHx",
+                "swWUgiixYNrB"
+            ],
+            "uriFile": "VCGgxJdjfpET"
+        },
+        {
+            "fileType": "VCF_somatic_SV",
+            "md5Sum": "mJtiNyUGmFQE",
+            "sampleId": [
+                "AgsTILhXwczh",
+                "YPNugDcUrQIE",
+                "qEozkAdMvZuF",
+                "IqQWcrxOeYMn",
+                "LqymYJKNqVpQ"
+            ],
+            "uriFile": "wfqHdrZVMhAZ"
+        }
+    ],
+    "genePanelsCoverage": {
+        "KZtgQKyHkKjK": {
+            "vZhaacnocTrG": {
+                "kgKEJKHHJGgC": 1.3412014173642206e-308,
+                "CgHxhxatTgTW": 8.61345718770097e-309,
+                "PsEEISdMKFZG": 7.288563103241826e-309,
+                "hYFNUDDjPGVN": 1.9556677429706375e-308,
+                "yflVTTvnAIXU": 1.853402202787879e-308
+            },
+            "DuQGjLEGWshe": {
+                "NcZSSpqdEmBU": 2.1073802013925254e-308,
+                "DJtEuTYEwkEW": 3.067479491692106e-309,
+                "FuqfQLyHeTSQ": 1.2415612962979223e-308,
+                "dHKGlIVbEtHj": 1.4228674978962893e-308,
+                "IVXzNBnCsPrz": 1.118107989835005e-308
+            },
+            "JFYJQCnqaVdn": {
+                "OtNTdyDnttPk": 1.089901397440274e-308,
+                "yvFJbjEREUAr": 1.5746024730582907e-308,
+                "NtcsjzoXmNxl": 3.266695198221266e-309,
+                "zTMkBxMSiaEp": 6.93960100829214e-309,
+                "DiXPVfTsyPCv": 2.028983684330253e-308
+            },
+            "dOBbPHLxQrmG": {
+                "pagxMuvitfcl": 1.1370304196682805e-308,
+                "eDlgUTiawBdu": 5.4426914393895e-309,
+                "pUwNuhjrszrX": 1.099856150828664e-308,
+                "pJoVssuBexrB": 1.6220135176428516e-308,
+                "tSxPQBEnnLBX": 6.718365866427296e-309
+            },
+            "NdGOShBwmNzD": {
+                "zFYrZdNJtPvl": 1.111185786218317e-309,
+                "tZCECTfUiVqq": 1.445064111509453e-309,
+                "IwvrgHaQbNFT": 1.065201295091504e-308,
+                "rsDITWLVARDI": 9.36913310795899e-309,
+                "zlegJgNDtGyj": 7.162425008090847e-309
+            }
+        },
+        "kHfPpBYtSKby": {
+            "JMrEbvTkaoTO": {
+                "UqpToYSzqbGd": 1.133347433214529e-308,
+                "WCANWTxNbpjg": 1.1863270725990145e-308,
+                "rKXqDlthhGkk": 8.8033212244114e-310,
+                "RicQdesTVNHq": 2.368649987759656e-309,
+                "QqAmJZsKHERb": 2.028422972519832e-308
+            },
+            "xPidSQQDlYyk": {
+                "fudDZfpONkyv": 1.153084236641262e-308,
+                "eLxwvUhpYoGv": 7.131989011187094e-309,
+                "qJbsMbPEtGkv": 9.60279986678894e-309,
+                "AHMUljUxejIc": 2.1894766248075835e-308,
+                "bCDYVTDnsSBb": 1.4628514468312925e-308
+            },
+            "LSdpprBPmKlK": {
+                "KvZqYCeNUwjK": 7.207587554438803e-309,
+                "BOcHyAcuqyMV": 7.28761795474777e-309,
+                "SmKvwidRFDIl": 1.6228363767562535e-308,
+                "DezvhuRanchX": 8.147940985164633e-309,
+                "UZuFzxVHOHma": 1.2510477628305735e-308
+            },
+            "rKCmVJqDAJDg": {
+                "WypmwLdQOouu": 1.1794465576682605e-308,
+                "aAZrvimiHsyG": 1.22502831586923e-308,
+                "lAfXdRSqzptj": 7.69333685552028e-309,
+                "uBwzZIBszBOT": 1.840029986163016e-308,
+                "pJEtgUDLLVGM": 1.428298655106992e-308
+            },
+            "WErwqXKWxqCQ": {
+                "bsQcCoaLZSmV": 1.464680187012162e-308,
+                "QkeZgFynpDMb": 3.63590159977033e-309,
+                "vnsTyTPzelgm": 1.3284393390349873e-308,
+                "NkgJQfKSzhgz": 1.5125795269241185e-308,
+                "IlNxBFYtcEJY": 1.53639581175887e-309
+            }
+        },
+        "IDfGciDFDrAV": {
+            "sMAzghRtuHzw": {
+                "KIFxlfnsYkrr": 1.5650701037225783e-308,
+                "NbLFxFIuEECf": 1.631209137787157e-308,
+                "HPxdNIcJtvzW": 1.110420176830318e-308,
+                "lvOXsgmcktCb": 5.972308623241033e-309,
+                "rMbqZKgRETFX": 1.134508979105338e-308
+            },
+            "nqzEROXGDZwd": {
+                "PkjOuxsqTmUf": 1.734048555166701e-308,
+                "fSBPSZJINcBb": 1.0520415964001105e-308,
+                "VIskuTaVHJyo": 2.190464623877079e-308,
+                "jHyfTxjNHZTk": 7.054542424512435e-309,
+                "tKfjpOkTTqux": 1.506584328845272e-308
+            },
+            "zZFQhwKCnIcx": {
+                "oSMPYCIFqWBw": 1.1942561661861714e-308,
+                "FRDtbwvFzlUV": 8.702508155469894e-309,
+                "ZOzjzqPdqcWL": 4.1773889936829e-310,
+                "UNFEMSeXCtUi": 5.80504650603305e-310,
+                "LImCpQkXfWCj": 6.70857838504061e-309
+            },
+            "yXBDuoVPHomG": {
+                "lAhadBBovdtV": 1.898922640190729e-308,
+                "eyVTYTLRoKst": 1.27944294324269e-308,
+                "HfZUjFybjVLG": 3.34694105158883e-309,
+                "cPqeAonkCgLU": 8.768408489794395e-309,
+                "MmooLdeUFuPh": 3.154075912301534e-309
+            },
+            "qaOHiiTBNatO": {
+                "eVhWbbpDWKxP": 2.3709251871306e-309,
+                "owFyWVBIqCAs": 1.4779110212890167e-308,
+                "YLIuXXlWJORv": 1.249144765556638e-308,
+                "HaaDRWhiatnc": 9.41995965070407e-309,
+                "oClERymYbQGb": 8.874014194056067e-309
+            }
+        },
+        "ExKwStkpwIlK": {
+            "AqsLOzvXJQdW": {
+                "xaCbWTynuDaf": 1.0283579906209427e-308,
+                "dBWhuCysbWXe": 1.513771611804715e-308,
+                "WqeDbfJDxUKr": 4.150972283448456e-309,
+                "qCIviVBtVdTD": 1.074609277235373e-309,
+                "eMrmlSAhNAfW": 1.2157142744937824e-308
+            },
+            "SXVTlqJtJPPD": {
+                "iEFeYaBOJetG": 9.83338111225043e-309,
+                "fdDhZFnsIheZ": 1.798906214291844e-308,
+                "LblWlXurSKbE": 6.70258917859669e-309,
+                "SoDUQqvlYCfC": 1.7049918862173757e-308,
+                "EOPLXPbgeLOF": 1.783306342135158e-308
+            },
+            "myHgZBSksOJT": {
+                "zAGMojXLiTUh": 1.706349587809792e-308,
+                "ddpdAxbNleWf": 1.7380292347502187e-308,
+                "mPaMZGXHfrWo": 1.6524535621543653e-308,
+                "YCRYpzNvogiv": 1.617858243084515e-308,
+                "ZDdParjQrbom": 1.3396848151704005e-308
+            },
+            "kqIEBWMZjCCZ": {
+                "frQPbwZCGpue": 4.918938315083963e-309,
+                "BbFZhNPnaHLK": 1.0077003202133906e-308,
+                "ZCvXrHGcoAiL": 1.127679785324278e-308,
+                "PWEsSZyqbUjW": 4.275289364949955e-309,
+                "BPTJpXKjsAEk": 8.45520596258723e-309
+            },
+            "iThATBQeLOgY": {
+                "GJfSvFOnXTUQ": 9.214890528708207e-309,
+                "xexGyvvgVOik": 1.8688484632886306e-308,
+                "jOWTwRovynis": 2.212016070539705e-308,
+                "iTFqcQUDHjGN": 1.5781435247358973e-308,
+                "cWERhTPtKSXx": 1.737421353580815e-308
+            }
+        },
+        "TIBwYyKjSBkH": {
+            "hYMhtpMWKZyl": {
+                "ZWprVuxAlMZU": 1.97350653299469e-309,
+                "wKGYJmaxZSAB": 6.044135386880595e-309,
+                "RyblrlNVCvZU": 1.707474249003849e-308,
+                "ORUlpLNZsbXj": 1.90510528903456e-309,
+                "hPxTQguAfUvf": 2.134805161135703e-308
+            },
+            "DXjpqBoxhElU": {
+                "SvIQKAQretbm": 1.415895878542663e-308,
+                "DuaitAgpMKwC": 7.58289078084977e-309,
+                "TtMYdTbcEPBl": 4.82747508777287e-309,
+                "qMQMaBJjntzG": 1.2394548484833203e-308,
+                "pCTlyWiTGQjI": 3.92799829859647e-309
+            },
+            "xFXaOiQDYocd": {
+                "wFQCBrUgvZJq": 2.27782772033672e-309,
+                "DTHurVqQgJiZ": 1.1207665020693305e-308,
+                "OaXOmdXdaWXS": 1.673356417490236e-308,
+                "OVYiOrYgHbZS": 2.0503004488923387e-308,
+                "uwbtclNwWjtL": 1.5152370261603193e-308
+            },
+            "hOCQURIHkalO": {
+                "pONSAildWmbu": 9.152914697421723e-309,
+                "RWEWRPiybVpf": 8.94293918647724e-310,
+                "fXbPQjLfuGNY": 1.3437904077022766e-308,
+                "YUOiwdzDbbiC": 1.3676428744486205e-308,
+                "vHAUBthbiuKH": 2.0853938845313625e-308
+            },
+            "PhOhXebFFoAK": {
+                "tZmJYGvxYcxT": 7.701714967158183e-309,
+                "odVqSMowIGkN": 1.918123034171524e-308,
+                "iQUUNeZNXoUV": 9.6745287824244e-310,
+                "ZmsXMArinNyB": 1.13765967441982e-308,
+                "HhZJQmANCeUw": 4.802671945414767e-309
+            }
+        }
+    },
+    "otherFiles": {
+        "pQlrUKRdlXDI": {
+            "fileType": "COVERAGE",
+            "md5Sum": "dJBDFgNskQsH",
+            "sampleId": [
+                "auBkofLgGkgs",
+                "rUAheMiUOKZY",
+                "KHSmQDArWjlF",
+                "KqjVrrGldwxr",
+                "iWnrzKVzliGq"
+            ],
+            "uriFile": "xCbFXOctHrNM"
+        },
+        "tNmnFnLgYgSd": {
+            "fileType": "VARIANT_FREQUENCIES",
+            "md5Sum": "nAQekyzBeHpk",
+            "sampleId": [
+                "blnwakhxBhWB",
+                "dwITEWvVPCtL",
+                "LPTmWefITtpI",
+                "eShwGTcyQZUG",
+                "GbILjcymBaYm"
+            ],
+            "uriFile": "kOdVHwwYuYFr"
+        },
+        "oQJvCnUsclmC": {
+            "fileType": "VCF_SV",
+            "md5Sum": "UKjVhBJqSJxg",
+            "sampleId": [
+                "UjHUAmiWIOsk",
+                "DkKKGkPhzTtG",
+                "OjzFzQbitMqU",
+                "DJcxFFOcushf",
+                "xEYzVLDqAraA"
+            ],
+            "uriFile": "PmddXPuszloN"
+        },
+        "rUGqUUjaoRWM": {
+            "fileType": "COVERAGE",
+            "md5Sum": "yAudPIVKwyQi",
+            "sampleId": [
+                "wnsWDmiPNOmS",
+                "tzIwLGrblfOG",
+                "ilCLbToixltc",
+                "hcyfDzOBFYCr",
+                "TJhJCKdaCZSt"
+            ],
+            "uriFile": "KomEXIsRCdHz"
+        },
+        "ExtHJcamFOug": {
+            "fileType": "VARIANT_FREQUENCIES",
+            "md5Sum": "pylpbZHQTuiT",
+            "sampleId": [
+                "CrwHPYlxmBes",
+                "YBgLkGdcYmfj",
+                "mhPXwsOcuPGq",
+                "roIlMlYnWoKV",
+                "dTUhgJfraCpq"
+            ],
+            "uriFile": "htDArNTskzrU"
+        }
+    },
+    "annotationFile": {
+        "fileType": "ROH",
+        "md5Sum": "YbzLVoqkboQI",
+        "sampleId": [
+            "TopFvRftTNoz",
+            "japsZxsuoLLk",
+            "oVmhdIzTxjTw",
+            "ZHEIsbreBLMd",
+            "hfAURxMPGvdE"
+        ],
+        "uriFile": "RxwgSJbOSMep"
+    },
+    "vcfs": [
+        {
+            "fileType": "VCF_SV",
+            "md5Sum": "AfThzDqVqMmr",
+            "sampleId": [
+                "KpaBwrsSezst",
+                "vGuNgQlFehTr",
+                "qgqDEfMTOklj",
+                "yKCoRaFhhBax",
+                "IcjCKmSUJVNo"
+            ],
+            "uriFile": "zmEFixuBkfKD"
+        },
+        {
+            "fileType": "VCF_somatic_small",
+            "md5Sum": "tmzpFKHTbfMo",
+            "sampleId": [
+                "rzKSdcbjzFoQ",
+                "oxAMeXHzyIya",
+                "knaeTVurDrHA",
+                "NTiGaQJuNlte",
+                "cfQMvaokDklA"
+            ],
+            "uriFile": "AGVEkSwsdySd"
+        },
+        {
+            "fileType": "BigWig",
+            "md5Sum": "PFvMjMeguhdP",
+            "sampleId": [
+                "qYsshOqIsIPK",
+                "LRTSdQansYZp",
+                "qAjqNDBDqRth",
+                "AGSFoUvhLWTL",
+                "LPdTYtaDEiZu"
+            ],
+            "uriFile": "cLrGoPPNmWzW"
+        },
+        {
+            "fileType": "BAM",
+            "md5Sum": "pSKJVEHrcZyR",
+            "sampleId": [
+                "psRXXaUDMCKj",
+                "LsEcxzyUpyMK",
+                "ypdBXLJdPxon",
+                "NWnkrrInSuas",
+                "uxcNPwAIWbOl"
+            ],
+            "uriFile": "mowWPWIDAVOz"
+        },
+        {
+            "fileType": "PARTITION",
+            "md5Sum": "euzxukkdPTIk",
+            "sampleId": [
+                "QgJTKskNpvpp",
+                "aoueqTsnPAqW",
+                "AqIeRCleeZsC",
+                "lyRdbIDOhqNc",
+                "bxBFiXqjJpMI"
+            ],
+            "uriFile": "teGxrUVFqtzU"
+        }
+    ],
+    "internalStudyId": "JNRuihUiMqpi",
+    "interpretationRequestVersion": 609638312,
+    "versionControl": {
+        "gitVersionControl": "fNPtxLBDtJEr"
+    },
+    "workspace": [
+        "RTmBNWmZbpNu",
+        "vLvvVLRKMmTf",
+        "NzbHodyPfasE",
+        "uljrBigBohaQ",
+        "jsaAuAShrYtQ"
+    ],
+    "otherFamilyHistory": {
+        "maternalFamilyHistory": [
+            "flNXuiMrdQlp",
+            "jcHneraRHivV",
+            "oRaKufrmgfAJ",
+            "TvCWEJnbYEdv",
+            "ODwQHEJOAUcD"
+        ],
+        "paternalFamilyHistory": [
+            "RUcpmTrsXSoA",
+            "QfAjIULljeUT",
+            "CbxEpqXIlziV",
+            "arifkZgaSNMJ",
+            "xQwBUXMUbWww"
+        ]
+    },
+    "interpretationRequestId": "kQKgeLIQwZbk",
+    "cancerParticipant": {
+        "readyForAnalysis": false,
+        "consentStatus": {
+            "primaryFindingConsent": true,
+            "programmeConsent": true,
+            "carrierStatusConsent": false,
+            "secondaryFindingConsent": true
+        },
+        "center": "obkhxWqYuJUh",
+        "tumourSamples": [
+            {
+                "diseaseType": "TESTICULAR_GERM_CELL_TUMOURS",
+                "sampleMorphologies": [
+                    {
+                        "morphologyICD": "DikfXdYCmeXG",
+                        "morphologySnomedCT": "kqXrReLsDlQq",
+                        "morphologySnomedRT": "eazYnkxxUSBC"
+                    },
+                    {
+                        "morphologyICD": "LVAVcUiOJJfo",
+                        "morphologySnomedCT": "NRzAqmWvvXmY",
+                        "morphologySnomedRT": "WqFDpytoUoQu"
+                    },
+                    {
+                        "morphologyICD": "kyVPzNvdNCbe",
+                        "morphologySnomedCT": "VORwkZHrtBml",
+                        "morphologySnomedRT": "ubfrbMZszyaF"
+                    },
+                    {
+                        "morphologyICD": "xrDDjpkWqSzz",
+                        "morphologySnomedCT": "fAPZlnTDauok",
+                        "morphologySnomedRT": "tVSPoPACUrzV"
+                    },
+                    {
+                        "morphologyICD": "uhBUJiWYUVrL",
+                        "morphologySnomedCT": "oYutgvpHqKPn",
+                        "morphologySnomedRT": "QspUxNUwfwTW"
+                    }
+                ],
+                "sampleId": "YOWEerseALRe",
+                "tissueSource": "NLTMeNEIoKSY",
+                "tumourId": "fywRXNCjSJrl",
+                "sampleTopographies": [
+                    {
+                        "topographySnomedRT": "KBYLLRzxeCkR",
+                        "topographySnomedCT": "lIoGjhBMapJl",
+                        "topographyICD": "fsnfCFXxGWVl"
+                    },
+                    {
+                        "topographySnomedRT": "sffRWknZcOMX",
+                        "topographySnomedCT": "cugkhOsWaFPw",
+                        "topographyICD": "pjKaXFSlKchh"
+                    },
+                    {
+                        "topographySnomedRT": "srbDQrQisfpG",
+                        "topographySnomedCT": "JJPJXBscUUIS",
+                        "topographyICD": "PGeMMltmUSlI"
+                    },
+                    {
+                        "topographySnomedRT": "nbEQFvsUeMjC",
+                        "topographySnomedCT": "RZcGvlCWLRTS",
+                        "topographyICD": "sjjUkyAIyylz"
+                    },
+                    {
+                        "topographySnomedRT": "OZxemAZHbOsr",
+                        "topographySnomedCT": "OxrMsMQDwavN",
+                        "topographyICD": "guBKwvraAbiC"
+                    }
+                ],
+                "clinicalSampleDateTime": "rlBtSIuPWpUB",
+                "tumourContentPercentage": 1.7256740255659597e-308,
+                "haematologicalCancerLineage": "MYELOID",
+                "sampleUid": "zKyYAgTFedtM",
+                "sampleType": "TrgWGzfwveRv",
+                "source": "OTHER",
+                "preparationMethod": "EDTA",
+                "product": "DNA",
+                "storageMedium": "LI_HEP",
+                "programmePhase": "spshJzfeGJJf",
+                "LDPCode": "mEOjTqhCWKpv",
+                "diseaseSubType": "nWhWdJWzaaZr",
+                "sampleState": "JPkcQXIVjMcV",
+                "labSampleId": 272620488,
+                "tumourContent": "Low",
+                "tumourType": "SjwuHhYYaBaw",
+                "haematologicalCancer": true,
+                "method": "NOT_APPLICABLE",
+                "individualUid": "rqvFtxYrPoRt",
+                "maskedPid": "LYloummkoVot"
+            },
+            {
+                "diseaseType": "NODULAR_LYMPHOCYTE_PREDOMINANT_HODGKINS",
+                "sampleMorphologies": [
+                    {
+                        "morphologyICD": "XeIKCrIFcETm",
+                        "morphologySnomedCT": "yBOBgJfYWGWO",
+                        "morphologySnomedRT": "zYtWhARxyISQ"
+                    },
+                    {
+                        "morphologyICD": "JEHCXxEvfGWC",
+                        "morphologySnomedCT": "YklhmKHrkDqw",
+                        "morphologySnomedRT": "RhIFNmNKqkhO"
+                    },
+                    {
+                        "morphologyICD": "dEKeOZcVFNIm",
+                        "morphologySnomedCT": "hFhKawbgtMWl",
+                        "morphologySnomedRT": "MOeWMveyyDOF"
+                    },
+                    {
+                        "morphologyICD": "HqGFsTFWBNAZ",
+                        "morphologySnomedCT": "saeCOzfPWZXZ",
+                        "morphologySnomedRT": "TJavsebIZpqz"
+                    },
+                    {
+                        "morphologyICD": "xtCLlbUhnmeK",
+                        "morphologySnomedCT": "ccreebLjadrO",
+                        "morphologySnomedRT": "ReXRPLnumYwT"
+                    }
+                ],
+                "sampleId": "oBMBHKOvjyJu",
+                "tissueSource": "QWSpOgSoXgeK",
+                "tumourId": "DprCCoMysLhZ",
+                "sampleTopographies": [
+                    {
+                        "topographySnomedRT": "eulxijQwPgDb",
+                        "topographySnomedCT": "vaaklphNDvvL",
+                        "topographyICD": "eUjEARmImeBt"
+                    },
+                    {
+                        "topographySnomedRT": "yrTKsCRgkiZk",
+                        "topographySnomedCT": "NBLxAIocavZv",
+                        "topographyICD": "BaaZRalDRPqq"
+                    },
+                    {
+                        "topographySnomedRT": "zDENtDNJBfgb",
+                        "topographySnomedCT": "poznIutrMDYY",
+                        "topographyICD": "xvrAplYXsHmG"
+                    },
+                    {
+                        "topographySnomedRT": "oYsdFxVFeFfb",
+                        "topographySnomedCT": "JJsSRelHjzKX",
+                        "topographyICD": "KibyADotzatB"
+                    },
+                    {
+                        "topographySnomedRT": "xHNaSkkobIIm",
+                        "topographySnomedCT": "gjWXmlZUCtZi",
+                        "topographyICD": "CgBAYsiCyhhK"
+                    }
+                ],
+                "clinicalSampleDateTime": "PldXOdQGXQxC",
+                "tumourContentPercentage": 3.893366633538566e-309,
+                "haematologicalCancerLineage": "UNKNOWN",
+                "sampleUid": "Zqmccafoyvwk",
+                "sampleType": "ugvAfjjPQCtn",
+                "source": "OTHER",
+                "preparationMethod": "ORAGENE",
+                "product": "RNA",
+                "storageMedium": "ORAGENE",
+                "programmePhase": "jpTzcKQGiwLr",
+                "LDPCode": "pzkoVHcFWIVF",
+                "diseaseSubType": "BHyGnkXdDTzE",
+                "sampleState": "nNILPaMDnTxI",
+                "labSampleId": 1259512975,
+                "tumourContent": "Low",
+                "tumourType": "SyHGFVCmGCFq",
+                "haematologicalCancer": false,
+                "method": "RESECTION",
+                "individualUid": "RTFfOAmMDFzK",
+                "maskedPid": "ACTCEIqwGibK"
+            },
+            {
+                "diseaseType": "HAEMONC",
+                "sampleMorphologies": [
+                    {
+                        "morphologyICD": "KJRTdGGgBRQm",
+                        "morphologySnomedCT": "UzMweJRknHSp",
+                        "morphologySnomedRT": "wSkLpmOxrgWC"
+                    },
+                    {
+                        "morphologyICD": "hgraqugRWofE",
+                        "morphologySnomedCT": "lxdFThsgzsMZ",
+                        "morphologySnomedRT": "SkDqUKkIObFu"
+                    },
+                    {
+                        "morphologyICD": "LddPjTJlJBEK",
+                        "morphologySnomedCT": "SPRMLJDUmNTZ",
+                        "morphologySnomedRT": "wQNqSxMuYjxS"
+                    },
+                    {
+                        "morphologyICD": "xDpQRDoqxEXk",
+                        "morphologySnomedCT": "zGeJnxvsSxbV",
+                        "morphologySnomedRT": "qYWSXKwZSTwu"
+                    },
+                    {
+                        "morphologyICD": "GZViAhTkpOrE",
+                        "morphologySnomedCT": "UrszuesRwqfl",
+                        "morphologySnomedRT": "sZvQMOlHTuLp"
+                    }
+                ],
+                "sampleId": "hMmnMltHnbbT",
+                "tissueSource": "aUEDWfSTLHoZ",
+                "tumourId": "myZPXNXhXIZu",
+                "sampleTopographies": [
+                    {
+                        "topographySnomedRT": "gSqURygVvUgM",
+                        "topographySnomedCT": "ojMAcnfPcuMc",
+                        "topographyICD": "zqgaDukCsByA"
+                    },
+                    {
+                        "topographySnomedRT": "UxUMCCwemtMz",
+                        "topographySnomedCT": "QqhKFXZEkyxE",
+                        "topographyICD": "yQzVrKPgpqxJ"
+                    },
+                    {
+                        "topographySnomedRT": "tGUpiHSbsWvM",
+                        "topographySnomedCT": "VjJXdgYWGdab",
+                        "topographyICD": "heUouBvprKlB"
+                    },
+                    {
+                        "topographySnomedRT": "iwsTPFIqnUUo",
+                        "topographySnomedCT": "DLclvaIOUcJT",
+                        "topographyICD": "bVVwCrnHtuKZ"
+                    },
+                    {
+                        "topographySnomedRT": "CQIrkolbGUAx",
+                        "topographySnomedCT": "mRLzMkmsjyuW",
+                        "topographyICD": "MQguPcrLQUHM"
+                    }
+                ],
+                "clinicalSampleDateTime": "mTyUNobBTUZX",
+                "tumourContentPercentage": 8.903191256049006e-309,
+                "haematologicalCancerLineage": "LYMPHOID",
+                "sampleUid": "cYrXmQddUwCo",
+                "sampleType": "SKgqPZeixzCC",
+                "source": "AMNIOTIC_FLUID",
+                "preparationMethod": "CD128_SORTED_CELLS",
+                "product": "RNA",
+                "storageMedium": "EDTA",
+                "programmePhase": "npRQMtHujKoG",
+                "LDPCode": "MwDKISqnNpZJ",
+                "diseaseSubType": "RpkZpKhztBZL",
+                "sampleState": "jLYjXSnGeSWn",
+                "labSampleId": 18963031,
+                "tumourContent": "Medium",
+                "tumourType": "arlaflwStIBO",
+                "haematologicalCancer": false,
+                "method": "UNSORTED",
+                "individualUid": "fSGsRGYNtwLU",
+                "maskedPid": "XostrwKZghhW"
+            },
+            {
+                "diseaseType": "COLORECTAL",
+                "sampleMorphologies": [
+                    {
+                        "morphologyICD": "VjqOkwOlWLXu",
+                        "morphologySnomedCT": "YCeQJhaYvXlv",
+                        "morphologySnomedRT": "oxSAfPpFaUHP"
+                    },
+                    {
+                        "morphologyICD": "OuDwvQELOEAo",
+                        "morphologySnomedCT": "DHiaablDmNqk",
+                        "morphologySnomedRT": "aRlXlytGntsW"
+                    },
+                    {
+                        "morphologyICD": "RIottBlznqxo",
+                        "morphologySnomedCT": "mEBsdEQVNqch",
+                        "morphologySnomedRT": "DmFUzNYlWoRe"
+                    },
+                    {
+                        "morphologyICD": "efELXpUXdOGl",
+                        "morphologySnomedCT": "XflBRhzHSyob",
+                        "morphologySnomedRT": "XILDxOqkOGmA"
+                    },
+                    {
+                        "morphologyICD": "cpNTAJyBFVQq",
+                        "morphologySnomedCT": "zGHSVwnviNHV",
+                        "morphologySnomedRT": "JDZgURQXaahV"
+                    }
+                ],
+                "sampleId": "OVyWvFymPYQI",
+                "tissueSource": "teehFwSqdyyb",
+                "tumourId": "ggORPsHMEjwz",
+                "sampleTopographies": [
+                    {
+                        "topographySnomedRT": "eaCrJDNxUtDr",
+                        "topographySnomedCT": "iRXPIRJzYDdm",
+                        "topographyICD": "aUmeywDMoree"
+                    },
+                    {
+                        "topographySnomedRT": "IZOoMzybfHtg",
+                        "topographySnomedCT": "fdDhfubXpTcS",
+                        "topographyICD": "jDzqUKGzYENZ"
+                    },
+                    {
+                        "topographySnomedRT": "tJlNcisAOiTd",
+                        "topographySnomedCT": "wePOJBYWggfG",
+                        "topographyICD": "TTPlphtfEluK"
+                    },
+                    {
+                        "topographySnomedRT": "ziZqYKeYJEBw",
+                        "topographySnomedCT": "XLOnysATUEGt",
+                        "topographyICD": "eQmJZhgQorGc"
+                    },
+                    {
+                        "topographySnomedRT": "oOPNOhTvaujJ",
+                        "topographySnomedCT": "VCZllwLXFPez",
+                        "topographyICD": "zDFpuHGTIHBp"
+                    }
+                ],
+                "clinicalSampleDateTime": "qNHYvdytHfgw",
+                "tumourContentPercentage": 8.553844338631674e-309,
+                "haematologicalCancerLineage": "UNKNOWN",
+                "sampleUid": "jEJLSfDcataJ",
+                "sampleType": "cDSoPJAhlOdj",
+                "source": "BUCCAL_SWAB",
+                "preparationMethod": "CD128_SORTED_CELLS",
+                "product": "RNA",
+                "storageMedium": "LI_HEP",
+                "programmePhase": "rumJjMATkLok",
+                "LDPCode": "qkuvzoFuMwub",
+                "diseaseSubType": "GHCxsDsABQRp",
+                "sampleState": "DhQGnFfqQTIH",
+                "labSampleId": 1067800516,
+                "tumourContent": "High",
+                "tumourType": "frXDICXGRVrF",
+                "haematologicalCancer": false,
+                "method": "UNSORTED",
+                "individualUid": "AjDUYXmMnUSM",
+                "maskedPid": "BGfUeHaCfuNM"
+            },
+            {
+                "diseaseType": "ADULT_GLIOMA",
+                "sampleMorphologies": [
+                    {
+                        "morphologyICD": "NKXGwvYMfJMa",
+                        "morphologySnomedCT": "OYvjXqUenPEF",
+                        "morphologySnomedRT": "dxLLztKcOISK"
+                    },
+                    {
+                        "morphologyICD": "pQKYQaxkJjTZ",
+                        "morphologySnomedCT": "zanhwjFgSNWp",
+                        "morphologySnomedRT": "GNaaAOMVHIUE"
+                    },
+                    {
+                        "morphologyICD": "DMnpSbBsFYJF",
+                        "morphologySnomedCT": "tpGgAdUAtDno",
+                        "morphologySnomedRT": "dnbhXIuvxtHR"
+                    },
+                    {
+                        "morphologyICD": "dEgSSlRGPjaE",
+                        "morphologySnomedCT": "WPdjqfBKINuZ",
+                        "morphologySnomedRT": "STQpEruBpLEi"
+                    },
+                    {
+                        "morphologyICD": "OQWyANgJxNlP",
+                        "morphologySnomedCT": "PtMIxqaXQBiP",
+                        "morphologySnomedRT": "TKQwUmlTxxcl"
+                    }
+                ],
+                "sampleId": "tBVTbynoAmfj",
+                "tissueSource": "OsGvkUJafkfr",
+                "tumourId": "JQcOompjNfMX",
+                "sampleTopographies": [
+                    {
+                        "topographySnomedRT": "JpJTgGsBEMLZ",
+                        "topographySnomedCT": "ZOBGGLQhteOt",
+                        "topographyICD": "AGuxvvIcyWUj"
+                    },
+                    {
+                        "topographySnomedRT": "fdSJoklvvArW",
+                        "topographySnomedCT": "ZoIxviZtAsBK",
+                        "topographyICD": "inwGrBSVhGfw"
+                    },
+                    {
+                        "topographySnomedRT": "KJJkRCMcamFD",
+                        "topographySnomedCT": "gRQzCtyrPEVt",
+                        "topographyICD": "RKcichxcMLhX"
+                    },
+                    {
+                        "topographySnomedRT": "UUigcnGphRax",
+                        "topographySnomedCT": "lTZqCffhpLQC",
+                        "topographyICD": "urPIrzwPlbNV"
+                    },
+                    {
+                        "topographySnomedRT": "BNbEPnvoWUUW",
+                        "topographySnomedCT": "GEwygCLLQKFc",
+                        "topographyICD": "YiBKhMuVAaBk"
+                    }
+                ],
+                "clinicalSampleDateTime": "OhbYiewzyWCl",
+                "tumourContentPercentage": 1.18297060530324e-308,
+                "haematologicalCancerLineage": "UNKNOWN",
+                "sampleUid": "wwecrSsrvsFL",
+                "sampleType": "GhkxKfXzCesj",
+                "source": "BONE_MARROW",
+                "preparationMethod": "LI_HEP",
+                "product": "RNA",
+                "storageMedium": "FF",
+                "programmePhase": "pIKGhamKoJrT",
+                "LDPCode": "nNmCjWasxmBL",
+                "diseaseSubType": "BCKhZYtYMOwo",
+                "sampleState": "uFKYaFtARtUj",
+                "labSampleId": -1458440630,
+                "tumourContent": "High",
+                "tumourType": "dtYQOwfRnuIu",
+                "haematologicalCancer": false,
+                "method": "UNSORTED",
+                "individualUid": "NnWgzkNberyN",
+                "maskedPid": "vgmXmMkgDoRB"
+            }
+        ],
+        "additionalInformation": {
+            "VehWjDbMiXVH": "nAeZlTmofEym",
+            "CvvwSpXjwWQv": "ecTZoYoWDWga",
+            "HfwrZvtTpVYK": "lXuDFZxlsvPc",
+            "BkxRTlgePkfj": "WETmwnvhchVE",
+            "sMaWeudEGORv": "ybAzaCNwTjNa"
+        },
+        "yearOfBirth": 1590656042,
+        "germlineSamples": [
+            {
+                "sampleId": "MPcLzCUnjvmo",
+                "product": "DNA",
+                "maskedPid": "SPUIQiXjFGCO",
+                "participantId": "wrZCqIOdnErU",
+                "sampleUid": "rmqsECOqgAKN",
+                "sampleType": "fHeOfREbPOGo",
+                "programmePhase": "MAIN",
+                "preparationMethod": "LI_HEP",
+                "LDPCode": "koNfZcIMezrx",
+                "source": "TUMOUR",
+                "storageMedium": "FF",
+                "sampleState": "qYhiubdyDWcC",
+                "labSampleId": 178398806,
+                "clinicalSampleDateTime": "gJAiUiOZhXTo",
+                "method": "RESECTION"
+            },
+            {
+                "sampleId": "sMBguqAkjuJG",
+                "product": "RNA",
+                "maskedPid": "teqrvkUNHJeR",
+                "participantId": "iAVIvXpvLiHJ",
+                "sampleUid": "kfXJcVOQdrWn",
+                "sampleType": "MPFsxdVoktBa",
+                "programmePhase": "MAIN",
+                "preparationMethod": "ASPIRATE",
+                "LDPCode": "EIeDlyuZkFLM",
+                "source": "SALIVA",
+                "storageMedium": "FFPE",
+                "sampleState": "LsARSOpiFpNn",
+                "labSampleId": -367272811,
+                "clinicalSampleDateTime": "HvuhkAGSxBiz",
+                "method": "SORTED_OTHER"
+            },
+            {
+                "sampleId": "WngAaLgYeOIi",
+                "product": "RNA",
+                "maskedPid": "eKggopeIZQpD",
+                "participantId": "qgBTqRUMSNHv",
+                "sampleUid": "BUCFGpXxIAKv",
+                "sampleType": "uYRneCsGydRW",
+                "programmePhase": "OXFORD",
+                "preparationMethod": "ASPIRATE",
+                "LDPCode": "pXhOclyiYaEz",
+                "source": "CHORIONIC_VILLUS_SAMPLE",
+                "storageMedium": "EDTA",
+                "sampleState": "jOPEmcLCIZeR",
+                "labSampleId": 1772812853,
+                "clinicalSampleDateTime": "eqiXsJPzDosd",
+                "method": "ASPIRATE"
+            },
+            {
+                "sampleId": "KCtLvPmojGyr",
+                "product": "DNA",
+                "maskedPid": "PlPGKauXwmtc",
+                "participantId": "WFTYQVMOSnYy",
+                "sampleUid": "YsezmFBDOgms",
+                "sampleType": "DAorIoldLUcA",
+                "programmePhase": "OXFORD",
+                "preparationMethod": "CD128_SORTED_CELLS",
+                "LDPCode": "spXSomNPYGkP",
+                "source": "AMNIOTIC_FLUID",
+                "storageMedium": "FFPE",
+                "sampleState": "gYtqyjIeccuN",
+                "labSampleId": -1921187245,
+                "clinicalSampleDateTime": "GeuVXrGgOfuJ",
+                "method": "ASPIRATE"
+            },
+            {
+                "sampleId": "efbmXHfbAsIJ",
+                "product": "DNA",
+                "maskedPid": "qlAMrtcXliNW",
+                "participantId": "ZKYbNQuyQRTf",
+                "sampleUid": "rVmANiJuAVxl",
+                "sampleType": "kCkaSIuXQBBi",
+                "programmePhase": "CRUK",
+                "preparationMethod": "EDTA",
+                "LDPCode": "HEdsjoWnatgR",
+                "source": "OTHER",
+                "storageMedium": "FF",
+                "sampleState": "DhDhKhbsYBvI",
+                "labSampleId": -1205020021,
+                "clinicalSampleDateTime": "WZHuaoUJQiRB",
+                "method": "ASPIRATE"
+            }
+        ],
+        "individualId": "XelXDbwDaJTw",
+        "sex": "MALE",
+        "individualUid": "BdoqHHlpyImG",
+        "previousTreatment": [
+            {
+                "previoustreatmentDate": {
+                    "year": 2107074030,
+                    "day": 1981208309,
+                    "month": -657793037
+                },
+                "previousTreatmentType": "lZxsrjzwGwHx",
+                "previousTreatmentName": "APLWFXqeFpRo"
+            },
+            {
+                "previoustreatmentDate": {
+                    "year": 1031772965,
+                    "day": 246132575,
+                    "month": 908522347
+                },
+                "previousTreatmentType": "CHIJquhgvbla",
+                "previousTreatmentName": "mrFeZXMYdsPu"
+            },
+            {
+                "previoustreatmentDate": {
+                    "year": 1379049564,
+                    "day": -125074502,
+                    "month": 1781262117
+                },
+                "previousTreatmentType": "sFvUdWNSJYuo",
+                "previousTreatmentName": "BDaVFvmOvFKg"
+            },
+            {
+                "previoustreatmentDate": {
+                    "year": -482048710,
+                    "day": 1406681923,
+                    "month": 1489339524
+                },
+                "previousTreatmentType": "CtxjeyJwESyq",
+                "previousTreatmentName": "CgnkHVbSVzzZ"
+            },
+            {
+                "previoustreatmentDate": {
+                    "year": -2009603302,
+                    "day": 84752176,
+                    "month": -571508276
+                },
+                "previousTreatmentType": "YTqARbEGBLPS",
+                "previousTreatmentName": "FSGzqCTqVIjG"
+            }
+        ],
+        "primaryDiagnosisDisease": [
+            "rHuIimVhddhe",
+            "ieExNXNPnZTJ",
+            "UNJFAvnZHrIO",
+            "bowHiBGzBofU",
+            "antNFYwFphRx"
+        ],
+        "versionControl": {
+            "GitVersionControl": "SAcovpEgxNID"
+        },
+        "tumours": [
+            {
+                "tumourLocalId": "vtMndaDExMHD",
+                "tumourMorphologies": [
+                    {
+                        "morphologyICD": "VdbFBpwaJvIe",
+                        "morphologySnomedCT": "geRCALhszoej",
+                        "morphologySnomedRT": "mYBUiXKEOIkB"
+                    },
+                    {
+                        "morphologyICD": "qjMeXqQpDdmi",
+                        "morphologySnomedCT": "FbbphJImrSFb",
+                        "morphologySnomedRT": "ZiNasSGPZpcJ"
+                    },
+                    {
+                        "morphologyICD": "EiJBKtXMNIbB",
+                        "morphologySnomedCT": "TFYEEEzhqNhK",
+                        "morphologySnomedRT": "NWdihZtSfPAK"
+                    },
+                    {
+                        "morphologyICD": "RuSwYWzqHQWC",
+                        "morphologySnomedCT": "DrGnNTywHEOu",
+                        "morphologySnomedRT": "rGpQCKCeBLcR"
+                    },
+                    {
+                        "morphologyICD": "npxjyqpgPXmz",
+                        "morphologySnomedCT": "zSczscXvGiDY",
+                        "morphologySnomedRT": "SoIRDtGkLwKA"
+                    }
+                ],
+                "tumourType": "DISTANT_METASTASES",
+                "tumourTopographies": [
+                    {
+                        "topographySnomedRT": "NHCmqDVOtpxL",
+                        "topographySnomedCT": "IQyFSIICgZuT",
+                        "topographyICD": "NbluCbZieogm"
+                    },
+                    {
+                        "topographySnomedRT": "bKQGlhblraxS",
+                        "topographySnomedCT": "fsTbymtPWsgs",
+                        "topographyICD": "qMJfVAlAibZm"
+                    },
+                    {
+                        "topographySnomedRT": "KTPKfrrGjGki",
+                        "topographySnomedCT": "wCMgkYXHguxs",
+                        "topographyICD": "tEebLcWbUxJe"
+                    },
+                    {
+                        "topographySnomedRT": "BOTFAOivuUty",
+                        "topographySnomedCT": "XJrjCSeBEDeO",
+                        "topographyICD": "JFpruxWaNdkf"
+                    },
+                    {
+                        "topographySnomedRT": "WzhWDMJNsnJr",
+                        "topographySnomedCT": "OSPeDlIiDaaz",
+                        "topographyICD": "FwlceJToOpZh"
+                    }
+                ],
+                "tumourGrade": "eNadbJFnMkiS",
+                "tumourPrognosticScore": "cpXsmTPyzNyJ",
+                "tumourParentId": "OyitttKiIQPi",
+                "tumourDescription": "GbhUWLVjWstQ",
+                "tumourStage": "QUmhJlAqipQn",
+                "tumourDateOfDiagnosis": {
+                    "year": -1007061157,
+                    "day": 1661330791,
+                    "month": 984495432
+                },
+                "tumourPrimaryTopographies": [
+                    {
+                        "topographySnomedRT": "UHLhnPeiQhTy",
+                        "topographySnomedCT": "RdKauAeFhMXb",
+                        "topographyICD": "zQDvsuQDwrwK"
+                    },
+                    {
+                        "topographySnomedRT": "FqLfCLtmIUqP",
+                        "topographySnomedCT": "NTUysZOiycTG",
+                        "topographyICD": "gKgvMiYjHTiT"
+                    },
+                    {
+                        "topographySnomedRT": "UYajbMiNIbLZ",
+                        "topographySnomedCT": "IrPuHbEORkwN",
+                        "topographyICD": "LDvttIKHAwVv"
+                    },
+                    {
+                        "topographySnomedRT": "SNBuCFvEhOTr",
+                        "topographySnomedCT": "PTleEmEMcDtE",
+                        "topographyICD": "FKJEcxGnYzvC"
+                    },
+                    {
+                        "topographySnomedRT": "kUISskeKDRcc",
+                        "topographySnomedCT": "TaQuIPJzoYVN",
+                        "topographyICD": "gAaJpuKEHzAe"
+                    }
+                ],
+                "tumourId": "rcyywFwoSKBe"
+            },
+            {
+                "tumourLocalId": "NqvYubJkwXzC",
+                "tumourMorphologies": [
+                    {
+                        "morphologyICD": "aSCkInGjYnRl",
+                        "morphologySnomedCT": "XmgJiSilTmqi",
+                        "morphologySnomedRT": "jQujXNLpcIbo"
+                    },
+                    {
+                        "morphologyICD": "RpWtkZwqwHcE",
+                        "morphologySnomedCT": "jLyOoWQGnmvn",
+                        "morphologySnomedRT": "qjGyUyPFnlZw"
+                    },
+                    {
+                        "morphologyICD": "QpiFBbmYocvI",
+                        "morphologySnomedCT": "lxSkHwMcUkSx",
+                        "morphologySnomedRT": "XbIuKDYmCLmq"
+                    },
+                    {
+                        "morphologyICD": "NTeiXIqysCIh",
+                        "morphologySnomedCT": "sFgWzHLCxVKg",
+                        "morphologySnomedRT": "rJwvBvIhYIFt"
+                    },
+                    {
+                        "morphologyICD": "VpAPpIvKqAxP",
+                        "morphologySnomedCT": "bvEXEACckyLN",
+                        "morphologySnomedRT": "HDODLRkDeDmm"
+                    }
+                ],
+                "tumourType": "LOCAL_RECURRENCE_OF_PRIMARY_TUMOUR",
+                "tumourTopographies": [
+                    {
+                        "topographySnomedRT": "DqYfXFPDDGaT",
+                        "topographySnomedCT": "ISFMqNiveTou",
+                        "topographyICD": "wPvaEaybMiAS"
+                    },
+                    {
+                        "topographySnomedRT": "IqaaSruZHuZz",
+                        "topographySnomedCT": "bKZfuMHXigFQ",
+                        "topographyICD": "pbAJJcpajLme"
+                    },
+                    {
+                        "topographySnomedRT": "uIiEgssLcLPz",
+                        "topographySnomedCT": "JMCLOzddIwYD",
+                        "topographyICD": "TnUpigJEihZU"
+                    },
+                    {
+                        "topographySnomedRT": "nQIZJdzEKoTL",
+                        "topographySnomedCT": "LyTxSxrvkYTh",
+                        "topographyICD": "QNrhjFXjMRuN"
+                    },
+                    {
+                        "topographySnomedRT": "LOFgCQgxUhcR",
+                        "topographySnomedCT": "uxaZjsRNrDlN",
+                        "topographyICD": "gApbCcmaORpR"
+                    }
+                ],
+                "tumourGrade": "HJAwAzHIvJKq",
+                "tumourPrognosticScore": "NrHDcuHDOCZG",
+                "tumourParentId": "xTrGfwmWNtfY",
+                "tumourDescription": "YdnEpTGEpnle",
+                "tumourStage": "ALTkklEhwBol",
+                "tumourDateOfDiagnosis": {
+                    "year": -192675075,
+                    "day": -12453449,
+                    "month": -1987708174
+                },
+                "tumourPrimaryTopographies": [
+                    {
+                        "topographySnomedRT": "ZcZsBjPTNKky",
+                        "topographySnomedCT": "FLnxxlESvSLm",
+                        "topographyICD": "giyeULevIQmU"
+                    },
+                    {
+                        "topographySnomedRT": "LcBZihSxmyQl",
+                        "topographySnomedCT": "BleWlKWbEjmR",
+                        "topographyICD": "JUrPCKJYBLOT"
+                    },
+                    {
+                        "topographySnomedRT": "qWkAoUszmwxB",
+                        "topographySnomedCT": "KBftqhmTsByE",
+                        "topographyICD": "XcqSAfERkmEj"
+                    },
+                    {
+                        "topographySnomedRT": "wSeOVUDcSNei",
+                        "topographySnomedCT": "DtZIBeLnMqQb",
+                        "topographyICD": "vuBliJKiLCAt"
+                    },
+                    {
+                        "topographySnomedRT": "ayymuXZVwElG",
+                        "topographySnomedCT": "MBjhCmbjrbaQ",
+                        "topographyICD": "dciUiESGjujH"
+                    }
+                ],
+                "tumourId": "KdiOpHcmzlTh"
+            },
+            {
+                "tumourLocalId": "uobsEunwBxEB",
+                "tumourMorphologies": [
+                    {
+                        "morphologyICD": "ycTLEEIFBOlK",
+                        "morphologySnomedCT": "npymexlkrBgQ",
+                        "morphologySnomedRT": "jOjswhpxlPWU"
+                    },
+                    {
+                        "morphologyICD": "SKMSlacOLgOs",
+                        "morphologySnomedCT": "DTWYiPALNhEl",
+                        "morphologySnomedRT": "SlbfaKUOYwyr"
+                    },
+                    {
+                        "morphologyICD": "uixLMKULmFyP",
+                        "morphologySnomedCT": "aziMZOiSjdKX",
+                        "morphologySnomedRT": "iDnLozAxriRs"
+                    },
+                    {
+                        "morphologyICD": "rYvNcARANPGU",
+                        "morphologySnomedCT": "vfCTrQGbqXqw",
+                        "morphologySnomedRT": "qaOWbqKqouhj"
+                    },
+                    {
+                        "morphologyICD": "PIPTgCNqqXtl",
+                        "morphologySnomedCT": "siHfaAVokVLm",
+                        "morphologySnomedRT": "GMuIrrOnuaRC"
+                    }
+                ],
+                "tumourType": "LOCAL_RECURRENCE_OF_PRIMARY_TUMOUR",
+                "tumourTopographies": [
+                    {
+                        "topographySnomedRT": "GlaoRMlpYZfR",
+                        "topographySnomedCT": "vFRXpBkvoijz",
+                        "topographyICD": "OMWyhFihEdkA"
+                    },
+                    {
+                        "topographySnomedRT": "xzusQscFNIVs",
+                        "topographySnomedCT": "NPJNxwcVJWUI",
+                        "topographyICD": "SGLCvdvXmXYP"
+                    },
+                    {
+                        "topographySnomedRT": "MylKASvtVfnQ",
+                        "topographySnomedCT": "WFHMEqQqfqIJ",
+                        "topographyICD": "gJRBEvehRZkg"
+                    },
+                    {
+                        "topographySnomedRT": "UdpCEkQkzoeE",
+                        "topographySnomedCT": "ynkRwiVBNXqY",
+                        "topographyICD": "alQBtjGCGZob"
+                    },
+                    {
+                        "topographySnomedRT": "SwmdHJGTzdNW",
+                        "topographySnomedCT": "sIuxzoQkrogD",
+                        "topographyICD": "HzfFDhihRxUU"
+                    }
+                ],
+                "tumourGrade": "faHwaLibsdjy",
+                "tumourPrognosticScore": "tmAAlcbCSINh",
+                "tumourParentId": "NBHQftOTozWe",
+                "tumourDescription": "xcbzzTYuucnP",
+                "tumourStage": "qNyKdeAjmqfY",
+                "tumourDateOfDiagnosis": {
+                    "year": -1855532449,
+                    "day": 2143378502,
+                    "month": 235644814
+                },
+                "tumourPrimaryTopographies": [
+                    {
+                        "topographySnomedRT": "oTOkGGKwyIAb",
+                        "topographySnomedCT": "zmFSBvkVkiNW",
+                        "topographyICD": "ZqhhXqHZvjfO"
+                    },
+                    {
+                        "topographySnomedRT": "ZsjMJmZAgqKC",
+                        "topographySnomedCT": "zCjjdakYnOOu",
+                        "topographyICD": "xetbzFmcpSaB"
+                    },
+                    {
+                        "topographySnomedRT": "bsIPJuRUxVSn",
+                        "topographySnomedCT": "LWaDUJvqEjvz",
+                        "topographyICD": "qCSUCoojMnsV"
+                    },
+                    {
+                        "topographySnomedRT": "DcnZxtKCHKix",
+                        "topographySnomedCT": "dTdTLypufngZ",
+                        "topographyICD": "BRWaluhZOwdq"
+                    },
+                    {
+                        "topographySnomedRT": "oLXXrmufddtd",
+                        "topographySnomedCT": "rWmTUFwvoUEI",
+                        "topographyICD": "ASGxmzmaFhkf"
+                    }
+                ],
+                "tumourId": "LINEUzdrAWqg"
+            },
+            {
+                "tumourLocalId": "QhecRxaotpah",
+                "tumourMorphologies": [
+                    {
+                        "morphologyICD": "CxnrvOkLSStL",
+                        "morphologySnomedCT": "WmFCfKzdvPqy",
+                        "morphologySnomedRT": "yIeyNZBuyKfs"
+                    },
+                    {
+                        "morphologyICD": "lrQWsyxQRLzk",
+                        "morphologySnomedCT": "YFJcXMalWVtX",
+                        "morphologySnomedRT": "HXTGNbcqCtat"
+                    },
+                    {
+                        "morphologyICD": "AGwlisRFgmsA",
+                        "morphologySnomedCT": "vzHPKOQwwAVA",
+                        "morphologySnomedRT": "RbenKYCxlavH"
+                    },
+                    {
+                        "morphologyICD": "FqhHkvGgvrjw",
+                        "morphologySnomedCT": "AkJIbErYPsSD",
+                        "morphologySnomedRT": "ZHIQvHOUeVyU"
+                    },
+                    {
+                        "morphologyICD": "KpgAZbHVuObJ",
+                        "morphologySnomedCT": "pnnbzVHghMvW",
+                        "morphologySnomedRT": "VWpieBBzveuT"
+                    }
+                ],
+                "tumourType": "RECURRENCE_OF_PRIMARY_TUMOUR",
+                "tumourTopographies": [
+                    {
+                        "topographySnomedRT": "sKpRXuGqxxXN",
+                        "topographySnomedCT": "RDLxyDQBccRS",
+                        "topographyICD": "yJeSlcdTAtwW"
+                    },
+                    {
+                        "topographySnomedRT": "hGkqUSRurYIg",
+                        "topographySnomedCT": "kSOWAQxQsumL",
+                        "topographyICD": "BzHPgdljPlPy"
+                    },
+                    {
+                        "topographySnomedRT": "ZmqvRQKfdxAW",
+                        "topographySnomedCT": "yxjDmOvSBCqd",
+                        "topographyICD": "NVTrrDEEnWJj"
+                    },
+                    {
+                        "topographySnomedRT": "hhRSztPzZXbm",
+                        "topographySnomedCT": "hUESdOPxHRpm",
+                        "topographyICD": "XSgzJVDcLlmO"
+                    },
+                    {
+                        "topographySnomedRT": "YtpVVXTQEwJP",
+                        "topographySnomedCT": "ieqRVIvAcXEt",
+                        "topographyICD": "SHtxHYqEoLGf"
+                    }
+                ],
+                "tumourGrade": "UvnXBtmvphXZ",
+                "tumourPrognosticScore": "KSoCtDUAtJBo",
+                "tumourParentId": "xGnHtXRIbTbx",
+                "tumourDescription": "ykbjPpHjsCVN",
+                "tumourStage": "wJfUDMBQwskT",
+                "tumourDateOfDiagnosis": {
+                    "year": -1683783626,
+                    "day": 2093722105,
+                    "month": -2076783069
+                },
+                "tumourPrimaryTopographies": [
+                    {
+                        "topographySnomedRT": "addRohmcMnmP",
+                        "topographySnomedCT": "apuNzlqzwlnt",
+                        "topographyICD": "DOvHNlcwEPcS"
+                    },
+                    {
+                        "topographySnomedRT": "IdCEdTcdqbjn",
+                        "topographySnomedCT": "CHOkGcCKdXAm",
+                        "topographyICD": "HCQEoWxvxQvd"
+                    },
+                    {
+                        "topographySnomedRT": "NUyVTIFhUxTO",
+                        "topographySnomedCT": "SMkUNEmDdhUr",
+                        "topographyICD": "WtFsEvWNGwRn"
+                    },
+                    {
+                        "topographySnomedRT": "VWYaAEhHpRML",
+                        "topographySnomedCT": "zTnqTHcPhJdR",
+                        "topographyICD": "eIIibVZZhYcM"
+                    },
+                    {
+                        "topographySnomedRT": "IIWKoiESISKY",
+                        "topographySnomedCT": "pEGCjIEIFZuf",
+                        "topographyICD": "oTFnrbmDXonz"
+                    }
+                ],
+                "tumourId": "sbGdMsiJZiWB"
+            },
+            {
+                "tumourLocalId": "xkNLVwXgYGxw",
+                "tumourMorphologies": [
+                    {
+                        "morphologyICD": "mkibUUxPeZnn",
+                        "morphologySnomedCT": "VbqYURDfmeiB",
+                        "morphologySnomedRT": "wQPGdqbeyvft"
+                    },
+                    {
+                        "morphologyICD": "OKcNXRPgANIn",
+                        "morphologySnomedCT": "NymyfndJPkWj",
+                        "morphologySnomedRT": "TGXBhIDJyRuH"
+                    },
+                    {
+                        "morphologyICD": "PyvNBbXHvtft",
+                        "morphologySnomedCT": "IIPiiVEVKpkk",
+                        "morphologySnomedRT": "rejPeofBjHNN"
+                    },
+                    {
+                        "morphologyICD": "dxrpNZOYAktT",
+                        "morphologySnomedCT": "iVtfEfRkPTwB",
+                        "morphologySnomedRT": "wtotspOPNAZn"
+                    },
+                    {
+                        "morphologyICD": "bdalEIzqrVBO",
+                        "morphologySnomedCT": "xdxPzaGHLwZC",
+                        "morphologySnomedRT": "ptMslSxIDZMN"
+                    }
+                ],
+                "tumourType": "METASTATIC_RECURRENCE",
+                "tumourTopographies": [
+                    {
+                        "topographySnomedRT": "RahaXxFxNzPL",
+                        "topographySnomedCT": "DWsVWxftDJhA",
+                        "topographyICD": "iKuwYvuStutQ"
+                    },
+                    {
+                        "topographySnomedRT": "ACKPrScVDOsE",
+                        "topographySnomedCT": "FtvTmFJOoPUe",
+                        "topographyICD": "sHKUMyHcuhDM"
+                    },
+                    {
+                        "topographySnomedRT": "MVJxtBlwsdDr",
+                        "topographySnomedCT": "AWEcIHztAazV",
+                        "topographyICD": "aLTHcJLCSCbp"
+                    },
+                    {
+                        "topographySnomedRT": "VUmnkgXeXpsi",
+                        "topographySnomedCT": "lcUwJZzEsjuz",
+                        "topographyICD": "hxihkGKPMXDa"
+                    },
+                    {
+                        "topographySnomedRT": "dDxIwxYVldeQ",
+                        "topographySnomedCT": "jhHQoPpIKBau",
+                        "topographyICD": "gdlkeBodVnLf"
+                    }
+                ],
+                "tumourGrade": "stBjHljNSyBz",
+                "tumourPrognosticScore": "WeWGPgymygOf",
+                "tumourParentId": "jugLsLsidSsZ",
+                "tumourDescription": "ROIiQraqlgpE",
+                "tumourStage": "pQZOjeZVzXmX",
+                "tumourDateOfDiagnosis": {
+                    "year": 375354566,
+                    "day": 1216126004,
+                    "month": -829334688
+                },
+                "tumourPrimaryTopographies": [
+                    {
+                        "topographySnomedRT": "aFejrjuItHVk",
+                        "topographySnomedCT": "cDLtXzpSbkdG",
+                        "topographyICD": "WHSAgtcFBRyQ"
+                    },
+                    {
+                        "topographySnomedRT": "CVFkBiyRrOaa",
+                        "topographySnomedCT": "IIRStrlyDiOs",
+                        "topographyICD": "kxLMbCLeiUvu"
+                    },
+                    {
+                        "topographySnomedRT": "NbpYDxqBXJXO",
+                        "topographySnomedCT": "YdGljtwHXiug",
+                        "topographyICD": "ldIVFDggDDmv"
+                    },
+                    {
+                        "topographySnomedRT": "zHMnyVcbRyMf",
+                        "topographySnomedCT": "GSvLkGhnoBYE",
+                        "topographyICD": "eMIPOBxaFFiE"
+                    },
+                    {
+                        "topographySnomedRT": "YxxidnrQEolW",
+                        "topographySnomedCT": "LEFwsjwhUFjK",
+                        "topographyICD": "mkzBxlyrkvfW"
+                    }
+                ],
+                "tumourId": "CJvyuNqBSCpd"
+            }
+        ],
+        "morphology": [
+            "qaySzEPxlxtp",
+            "FqQOMWFkMDnG",
+            "cYtJtVOkFKwO",
+            "EJDyCsMpQnLg",
+            "jaquHAFsJAlH"
+        ],
+        "primaryDiagnosisSubDisease": [
+            "dIuFcmsELdmu",
+            "avtSfAVSaMWH",
+            "QRFBvrYKLMTA",
+            "JYQDsXdPCmBM",
+            "zsoggiPxYnEp"
+        ],
+        "assignedICD10": [
+            "mUVYMfMkCDvE",
+            "yUYnsidBKjre",
+            "BGPMhzXtyfPr",
+            "sZbWeLIxzpYy",
+            "dBkakjnmjlDa"
+        ]
+    },
+    "bams": [
+        {
+            "fileType": "ANN",
+            "md5Sum": "OgNVFnhKLUYq",
+            "sampleId": [
+                "GoXKuaWUaANl",
+                "gkjlwTaEZXLt",
+                "KWeaCviQpaLa",
+                "pQaOXkMvBOeC",
+                "nhiZzDGsCaFH"
+            ],
+            "uriFile": "VIobqbhXmyrk"
+        },
+        {
+            "fileType": "VCF_CNV",
+            "md5Sum": "WMqBUdkDyHoF",
+            "sampleId": [
+                "kFtSztURYgMS",
+                "naQlTCqWsDmH",
+                "AfThhiFchWkH",
+                "vDrfruuOMBwM",
+                "wSdKewlepOxy"
+            ],
+            "uriFile": "dTsrREnOfpfj"
+        },
+        {
+            "fileType": "gVCF",
+            "md5Sum": "nneFDWdIfhwF",
+            "sampleId": [
+                "NtTDZptOjaPg",
+                "HwCveAmXdPBs",
+                "DGdhNQMoxtXJ",
+                "TbIkPNHqIRSN",
+                "CuoDnTLxMlwv"
+            ],
+            "uriFile": "LBSbfDEhuKGr"
+        },
+        {
+            "fileType": "VCF_small",
+            "md5Sum": "BXsbjZLQNAcS",
+            "sampleId": [
+                "jcyZLbBTQKXA",
+                "MXALirMjuHSc",
+                "hzRZuFIEIMhu",
+                "DNhLEpAsvFUo",
+                "XklrQVUEwBIM"
+            ],
+            "uriFile": "liTFtfrqyTrZ"
+        },
+        {
+            "fileType": "VARIANT_FREQUENCIES",
+            "md5Sum": "KeXGSFSHDRuA",
+            "sampleId": [
+                "cnuwVkYtymYi",
+                "oZwsNbkHiGDI",
+                "RLXWYbVuFkuk",
+                "cudrSQCljJqC",
+                "pBOUpIGXqgcG"
+            ],
+            "uriFile": "gZqrtQDGMCEZ"
+        }
+    ]
+}
