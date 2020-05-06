@@ -20,13 +20,6 @@ export class AdditionalFindingsClinicalReport extends JSONHelper {
   @JsonProperty("participantId", String)
   participantId: string = "";
 
-  /**
-   * This is the latest version of the interpreted genome as anidentifier (i.e.:
-   * second number in XXX-123-2)
-   */
-  @JsonProperty("interpretedGenomeVersion;", Number)
-  interpretedGenomeVersion: number = 0; // int
-
   /** Date of this report in format YYYY-MM-DD */
   @JsonProperty("reportingDate", String)
   reportingDate: string = "";
