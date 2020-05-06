@@ -43,11 +43,6 @@ var AdditionalFindingsClinicalReport = /** @class */ (function (_super) {
          * XXX-123-1)
          */
         _this.participantId = "";
-        /**
-         * This is the latest version of the interpreted genome as anidentifier (i.e.:
-         * second number in XXX-123-2)
-         */
-        _this.interpretedGenomeVersion = 0; // int
         /** Date of this report in format YYYY-MM-DD */
         _this.reportingDate = "";
         /** Author of this report */
@@ -98,9 +93,6 @@ var AdditionalFindingsClinicalReport = /** @class */ (function (_super) {
     __decorate([
         json2typescript_1.JsonProperty("participantId", String)
     ], AdditionalFindingsClinicalReport.prototype, "participantId", void 0);
-    __decorate([
-        json2typescript_1.JsonProperty("interpretedGenomeVersion;", Number)
-    ], AdditionalFindingsClinicalReport.prototype, "interpretedGenomeVersion", void 0);
     __decorate([
         json2typescript_1.JsonProperty("reportingDate", String)
     ], AdditionalFindingsClinicalReport.prototype, "reportingDate", void 0);

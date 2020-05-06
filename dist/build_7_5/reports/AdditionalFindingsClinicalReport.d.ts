@@ -15,11 +15,6 @@ export declare class AdditionalFindingsClinicalReport extends JSONHelper {
      * XXX-123-1)
      */
     participantId: string;
-    /**
-     * This is the latest version of the interpreted genome as anidentifier (i.e.:
-     * second number in XXX-123-2)
-     */
-    interpretedGenomeVersion: number;
     /** Date of this report in format YYYY-MM-DD */
     reportingDate: string;
     /** Author of this report */
