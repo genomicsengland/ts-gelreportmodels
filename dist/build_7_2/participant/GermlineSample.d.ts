@@ -3,7 +3,7 @@ export declare class GermlineSample {
     /** Sample identifier (e.g, LP00012645_5GH)) */
     sampleId: string;
     /** Lab sample identifier */
-    labSampleId: number;
+    labSampleId: any;
     /** LDP Code (Local Delivery Partner) */
     LDPCode: string;
     /** Source of the sample */

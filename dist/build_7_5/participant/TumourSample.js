@@ -91,7 +91,7 @@ var TumourSample = /** @class */ (function () {
         json2typescript_1.JsonProperty("sampleId", String)
     ], TumourSample.prototype, "sampleId", void 0);
     __decorate([
-        json2typescript_1.JsonProperty("labSampleId", Number)
+        json2typescript_1.JsonProperty("labSampleId")
     ], TumourSample.prototype, "labSampleId", void 0);
     __decorate([
         json2typescript_1.JsonProperty("LDPCode", String, true)

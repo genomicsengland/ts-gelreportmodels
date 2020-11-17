@@ -37,7 +37,7 @@ var GermlineSample = /** @class */ (function () {
         json2typescript_1.JsonProperty("sampleId", String)
     ], GermlineSample.prototype, "sampleId", void 0);
     __decorate([
-        json2typescript_1.JsonProperty("labSampleId", Number)
+        json2typescript_1.JsonProperty("labSampleId")
     ], GermlineSample.prototype, "labSampleId", void 0);
     __decorate([
         json2typescript_1.JsonProperty("LDPCode", String, true)

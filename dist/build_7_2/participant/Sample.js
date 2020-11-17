@@ -12,7 +12,7 @@ var Sample = /** @class */ (function () {
         /** Sample Id (e.g, LP00012645_5GH)) */
         this.sampleId = "";
         /** Lab Sample Id */
-        this.labSampleId = 0; // type:int
+        this.labSampleId = 0;
         /** Source */
         this.source = undefined; // SampleSource
         /** Product */
@@ -24,7 +24,7 @@ var Sample = /** @class */ (function () {
         json2typescript_1.JsonProperty("sampleId", String)
     ], Sample.prototype, "sampleId", void 0);
     __decorate([
-        json2typescript_1.JsonProperty("labSampleId", Number)
+        json2typescript_1.JsonProperty("labSampleId")
     ], Sample.prototype, "labSampleId", void 0);
     __decorate([
         json2typescript_1.JsonProperty("source", String, true)
