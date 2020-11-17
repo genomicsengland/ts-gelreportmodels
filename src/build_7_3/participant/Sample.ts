@@ -7,8 +7,8 @@ export class Sample {
   sampleId: string = "";
 
   /** Lab Sample Id */
-  @JsonProperty("labSampleId", Number)
-  labSampleId: number = 0; // type:int
+  @JsonProperty("labSampleId")
+  labSampleId: any = 0;
 
   /** Source */
   @JsonProperty("source", String, true)
