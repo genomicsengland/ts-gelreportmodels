@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.FamiliarRelationship = void 0;
 /** Familiar relationship from pedrigree */
 var FamiliarRelationship;
 (function (FamiliarRelationship) {

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AmpTier = void 0;
 /** AMP Tier */
 var AmpTier;
 (function (AmpTier) {

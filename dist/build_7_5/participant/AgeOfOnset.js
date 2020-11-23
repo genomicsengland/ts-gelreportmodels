@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AgeOfOnset = void 0;
 var AgeOfOnset;
 (function (AgeOfOnset) {
     AgeOfOnset["EMBRYONAL_ONSET"] = "EMBRYONAL_ONSET";

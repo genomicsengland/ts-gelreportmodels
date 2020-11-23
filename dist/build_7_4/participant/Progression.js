@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Progression = void 0;
 var Progression;
 (function (Progression) {
     Progression["PROGRESSIVE"] = "PROGRESSIVE";

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.InterpretationFlags = void 0;
 /**
  * Some flags relevant to the interpretation of a case
  */

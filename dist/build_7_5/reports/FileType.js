@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.FileType = void 0;
 /* Types of files:
  * `BAM`: alignment
  * `gVCF`: genomic VCF for variants

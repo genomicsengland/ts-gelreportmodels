@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.KgPopCategory = void 0;
 /**
  * 1K Genomes project populations
  */

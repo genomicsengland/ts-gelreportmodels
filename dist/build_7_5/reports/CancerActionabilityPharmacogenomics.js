@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.CancerActionabilityPharmacogenomics = void 0;
 /** An enumeration Variant Actionability */
 var CancerActionabilityPharmacogenomics;
 (function (CancerActionabilityPharmacogenomics) {

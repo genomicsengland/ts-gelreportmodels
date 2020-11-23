@@ -1,19 +1,20 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.VariantRepresentation = exports.Variant = exports.ReportedVariantQuestionnaireRD = exports.ReportEventQuestionnaireRD = exports.ReportEventQuestionnaireCancer = exports.ReportEventEntry = exports.ObservedVariant = exports.Comment = void 0;
 var Comment_1 = require("./Comment");
-exports.Comment = Comment_1.Comment;
+Object.defineProperty(exports, "Comment", { enumerable: true, get: function () { return Comment_1.Comment; } });
 var ObservedVariant_1 = require("./ObservedVariant");
-exports.ObservedVariant = ObservedVariant_1.ObservedVariant;
+Object.defineProperty(exports, "ObservedVariant", { enumerable: true, get: function () { return ObservedVariant_1.ObservedVariant; } });
 var ReportEventEntry_1 = require("./ReportEventEntry");
-exports.ReportEventEntry = ReportEventEntry_1.ReportEventEntry;
+Object.defineProperty(exports, "ReportEventEntry", { enumerable: true, get: function () { return ReportEventEntry_1.ReportEventEntry; } });
 var ReportEventQuestionnaireCancer_1 = require("./ReportEventQuestionnaireCancer");
-exports.ReportEventQuestionnaireCancer = ReportEventQuestionnaireCancer_1.ReportEventQuestionnaireCancer;
+Object.defineProperty(exports, "ReportEventQuestionnaireCancer", { enumerable: true, get: function () { return ReportEventQuestionnaireCancer_1.ReportEventQuestionnaireCancer; } });
 var ReportEventQuestionnaireRD_1 = require("./ReportEventQuestionnaireRD");
-exports.ReportEventQuestionnaireRD = ReportEventQuestionnaireRD_1.ReportEventQuestionnaireRD;
+Object.defineProperty(exports, "ReportEventQuestionnaireRD", { enumerable: true, get: function () { return ReportEventQuestionnaireRD_1.ReportEventQuestionnaireRD; } });
 var ReportedVariantQuestionnaireRD_1 = require("./ReportedVariantQuestionnaireRD");
-exports.ReportedVariantQuestionnaireRD = ReportedVariantQuestionnaireRD_1.ReportedVariantQuestionnaireRD;
+Object.defineProperty(exports, "ReportedVariantQuestionnaireRD", { enumerable: true, get: function () { return ReportedVariantQuestionnaireRD_1.ReportedVariantQuestionnaireRD; } });
 var Variant_1 = require("./Variant");
-exports.Variant = Variant_1.Variant;
+Object.defineProperty(exports, "Variant", { enumerable: true, get: function () { return Variant_1.Variant; } });
 var VariantRepresentation_1 = require("./VariantRepresentation");
-exports.VariantRepresentation = VariantRepresentation_1.VariantRepresentation;
+Object.defineProperty(exports, "VariantRepresentation", { enumerable: true, get: function () { return VariantRepresentation_1.VariantRepresentation; } });
 //# sourceMappingURL=index.js.map

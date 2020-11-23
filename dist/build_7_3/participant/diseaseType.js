@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.diseaseType = void 0;
 var diseaseType;
 (function (diseaseType) {
     diseaseType["ADULT_GLIOMA"] = "ADULT_GLIOMA";

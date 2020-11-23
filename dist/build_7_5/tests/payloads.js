@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.rdInterpretationRequestNullPayload = exports.rdInterpretationRequestFilledPayload = exports.cancerInterpretationRequestNullPayload = exports.cancerInterpretationRequestFilledPayload = exports.referralNullPayload = exports.referralFilledPayload = void 0;
 var jsonfile_1 = __importDefault(require("jsonfile"));
 exports.referralFilledPayload = jsonfile_1.default.readFileSync(__dirname + "/payload/referralFilled.json");
 exports.referralNullPayload = jsonfile_1.default.readFileSync(__dirname + "/payload/referralNull.json");

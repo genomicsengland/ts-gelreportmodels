@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.LifeStatus = void 0;
 /** Life Status */
 var LifeStatus;
 (function (LifeStatus) {

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TumorigenesisClassification = void 0;
 var TumorigenesisClassification;
 (function (TumorigenesisClassification) {
     TumorigenesisClassification["driver"] = "driver";

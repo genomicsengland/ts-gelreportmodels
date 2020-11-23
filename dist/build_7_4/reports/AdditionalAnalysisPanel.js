@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AdditionalAnalysisPanel = void 0;
 var GenePanel_1 = require("./GenePanel");
 var json2typescript_1 = require("json2typescript");
 /** A panel of genes and the specific disease that it assesses */

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.GenomicEntityType = void 0;
 /**
  * Types of genomic features
  */

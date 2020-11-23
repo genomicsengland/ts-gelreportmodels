@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PrognosisClassification = void 0;
 var PrognosisClassification;
 (function (PrognosisClassification) {
     PrognosisClassification["altered_prognosis"] = "altered_prognosis";

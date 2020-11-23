@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AdoptedStatus = void 0;
 /**
  * adoptedin means adopted into the family adoptedout means child belonged to
  * the family and was adopted out

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TumourPresentation = void 0;
 var TumourPresentation;
 (function (TumourPresentation) {
     TumourPresentation["FIRST_PRESENTATION"] = "FIRST_PRESENTATION";

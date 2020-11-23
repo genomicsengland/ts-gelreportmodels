@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PrimaryOrMetastatic = void 0;
 var PrimaryOrMetastatic;
 (function (PrimaryOrMetastatic) {
     PrimaryOrMetastatic["PRIMARY"] = "PRIMARY";

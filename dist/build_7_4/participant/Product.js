@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Product = void 0;
 var Product;
 (function (Product) {
     Product["DNA"] = "DNA";

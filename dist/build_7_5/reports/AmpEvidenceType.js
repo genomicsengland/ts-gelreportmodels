@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AmpEvidenceType = void 0;
 /**
  * Type of evidence in tge AMP guideline
  */

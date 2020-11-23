@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.CancerTested = void 0;
 /**
  * Was the variant validated with an orthogonal technology?
  */

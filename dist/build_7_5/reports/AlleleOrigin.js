@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AlleleOrigin = void 0;
 /** Allele origin. */
 var AlleleOrigin;
 (function (AlleleOrigin) {

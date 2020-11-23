@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.VariantGroupLevelQuestions = void 0;
 var VariantLevelQuestions_1 = require("./VariantLevelQuestions");
 var json2typescript_1 = require("json2typescript");
 /**

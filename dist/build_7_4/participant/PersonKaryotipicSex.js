@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PersonKaryotipicSex = void 0;
 /**
  * Karyotipic Sex
  */

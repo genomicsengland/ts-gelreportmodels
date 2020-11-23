@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Trial = void 0;
 var Intervention_1 = require("./Intervention");
 var DemographicElegibilityCriteria_1 = require("./DemographicElegibilityCriteria");
 var TrialLocation_1 = require("./TrialLocation");

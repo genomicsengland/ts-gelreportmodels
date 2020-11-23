@@ -13,8 +13,8 @@ export declare class ShortTandemRepeat extends JSONHelper {
     variantAttributes?: VariantAttributes;
     shortTandemRepeatReferenceData?: ShortTandemRepeatReferenceData;
     getTiers(): string[];
-    getSTRs(): any[];
-    getGenes(): any[];
-    getGenesAndEnsembl(): any[];
+    getSTRs(): unknown[];
+    getGenes(): unknown[];
+    getGenesAndEnsembl(): unknown[];
     getPanels(): GenePanel[];
 }

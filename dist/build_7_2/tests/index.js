@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.getPedigree = void 0;
 var pedigree_1 = require("./pedigree");
-exports.getPedigree = pedigree_1.getPedigree;
+Object.defineProperty(exports, "getPedigree", { enumerable: true, get: function () { return pedigree_1.getPedigree; } });
 //# sourceMappingURL=index.js.map

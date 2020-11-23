@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ACMGClassification = void 0;
 var ACMGClassification;
 (function (ACMGClassification) {
     ACMGClassification["pathogenic_variant"] = "pathogenic_variant";

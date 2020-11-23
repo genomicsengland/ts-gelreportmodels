@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PrimaryPurpose = void 0;
 /**
  * Ref. https://prsinfo.clinicaltrials.gov/definitions.htm
  */

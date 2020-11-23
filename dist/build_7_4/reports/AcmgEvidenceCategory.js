@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AcmgEvidenceCategory = void 0;
 /**
  * Each ACMG criterion is classified in one of these categories
  */

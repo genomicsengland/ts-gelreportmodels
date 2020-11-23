@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PedigreeMember = void 0;
 var InbreedingCoefficient_1 = require("./InbreedingCoefficient");
 var Sample_1 = require("./Sample");
 var ConsentStatus_1 = require("./ConsentStatus");
