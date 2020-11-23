@@ -60,7 +60,7 @@ export class InterpretationRequestsRD extends JSONHelper {
   /**
    * BigWig Files
    */
-  @JsonProperty("bams", [File], true)
+  @JsonProperty("bigWigs", [File], true)
   bigWigs?: Array<File> = undefined;
 
   /**
