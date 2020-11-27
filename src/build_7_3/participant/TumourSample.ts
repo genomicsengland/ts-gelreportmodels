@@ -16,8 +16,8 @@ export class TumourSample {
   /**
    * Lab sample identifier
    */
-  @JsonProperty("labSampleId", Number)
-  labSampleId: number = 0;
+  @JsonProperty("labSampleId")
+  labSampleId: any = 0;
 
   /**
    * LDP Code (Local Delivery Partner)

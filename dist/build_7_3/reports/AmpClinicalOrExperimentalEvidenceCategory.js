@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AmpClinicalOrExperimentalEvidenceCategory = void 0;
 /**
  * Categories of Clinical and/or Experimental Evidence as defined in AMP
  * guidelines

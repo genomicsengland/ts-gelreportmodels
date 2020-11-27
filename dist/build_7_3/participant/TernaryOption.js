@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TernaryOption = void 0;
 /** This defines a yes/no/unknown case */
 var TernaryOption;
 (function (TernaryOption) {

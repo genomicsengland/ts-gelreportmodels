@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.HaematologicalCancerLineage = void 0;
 var HaematologicalCancerLineage;
 (function (HaematologicalCancerLineage) {
     HaematologicalCancerLineage["MYELOID"] = "MYELOID";

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Sex = void 0;
 /** Sex */
 var Sex;
 (function (Sex) {

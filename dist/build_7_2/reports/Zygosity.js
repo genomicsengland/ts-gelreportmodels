@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Zygosity = void 0;
 /** It is a representation of the zygosity */
 var Zygosity;
 (function (Zygosity) {

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.RoleInCancer = void 0;
 /**
  * The role of a given genomic feature in cancer
  */

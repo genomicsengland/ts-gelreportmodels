@@ -3,9 +3,9 @@ var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
         return extendStatics(d, b);
-    }
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -22,6 +22,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.InterpretationRequestsRD = void 0;
 var ReportVersionControl_1 = require("./ReportVersionControl");
 var File_1 = require("./File");
 var OtherFamilyHistory_1 = require("./OtherFamilyHistory");
@@ -128,7 +129,7 @@ var InterpretationRequestsRD = /** @class */ (function (_super) {
         json2typescript_1.JsonProperty("vcfs", [File_1.File], true)
     ], InterpretationRequestsRD.prototype, "vcfs", void 0);
     __decorate([
-        json2typescript_1.JsonProperty("bams", [File_1.File], true)
+        json2typescript_1.JsonProperty("bigWigs", [File_1.File], true)
     ], InterpretationRequestsRD.prototype, "bigWigs", void 0);
     __decorate([
         json2typescript_1.JsonProperty("annotationFile", File_1.File, true)

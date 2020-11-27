@@ -11,7 +11,7 @@ export declare class TumourSample {
     /**
      * Lab sample identifier
      */
-    labSampleId: number;
+    labSampleId: any;
     /**
      * LDP Code (Local Delivery Partner)
      */

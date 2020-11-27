@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Tier = void 0;
 /**
  * Variant tiers as defined by Genomics England
  */

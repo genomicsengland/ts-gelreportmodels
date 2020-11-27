@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TypeOfAdditionalFinding = void 0;
 var TypeOfAdditionalFinding;
 (function (TypeOfAdditionalFinding) {
     TypeOfAdditionalFinding["domain3"] = "domain3";

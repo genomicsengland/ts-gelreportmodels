@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Domain = void 0;
 var Domain;
 (function (Domain) {
     Domain["DOMAIN1"] = "DOMAIN1";

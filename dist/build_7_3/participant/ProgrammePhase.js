@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ProgrammePhase = void 0;
 var ProgrammePhase;
 (function (ProgrammePhase) {
     ProgrammePhase["CRUK"] = "CRUK";

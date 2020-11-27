@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TraitAssociation = void 0;
 var TraitAssociation;
 (function (TraitAssociation) {
     TraitAssociation["established_risk_allele"] = "established_risk_allele";

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.InterventionType = void 0;
 /**
  * For each intervention studied in the clinical study, the general type of
  * intervention

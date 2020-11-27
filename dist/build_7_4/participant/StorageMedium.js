@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.StorageMedium = void 0;
 var StorageMedium;
 (function (StorageMedium) {
     StorageMedium["EDTA"] = "EDTA";

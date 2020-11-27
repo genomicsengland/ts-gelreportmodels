@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AcmgEvidenceType = void 0;
 /**
  * Each ACMG cirterion will be classifed as bening or pathogenic
  */

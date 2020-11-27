@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.InterpretationDataCancer = exports.InterpretationDataRd = void 0;
 var InterpretationRequestsRD_1 = require("./InterpretationRequestsRD");
 var InterpretedGenome_1 = require("./InterpretedGenome");
 var CancerInterpretationRequest_1 = require("./CancerInterpretationRequest");

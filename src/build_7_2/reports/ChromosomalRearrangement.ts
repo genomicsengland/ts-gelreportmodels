@@ -7,7 +7,7 @@ import { JsonObject, JsonProperty } from "json2typescript";
 
 @JsonObject
 export class ChromosomalRearrangement {
-  @JsonProperty("breakPoints", [BreakPoint])
+  @JsonProperty("breakPoints", [BreakPoint], true)
   breakPoints?: Array<BreakPoint> = undefined;
 
   @JsonProperty("rearrangements", [Rearrangement])

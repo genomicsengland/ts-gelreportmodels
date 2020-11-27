@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.VariantCall = void 0;
 var PhaseGenotype_1 = require("./PhaseGenotype");
 var NumberOfCopies_1 = require("./NumberOfCopies");
 var json2typescript_1 = require("json2typescript");

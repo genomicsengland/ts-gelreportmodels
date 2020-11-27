@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.VariantFunctionalEffect = void 0;
 var VariantFunctionalEffect;
 (function (VariantFunctionalEffect) {
     VariantFunctionalEffect["dominant_negative_variant"] = "dominant_negative_variant";

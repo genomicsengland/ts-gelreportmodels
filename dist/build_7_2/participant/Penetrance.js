@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Penetrance = void 0;
 /**
  * Penetrance assumed in the analysis
  */

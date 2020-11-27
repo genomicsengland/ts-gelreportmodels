@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.CancerUsabilitySomatic = void 0;
 /**
  * Variant usability for somatic variants
  */

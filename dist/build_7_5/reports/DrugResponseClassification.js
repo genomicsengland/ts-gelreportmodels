@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DrugResponseClassification = void 0;
 var DrugResponseClassification;
 (function (DrugResponseClassification) {
     DrugResponseClassification["altered_sensitivity"] = "altered_sensitivity";

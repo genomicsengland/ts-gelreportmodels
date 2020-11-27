@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DemographicElegibilityCriteria = void 0;
 var AgeRange_1 = require("./AgeRange");
 var json2typescript_1 = require("json2typescript");
 var DemographicElegibilityCriteria = /** @class */ (function () {

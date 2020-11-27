@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ReviewedParts = void 0;
 /**
  * An enumeration for Which parts of the WGA were reviewed?
  */

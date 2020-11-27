@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.CancerActionableVariants = void 0;
 /**
  * Are the variants actionable?
  */

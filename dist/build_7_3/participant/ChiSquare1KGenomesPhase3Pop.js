@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ChiSquare1KGenomesPhase3Pop = void 0;
 var json2typescript_1 = require("json2typescript");
 /**
  * Chi-square test for goodness of fit of this sample to 1000 Genomes Phase 3

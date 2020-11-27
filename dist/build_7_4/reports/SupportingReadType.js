@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SupportingReadType = void 0;
 var SupportingReadType;
 (function (SupportingReadType) {
     SupportingReadType["spanning"] = "spanning";

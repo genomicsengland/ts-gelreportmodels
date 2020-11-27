@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ClinicalUtility = void 0;
 var ClinicalUtility;
 (function (ClinicalUtility) {
     ClinicalUtility["none"] = "none";

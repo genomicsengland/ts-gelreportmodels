@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ChromosomalRearrangement = void 0;
 var BreakPoint_1 = require("./BreakPoint");
 var Rearrangement_1 = require("./Rearrangement");
 var ReportEvent_1 = require("./ReportEvent");
@@ -22,7 +23,7 @@ var ChromosomalRearrangement = /** @class */ (function () {
         this.variantAttributes = undefined;
     }
     __decorate([
-        json2typescript_1.JsonProperty("breakPoints", [BreakPoint_1.BreakPoint])
+        json2typescript_1.JsonProperty("breakPoints", [BreakPoint_1.BreakPoint], true)
     ], ChromosomalRearrangement.prototype, "breakPoints", void 0);
     __decorate([
         json2typescript_1.JsonProperty("rearrangements", [Rearrangement_1.Rearrangement])

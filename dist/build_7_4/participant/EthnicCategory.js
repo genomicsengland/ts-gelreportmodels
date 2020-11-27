@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.EthnicCategory = void 0;
 /**
  * This is the list of ethnicities in ONS16
  */

@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.GermlineSample = void 0;
 var json2typescript_1 = require("json2typescript");
 /** A germline sample */
 var GermlineSample = /** @class */ (function () {
@@ -30,7 +31,7 @@ var GermlineSample = /** @class */ (function () {
         json2typescript_1.JsonProperty("sampleId", String)
     ], GermlineSample.prototype, "sampleId", void 0);
     __decorate([
-        json2typescript_1.JsonProperty("labSampleId", Number)
+        json2typescript_1.JsonProperty("labSampleId")
     ], GermlineSample.prototype, "labSampleId", void 0);
     __decorate([
         json2typescript_1.JsonProperty("LDPCode", String)

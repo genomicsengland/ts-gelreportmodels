@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SampleSource = void 0;
 /** The source of the sample */
 var SampleSource;
 (function (SampleSource) {

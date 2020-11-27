@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PreparationMethod = void 0;
 var PreparationMethod;
 (function (PreparationMethod) {
     PreparationMethod["EDTA"] = "EDTA";

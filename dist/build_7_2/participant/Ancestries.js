@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Ancestries = void 0;
 var ChiSquare1KGenomesPhase3Pop_1 = require("./ChiSquare1KGenomesPhase3Pop");
 var json2typescript_1 = require("json2typescript");
 /** Ancestries, defined as Ethnic category(ies) and Chi-square test */

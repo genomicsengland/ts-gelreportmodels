@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TumourType = void 0;
 var TumourType;
 (function (TumourType) {
     TumourType["PRIMARY"] = "PRIMARY";

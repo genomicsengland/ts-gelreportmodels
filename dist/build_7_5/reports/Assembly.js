@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Assembly = void 0;
 /** The reference genome assembly */
 var Assembly;
 (function (Assembly) {

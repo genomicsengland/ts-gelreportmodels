@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.AffectionStatus = void 0;
 /**
  * Affection Status
  */

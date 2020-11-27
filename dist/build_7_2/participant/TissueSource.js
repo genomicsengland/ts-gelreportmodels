@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TissueSource = void 0;
 var TissueSource;
 (function (TissueSource) {
     TissueSource["BMA_TUMOUR_SORTED_CELLS"] = "BMA_TUMOUR_SORTED_CELLS";

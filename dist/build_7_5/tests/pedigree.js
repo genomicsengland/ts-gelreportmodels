@@ -4,6 +4,7 @@
  *
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.getPedigree = exports.defaultValues = exports.defaultFirstCousinValues = exports.defaultPaternalUncleValues = exports.defaultUnrelatedValues = exports.defaultSiblingMValues = exports.defaultSpouseValues = exports.defaultOffspringValues = exports.defaultSiblingValues = exports.defaultPaternalGrandFatherValues = exports.defaultPaternalGrandMotherValues = exports.defaultFatherValues = exports.defaultMaternalGrandFatherValues = exports.defaultMaternalAunt = exports.defaultMaternalGrandMotherValues = exports.defaultMotherValues = exports.defaultProbandValues = void 0;
 var participant_1 = require("../participant");
 exports.defaultProbandValues = {
     pedigreeId: 1,
@@ -100,7 +101,7 @@ exports.defaultValues = {
     defaultPaternalUncleValues: exports.defaultPaternalUncleValues,
     defaultFirstCousinValues: exports.defaultFirstCousinValues
 };
-exports.getPedigree = function (values) {
+var getPedigree = function (values) {
     if (values === void 0) { values = exports.defaultProbandValues; }
     var pedigree = new participant_1.PedigreeMember();
     for (var val in values) {
@@ -108,4 +109,5 @@ exports.getPedigree = function (values) {
     }
     return pedigree;
 };
+exports.getPedigree = getPedigree;
 //# sourceMappingURL=pedigree.js.map

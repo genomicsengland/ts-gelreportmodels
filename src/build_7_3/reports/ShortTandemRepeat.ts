@@ -32,7 +32,7 @@ export class ShortTandemRepeat extends JSONHelper {
   shortTandemRepeatReferenceData?: ShortTandemRepeatReferenceData = undefined;
 
   getTiers(): string[] {
-    let tiers = new Set();
+    let tiers: Set<string> = new Set();
     this.reportEvents.forEach(re => {
       if (re.tier) {
         tiers.add(re.tier);
