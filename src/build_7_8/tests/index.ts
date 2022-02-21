@@ -1,0 +1,1 @@
+export { getPedigree } from "./pedigree";
