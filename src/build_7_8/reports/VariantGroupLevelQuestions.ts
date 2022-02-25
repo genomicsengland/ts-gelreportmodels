@@ -7,7 +7,7 @@ import { StructuralVariantLevelQuestions } from "./StructuralVariantLevelQuestio
  * The variant group level questions
  */
 @JsonObject
-export class AdditionalFindingsVariantGroupLevelQuestions {
+export class VariantGroupLevelQuestions {
   /**
    * This value groups variants that together could explain the phenotype
    * according to the mode of inheritance used. (e.g.: compound
@@ -50,25 +50,11 @@ export class AdditionalFindingsVariantGroupLevelQuestions {
   > = undefined;
 
   /**
-   * Does this patient have a positive family history relevant to this condition?
+   * Is evidence for this variant/variant pair sufficient to use it for
+   * clinical purposes such as prenatal diagnosis or predictive testing?
    */
-  @JsonProperty("familyHistoryCondition", String)
-  familyHistoryCondition: string = "";
-
-  /**
-   Was this variant previously known to be present in this patient/family?
-   */
-  /**
-        In patient:
-       */
-  @JsonProperty("familyHistoryPatient", String)
-  familyHistoryPatient: string = "";
-
-  /**
-       In family:
-       */
-  @JsonProperty("familyHistoryFamily", String)
-  familyHistoryFamily: string = "";
+  @JsonProperty("actionability", String)
+  actionability: string = ""; // Actionability
 
   /**
    * Has the clinical team identified any changes to clinical care which
@@ -76,4 +62,19 @@ export class AdditionalFindingsVariantGroupLevelQuestions {
    */
   @JsonProperty("clinicalUtility", [String])
   clinicalUtility: Array<string> = []; // ClinicalUtility
+
+  /**
+   * Did you report the variant(s) as being partially or completely causative
+   * of the family's presenting phenotype(s)?
+   */
+  @JsonProperty("phenotypesSolved", String)
+  phenotypesSolved: string = ""; // PhenotypesSolved
+
+  /**
+   * If you indicated that the variant(s) only partially explained the
+   * family’s presenting phenotypes, please indicate which HPO terms you are
+   * confident that they DO explain
+   */
+  @JsonProperty("phenotypesExplained", [String], true)
+  phenotypesExplained?: Array<string> = undefined;
 }

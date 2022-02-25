@@ -63,6 +63,7 @@ export class AdditionalFindingsVariantGroupLevelQuestions {
        */
   @JsonProperty("familyHistoryPatient", String)
   familyHistoryPatient: string = "";
+
   /**
        In family:
        */
