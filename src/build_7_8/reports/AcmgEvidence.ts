@@ -48,6 +48,5 @@ export class AcmgEvidence {
    * User comments attached to this ACMG criteria in this case
    */
   @JsonProperty("comments", [UserComment], true)
-  // union {null, array<UserComment>} comments;
   comments?: Array<UserComment> = undefined;
 }
